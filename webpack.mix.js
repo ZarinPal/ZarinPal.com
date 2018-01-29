@@ -15,7 +15,19 @@ mix.pug = require('laravel-mix-pug');
 mix.setPublicPath('public')
     .js('src/js/app.js', 'public/assets/')
     .sass('src/scss/app.scss', 'public/assets/')
-    .pug('src/pug/*.pug', 'public', {seeds: 'public'})
+    .copy('src/lang', 'public/lang')
+    .pug('src/pug/*.pug', 'public', {
+        seeds: 'public',
+        locals: {
+            lang: 'en'
+        }
+    })
+    // .pug('src/pug/*.pug', 'public', {
+    //     seeds: 'public',
+    //     locals: {
+    //         lang: 'en'
+    //     }
+    // })
     .version();
 
 // Full API

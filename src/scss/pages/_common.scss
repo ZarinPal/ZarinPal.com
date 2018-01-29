@@ -1,4 +1,4 @@
-.container {
+.content {
   direction: rtl;
   margin: 10px auto;
   font-family: $fontFamily;
@@ -16,6 +16,10 @@ li {
   font-size: $titleFontSize;
   font-weight: bold;
   color: $titleFontColor;
+}
+
+.text {
+  line-height: 2em;
 }
 
 .header-title {

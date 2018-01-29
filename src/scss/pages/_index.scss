@@ -1,0 +1,50 @@
+//New version
+.section-new-version {
+  .gradiant-background {
+    background-image: url("../../images/index/gradiant-top.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .request-money {
+    background-image: url("../../images/index/request-money.png");
+    height: 640px;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+}
+
+//Pg
+.section-pg {
+  .pg-background {
+    background-image: url("../../images/index/pg.png");
+    height: 388px;
+    width: 335px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+}
+
+//Read more
+.section-read-more {
+  .horizontal-line {
+    background-color: #DFE1E4;
+    height: 1px;
+    width: 100%;
+  }
+
+  .vertical-line {
+    background-color: #DFE1E4;
+    width: 1px;
+    min-height: 100%;
+  }
+
+  .icon-warranty {
+    &:before {
+      content: $icon-zp-shetab;
+    }
+  }
+}
