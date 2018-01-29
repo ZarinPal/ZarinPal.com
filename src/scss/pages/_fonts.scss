@@ -65,3 +65,17 @@ span[class^="icon-"], span[class*=" icon-"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-arrow-down {
+  transform: rotate(180deg);
+
+  &:before {
+    content: $icon-zp-arrow-up;
+  }
+}
+
+.icon-arrow-left {
+  &:before {
+    content: $icon-zp-arrow-left;
+  }
+}

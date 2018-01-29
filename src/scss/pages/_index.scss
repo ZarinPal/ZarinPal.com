@@ -4,6 +4,19 @@
     background-image: url("../../images/index/gradiant-top.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
+    .links {
+      a {
+        color: $titleFontColor;
+        margin: 0 30px;
+      }
+    }
+
+    .icon-arrow-down {
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer;
+    }
   }
 
   .request-money {
@@ -30,21 +43,19 @@
 
 //Read more
 .section-read-more {
-  .horizontal-line {
-    background-color: #DFE1E4;
-    height: 1px;
-    width: 100%;
-  }
-
-  .vertical-line {
-    background-color: #DFE1E4;
-    width: 1px;
-    min-height: 100%;
-  }
-
   .icon-warranty {
     &:before {
       content: $icon-zp-shetab;
     }
   }
+
+
+  .read-more-standards {
+    .icon-arrow-left {
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
 }

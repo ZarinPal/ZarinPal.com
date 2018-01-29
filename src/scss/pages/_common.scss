@@ -4,12 +4,28 @@
   font-family: $fontFamily;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.horizontal-line {
+  background-color: #DFE1E4;
+  height: 1px;
+  width: 100%;
+}
+
+.vertical-line {
+  background-color: #DFE1E4;
+  width: 1px;
+  min-height: 100%;
 }
 
 .title{
