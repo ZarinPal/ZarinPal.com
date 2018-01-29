@@ -11,3 +11,15 @@ a{
 li {
   list-style: none;
 }
+
+.title{
+  font-size: $titleFontSize;
+  font-weight: bold;
+  color: $titleFontColor;
+}
+
+.header-title {
+  font-size: $headerTitleFontSize;
+  font-weight: bold;
+  color: $headerTitleColor;
+}
