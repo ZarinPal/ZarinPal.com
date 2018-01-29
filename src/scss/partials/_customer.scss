@@ -1,0 +1,33 @@
+.customers {
+  background-color: black;
+  .logo {
+    margin: 0 10px;
+    width: 181px;
+    height: 78px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  @mixin customer-logo($logoPath) {
+    background-image: url($logoPath);
+  }
+
+  .logo-1 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+  .logo-2 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+  .logo-3 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+  .logo-4 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+  .logo-5 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+  .logo-6 {
+    @include customer-logo("../../images/customer-1.png")
+  }
+}

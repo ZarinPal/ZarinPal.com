@@ -1,0 +1,11 @@
+@import "~flexboxgrid-sass";
+@import "responsive/media";
+
+//Common
+@import "./pages/variables";
+@import "./pages/fonts";
+@import "./pages/common";
+
+//Partials
+@import "./partials/header";
+@import "./partials/customer";
