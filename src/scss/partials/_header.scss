@@ -15,4 +15,39 @@
     }
   }
 
+
+  .bg-mobile-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #030C27;
+    opacity: 0.55;
+    bottom: 0;
+    z-index: 1000;
+  }
+  .mobile-menu {
+    z-index: 1001;
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    .top {
+      background-color: #fff;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .middle {
+      background-color: #fff;
+    }
+
+    .bottom {
+      background-color: #eee;
+      padding: 10px;
+    }
+
+  }
 }

@@ -1,3 +1,7 @@
+body {
+  background-color: #ffffff;
+}
+
 .content {
   direction: rtl;
   margin: 10px auto;
@@ -6,10 +10,15 @@
 
 a {
   text-decoration: none;
+  color: $titleFontColor !important;
 }
 
 li {
   list-style: none;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .ta-center {

@@ -3,10 +3,12 @@ extends partials/layout
 block content
     include partials/header
 
-
     div.row.section-new-version
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.gradiant-background
+            div.gradient-background
+                span.tag
+                    span.label جدید
+                    |بخش طراحی زرین‌پال راه‌اندازی شد
                 div.header-title
                     | نسخه جدید زرین‌پال
                     | همین‌جاست
@@ -20,9 +22,8 @@ block content
                 div.ta-center
                     i.icon-arrow-down
 
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-md
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
             div.request-money
-
 
     <!--Pg-->
     div.row.section-pg
@@ -38,11 +39,15 @@ block content
                 p
                     |زرین‌پال اولین ارايه دهنده درگاه پرداخت واسط در ایران است، در واقع یک راهکار ساده، جامع و کار‌آمد برای قراردادن امکان پرداخت در بستر اینترنت و موبایل است. با استفاده از زرین‌پال می توانید چندین درگاه پرداخت را به سادگی به وبسایت خود اضافه کنید، سریع‌تر و آسان‌تر امکانات پرداخت را به کسب و کار خود اضافه کنید و با خیالی آسوده درآمد خود را مدیریت کنید.
 
+                div.horizontal-line.ssssw
+                a(href="#")
+                    span بیشتر بدانید
+                    i.icon-arrow-left
 
-
+                    
     <!--Read more-->
     div.section-read-more
-        div.row
+        div.row.no-margin
             div.col-lg-8.col-md-8
                 div.row
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12
@@ -83,7 +88,7 @@ block content
                 p
                     |حوزه‌ی فناوری‌های مالی یا همان فینتک مانند تمام موضوعات دیگر دارای استانداردهایی است که زرین‌پال به عنوان اولین پرداخت‌یار ایران، خودش به تنهایی استاندارد جدید در حوزه‌ی پرداخت آنلاین می‌باشد.
 
-                div.horizontal-line.hidden-xs
+                div.horizontal-line
                 a(href="#")
                     span بیشتر بدانید
                     i.icon-arrow-left

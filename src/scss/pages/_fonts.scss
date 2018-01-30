@@ -49,7 +49,6 @@
   font-style: normal;
 }
 
-
 i[class^="icon-"], i[class*=" icon-"],
 span[class^="icon-"], span[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -77,5 +76,21 @@ span[class^="icon-"], span[class*=" icon-"] {
 .icon-arrow-left {
   &:before {
     content: $icon-zp-arrow-left;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+  }
+}
+
+.icon-menu {
+  &:before {
+    content: $icon-zp-menu;
+  }
+}
+
+.icon-close {
+  &:before {
+    content: $icon-zp-close;
   }
 }

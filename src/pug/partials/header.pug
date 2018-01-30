@@ -3,7 +3,8 @@ block header
         div.col-xs
             div.new-logo
         div.col-xs
-            ul.links
+            i.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
+            ul.links.hidden-xs
                 a(href="#")
                     li #{seed.lang[lang]['a']}
                 a(href="#")
@@ -14,3 +15,28 @@ block header
                     li وبلاگ
                 a(href="#")
                     li ورودبه‌حساب
+
+        //Mobile menu
+        div.bg-mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
+        div.mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
+            div.top
+                i.icon-close
+            div.middle
+                ul
+                    a(href="#")
+                        li #{seed.lang[lang]['a']}
+                    a(href="#")
+                        li خانه
+                    a(href="#")
+                        li تماس‌ با ما
+                    a(href="#")
+                        li وبلاگ
+                    a(href="#")
+                        li ورودبه‌حساب
+            div.bottom
+                a(href="#")
+                    span
+                    | ورود به زرین‌پال
+                    i.icon-arrow-left
+
+
