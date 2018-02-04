@@ -48,7 +48,7 @@
     width: 360px;
     height: 640px;
     background: url("../../images/index/request-money.png") no-repeat center;
-    background-size: 100%;
+    background-size: 360px 640px;
     float: left;
   }
 }
@@ -56,17 +56,37 @@
 //Pg
 .section-pg {
   .pg-background {
-    background-image: url("../../images/index/pg.png");
-    height: 388px;
+    background: url("../../images/index/pg.png") no-repeat;
     width: 335px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    height: 388px;
+    background-size: 335px 388px;
     margin: 0 auto;
   }
 }
 
+//Social payment
+.section-social-payment {
+  .social-payment-background {
+    background: url("../../images/index/social-image.png") no-repeat;
+    width: 455px;
+    height: 379px;
+    background-size: 455px 379px;
+    margin: 0 auto;
+  }
+}
+
+//Payment needs
+.section-payment-needs {
+
+}
+
 //Read more
 .section-read-more {
+  .icon {
+    &:before {
+      color: #29447A;
+    };
+  }
   .icon-warranty {
     &:before {
       content: $icon-zp-shetab;

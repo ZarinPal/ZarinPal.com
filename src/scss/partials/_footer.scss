@@ -1,4 +1,19 @@
 .footer {
+  left: 0;
+  right: 0;
+  position: absolute;
+
+  &:before {
+    content: '';
+    top: -551px;
+    z-index: -1;
+    height: 783px;
+    background: url("../../images/footer-gradient.png") top left no-repeat;
+    position: absolute;
+    right: calc(57% - 10rem);
+    left: -20px;
+    background-size: 925px 783px;
+  }
 
   ul {
     padding-right: 0;
