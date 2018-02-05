@@ -19,7 +19,7 @@ mix.setPublicPath('public')
     .pug('src/pug/*.pug', 'public', {
         seeds: 'public',
         locals: {
-            lang: 'fa'
+            lang: 'en'
         }
     })
     // .pug('src/pug/*.pug', 'public', {
@@ -28,7 +28,9 @@ mix.setPublicPath('public')
     //         lang: 'en'
     //     }
     // })
+    .sourceMaps()
     .version();
+mix.browserSync('http://new.zarinpal.test');
 
 // Full API
 // mix.js(src, output);
