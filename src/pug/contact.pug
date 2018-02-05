@@ -7,5 +7,46 @@ block content
 
     +pageTitle("ارتباط با ما")
 
-    include partials/customers
+    div.contact-page
+        div.row
+            div.col-xs-12
+                div.map-container
+
+
+        h3  ارتباط با ما
+        div.row
+            div.col-xs-12.col-md-5
+                div.contact-info
+                    div.row
+                        div.col-xs-12.address   نشانی:  تهران - یوسف آباد - کوچه بیستم - پلاک ۶۱ - واحد ۲
+                        div.col-xs-6.phone    تلفن: ۴۱۲۳۹ ۰۲۱
+                        div.col-xs-6.fax    فکس: ۴۳۸۵۶۹۹۰ ۰۲۱
+                        div.col-xs-6.post-code    کد پستی: ۱۴۳۱۹۶۵۳۷۱
+                        div.col-xs-12   ساعات کاری: شنبه تا چهارشنبه <br> از ساعت ۹ صبح الی ۵ بعد از ظهر.
+
+            div.col-xs-12.col-md-7
+                div.contact-form.form-container
+                    form
+                        div.row
+                            div.col-xs-12.col-md-4
+                                label
+                                    span    نام
+                                    input.form-input(type="text")
+                            div.col-xs-12.col-md-4
+                                label
+                                    span    ایمیل
+                                    input.form-input(type="email")
+                            div.col-xs-12.col-md-4
+                                label
+                                    span    تلفن
+                                    input.form-input(type="text")
+                        div.row
+                            div.col-xs-12
+                                label
+                                    span    پیام
+                                    textarea.form-input(rows=3)
+                        div.row.ta-left
+                            button.btn.btn-default  ارسال پیام
+
+
     include partials/footer

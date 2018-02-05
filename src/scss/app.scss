@@ -5,6 +5,7 @@
 @import "./pages/variables";
 @import "./pages/fonts";
 @import "./pages/common";
+@import "./partials/_forms";
 
 //Partials
 @import "./partials/header";
@@ -14,3 +15,4 @@
 
 //Pages
 @import "./pages/index";
+@import "./pages/contact";

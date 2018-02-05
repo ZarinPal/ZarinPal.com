@@ -1,0 +1,39 @@
+input, textarea, select {
+  box-sizing: border-box;
+  border: 1px solid #c3c6cd;
+  background: rgba(242, 243, 245, 0.5);
+  padding: 10px;
+  width: 100%;
+  font-family: $fontFamily;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 37px;
+}
+
+label span {
+  color: #838383;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: rgba(242, 243, 245, 0.5);
+  border: 0;
+  color: #000000;
+  cursor: pointer;
+  font-family: $fontFamily;
+  border-radius: 5px;
+}
+
+.btn.btn-default {
+  background: #ffd647;
+  color: #584b00;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
