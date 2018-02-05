@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+.iransans-bold {
+  font-family: IRANSansBold;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -27,6 +31,10 @@ li {
 
 .pull-left {
   float: left;
+}
+
+.hand {
+  cursor: pointer;
 }
 
 .horizontal-line {
@@ -43,7 +51,7 @@ li {
 
 .title{
   font-size: $titleFontSize;
-  font-weight: bold;
+  font-family: IRANSansBold;
   color: $titleFontColor;
 }
 
@@ -53,6 +61,6 @@ li {
 
 .header-title {
   font-size: $headerTitleFontSize;
-  font-weight: bold;
+  font-family: IRANSansBold;
   color: $headerTitleColor;
 }

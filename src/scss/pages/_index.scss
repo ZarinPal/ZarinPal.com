@@ -96,47 +96,70 @@
 
 //Read more
 .section-read-more {
-  .icon {
-    &:before {
-      color: #29447A;
-    };
-  }
+  margin-bottom: 100px;
 
-  .image-icon {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-size: 100% !important;
-  }
+  .options {
+    padding: 30px;
 
-  .image-verified-account {
+    .left-border {
+      border-left: 1px solid #DFE1E4;
+    }
+
+    .icon {
+      &:before {
+        color: #29447A;
+      };
+    }
+
+    .title {
+      position: relative;
+      top: 20px;
+    }
+
+    .image-icon {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-size: 100% !important;
+      margin: 0 30px -10px 10px;
+      position: relative;
+      top: 15px;
+    }
+
+    .image-verified-account {
       background: url("../../images/icon/verified-account.png") no-repeat;
-  }
+    }
 
-  .image-split {
-    background: url("../../images/icon/split.png") no-repeat;
-  }
+    .image-split {
+      background: url("../../images/icon/split.png") no-repeat;
+    }
 
-  .image-split {
-    background: url("../../images/icon/split.png") no-repeat;
-  }
+    .image-split {
+      background: url("../../images/icon/split.png") no-repeat;
+    }
 
-  .image-support {
-    background: url("../../images/icon/support.png") no-repeat;
-  }
+    .image-support {
+      background: url("../../images/icon/support.png") no-repeat;
+    }
 
-  .image-security {
-    background: url("../../images/icon/security.png") no-repeat;
+    .image-security {
+      background: url("../../images/icon/security.png") no-repeat;
+    }
+
+    .description {
+      padding: 20px;
+    }
   }
 
   .read-more-standards {
+    padding: 30px;
+
     .icon-arrow-left {
       display: inline-block;
       font-size: 20px;
       cursor: pointer;
     }
   }
-
 }
 
 
@@ -146,5 +169,15 @@
     display: block !important;
     margin: 10px auto;
     width: 230px;
+  }
+
+  .xs-social-payment-background {
+    width: 100% !important;
+    height: 330px !important;
+    background-size: 100% 330px !important;
+  }
+
+  .left-border {
+    border-left: none !important;
   }
 }

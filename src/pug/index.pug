@@ -1,4 +1,6 @@
 extends partials/layout
+block variables
+    -var pageTitle = 'صفحه اصلی'
 
 block content
     include partials/header
@@ -62,7 +64,7 @@ block content
                     i.icon-arrow-left
 
             div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-                div.social-payment-background
+                div.social-payment-background.xs-social-payment-background
 
 
 
@@ -82,38 +84,37 @@ block content
     <!--Read more-->
     div.section-read-more
         div.row.no-margin
-            div.col-lg-8.col-md-8
+            div.col-lg-8.col-md-8.options
                 div.row
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12
+                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
                         div
                             span.image-icon.image-verified-account
                             span.title ضمانت پرداخت
 
-                        p
+                        p.description
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12
                         div
                             span.image-icon.image-split
                             span.title مسیردهی هوشمند
-                        p
+                        p.description
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
-                        div.vertical-line.hidden-xs
 
                     div.horizontal-line.hidden-xs
 
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12
+                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
                         div
                             span.image-icon.image-support
                             span.title پشتیبانی
-                        p
+                        p.description
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12
                         div
                             span.image-icon.image-security
                             span.title امنیت
-                        p
+                        p.description
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
             <!--Payment standards-->

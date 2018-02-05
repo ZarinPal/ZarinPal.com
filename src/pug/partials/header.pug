@@ -1,14 +1,31 @@
 block variables
-    -var visibleMobileMenu = true
+    -var visibleMobileMenu = false
 
 block header
     div.row.header
         div.col-xs
             div.new-logo
-        if visibleMobileMenu
-            div.col-xs
-                i.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl(id="btnMobileMenu")
-                ul.links.hidden-xs
+        div.col-xs
+            i.hand.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl(onclick="toggleMobileMenu()")
+            ul.links.hidden-xs
+                a(href="#")
+                    li #{seed.lang[lang]['prices']}
+                a(href="#")
+                    li #{seed.lang[lang]['receptionists']}
+                a(href="#")
+                    li #{seed.lang[lang]['lab']}
+                a(href="#")
+                    li #{seed.lang[lang]['more']}
+                a.pull-left(href="#")
+                    li #{seed.lang[lang]['loginToAccount']}
+
+        //Mobile menu
+        div.bg-mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
+        div.mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
+            div.top
+                i.icon-close
+            div.middle
+                ul
                     a(href="#")
                         li #{seed.lang[lang]['prices']}
                     a(href="#")
@@ -17,29 +34,18 @@ block header
                         li #{seed.lang[lang]['lab']}
                     a(href="#")
                         li #{seed.lang[lang]['more']}
-                    a.pull-left(href="#")
-                        li #{seed.lang[lang]['loginToAccount']}
-
-        else
-            //Mobile menu
-            div.bg-mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
-            div.mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
-                div.top
-                    i.icon-close
-                div.middle
-                    ul
-                        a(href="#")
-                            li #{seed.lang[lang]['prices']}
-                        a(href="#")
-                            li #{seed.lang[lang]['receptionists']}
-                        a(href="#")
-                            li #{seed.lang[lang]['lab']}
-                        a(href="#")
-                            li #{seed.lang[lang]['more']}
-                        a(href="#")
-                            li #{seed.lang[lang]['loginToAccount']}
-                div.bottom
                     a(href="#")
-                        span
-                        | #{seed.lang[lang]['loginToAccount']}
-                        i.icon-arrow-left
+                        li #{seed.lang[lang]['loginToAccount']}
+            div.bottom
+                a(href="#")
+                    span
+                    | #{seed.lang[lang]['loginToAccount']}
+                    i.icon-arrow-left(onclick="visibleMobileMenu")
+
+
+
+
+    script.
+        function toggleMobileMenu() {
+            this.visibleMobileMenu = !this.visibleMobileMenu;
+        }
