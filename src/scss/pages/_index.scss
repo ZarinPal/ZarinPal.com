@@ -66,6 +66,20 @@
 
 //Social payment
 .section-social-payment {
+  .bg-oblique {
+    &:before {
+      content: '';
+      top: 0;
+      z-index: -1;
+      height: 783px;
+      bottom: 0;
+      //background: url("../../images/index/bg-oblique.png") top left no-repeat;
+      position: absolute;
+      left: calc(57% - 10rem);
+      right: 0;
+      background-size: 925px 783px;
+    }
+  }
   .social-payment-background {
     background: url("../../images/index/social-image.png") no-repeat;
     width: 455px;
@@ -87,10 +101,32 @@
       color: #29447A;
     };
   }
-  .icon-warranty {
-    &:before {
-      content: $icon-zp-shetab;
-    }
+
+  .image-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 100% !important;
+  }
+
+  .image-verified-account {
+      background: url("../../images/icon/verified-account.png") no-repeat;
+  }
+
+  .image-split {
+    background: url("../../images/icon/split.png") no-repeat;
+  }
+
+  .image-split {
+    background: url("../../images/icon/split.png") no-repeat;
+  }
+
+  .image-support {
+    background: url("../../images/icon/support.png") no-repeat;
+  }
+
+  .image-security {
+    background: url("../../images/icon/security.png") no-repeat;
   }
 
   .read-more-standards {
@@ -101,4 +137,14 @@
     }
   }
 
+}
+
+
+// extra small
+@media (max-width: 575px) {
+  .tag {
+    display: block !important;
+    margin: 10px auto;
+    width: 230px;
+  }
 }

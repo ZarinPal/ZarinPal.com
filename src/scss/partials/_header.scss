@@ -1,9 +1,12 @@
 .header {
+  margin-bottom: 40px;
+
   .new-logo {
     height: 35px;
     background-size: 100%;
     width: 156px;
-    background-image: url("../../images/new-logo.png");
+    background: url("../../images/new-logo.svg") no-repeat;
+    margin-top: 20px;
   }
 
   .links {
@@ -15,6 +18,11 @@
     }
   }
 
+  .icon-menu {
+      float: left;
+      margin: 10px;
+      font-size: 30px;
+  }
 
   .bg-mobile-menu {
     position: fixed;
@@ -38,15 +46,28 @@
       background-color: #fff;
       text-align: left;
       padding: 10px;
+
+      .icon-close {
+        cursor: pointer;
+        font-size: 30px;
+      }
     }
 
     .middle {
       background-color: #fff;
+
+      ul {
+        padding-right: 30px;
+
+        li {
+          padding: 5px 0;
+        }
+      }
     }
 
     .bottom {
       background-color: #eee;
-      padding: 10px;
+      padding: 20px 30px;
     }
 
   }

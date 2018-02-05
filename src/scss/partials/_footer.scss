@@ -5,7 +5,7 @@
 
   &:before {
     content: '';
-    top: -551px;
+    top: -470px;
     z-index: -1;
     height: 783px;
     background: url("../../images/footer-gradient.png") top left no-repeat;
@@ -22,4 +22,9 @@
       opacity: 0.6;
     }
   }
+
+  .bottom {
+    margin: 40px 0;
+  }
+
 }

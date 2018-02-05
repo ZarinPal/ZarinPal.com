@@ -1,42 +1,45 @@
+block variables
+    -var visibleMobileMenu = true
+
 block header
     div.row.header
         div.col-xs
             div.new-logo
-        div.col-xs
-            i.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl(id="btnMobileMenu")
-            ul.links.hidden-xs
-                a(href="#")
-                    li #{seed.lang[lang]['a']}
-                a(href="#")
-                    li خانه
-                a(href="#")
-                    li تماس‌ با ما
-                a(href="#")
-                    li وبلاگ
-                a(href="#")
-                    li ورودبه‌حساب
+        if visibleMobileMenu
+            div.col-xs
+                i.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl(id="btnMobileMenu")
+                ul.links.hidden-xs
+                    a(href="#")
+                        li #{seed.lang[lang]['prices']}
+                    a(href="#")
+                        li #{seed.lang[lang]['receptionists']}
+                    a(href="#")
+                        li #{seed.lang[lang]['lab']}
+                    a(href="#")
+                        li #{seed.lang[lang]['more']}
+                    a.pull-left(href="#")
+                        li #{seed.lang[lang]['loginToAccount']}
 
-        //Mobile menu
-        div.bg-mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
-        div.mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
-            div.top
-                i.icon-close
-            div.middle
-                ul
+        else
+            //Mobile menu
+            div.bg-mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
+            div.mobile-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl
+                div.top
+                    i.icon-close
+                div.middle
+                    ul
+                        a(href="#")
+                            li #{seed.lang[lang]['prices']}
+                        a(href="#")
+                            li #{seed.lang[lang]['receptionists']}
+                        a(href="#")
+                            li #{seed.lang[lang]['lab']}
+                        a(href="#")
+                            li #{seed.lang[lang]['more']}
+                        a(href="#")
+                            li #{seed.lang[lang]['loginToAccount']}
+                div.bottom
                     a(href="#")
-                        li #{seed.lang[lang]['a']}
-                    a(href="#")
-                        li خانه
-                    a(href="#")
-                        li تماس‌ با ما
-                    a(href="#")
-                        li وبلاگ
-                    a(href="#")
-                        li ورودبه‌حساب
-            div.bottom
-                a(href="#")
-                    span
-                    | ورود به زرین‌پال
-                    i.icon-arrow-left
-
-
+                        span
+                        | #{seed.lang[lang]['loginToAccount']}
+                        i.icon-arrow-left

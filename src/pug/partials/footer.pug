@@ -1,7 +1,7 @@
 div.footer
     div.row.content
         div.col-lg-4.col-md-4.col-sm-4.col-xs-12
-            div.title محصولات
+            div.title #{seed.lang[lang]['products']}
             div.row
                 ul.col-xs
                     a(href="#")
@@ -22,9 +22,8 @@ div.footer
                     a(href="#")
                         li زرین‌کارت
 
-        div.col-lg-3.col-md-3.col-sm-3.col-xs-6
-            div.title
-                |ارتباط بیشتر
+        div.col-lg-2.col-md-2.col-sm-2.col-xs-6
+            div.title #{seed.lang[lang]['moreCommunication']}
             ul
                 a(href="#")
                     li زرین‌کارت
@@ -35,9 +34,8 @@ div.footer
                 a(href="#")
                     li زرین‌کارت
 
-        div.col-lg-3.col-md-3.col-sm-3.col-xs-6
-            div.title
-                |ارتباط بیشتر
+        div.col-lg-2.col-md-2.col-sm-2.col-xs-6
+            div.title #{seed.lang[lang]['introductionToZarinpal']}
             ul
                 a(href="#")
                     li زرین‌کارت
@@ -48,9 +46,9 @@ div.footer
                 a(href="#")
                     li زرین‌کارت
 
-        div.col-lg-2.col-md-2.col-sm-2.col-xs-12
+        div.col-lg-2.col-md-2.col-sm-2.col-xs-6
                 div.title
-                    |لیست آخر
+                    | #{seed.lang[lang]['references']}
                 ul
                     a(href="#")
                         li زرین‌کارت
@@ -60,6 +58,13 @@ div.footer
                         li زرین‌کارت
                     a(href="#")
                         li زرین‌کارت
+
+        div.col-lg-2.col-md-2.col-sm-2.col-xs-6
+                ul
+                    a(href="#")
+                        li.title #{seed.lang[lang]['english']}
+                    a(href="#")
+                        li.title #{seed.lang[lang]['farsi']}
 
         div.col-xs-12.bottom.ta-center
             span

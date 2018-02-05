@@ -19,7 +19,7 @@ mix.setPublicPath('public')
     .pug('src/pug/*.pug', 'public', {
         seeds: 'public',
         locals: {
-            lang: 'en'
+            lang: 'fa'
         }
     })
     // .pug('src/pug/*.pug', 'public', {
