@@ -94,3 +94,9 @@ span[class^="icon-"], span[class*=" icon-"] {
     content: $icon-zp-close;
   }
 }
+
+.icon-comment {
+  &:before {
+    content: $icon-zp-cloud;
+  }
+}

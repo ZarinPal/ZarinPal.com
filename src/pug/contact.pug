@@ -3,50 +3,75 @@ extends partials/layout
 include partials/page_title
 
 block content
+    script
+        | function initMap() {
+        |    var uluru = {lat: 35.727317, lng: 51.416435};
+        |    var map = new google.maps.Map(document.getElementById('map'), {
+        |        zoom: 17,
+        | center: uluru
+        | });
+        | var marker = new google.maps.Marker({
+        |    position: uluru,
+        |    animation: google.maps.Animation.BOUNCE,
+        |    title: "zarinpal.com",
+        |    map: map
+        | });
+        | }
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGeACnKtvESiULBrraQxYQqZx6g1Jo1Ug&callback=initMap")
+
     include partials/header
 
-    +pageTitle("ارتباط با ما")
+    +pageTitle(seed.lang[lang]['pageTitle'])
 
     div.contact-page
         div.row
             div.col-xs-12
-                div.map-container
+                div.map-container#map
 
 
-        h3  ارتباط با ما
-        div.row
-            div.col-xs-12.col-md-5
-                div.contact-info
-                    div.row
-                        div.col-xs-12.address   نشانی:  تهران - یوسف آباد - کوچه بیستم - پلاک ۶۱ - واحد ۲
-                        div.col-xs-6.phone    تلفن: ۴۱۲۳۹ ۰۲۱
-                        div.col-xs-6.fax    فکس: ۴۳۸۵۶۹۹۰ ۰۲۱
-                        div.col-xs-6.post-code    کد پستی: ۱۴۳۱۹۶۵۳۷۱
-                        div.col-xs-12   ساعات کاری: شنبه تا چهارشنبه <br> از ساعت ۹ صبح الی ۵ بعد از ظهر.
+        h2
+            span.icon.icon-comment
+            |   #{seed.lang[lang]['pageTitle']}
 
-            div.col-xs-12.col-md-7
-                div.contact-form.form-container
-                    form
+        div.contact-container
+            div.row
+                div.col-xs-12.col-md-5
+                    div.contact-info
                         div.row
-                            div.col-xs-12.col-md-4
-                                label
-                                    span    نام
-                                    input.form-input(type="text")
-                            div.col-xs-12.col-md-4
-                                label
-                                    span    ایمیل
-                                    input.form-input(type="email")
-                            div.col-xs-12.col-md-4
-                                label
-                                    span    تلفن
-                                    input.form-input(type="text")
-                        div.row
+                            div.col-xs-12.address
+                                p   #{seed.lang[lang]['address']['address']}
+                            div.col-xs-6.phone
+                                p   #{seed.lang[lang]['address']['phone']}
+                            div.col-xs-6.fax
+                                p   #{seed.lang[lang]['address']['fax']}
+                            div.col-xs-6.post-code
+                                p   #{seed.lang[lang]['address']['zipCode']}
                             div.col-xs-12
-                                label
-                                    span    پیام
-                                    textarea.form-input(rows=3)
-                        div.row.ta-left
-                            button.btn.btn-default  ارسال پیام
+                                p   #{seed.lang[lang]['address']['workHours']}
+
+                div.col-xs-12.col-md-7
+                    div.contact-form.form-container
+                        form
+                            div.row
+                                div.col-xs-12.col-md-4
+                                    label
+                                        span    #{seed.lang[lang]['formName']}
+                                        input.form-input(type="text")
+                                div.col-xs-12.col-md-4
+                                    label
+                                        span    #{seed.lang[lang]['formEmail']}
+                                        input.form-input(type="email")
+                                div.col-xs-12.col-md-4
+                                    label
+                                        span    #{seed.lang[lang]['formPhone']}
+                                        input.form-input(type="text")
+                            div.row
+                                div.col-xs-12
+                                    label
+                                        span    #{seed.lang[lang]['formMessage']}
+                                        textarea.form-input(rows=3)
+                            div.ta-left
+                                button.btn.btn-default  #{seed.lang[lang]['formSubmit']}
 
 
     include partials/footer
