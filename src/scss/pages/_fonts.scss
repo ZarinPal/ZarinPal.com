@@ -101,3 +101,9 @@ span[class^="icon-"], span[class*=" icon-"] {
     content: $icon-zp-close;
   }
 }
+
+.icon-person {
+  &:before {
+    content: $icon-zp-add-person;
+  }
+}

@@ -9,12 +9,44 @@
     margin-top: 10px;
   }
 
+  .blue-bg {
+    &:before {
+      content: '';
+      background: url("../../images/index/blue-bg.svg") top left no-repeat;
+      top: -120px;
+      z-index: -1;
+      width: 916px;
+      height: 608px;
+      bottom: 0;
+      position: absolute;
+      right: calc(57% - 10rem);
+      left: -270px;
+      background-size: 915px 773px;
+    }
+  }
+
   .links {
     li {
       margin: 0 20px;
       display: inline-block;
       font-size: $textFontSize;
-      color: $titleFontColor;
+      color: #ffffff;
+    }
+
+    .btn-login-to-account {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      padding: 5px;
+
+      .icon-person {
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        margin-left: -10px;
+        margin-right: 10px;
+        color: #fff;
+      }
     }
   }
 
@@ -34,6 +66,7 @@
     bottom: 0;
     z-index: 1000;
   }
+
   .mobile-menu {
     z-index: 1001;
     background-color: #fff;
@@ -70,5 +103,26 @@
       padding: 20px 30px;
     }
 
+  }
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  .blue-bg {
+    &:before {
+      content: '';
+      background: url("../../images/index/blue-bg.svg") top left no-repeat;
+      top: -120px;
+      z-index: -1;
+      width: 916px;
+      height: 608px;
+      bottom: 0;
+      position: absolute;
+      right: calc(57% - 10rem);
+      left: -270px;
+      background-size: 915px 773px;
+    }
   }
 }

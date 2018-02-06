@@ -3,9 +3,9 @@ block variables
 
 block header
     div.row.header
-        div.col-xs
+        div.col-lg-2.col-md-2
             div.new-logo
-        div.col-xs
+        div.col-lg-10.col-md-10.blue-bg.ta-left
             i.hand.icon-menu.hidden-sm.hidden-md.hidden-lg.hidden-xl(onclick="toggleMobileMenu()")
             ul.links.hidden-xs
                 a(href="#")
@@ -16,7 +16,8 @@ block header
                     li #{seed.lang[lang]['lab']}
                 a(href="#")
                     li #{seed.lang[lang]['more']}
-                a.pull-left(href="#")
+                a.btn-login-to-account.pull-left(href="#")
+                    span.icon-person
                     li #{seed.lang[lang]['loginToAccount']}
 
         //Mobile menu
