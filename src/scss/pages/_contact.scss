@@ -1,0 +1,56 @@
+.contact-page {
+  margin-top: 180px;
+  margin-bottom: 150px;
+
+  h2 {
+    font-size: 24px;
+    background: #fff;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: -1px;
+    padding-left: 25px;
+
+    span.icon {
+      color: #ffffff;
+      background-image: linear-gradient(135deg, #2c3379 0%, #2b4a83 100%);
+      border-radius: 50%;
+      width: 39px;
+      height: 39px;
+      display: inline-block;
+      text-align: center;
+      line-height: 1.5;
+      margin-left: 15px;
+    }
+  }
+
+  .map-container {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #ccc;
+  }
+
+  .contact-container {
+    border-radius: 10px;
+    border: 1px solid #C3C6CD;
+    padding: 25px;
+
+    .contact-info {
+      color: #828282;
+
+      .address {
+        color: #424242;
+      }
+    }
+
+    .form-container {
+      margin-bottom: 25px;
+
+      .btn-default {
+        float: left;
+      }
+    }
+
+  }
+}
