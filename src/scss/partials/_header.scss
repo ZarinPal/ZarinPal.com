@@ -13,15 +13,12 @@
     &:before {
       content: '';
       background: url("../../images/index/blue-bg.svg") top left no-repeat;
-      top: -120px;
       z-index: -1;
       width: 916px;
-      height: 608px;
-      bottom: 0;
+      height: 607px;
       position: absolute;
       right: calc(57% - 10rem);
-      left: -270px;
-      background-size: 915px 773px;
+      background-size: 916px 607px;
     }
   }
 
@@ -51,9 +48,10 @@
   }
 
   .icon-menu {
-      float: left;
-      margin: 10px;
-      font-size: 30px;
+    float: left;
+    margin: 10px;
+    font-size: 30px;
+    color: #ffffff;
   }
 
   .bg-mobile-menu {
@@ -107,22 +105,53 @@
 }
 
 
+// extra small
+@media (max-width: 575px) {
+  .blue-bg {
+    &:before {
+      width: 100% !important;
+      top: -470px;
+      left: -100px;
+    }
+  }
+}
+
+
+@media (min-width: 576px)  and (max-width: 767px){
+  .blue-bg {
+    &:before {
+      top: -470px;
+      left: -100px;
+    }
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
   .blue-bg {
     &:before {
-      content: '';
-      background: url("../../images/index/blue-bg.svg") top left no-repeat;
       top: -120px;
-      z-index: -1;
-      width: 916px;
-      height: 608px;
-      bottom: 0;
-      position: absolute;
-      right: calc(57% - 10rem);
+      left: -380px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px){
+  .blue-bg {
+    &:before {
+      top: -140px;
       left: -270px;
-      background-size: 915px 773px;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .blue-bg {
+    &:before {
+      top: -130px;
+      left: -130px;
     }
   }
 }
