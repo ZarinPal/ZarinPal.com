@@ -105,5 +105,12 @@ span[class^="icon-"], span[class*=" icon-"] {
 .icon-person {
   &:before {
     content: $icon-zp-add-person;
+
+  }
+}
+
+.icon-comment {
+  &:before {
+    content: $icon-zp-cloud;
   }
 }

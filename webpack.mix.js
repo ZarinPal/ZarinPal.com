@@ -28,7 +28,9 @@ mix.setPublicPath('public')
     //         lang: 'en'
     //     }
     // })
+    .sourceMaps()
     .version();
+mix.browserSync('http://new.zarinpal.test');
 
 // Full API
 // mix.js(src, output);
