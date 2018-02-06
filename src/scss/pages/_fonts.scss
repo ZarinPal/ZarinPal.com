@@ -39,6 +39,13 @@
 }
 
 @font-face {
+  font-family: IRANSansBold;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/woff/IRANSansWeb_Bold.woff') format('truetype');
+}
+
+@font-face {
   font-family: 'ZarinPal';
   src: url('../fonts/ZarinPal.eot');
   src: url('../fonts/ZarinPal.eot') format('embedded-opentype'),
@@ -92,6 +99,13 @@ span[class^="icon-"], span[class*=" icon-"] {
 .icon-close {
   &:before {
     content: $icon-zp-close;
+  }
+}
+
+.icon-person {
+  &:before {
+    content: $icon-zp-add-person;
+
   }
 }
 

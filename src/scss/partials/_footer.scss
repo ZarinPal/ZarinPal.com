@@ -28,3 +28,15 @@
   }
 
 }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer {
+    &:before {
+      top: -343px !important;
+      background-size: 925px 962px !important;
+    }
+  }
+}
+

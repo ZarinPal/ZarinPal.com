@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+.iransans-bold {
+  font-family: IRANSansBold;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -37,6 +41,10 @@ li {
   float: left;
 }
 
+.hand {
+  cursor: pointer;
+}
+
 .horizontal-line {
   background-color: #DFE1E4;
   height: 1px;
@@ -51,7 +59,7 @@ li {
 
 .title{
   font-size: $titleFontSize;
-  font-weight: bold;
+  font-family: IRANSansBold;
   color: $titleFontColor;
 }
 
@@ -61,6 +69,6 @@ li {
 
 .header-title {
   font-size: $headerTitleFontSize;
-  font-weight: bold;
+  font-family: IRANSansBold;
   color: $headerTitleColor;
 }

@@ -10,7 +10,7 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px)  and (max-width: 767px){
   .content {
     width: auto;
   }
@@ -21,7 +21,7 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px)  and (max-width: 991px){
   .content {
     width: 724px;
   }
@@ -32,7 +32,7 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px){
   .content {
     width: 940px;
   }
