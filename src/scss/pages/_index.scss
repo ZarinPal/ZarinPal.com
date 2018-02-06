@@ -1,62 +1,73 @@
 //New version
 .section-new-version {
-  .gradient-background {
-    &:before {
-      content: '';
-      z-index: -2;
-      height: 783px;
-      width: 725px;
-      bottom: 0;
-      background: url("../../images/index/gradiant-top.svg") top left no-repeat;
-      position: absolute;
-      right: 0;
-      background-size: 100% 100%;
-    }
+  .right-box {
+    margin-top: 110px;
 
-    .tag {
-      display: inline-block;
-      font-size: 13px;
-      background-color: #F2F3F5;
-      border-radius: 14px;
-      padding: 4px 10px;
+    .gradient-background {
+      &:before {
+        content: '';
+        z-index: -2;
+        height: 783px;
+        width: 725px;
+        bottom: 0;
+        background: url("../../images/index/gradiant-top.svg") top left no-repeat;
+        position: absolute;
+        right: 0;
+        background-size: 100% 100%;
+      }
 
-      .label {
-        background-color: #ffffff;
-        padding: 0 7px;
+      .tag {
         display: inline-block;
+        font-size: 13px;
+        background-color: #F2F3F5;
         border-radius: 14px;
-        margin-left: 5px;
-      }
-    }
+        padding: 4px 10px;
 
-    .links {
-
-      .btn {
-        border-radius: 5px;
-        padding: 7px 20px;
-      }
-
-      .btn-create-account {
-        background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%);
-        box-shadow: 0 5px 10px 0 rgba(255,214,71,0.25);
-        color: #584B00 !important;
+        .label {
+          background-color: #ffffff;
+          padding: 0 7px;
+          display: inline-block;
+          border-radius: 14px;
+          margin-left: 5px;
+        }
       }
 
-      .btn-get-know-zarinpal {
-        background: #FFFFFF;
-        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.03);
-        color: #303030 !important;
+      .new-zarinpal-description {
+        max-width: 500px;
       }
 
-      a {
-        margin: 0 10px;
-      }
-    }
+      .links {
+        margin: 40px 0;
 
-    .icon-arrow-down {
-      display: inline-block;
-      font-size: 20px;
-      cursor: pointer;
+        .btn {
+          border-radius: 5px;
+          padding: 7px 20px;
+        }
+
+        .btn-create-account {
+          background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%);
+          box-shadow: 0 5px 10px 0 rgba(255,214,71,0.25);
+          color: #584B00 !important;
+        }
+
+        .btn-get-know-zarinpal {
+          background: #FFFFFF;
+          box-shadow: 0 3px 9px 0 rgba(0,0,0,0.03);
+          color: #303030 !important;
+        }
+
+        a {
+          margin: 0 10px;
+        }
+      }
+
+      .icon-arrow-down {
+        display: inline-block;
+        font-size: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.10);
+        border-radius: 100px;
+      }
     }
   }
 
@@ -198,16 +209,23 @@
   .left-border {
     border-left: none !important;
   }
+
+  .pg-background {
+    margin-top: 80px !important;
+  }
 }
 
-
 @media (min-width: 576px)  and (max-width: 767px){
-
+  .pg-background {
+    margin-top: 100px !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .pg-background {
+    margin-top: 100px !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

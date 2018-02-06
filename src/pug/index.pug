@@ -4,7 +4,7 @@ block content
     include partials/header
 
     div.row.section-new-version
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
             div.gradient-background
                 span.tag
                     span.label جدید
@@ -12,7 +12,7 @@ block content
                 div.header-title.xs-ta-center
                     | نسخه جدید زرین‌پال
                     | همین‌جاست
-                p
+                p.new-zarinpal-description
                     | #{seed.lang[lang]['newZarinpalDescription']}
 
                 div.links
@@ -20,7 +20,7 @@ block content
                     a.btn.btn-get-know-zarinpal(href="#") آشنایی با زرین‌پال
 
                 div.ta-center
-                    i.icon-arrow-down
+                    i.icon-arrow-down.pointer
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
             div.request-money
