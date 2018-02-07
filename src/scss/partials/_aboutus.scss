@@ -1,0 +1,48 @@
+.aboutus-page {
+  margin: 90px 0;
+
+  .pictured-page-title {
+    width: 100%;
+    height: 220px;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+    background: url(../images/aboutus-header.png) center;
+    margin-bottom: 70px;
+
+    span.text {
+      font-size: 28px;
+      line-height: 7.7;
+      font-weight: bolder;
+    }
+  }
+
+  .page-section {
+    margin: 70px 0;
+    padding: 40px 90px;
+
+    img.img {
+      width: 100%;
+    }
+
+    span.note {
+      color: #828282;
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 28px;
+      margin-top: 5px;
+    }
+
+    .section-content {
+      color: #303030;
+      font-size: 16px;
+    }
+  }
+
+  #why-zarin {
+    background-color: #f2f3f5;
+  }
+}
