@@ -99,20 +99,18 @@
 
 //Social payment
 .section-social-payment {
-  .bg-oblique {
+  .gray-bg {
     &:before {
       content: '';
-      top: 0;
-      z-index: -1;
-      height: 783px;
-      bottom: 0;
-      //background: url("../../images/index/bg-oblique.png") top left no-repeat;
+      z-index: -2;
+      height: 703px;
+      background: url("../../images/index/gray-bg.svg") top left no-repeat;
       position: absolute;
-      left: calc(57% - 10rem);
-      right: 0;
-      background-size: 925px 783px;
+      left: 0;
+      top: 960px;
     }
   }
+
   .social-payment-background {
     background: url("../../images/index/social-image.png") no-repeat;
     width: 455px;
@@ -229,6 +227,12 @@
     background-size: 100% 330px !important;
   }
 
+  .gray-bg {
+    &:before {
+      width: 400px;
+    }
+  }
+
   .left-border {
     border-left: none !important;
   }
@@ -314,11 +318,21 @@
   .pg-background {
     margin-top: 100px !important;
   }
+
+  .gray-bg {
+    &:before {
+      width: 544px;
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px){
-
+  .gray-bg {
+    &:before {
+      width: 544px;
+    }
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -359,4 +373,9 @@
     }
   }
 
+  .gray-bg {
+    &:before {
+      width: 985px;
+    }
+  }
 }
