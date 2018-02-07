@@ -109,17 +109,19 @@
 @media (max-width: 575px) {
   .blue-bg {
     &:before {
-      width: 100% !important;
+      width: 396px !important;
+      height: 557px !important;
       top: -470px;
       left: -100px;
     }
   }
 }
 
-
 @media (min-width: 576px)  and (max-width: 767px){
   .blue-bg {
     &:before {
+      width: 396px !important;
+      height: 557px !important;
       top: -470px;
       left: -100px;
     }

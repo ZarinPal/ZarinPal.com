@@ -116,14 +116,21 @@
   }
 }
 
-//Payment needs
-.section-payment-needs {
-
-}
-
 //Read more
 .section-read-more {
   margin-bottom: 100px;
+
+  .gold-bg {
+    &:before {
+      content: '';
+      z-index: -2;
+      height: 601px;
+      width: 144px;
+      background: url("../../images/index/gold-bg.svg") top left no-repeat;
+      position: absolute;
+      right: 0;
+    }
+  }
 
   .options {
     padding: 30px;
@@ -216,6 +223,62 @@
 }
 
 @media (min-width: 576px)  and (max-width: 767px){
+  .gradient-background {
+
+    .tag {
+      display: inline-block;
+      font-size: 13px;
+      background-color: #F2F3F5;
+      border-radius: 14px;
+      padding: 4px 10px;
+
+      .label {
+        background-color: #ffffff;
+        padding: 0 7px;
+        display: inline-block;
+        border-radius: 14px;
+        margin-left: 5px;
+      }
+    }
+
+    .new-zarinpal-description {
+      max-width: 500px;
+    }
+
+    .links {
+      margin: 40px 0;
+
+      .btn {
+        border-radius: 5px;
+        padding: 7px 20px;
+      }
+
+      .btn-create-account {
+        background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%);
+        box-shadow: 0 5px 10px 0 rgba(255,214,71,0.25);
+        color: #584B00 !important;
+      }
+
+      .btn-get-know-zarinpal {
+        background: #FFFFFF;
+        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.03);
+        color: #303030 !important;
+      }
+
+      a {
+        margin: 0 10px;
+      }
+    }
+
+    .icon-arrow-down {
+      display: inline-block;
+      font-size: 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0 3px 9px 0 rgba(0,0,0,0.10);
+      border-radius: 100px;
+    }
+  }
+
   .pg-background {
     margin-top: 100px !important;
   }
