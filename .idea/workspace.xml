@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbcac9a-a72b-4881-bb3b-f8a033bc1873" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/page-header-gold-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pug/personal_link.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/scss/partials/_page.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" />
+      <change beforePath="$PROJECT_DIR$/src/lang/fa.json" afterPath="$PROJECT_DIR$/src/lang/fa.json" />
+      <change beforePath="$PROJECT_DIR$/src/pug/partials/footer.pug" afterPath="$PROJECT_DIR$/src/pug/partials/footer.pug" />
+      <change beforePath="$PROJECT_DIR$/src/pug/partials/header.pug" afterPath="$PROJECT_DIR$/src/pug/partials/header.pug" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" afterPath="$PROJECT_DIR$/src/scss/app.scss" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" />
+      <change beforePath="$PROJECT_DIR$/src/scss/responsive/_media.scss" afterPath="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +35,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,13 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pg.</find>
-      <find>icon</find>
-      <find>verti</find>
-      <find>read-mo</find>
-      <find>hand</find>
-      <find>visibleMobileMenu</find>
-      <find>soci</find>
       <find>hori</find>
       <find>line</find>
       <find>bold</find>
@@ -68,6 +69,13 @@
       <find>payment-ne</find>
       <find>ul</find>
       <find>max</find>
+      <find>soci</find>
+      <find>gray</find>
+      <find>description</find>
+      <find>new-zarinpal-description</find>
+      <find>login</find>
+      <find>btn</find>
+      <find>menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,24 +91,27 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/lang/en.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/scss/app.scss" />
         <option value="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pug/partials/customers.pug" />
         <option value="$PROJECT_DIR$/src/scss/partials/_customer.scss" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/pug/partials/layout.pug" />
-        <option value="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
-        <option value="$PROJECT_DIR$/src/pug/partials/header.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_fonts.scss" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
         <option value="$PROJECT_DIR$/src/scss/pages/_common.scss" />
-        <option value="$PROJECT_DIR$/src/lang/fa.json" />
         <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/pug/partials/footer.pug" />
+        <option value="$PROJECT_DIR$/src/pug/contact.pug" />
         <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_index.scss" />
+        <option value="$PROJECT_DIR$/src/scss/app.scss" />
+        <option value="$PROJECT_DIR$/src/pug/partials/footer.pug" />
+        <option value="$PROJECT_DIR$/src/lang/fa.json" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
+        <option value="$PROJECT_DIR$/src/pug/partials/header.pug" />
+        <option value="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
+        <option value="$PROJECT_DIR$/src/pug/personal_link.pug" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_page.scss" />
       </list>
     </option>
   </component>
@@ -133,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -141,11 +151,6 @@
             <path>
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
@@ -169,18 +174,6 @@
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -194,34 +187,28 @@
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="responsive" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_me&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/partials" />
+      <recent name="$PROJECT_DIR$/src/pug" />
       <recent name="$PROJECT_DIR$/src/images/index" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/images/icon" />
-      <recent name="$PROJECT_DIR$/src/fonts" />
-      <recent name="$PROJECT_DIR$/src/scss/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
@@ -267,17 +254,20 @@
       <workItem from="1517728123100" duration="221000" />
       <workItem from="1517730040589" duration="1361000" />
       <workItem from="1517813649339" duration="12221000" />
-      <workItem from="1517902789815" duration="14311000" />
+      <workItem from="1517902789815" duration="14470000" />
+      <workItem from="1518037922653" duration="1326000" />
+      <workItem from="1518103306744" duration="1034000" />
+      <workItem from="1518255681099" duration="4400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76834000" />
+    <option name="totallyTimeSpent" value="83753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -285,7 +275,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11691542" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -308,66 +298,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/public/images/new-logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/eot/IRANSansWeb.eot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/customer-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="267" column="9" lean-forward="true" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/i18n/i18n.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/i18n/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/i18n/i18n.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/i18n/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -379,13 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -439,14 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_customer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/new-logo.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -458,11 +375,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/customer-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/index/social-image.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -510,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,44 +444,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/index/gradiant-top.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/index/gradiant-top.png" />
     <entry file="file://$PROJECT_DIR$/src/scss/pages/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/responsive/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,27 +460,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/partials/footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lang/fa.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,59 +471,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
+    <entry file="file://$PROJECT_DIR$/src/pug/contact.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#209#484#0" expanded="false" />
-            <element signature="e#495#959#0" expanded="false" />
-            <element signature="e#1075#1224#0" expanded="false" />
-            <element signature="e#1241#1753#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="274">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/gray-bg.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/index/gray-bg.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/index/gray-bg.png" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="286">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/partials/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/page-header-gold-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/page-header-light-bg.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/index/social-image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_customer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/fa.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/personal_link.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="190">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#1;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#block#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/pages/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="380" selection-end-column="1" />
           <folding>
-            <element signature="e#411#750#0" expanded="false" />
-            <element signature="e#3051#3108#0" expanded="false" />
-            <element signature="e#3121#3171#0" expanded="false" />
-            <element signature="e#3189#3380#0" expanded="false" />
-            <element signature="e#3410#3492#0" expanded="false" />
-            <element signature="e#3511#3582#0" expanded="false" />
-            <element signature="e#3601#3672#0" expanded="false" />
-            <element signature="e#3693#3766#0" expanded="false" />
-            <element signature="e#3788#3862#0" expanded="false" />
-            <element signature="e#3881#3909#0" expanded="false" />
-            <element signature="e#3938#4067#0" expanded="false" />
-            <element signature="e#4737#5050#0" expanded="false" />
-            <element signature="e#5126#5633#0" expanded="false" />
-            <element signature="e#5726#5906#0" expanded="false" />
+            <element signature="e#4073#4620#0" expanded="false" />
+            <element signature="e#4671#5947#0" expanded="false" />
+            <element signature="e#6043#6229#0" expanded="false" />
+            <element signature="e#6325#6386#0" expanded="false" />
+            <element signature="e#6473#7145#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/responsive/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

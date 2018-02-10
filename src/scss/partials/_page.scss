@@ -1,0 +1,148 @@
+.page-head {
+  .image-section {
+    &:before {
+      content: '';
+      background: url("../../images/page-header-gold-bg.png") top left no-repeat;
+      z-index: -1;
+      position: absolute;
+      height: 512px;
+      background-size: 100% 100%;
+    }
+
+    .page-head-image {
+        content: '';
+        background-size: 100% 100%;
+    }
+
+    .personal-link-image {
+      background: url("../../images/index/social-image.png") no-repeat;
+      width: 557px;
+      height: 480px;
+      position: relative;
+      left: 0;
+      top: 0;
+      background-size:100% 100%;
+      margin: 0 auto;
+    }
+
+  }
+
+  .description-section {
+    &:before {
+      content: '';
+      background: url("../../images/page-header-light-bg.svg") top left no-repeat;
+      z-index: -1;
+      position: absolute;
+      height: 582px;
+      right: 0;
+      top: 0;
+      background-size: 100% 100%;
+    }
+
+    .header-title {
+      margin-top: 150px;
+    }
+
+    .description {
+      max-width: 500px;
+      padding: 0 20px;
+    }
+  }
+}
+
+
+/* Mixin
+   ----------------------------- */
+@mixin image-section-position($width, $left, $top) {
+  &:before {
+    width: $width;
+    left: $left;
+    top: $top;
+  }
+}
+
+@mixin description-section-image-position($width) {
+  &:before {
+    width: $width;
+  }
+}
+
+/* Media
+   ----------------------------- */
+
+/* extra small */
+@media (max-width: 575px) {
+  .image-section {
+    @include image-section-position(100%, 0, 0);
+
+    .personal-link-image {
+      width: 100% !important;
+    }
+  }
+
+  .description-section {
+    @include description-section-image-position(100%);
+
+    .header-title {
+      margin-top: 50px !important;
+    }
+
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  and (max-width: 767px){
+  .image-section {
+    @include image-section-position(100%, 0, 0);
+  }
+
+  .description-section {
+    @include description-section-image-position(100%);
+
+    .header-title {
+      margin-top: 50px !important;
+    }
+
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .image-section {
+    @include image-section-position(100%, 0, 0);
+  }
+
+  .description-section {
+    @include description-section-image-position(100%);
+
+    .header-title {
+      margin-top: 50px !important;
+    }
+
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+
+  .image-section {
+    @include image-section-position(835px, 0, 0);
+  }
+
+  .description-section {
+    @include description-section-image-position(1003px);
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .image-section {
+    @include image-section-position(835px, 0, 0);
+  }
+
+  .description-section {
+    @include description-section-image-position(1003px);
+  }
+}
