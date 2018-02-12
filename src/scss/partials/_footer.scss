@@ -2,17 +2,18 @@
   left: 0;
   right: 0;
   position: absolute;
+  padding-top: 80px;
 
   &:before {
     content: '';
-    top: -470px;
-    z-index: -1;
-    height: 783px;
-    background: url("../../images/footer-gradient.png") top left no-repeat;
+    z-index: -2;
+    width: 610px;
+    height: 491px;
+    background: url("../../images/footer-gradiant.svg") top left no-repeat;
+    background-size: 100%;
     position: absolute;
-    right: calc(57% - 10rem);
-    left: -20px;
-    background-size: 925px 783px;
+    left: 0;
+    bottom: 0;
   }
 
   ul {
@@ -20,22 +21,39 @@
     li {
       color: $titleFontColor;
       opacity: 0.6;
+      margin: 7px 0;
     }
   }
 
   .bottom {
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
   }
 
 }
+// extra small
+@media (max-width: 575px) {
+  .footer {
+    &:before {
+      width: 358px !important;
+      height: 285px !important;
+    }
 
+    .footer-col {
+      padding-right: 40px;
+    }
+  }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) {
   .footer {
     &:before {
-      top: -343px !important;
-      background-size: 925px 962px !important;
+      width: 358px !important;
+      height: 285px !important;
+    }
+
+    .footer-col {
+      padding-right: 40px;
     }
   }
 }

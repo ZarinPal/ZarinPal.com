@@ -1,11 +1,14 @@
 body {
   background-color: #ffffff;
+  letter-spacing: -0.5px;
 }
 
 .content {
   direction: rtl;
   margin: 10px auto;
   font-family: $fontFamily;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -18,7 +21,15 @@ li {
 }
 
 .iransans-bold {
-  font-family: IRANSansBold;
+  font-family: IRANSansBold !important;
+}
+
+.iransans-medium {
+  font-family: IRANSansMedium !important;
+}
+
+.line-height {
+  line-height: 35px;
 }
 
 .no-margin {
@@ -67,8 +78,24 @@ li {
   line-height: 2em;
 }
 
+.top-title {
+  color: #828282;
+  margin-bottom: 5px;
+}
+
 .header-title {
   font-size: $headerTitleFontSize;
   font-family: IRANSansBold;
   color: $headerTitleColor;
+}
+
+.title-describe {
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  color: #28457B !important;
 }

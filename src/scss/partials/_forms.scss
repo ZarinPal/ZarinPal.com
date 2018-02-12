@@ -27,20 +27,36 @@ label span {
 }
 
 .btn {
-  padding: 10px 20px;
-  background: rgba(242, 243, 245, 0.5);
-  border: 0;
-  color: #000000;
-  cursor: pointer;
-  font-family: $fontFamily;
+  display: inline-block;
   border-radius: 5px;
+  padding: 6px 28px;
+  border: none;
+  font-size: 16px !important;
+  font-family: IRANSansMedium !important;
+  transition: 0.4s;
+
+  &:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+  }
 }
 
-.btn.btn-default {
-  background: #ffd647;
-  color: #584b00;
+.btn-gold {
+  background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%) !important;
+  box-shadow: 0 5px 10px 0 rgba(255, 214, 71, 0.25);
+  color: #584B00 !important;
+
+  &:hover {
+    box-shadow: 0 10px 20px 0 rgba(255, 214, 71, 0.25) !important;
+  }
 }
 
-.btn:hover {
-  opacity: 0.6;
+.btn-normal {
+  background: #FFFFFF;
+  box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.03);
+  color: #303030 !important;
+
+  &:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03) !important;
+  }
 }

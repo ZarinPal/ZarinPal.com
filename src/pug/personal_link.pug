@@ -1,0 +1,18 @@
+extends partials/layout
+
+block content
+
+    include partials/header
+
+    div.row.page-head
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
+            div.header-title.xs-ta-center.xs-ta-center.sm-ta-center.md-ta-center
+                | #{seed.lang[lang]['personalLinkTitle']}
+
+            p.description #{seed.lang[lang]['personalLinkDescription']}
+
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.image-section
+            div.page-head-image.personal-link-image
+
+    include partials/footer

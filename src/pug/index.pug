@@ -3,24 +3,26 @@ extends partials/layout
 block content
     include partials/header
 
+    <!--New Zarinpal-->
     div.row.section-new-version
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+        div.blue-bg
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
             div.gradient-background
-                span.tag
+                span.tag.iransans-medium
                     span.label جدید
                     |بخش طراحی زرین‌پال راه‌اندازی شد
                 div.header-title.xs-ta-center
                     | نسخه جدید زرین‌پال
                     | همین‌جاست
-                p
+                p.new-zarinpal-description.line-height
                     | #{seed.lang[lang]['newZarinpalDescription']}
 
                 div.links
-                    a.btn.btn-create-account(href="#") ایجاد حساب
-                    a.btn.btn-get-know-zarinpal(href="#") آشنایی با زرین‌پال
+                    a.btn.btn-gold(href="#") ایجاد حساب
+                    a.btn.btn-normal(href="#") آشنایی با زرین‌پال
 
-                div.ta-center
-                    i.icon-arrow-down
+                div.btn-go-bottom-section
+                    i.icon-arrow-down.pointer
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
             div.request-money
@@ -32,71 +34,57 @@ block content
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
             div.gradiant-background
-                p
+                p.top-title
                     |درگاه پرداخت زرین‌پال
                 div.header-title
                     | گذرگاه تراکنش‌های مالی امن
-                p
+                p.title-describe
                     |زرین‌پال اولین ارايه دهنده درگاه پرداخت واسط در ایران است، در واقع یک راهکار ساده، جامع و کار‌آمد برای قراردادن امکان پرداخت در بستر اینترنت و موبایل است. با استفاده از زرین‌پال می توانید چندین درگاه پرداخت را به سادگی به وبسایت خود اضافه کنید، سریع‌تر و آسان‌تر امکانات پرداخت را به کسب و کار خود اضافه کنید و با خیالی آسوده درآمد خود را مدیریت کنید.
 
                 div.horizontal-line.ssssw
-                a(href="#")
-                    span بیشتر بدانید
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['loginToGateWay']}
                     i.icon-arrow-left
 
 
     <!--Social payment-->
     div.section-social-payment
         div.row.no-margin
-            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.bg-oblique
-                p
+            div.col-lg-5.col-md-5.col-sm-12.col-xs-12.bg-oblique
+                p.top-title
                     |زرین‌لینک
                 div.header-title
                     | پرداخت در شبکه‌های اجتماعی
-                p
+                p.title-describe
                     |زرین‌پال کمک می‌کند تا تجارت الکترونیک روز به روز گسترده‌تر شود و ابزار مناسبی باشد حتی برای کسب‌وکارهای مبتنی بر شبکه‌های اجتماعی، ابزاری قدرتمند و قابل اعتماد برای داشتن تجربه‌ای لذت‌بخش از خرید و فروش در فضای آنلاین و الکترونیک.
 
                 div.horizontal-line.ssssw
-                a(href="#")
-                    span بیشتر بدانید
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['makeZarinLink']}
                     i.icon-arrow-left
 
-            div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.col-lg-7.col-md-7.col-sm-12.col-xs-12.gray-bg
                 div.social-payment-background.xs-social-payment-background
 
-
-
-    <!--Payment needs-->
-    div.section-payment-needs
-        div.row.no-margin
-            div.header-title
-                | تمام نیازهای پرداخت آنلاین شما
-            p
-                |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
-
-            div.horizontal-line.hidden-xs
-            a(href="#")
-                span بیشتر بدانید
-                i.icon-arrow-left
 
     <!--Read more-->
     div.section-read-more
         div.row.no-margin
-            div.col-lg-8.col-md-8.options
+            div.col-lg-8.col-md-8.options.gold-bg
                 div.row
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
                         div
                             span.image-icon.image-verified-account
                             span.title ضمانت پرداخت
 
-                        p.description
+                        p.description.line-height
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12
                         div
                             span.image-icon.image-split
                             span.title مسیردهی هوشمند
-                        p.description
+                        p.description.line-height
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
                     div.horizontal-line.hidden-xs
@@ -105,25 +93,25 @@ block content
                         div
                             span.image-icon.image-support
                             span.title پشتیبانی
-                        p.description
+                        p.description.line-height
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
                     div.col-lg-6.col-md-6.col-sm-6.col-xs-12
                         div
                             span.image-icon.image-security
                             span.title امنیت
-                        p.description
+                        p.description.line-height
                             |لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط.
 
             <!--Payment standards-->
             div.col-lg-4.col-md-4.read-more-standards
                 div.header-title
                     | استانداردهای پرداخت آنلاین
-                p
+                p.title-describe.line-height
                     |حوزه‌ی فناوری‌های مالی یا همان فینتک مانند تمام موضوعات دیگر دارای استانداردهایی است که زرین‌پال به عنوان اولین پرداخت‌یار ایران، خودش به تنهایی استاندارد جدید در حوزه‌ی پرداخت آنلاین می‌باشد.
 
                 div.horizontal-line
-                a(href="#")
+                a.read-more(href="#")
                     span بیشتر بدانید
                     i.icon-arrow-left
 

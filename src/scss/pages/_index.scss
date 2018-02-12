@@ -1,62 +1,75 @@
 //New version
 .section-new-version {
-  .gradient-background {
+  .right-box {
+    margin-top: 110px;
+
+    .gradient-background {
+      &:before {
+        content: '';
+        z-index: -4;
+        height: 783px;
+        width: 725px;
+        bottom: 0;
+        background: url("../../images/index/gradiant-top.svg") top left no-repeat;
+        position: absolute;
+        right: 0;
+        background-size: 100% 100%;
+      }
+
+      .tag {
+        display: inline-block;
+        font-size: 13px;
+        background-color: #F2F3F5;
+        border-radius: 14px;
+        padding: 4px 10px;
+
+        .label {
+          background-color: #ffffff;
+          padding: 0 7px;
+          display: inline-block;
+          border-radius: 14px;
+          margin-left: 5px;
+        }
+      }
+
+      .new-zarinpal-description {
+        max-width: 494px;
+        padding: 0 0 20px 0;
+      }
+
+      .links {
+        margin: 40px 0;
+
+        a {
+          margin: 0 10px;
+        }
+      }
+
+      .icon-arrow-down {
+        display: inline-block;
+        font-size: 33px;
+        background-color: #FFFFFF;
+        box-shadow: 0 -2px 9px 0 rgba(0,0,0,0.10);
+        border-radius: 100px;
+      }
+    }
+
+    .btn-go-bottom-section {
+      text-align: left;
+      padding: 20px 0;
+    }
+  }
+
+  .blue-bg {
     &:before {
       content: '';
-      z-index: -2;
-      height: 783px;
-      width: 725px;
-      bottom: 0;
-      background: url("../../images/index/gradiant-top.svg") top left no-repeat;
+      background: url("../../images/index/blue-bg.svg") top left no-repeat;
+      z-index: -1;
+      width: 916px;
+      height: 607px;
       position: absolute;
-      right: 0;
-      background-size: 100% 100%;
-    }
-
-    .tag {
-      display: inline-block;
-      font-size: 13px;
-      background-color: #F2F3F5;
-      border-radius: 14px;
-      padding: 4px 10px;
-
-      .label {
-        background-color: #ffffff;
-        padding: 0 7px;
-        display: inline-block;
-        border-radius: 14px;
-        margin-left: 5px;
-      }
-    }
-
-    .links {
-
-      .btn {
-        border-radius: 5px;
-        padding: 7px 20px;
-      }
-
-      .btn-create-account {
-        background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%);
-        box-shadow: 0 5px 10px 0 rgba(255,214,71,0.25);
-        color: #584B00 !important;
-      }
-
-      .btn-get-know-zarinpal {
-        background: #FFFFFF;
-        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.03);
-        color: #303030 !important;
-      }
-
-      a {
-        margin: 0 10px;
-      }
-    }
-
-    .icon-arrow-down {
-      display: inline-block;
-      font-size: 20px;
-      cursor: pointer;
+      right: calc(57% - 10rem);
+      background-size: 916px 607px;
     }
   }
 
@@ -65,37 +78,38 @@
     height: 640px;
     background: url("../../images/index/request-money.png") no-repeat center;
     background-size: 360px 640px;
-    float: left;
+    margin: 0 auto;
   }
 }
 
 //Pg
 .section-pg {
+  margin: 60px 0;
   .pg-background {
-    background: url("../../images/index/pg.png") no-repeat;
+    background: url("../../images/index/pg.svg") no-repeat;
     width: 335px;
     height: 388px;
-    background-size: 335px 388px;
+    background-size: 100% 100%;
     margin: 0 auto;
   }
 }
 
 //Social payment
 .section-social-payment {
-  .bg-oblique {
+  margin: 50px 0 70px 0;
+
+  .gray-bg {
     &:before {
       content: '';
-      top: 0;
-      z-index: -1;
-      height: 783px;
-      bottom: 0;
-      //background: url("../../images/index/bg-oblique.png") top left no-repeat;
+      z-index: -2;
+      height: 703px;
+      background: url("../../images/index/gray-bg.svg") top left no-repeat;
       position: absolute;
-      left: calc(57% - 10rem);
-      right: 0;
-      background-size: 925px 783px;
+      left: 0;
+      top: 960px;
     }
   }
+
   .social-payment-background {
     background: url("../../images/index/social-image.png") no-repeat;
     width: 455px;
@@ -105,14 +119,21 @@
   }
 }
 
-//Payment needs
-.section-payment-needs {
-
-}
-
 //Read more
 .section-read-more {
-  margin-bottom: 100px;
+  margin: 60px 0;
+
+  .gold-bg {
+    &:before {
+      content: '';
+      z-index: -2;
+      height: 601px;
+      width: 144px;
+      background: url("../../images/index/gold-bg.svg") top left no-repeat;
+      position: absolute;
+      right: 0;
+    }
+  }
 
   .options {
     padding: 30px;
@@ -136,18 +157,18 @@
       width: 20px;
       height: 20px;
       display: inline-block;
-      background-size: 100% !important;
-      margin: 0 30px -10px 10px;
+      background-size: 20px 20px !important;
+      margin: 0 20px -10px 10px;
       position: relative;
-      top: 15px;
+      top: 27px;
+      background-color: #EDF0F4 !important;
+      padding: 14px;
+      border-radius: 17px;
+      background-position: 14px !important;
     }
 
     .image-verified-account {
       background: url("../../images/icon/verified-account.png") no-repeat;
-    }
-
-    .image-split {
-      background: url("../../images/icon/split.png") no-repeat;
     }
 
     .image-split {
@@ -183,10 +204,29 @@
 
 /* extra small */
 @media (max-width: 575px) {
+  .blue-bg {
+    &:before {
+      width: 396px !important;
+      height: 557px !important;
+      top: -470px;
+      left: -100px;
+    }
+  }
+
+  .gradient-background {
+    &:before {
+      top: 10px !important;
+    }
+  }
+
   .tag {
     display: block !important;
     margin: 10px auto;
     width: 230px;
+  }
+
+  .btn-go-bottom-section {
+    text-align: center !important;
   }
 
   .xs-social-payment-background {
@@ -195,28 +235,140 @@
     background-size: 100% 330px !important;
   }
 
+  .gray-bg {
+    &:before {
+      width: 100%;
+    }
+  }
+
+  .top-title,
+  .header-title,
+  .read-more,
+  .new-zarinpal-description{
+    padding-right: 25px !important;
+  }
+
+  .title-describe {
+    padding: 25px;
+  }
+
   .left-border {
     border-left: none !important;
   }
+
+  .pg-background {
+    margin-top: 80px !important;
+  }
 }
 
-
 @media (min-width: 576px)  and (max-width: 767px){
+  .blue-bg {
+    &:before {
+      width: 396px !important;
+      height: 557px !important;
+      top: -470px;
+      left: -100px;
+    }
+  }
 
+  .gradient-background {
+
+    .tag {
+      display: inline-block;
+      font-size: 13px;
+      background-color: #F2F3F5;
+      border-radius: 14px;
+      padding: 4px 10px;
+
+      .label {
+        background-color: #ffffff;
+        padding: 0 7px;
+        display: inline-block;
+        border-radius: 14px;
+        margin-left: 5px;
+      }
+    }
+
+    .new-zarinpal-description {
+      max-width: 500px;
+    }
+
+    .links {
+      margin: 40px 0;
+
+      a {
+        margin: 0 10px;
+      }
+    }
+
+
+    .btn-go-bottom-section {
+      text-align: center !important;
+
+      .icon-arrow-down {
+        display: inline-block;
+        font-size: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.10);
+        border-radius: 100px;
+      }
+    }
+  }
+
+  .pg-background {
+    margin-top: 100px !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .blue-bg {
+    &:before {
+      top: -120px;
+      left: -380px;
+    }
+  }
 
+  .btn-go-bottom-section {
+    text-align: center !important;
+  }
+
+  .pg-background {
+    margin-top: 100px !important;
+  }
+
+  .gray-bg {
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px){
+  .blue-bg {
+    &:before {
+      top: -140px;
+      left: -270px;
+    }
+  }
 
+  .gray-bg {
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .blue-bg {
+    &:before {
+      top: -130px;
+      left: -130px;
+    }
+  }
+
   .gradient-background {
     &:before {
       top: 5px;
@@ -236,6 +388,7 @@
         display: inline-block;
         border-radius: 14px;
         margin-left: 5px;
+        margin-right: -5px;
       }
     }
 
@@ -253,4 +406,9 @@
     }
   }
 
+  .gray-bg {
+    &:before {
+      width: 985px;
+    }
+  }
 }
