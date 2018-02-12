@@ -10,21 +10,31 @@
     }
 
     .page-head-image {
-        content: '';
-        background-size: 100% 100%;
+      content: '';
+      background-size: 100% 100% !important;
+      margin: 0 auto;
+      position: relative;
+      left: 0;
+      top: 0;
     }
 
     .personal-link-image {
       background: url("../../images/index/social-image.png") no-repeat;
       width: 557px;
       height: 480px;
-      position: relative;
-      left: 0;
-      top: 0;
-      background-size:100% 100%;
-      margin: 0 auto;
     }
 
+    .pg-background-image{
+      background: url("../../images/index/pg.png") no-repeat;
+      width: 463px;
+      height: 486px;
+    }
+
+    .application-image{
+      background: url("../../images/application.svg") no-repeat;
+      width: 463px;
+      height: 486px;
+    }
   }
 
   .description-section {
