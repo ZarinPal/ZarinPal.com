@@ -33,29 +33,12 @@
       }
 
       .new-zarinpal-description {
-        max-width: 500px;
-        padding: 20px;
+        max-width: 494px;
+        padding: 0 0 20px 0;
       }
 
       .links {
         margin: 40px 0;
-
-        .btn {
-          border-radius: 5px;
-          padding: 7px 20px;
-        }
-
-        .btn-create-account {
-          background-image: linear-gradient(45deg, #FFE75A 0%, #F7CB3D 100%);
-          box-shadow: 0 5px 10px 0 rgba(255,214,71,0.25);
-          color: #584B00 !important;
-        }
-
-        .btn-get-know-zarinpal {
-          background: #FFFFFF;
-          box-shadow: 0 3px 9px 0 rgba(0,0,0,0.03);
-          color: #303030 !important;
-        }
 
         a {
           margin: 0 10px;
@@ -64,9 +47,9 @@
 
       .icon-arrow-down {
         display: inline-block;
-        font-size: 30px;
+        font-size: 33px;
         background-color: #FFFFFF;
-        box-shadow: 0 3px 9px 0 rgba(0,0,0,0.10);
+        box-shadow: 0 -2px 9px 0 rgba(0,0,0,0.10);
         border-radius: 100px;
       }
     }
@@ -101,17 +84,20 @@
 
 //Pg
 .section-pg {
+  margin: 60px 0;
   .pg-background {
-    background: url("../../images/index/pg.png") no-repeat;
+    background: url("../../images/index/pg.svg") no-repeat;
     width: 335px;
     height: 388px;
-    background-size: 335px 388px;
+    background-size: 100% 100%;
     margin: 0 auto;
   }
 }
 
 //Social payment
 .section-social-payment {
+  margin: 50px 0 70px 0;
+
   .gray-bg {
     &:before {
       content: '';
@@ -171,18 +157,18 @@
       width: 20px;
       height: 20px;
       display: inline-block;
-      background-size: 100% !important;
-      margin: 0 30px -10px 10px;
+      background-size: 20px 20px !important;
+      margin: 0 20px -10px 10px;
       position: relative;
-      top: 15px;
+      top: 27px;
+      background-color: #EDF0F4 !important;
+      padding: 14px;
+      border-radius: 17px;
+      background-position: 14px !important;
     }
 
     .image-verified-account {
       background: url("../../images/icon/verified-account.png") no-repeat;
-    }
-
-    .image-split {
-      background: url("../../images/icon/split.png") no-repeat;
     }
 
     .image-split {
@@ -251,8 +237,19 @@
 
   .gray-bg {
     &:before {
-      width: 400px;
+      width: 100%;
     }
+  }
+
+  .top-title,
+  .header-title,
+  .read-more,
+  .new-zarinpal-description{
+    padding-right: 25px !important;
+  }
+
+  .title-describe {
+    padding: 25px;
   }
 
   .left-border {
@@ -342,7 +339,7 @@
 
   .gray-bg {
     &:before {
-      width: 544px;
+      width: 100%;
     }
   }
 }
@@ -358,7 +355,7 @@
 
   .gray-bg {
     &:before {
-      width: 544px;
+      width: 100%;
     }
   }
 }
@@ -391,6 +388,7 @@
         display: inline-block;
         border-radius: 14px;
         margin-left: 5px;
+        margin-right: -5px;
       }
     }
 

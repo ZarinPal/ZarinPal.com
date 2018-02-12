@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbcac9a-a72b-4881-bb3b-f8a033bc1873" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/index/pg.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/pug/contact.pug" afterPath="$PROJECT_DIR$/src/pug/contact.pug" />
       <change beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_common.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_common.scss" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_variables.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_forms.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_forms.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_page_title.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_page_title.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,27 +42,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>line</find>
-      <find>bold</find>
-      <find>&amp;:b</find>
-      <find>links</find>
-      <find>pers</find>
-      <find>blue-bg</find>
-      <find>-120px</find>
-      <find>-pg</find>
-      <find>need</find>
-      <find>read</find>
-      <find>payment-nee</find>
-      <find>position</find>
-      <find>footer</find>
-      <find>بیشتر بدانید</find>
-      <find>con</find>
-      <find>lab</find>
       <find>بدانید</find>
       <find>payment-ne</find>
       <find>ul</find>
       <find>max</find>
-      <find>soci</find>
       <find>gray</find>
       <find>description</find>
       <find>new-zarinpal-description</find>
@@ -70,7 +54,24 @@
       <find>request</find>
       <find>blue</find>
       <find>h2</find>
+      <find>label</find>
+      <find>tag</find>
+      <find>gold</find>
       <find>btn</find>
+      <find>btn-bo</find>
+      <find>letter</find>
+      <find>head</find>
+      <find>title</find>
+      <find>gray-bg</find>
+      <find>header-title</find>
+      <find>new-zar</find>
+      <find>top-t</find>
+      <find>pg</find>
+      <find>soci</find>
+      <find>section-pg</find>
+      <find>pg-b</find>
+      <find>image-co</find>
+      <find>title-describe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,7 +87,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/lang/en.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pug/partials/customers.pug" />
         <option value="$PROJECT_DIR$/src/scss/partials/_customer.scss" />
@@ -94,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/pug/partials/layout.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_fonts.scss" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/src/scss/app.scss" />
         <option value="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
         <option value="$PROJECT_DIR$/src/pug/personal_link.pug" />
@@ -106,11 +105,14 @@
         <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
         <option value="$PROJECT_DIR$/src/pug/partials/header.pug" />
         <option value="$PROJECT_DIR$/src/scss/partials/_page_title.scss" />
-        <option value="$PROJECT_DIR$/src/scss/pages/_index.scss" />
         <option value="$PROJECT_DIR$/src/pug/contact.pug" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_forms.scss" />
+        <option value="$PROJECT_DIR$/src/images/index/pg.svg" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_common.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_forms.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_index.scss" />
       </list>
     </option>
   </component>
@@ -160,14 +162,20 @@
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
@@ -193,12 +201,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;conta&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_comm&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_cont&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_contact.scss&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page_title.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;contact&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_p&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_me&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_form&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_forms.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;INDEX&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;conta&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_comm&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_cont&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_contact.scss&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page_title.scss&#10;contact&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_p&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_me&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/images/index" />
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/pug" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
       <recent name="$PROJECT_DIR$/src" />
@@ -251,17 +259,17 @@
       <workItem from="1518037922653" duration="1326000" />
       <workItem from="1518103306744" duration="1034000" />
       <workItem from="1518255681099" duration="4532000" />
-      <workItem from="1518417932608" duration="2733000" />
+      <workItem from="1518417932608" duration="7089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86618000" />
+    <option name="totallyTimeSpent" value="90974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28540772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -269,7 +277,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31343284" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -292,13 +300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/flexboxgrid-sass/flexboxgrid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6959">
@@ -399,24 +400,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/index/gradiant-top.png" />
     <entry file="file://$PROJECT_DIR$/src/images/footer-gradiant.svg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/gray-bg.png" />
@@ -503,23 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/index/pg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lang/fa.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/pg.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -556,34 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/contact.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#492#626#0" expanded="false" />
-            <element signature="e#638#801#0" expanded="false" />
-            <element signature="e#826#925#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/pages/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -592,47 +538,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_index.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_page_title.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="299" column="21" lean-forward="false" selection-start-line="299" selection-start-column="21" selection-end-line="299" selection-end-column="21" />
-          <folding>
-            <element signature="e#4361#5049#0" expanded="false" />
-            <element signature="e#4527#4581#0" expanded="false" />
-            <element signature="e#4590#4667#0" expanded="false" />
-            <element signature="e#4694#4734#0" expanded="false" />
-            <element signature="e#4768#4875#0" expanded="false" />
-            <element signature="e#4888#4934#0" expanded="false" />
-            <element signature="e#5113#5241#0" expanded="false" />
-            <element signature="e#6178#6442#0" expanded="false" />
-            <element signature="e#6538#6677#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_fonts.scss">
+    <entry file="file://$PROJECT_DIR$/src/images/index/pg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/index/pg.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/contact.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="109">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="165" column="26" lean-forward="true" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
+          <folding>
+            <element signature="e#4011#4139#0" expanded="false" />
+            <element signature="e#4164#4218#0" expanded="false" />
+            <element signature="e#4227#4304#0" expanded="false" />
+            <element signature="e#4331#4371#0" expanded="false" />
+            <element signature="e#4405#4512#0" expanded="false" />
+            <element signature="e#4525#4570#0" expanded="false" />
+            <element signature="e#4908#5036#0" expanded="false" />
+            <element signature="e#5973#6236#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#1;n#block#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#block#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="-1253">
+          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_page_title.scss">
+    <entry file="file://$PROJECT_DIR$/src/pug/pg.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="406">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding />
         </state>
       </provider>
