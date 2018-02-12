@@ -9,11 +9,12 @@
 
 //Partials
 @import "./partials/header";
-@import "./partials/aboutus";
 @import "./partials/page_title";
+@import "./partials/page_section";
 @import "./partials/customer";
 @import "./partials/footer";
 
 //Pages
 @import "./pages/index";
 @import "./pages/contact";
+@import "./partials/aboutus";
