@@ -107,3 +107,20 @@ li {
   margin-top: 20px;
   color: #28457B !important;
 }
+
+.xs-visible {
+  display: block;
+}
+
+.xs-hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 64em) {
+  .xs-visible {
+    display: none;
+  }
+  .xs-hidden {
+    display: block;
+  }
+}

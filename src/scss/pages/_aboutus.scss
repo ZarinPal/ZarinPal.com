@@ -1,0 +1,24 @@
+.aboutus-page {
+  margin: 90px 0;
+
+  .pictured-page-title {
+    width: 100%;
+    height: 220px;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+    background: url(../images/aboutus-header.png) center;
+    margin-bottom: 70px;
+
+    span.text {
+      font-size: 28px;
+      line-height: 7.7;
+      font-weight: bolder;
+    }
+  }
+
+  #why-zarin {
+    background-color: #f2f3f5;
+  }
+}

@@ -1,0 +1,71 @@
+.prices-page {
+  margin: 90px 0;
+
+  .table {
+    margin: 0 auto;
+    text-align: right;
+    width: 80%;
+
+    .table-body {
+
+      .table-row {
+        margin: 10px 0;
+        background: #FFFFFF;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+        padding: 15px 25px;
+      }
+    }
+
+    .table-head {
+      .table-row {
+        background: transparent;
+      }
+    }
+  }
+
+  #links {
+    a.btn {
+      width: 100%;
+      display: inline-block;
+      padding: 10px 25px;
+      margin: 10px;
+    }
+    @media only screen and (min-width: 660px) {
+      a.btn {
+        width: 35%;
+      }
+    }
+    @media only screen and (min-width: 1190px) {
+      a.btn {
+        width: 20%;
+        display: inline;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  #register {
+    span {
+      font-size: 28px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    @media only screen and (min-width: 998px) {
+      span {
+        margin-left: 15px;
+        margin-bottom: inherit;
+      }
+    }
+  }
+
+  .gray-section {
+    background-color: #f2f3f5;
+    border-radius: 10px;
+  }
+
+  .bordered-section {
+    border: 1px solid #c3c6cd;
+    border-radius: 10px;
+  }
+}
