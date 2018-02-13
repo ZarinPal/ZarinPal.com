@@ -2,89 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbcac9a-a72b-4881-bb3b-f8a033bc1873" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/scss/pages/_prices.scss" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/zp-new-landing.iml" afterPath="$PROJECT_DIR$/.idea/zp-new-landing.iml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb.eot" afterPath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb.eot" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Bold.eot" afterPath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Bold.eot" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Light.eot" afterPath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Light.eot" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Medium.eot" afterPath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_Medium.eot" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_UltraLight.eot" afterPath="$PROJECT_DIR$/src/fonts/eot/IRANSansWeb_UltraLight.eot" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Bold.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Bold.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Light.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Light.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Medium.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_Medium.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_UltraLight.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/IRANSansWeb_UltraLight.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/OCRA.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/OCRA.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/ttf/sansLight.ttf" afterPath="$PROJECT_DIR$/src/fonts/ttf/sansLight.ttf" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb.woff" afterPath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb.woff" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Bold.woff" afterPath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Bold.woff" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Light.woff" afterPath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Light.woff" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Medium.woff" afterPath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_Medium.woff" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_UltraLight.woff" afterPath="$PROJECT_DIR$/src/fonts/woff/IRANSansWeb_UltraLight.woff" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb.woff2" afterPath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb.woff2" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Bold.woff2" afterPath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Bold.woff2" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Light.woff2" afterPath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Light.woff2" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Medium.woff2" afterPath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_Medium.woff2" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_UltraLight.woff2" afterPath="$PROJECT_DIR$/src/fonts/woff2/IRANSansWeb_UltraLight.woff2" />
-      <change beforePath="$PROJECT_DIR$/src/images/aboutus-header.png" afterPath="$PROJECT_DIR$/src/images/aboutus-header.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/application.svg" afterPath="$PROJECT_DIR$/src/images/application.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/customer-1.png" afterPath="$PROJECT_DIR$/src/images/customer-1.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/footer-gradiant.svg" afterPath="$PROJECT_DIR$/src/images/footer-gradiant.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon/security.png" afterPath="$PROJECT_DIR$/src/images/icon/security.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon/split.png" afterPath="$PROJECT_DIR$/src/images/icon/split.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon/support.png" afterPath="$PROJECT_DIR$/src/images/icon/support.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/icon/verified-account.png" afterPath="$PROJECT_DIR$/src/images/icon/verified-account.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/blue-bg.svg" afterPath="$PROJECT_DIR$/src/images/index/blue-bg.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/gold-bg.svg" afterPath="$PROJECT_DIR$/src/images/index/gold-bg.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/gradiant-top.svg" afterPath="$PROJECT_DIR$/src/images/index/gradiant-top.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/gray-bg.svg" afterPath="$PROJECT_DIR$/src/images/index/gray-bg.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/pg.png" afterPath="$PROJECT_DIR$/src/images/index/pg.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/pg.svg" afterPath="$PROJECT_DIR$/src/images/index/pg.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/request-money.png" afterPath="$PROJECT_DIR$/src/images/index/request-money.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/index/social-image.png" afterPath="$PROJECT_DIR$/src/images/index/social-image.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/new-logo.svg" afterPath="$PROJECT_DIR$/src/images/new-logo.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/page-header-gold-bg.png" afterPath="$PROJECT_DIR$/src/images/page-header-gold-bg.png" />
-      <change beforePath="$PROJECT_DIR$/src/images/page-header-light-bg.svg" afterPath="$PROJECT_DIR$/src/images/page-header-light-bg.svg" />
-      <change beforePath="$PROJECT_DIR$/src/images/what-zarin.png" afterPath="$PROJECT_DIR$/src/images/what-zarin.png" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" afterPath="$PROJECT_DIR$/src/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/src/lang/en.json" afterPath="$PROJECT_DIR$/src/lang/en.json" />
-      <change beforePath="$PROJECT_DIR$/src/lang/fa.json" afterPath="$PROJECT_DIR$/src/lang/fa.json" />
-      <change beforePath="$PROJECT_DIR$/src/pug/aboutus.pug" afterPath="$PROJECT_DIR$/src/pug/aboutus.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/application.pug" afterPath="$PROJECT_DIR$/src/pug/application.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/contact.pug" afterPath="$PROJECT_DIR$/src/pug/contact.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/customers.pug" afterPath="$PROJECT_DIR$/src/pug/partials/customers.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/footer.pug" afterPath="$PROJECT_DIR$/src/pug/partials/footer.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/header.pug" afterPath="$PROJECT_DIR$/src/pug/partials/header.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/layout.pug" afterPath="$PROJECT_DIR$/src/pug/partials/layout.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/page_title.pug" afterPath="$PROJECT_DIR$/src/pug/partials/page_title.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/personal_link.pug" afterPath="$PROJECT_DIR$/src/pug/personal_link.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pg.pug" afterPath="$PROJECT_DIR$/src/pug/pg.pug" />
       <change beforePath="$PROJECT_DIR$/src/pug/prices.pug" afterPath="$PROJECT_DIR$/src/pug/prices.pug" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" afterPath="$PROJECT_DIR$/src/scss/app.scss" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/_common.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_common.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_contact.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_contact.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_fonts.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_index.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_index.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_variables.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_aboutus.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_aboutus.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_customer.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_customer.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_forms.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_forms.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_page.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_page.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_page_section.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_page_section.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_page_title.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_page_title.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/responsive/_media.scss" afterPath="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_prices.scss" afterPath="$PROJECT_DIR$/src/scss/pages/_prices.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,21 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_prices.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_prices.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/pages/_prices.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prices.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="prices.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pug/prices.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="352">
+              <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -194,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/scss/partials/_customer.scss" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/scss/pages/_common.scss" />
         <option value="$PROJECT_DIR$/src/pug/partials/layout.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_fonts.scss" />
         <option value="$PROJECT_DIR$/src/scss/responsive/_media.scss" />
@@ -208,8 +138,9 @@
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/src/scss/partials/_div_table.scss" />
         <option value="$PROJECT_DIR$/src/scss/app.scss" />
-        <option value="$PROJECT_DIR$/src/pug/prices.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_prices.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_common.scss" />
+        <option value="$PROJECT_DIR$/src/pug/prices.pug" />
       </list>
     </option>
   </component>
@@ -260,66 +191,7 @@
               <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pug" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="new.zarinpal.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new.zarinpal.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="responsive" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -333,22 +205,22 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="COMM&#9;FILE&#9;file:///home/amin/phpstorm-projects/new.zarinpal.com/src/scss/pages/_common.scss&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/scss/partials" />
-      <recent name="$PROJECT_DIR$/src/pug" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/images/index" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/scss/pages" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/images/index" />
       <recent name="$PROJECT_DIR$/src/pug" />
       <recent name="$PROJECT_DIR$/src/pug/pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/partials" />
+      <recent name="$PROJECT_DIR$/src/pug" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/images/index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,7 +290,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83878000" />
+    <option name="totallyTimeSpent" value="89837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1853" height="901" extended-state="6" />
@@ -436,12 +308,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30974633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19633508" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1529086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/partials/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -671,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -749,14 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_div_table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_div_table.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -765,18 +627,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/prices.pug">
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="-1592">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/pages/_prices.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="162">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/prices.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
           <folding />
         </state>
       </provider>
