@@ -3,10 +3,10 @@ block variables
 
 block header
     div.row.header
-        div.col-lg-2.col-md-2.col-xs-6
+        div.col-lg-2.col-md-2.col-sm-2.col-xs-6
             div.new-logo
-        div.col-lg-10.col-md-10.col-xs-6.ta-left
-            i.hand.icon-menu.hidden-lg.hidden-xl.hidden-md(onclick="toggleMobileMenu()")
+        div.col-lg-10.col-md-10.col-sm-10.col-xs-6.ta-left
+            i.hand.icon-menu.hidden-lg.hidden-xl.hidden-md#btnToggleMobileMenu
             ul.links.hidden-xs.hidden-sm
                 a(href="#")
                     li #{seed.lang[lang]['prices']}
@@ -21,10 +21,10 @@ block header
                     li #{seed.lang[lang]['loginToAccount']}
 
         //Mobile menu
-        div.bg-mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
-        div.mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl
+        div.animated.bg-mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl#mobileMenuBlur
+        div.animated.mobile-menu.hidden-xs.hidden-sm.hidden-md.hidden-lg.hidden-xl#mobileMenu
             div.top
-                i.icon-close
+                i.icon-close#btnCloseMobileMenu
             div.middle
                 ul
                     a(href="#")
@@ -42,11 +42,3 @@ block header
                     span
                     | #{seed.lang[lang]['loginToAccount']}
                     i.icon-arrow-left(onclick="visibleMobileMenu")
-
-
-
-
-    script.
-        function toggleMobileMenu() {
-            this.visibleMobileMenu = !this.visibleMobileMenu;
-        }
