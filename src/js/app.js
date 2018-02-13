@@ -27,4 +27,26 @@
 
 
 
+    //Go down
+   let btnGoDown = document.getElementById("btnGoDown");
+    btnGoDown.addEventListener("click", function () {
+        scrollToContent();
+    });
+
+    /**
+     * Scroll page down to content
+     */
+    function scrollToContent() {
+        let timerID = setInterval(function () {
+            window.scrollBy(0, 30);
+
+            let sliderHeight = document.getElementById('sectionPg').offsetTop - 30;
+
+            if (window.pageYOffset >= sliderHeight || (sliderHeight + window.scrollY) >= document.body.offsetHeight)
+                clearInterval(timerID);
+        }, 16);
+    }
+
+
+
 })();

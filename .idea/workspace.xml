@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbcac9a-a72b-4881-bb3b-f8a033bc1873" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" afterPath="$PROJECT_DIR$/src/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,68 +27,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="23" column="100" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_animation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_animation.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,15 +101,15 @@
         <option value="$PROJECT_DIR$/src/images/index/pg.svg" />
         <option value="$PROJECT_DIR$/src/scss/pages/_variables.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_index.scss" />
         <option value="$PROJECT_DIR$/src/scss/app.scss" />
         <option value="$PROJECT_DIR$/src/scss/pages/_common.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_animation.scss" />
         <option value="$PROJECT_DIR$/src/pug/partials/header.pug" />
         <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
       </list>
     </option>
   </component>
@@ -249,7 +191,7 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="_head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;comm&#9;ACTION&#9;CheckinProject&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_form&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_forms.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;INDEX&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;conta&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_comm&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_cont&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_contact.scss&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page_title.scss&#10;contact&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_p&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_me&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/zp-new-landing/src/scss/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/js/app.js&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;comm&#9;ACTION&#9;CheckinProject&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_form&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_forms.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;INDEX&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;conta&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_comm&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;_cont&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_contact.scss&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page_title.scss&#10;contact&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/contact.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;_p&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_me&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;fa.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
@@ -309,18 +251,17 @@
       <workItem from="1518103306744" duration="1034000" />
       <workItem from="1518255681099" duration="4532000" />
       <workItem from="1518417932608" duration="9945000" />
-      <workItem from="1518507518423" duration="3086000" />
+      <workItem from="1518507518423" duration="4253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96916000" />
+    <option name="totallyTimeSpent" value="98083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -328,7 +269,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028606964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29104477" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -504,6 +445,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#873#1256#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1253">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/pg.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -620,10 +557,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="257">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="23" column="100" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="100" />
           <folding />
         </state>
       </provider>
@@ -644,26 +589,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="23" column="100" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="100" />
+        <state relative-caret-position="200">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="540">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
