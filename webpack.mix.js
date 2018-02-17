@@ -12,12 +12,12 @@ mix.pug = require('laravel-mix-pug');
  |
  */
 
-mix.setPublicPath('public')
+mix.setPublicPath('public/assets')
+    .setResourceRoot('../')
     .js('src/js/app.js', 'public/assets/')
     .sass('src/scss/app.scss', 'public/assets/')
-    .copy('src/lang', 'public/lang')
     .pug('src/pug/*.pug', 'public', {
-        seeds: 'public',
+        seeds: 'src',
         locals: {
             lang: 'fa'
         }
@@ -29,8 +29,12 @@ mix.setPublicPath('public')
     //     }
     // })
     .sourceMaps()
-    .version();
-mix.browserSync('http://new.zarinpal.test');
+    .browserSync(({
+        proxy: false,
+        port:'8000',
+        server: {baseDir: './public'} // this is the only difference
+    }));
+
 
 // Full API
 // mix.js(src, output);
