@@ -4,14 +4,64 @@ block content
 
     include partials/header
 
-    div.row.page-head
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
-            div.header-title.xs-ta-center.xs-ta-center.sm-ta-center.md-ta-center
-                | #{seed.lang[lang]['applicationPageTitle']}
 
-            p.description #{seed.lang[lang]['applicationPageDescription']}
+    div.row.page-head.application-page
+        div.col-xs-12.ta-center.application-title
+            p.header-title #{seed.lang[lang]['applications']}
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12.image-section
-            div.page-head-image.application-image
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.application-col
+            div.page-head-image.zarinpal-application-image
+
+            div.p-r-50
+                p.top-title
+                    |#{seed.lang[lang]['myZarinpalApplication']}
+                div.header-title
+                    | #{seed.lang[lang]['myZarinpalApplicationTitleُ']}
+                p.title-describe
+                    | #{seed.lang[lang]['myZarinpalApplicationDescriptionُ']}
+
+                div.row.buttons
+                    a.btn.btn-gold(href="#") #{seed.lang[lang]['iosVersion']}
+                    a.btn.btn-gold(href="#") #{seed.lang[lang]['androidVersion']}
+
+                div.properties
+                    div.header-title
+                        |#{seed.lang[lang]['properties']}
+                    ul
+                        li #{seed.lang[lang]['transactionManage']}
+                        li #{seed.lang[lang]['pursesManage']}
+                        li #{seed.lang[lang]['connectWithSupportAndSubmitTicket']}
+                        li #{seed.lang[lang]['turnoverNotifications']}
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.zarinak-col
+            div.page-head-image.zarinak-application-image
+
+            div.p-r-50.right-border
+                p.top-title
+                    |#{seed.lang[lang]['zarinakApplication']}
+                div.header-title
+                    | #{seed.lang[lang]['zarinakApplicationTitle']}
+                p.title-describe
+                    | #{seed.lang[lang]['zarinakApplicationDescription']}
+
+                div.row.buttons
+                    a.btn.btn-gold(href="#") #{seed.lang[lang]['downloadForAndroid']}
+
+
+                div.properties
+                    div.header-title
+                        | #{seed.lang[lang]['properties']}
+                    ul
+                        li #{seed.lang[lang]['moneyTransfer']}
+                        li #{seed.lang[lang]['insurance']}
+                        li #{seed.lang[lang]['buyInternet']}
+                        li #{seed.lang[lang]['BankAccountsBalance']}
+                        li #{seed.lang[lang]['requestMoney']}
+                        li #{seed.lang[lang]['buyAndPayBills']}
+
 
     include partials/footer

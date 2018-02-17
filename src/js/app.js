@@ -25,13 +25,13 @@
         mobileMenu.classList.add("fadeOutUp");
     });
 
-
-
     //Go down
-   let btnGoDown = document.getElementById("btnGoDown");
-    btnGoDown.addEventListener("click", function () {
-        scrollToContent();
-    });
+    let btnGoDown = document.getElementById("btnGoDown");
+    if (btnGoDown) {
+        btnGoDown.addEventListener("click", function () {
+            scrollToContent();
+        });
+    }
 
     /**
      * Scroll page down to content

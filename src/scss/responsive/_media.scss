@@ -7,6 +7,14 @@
   .xs-ta-center {
     text-align: center;
   }
+
+  .left-border {
+    border-left: none !important;
+  }
+
+  .right-border {
+    border-right: none !important;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -22,6 +30,14 @@
   .sm-ta-center {
     text-align: center;
   }
+
+  .left-border {
+    border-left: none !important;
+  }
+
+  .right-border {
+    border-right: none !important;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -36,6 +52,14 @@
 
   .md-ta-center {
     text-align: center;
+  }
+
+  .left-border {
+    border-left: none !important;
+  }
+
+  .right-border {
+    border-right: none !important;
   }
 }
 

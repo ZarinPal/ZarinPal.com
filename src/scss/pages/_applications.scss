@@ -1,0 +1,86 @@
+.application-page {
+
+  .application-title {
+    margin-top: 50px;
+    margin-bottom: -60px;
+  }
+
+  .zarinpal-application {
+
+  }
+
+  .zarinpal-application-image {
+    background: url("../../images/app/zarinpal-application.svg") no-repeat;
+    width: 392px;
+    height: 295px;
+    margin: 80px auto 30px auto;
+  }
+
+  .zarinak-application-image {
+    background: url("../../images/app/zarinak-application.svg") no-repeat;
+    width: 457px;
+    height: 388px;
+    margin: 0 auto;
+  }
+
+  .buttons {
+    margin: 40px 0;
+
+    .btn {
+      margin-left: 20px;
+    }
+  }
+
+  .properties {
+    ul {
+      padding-right: 0;
+
+      li {
+        &::before {
+          content: "•";
+          color: #FAD749;
+          display: inline-block;
+          height: 20px;
+          font-size: 30px;
+          position: relative;
+          top: 5px;
+          margin-left: 15px;
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+// extra small
+@media (max-width: 575px) {
+  .zarinpal-application-image,
+  .zarinak-application-image {
+    background-size: 100% !important;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  and (max-width: 767px){
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)  and (max-width: 991px){
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+
+}

@@ -30,7 +30,7 @@ mix.setPublicPath('public')
     // })
     .sourceMaps()
     .version();
-mix.browserSync('http://new.zarinpal.test');
+// mix.browserSync('http://new.zarinpal.test');
 
 // Full API
 // mix.js(src, output);
