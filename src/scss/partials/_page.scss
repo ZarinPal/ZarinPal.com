@@ -5,7 +5,6 @@
       background: url("../../images/crooked-blue-bg.png") top left no-repeat;
       z-index: -1;
       position: absolute;
-      height: 350px;
       background-size: 100% 100%;
     }
 
@@ -38,8 +37,6 @@
       z-index: -1;
       position: absolute;
       height: 410px;
-      right: 0;
-      top: 0;
       background-size: 100% 100%;
     }
 
@@ -57,17 +54,20 @@
 
 /* Mixin
    ----------------------------- */
-@mixin image-section-position($width, $left, $top) {
+@mixin image-section-position($width, $height, $left, $top) {
   &:before {
     width: $width;
+    height: $height;
     left: $left;
     top: $top;
   }
 }
 
-@mixin description-section-image-position($width) {
+@mixin description-section-image-position($width, $right, $top) {
   &:before {
     width: $width;
+    right: $right;
+    top: $top;
   }
 }
 
@@ -77,7 +77,7 @@
 /* extra small */
 @media (max-width: 575px) {
   .image-section {
-    @include image-section-position(664px, -290px, -82px);
+    @include image-section-position(664px, 190px, -374px, 0);
 
     .personal-link-image {
       width: 100% !important;
@@ -85,7 +85,8 @@
   }
 
   .description-section {
-    @include description-section-image-position(100%);
+    @include description-section-image-position(100%, 0, -60px);
+
 
     .header-title {
       margin-top: 50px !important;
@@ -98,11 +99,11 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px)  and (max-width: 767px){
   .image-section {
-    @include image-section-position(664px, -290px, -82px);
+    @include image-section-position(664px, 150px, -314px, 0);
   }
 
   .description-section {
-    @include description-section-image-position(100%);
+    @include description-section-image-position(100%, 0, 0);
 
     .header-title {
       margin-top: 50px !important;
@@ -114,11 +115,11 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .image-section {
-    @include image-section-position(1047px, -370px, -10px);
+    @include image-section-position(1047px, 350px, -370px, 0);
   }
 
   .description-section {
-    @include description-section-image-position(100%);
+    @include description-section-image-position(100%, 0, 0);
 
     .header-title {
       margin-top: 50px !important;
@@ -131,11 +132,11 @@
 @media (min-width: 992px) and (max-width: 1199px){
 
   .image-section {
-    @include image-section-position(1167px, -300px, 0);
+    @include image-section-position(1167px, 350px, -300px, 0);
   }
 
   .description-section {
-    @include description-section-image-position(1003px);
+    @include description-section-image-position(1003px, 0, 0);
   }
 
 }
@@ -143,10 +144,10 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .image-section {
-    @include image-section-position(1167px, 0, 0);
+    @include image-section-position(1167px, 350px, 0, 0);
   }
 
   .description-section {
-    @include description-section-image-position(1003px);
+    @include description-section-image-position(1003px, 0, 0);
   }
 }
