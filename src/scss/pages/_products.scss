@@ -2,10 +2,31 @@
   margin: 120px 0 0 0;
 
   .zarincard-background {
-    background: url("../../images/index/pg.png") no-repeat;
+    background: url("../../images/products/zarincard.png") no-repeat;
     width: 480px;
     height: 332px;
     background-size: 100% 100%;
     margin: 0 auto;
+  }
+}
+
+
+/* extra small */
+@media (max-width: 575px) {
+  .section-zarincard {
+    .zarincard-background {
+      width: 100%;
+      height: 260px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  and (max-width: 767px){
+  .section-zarincard {
+    .zarincard-background {
+      width: 100%;
+      height: 260px;
+    }
   }
 }
