@@ -1,0 +1,116 @@
+extends partials/layout
+
+block variables
+    -var pageTitle = 'اپلیکیشن موبایل'
+
+block content
+
+    include partials/header
+
+    div.row.page-head.application-page
+        //blue and gold background
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.image-section
+
+
+    <!--Pg-->
+    div.row.section-pg
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.gradiant-background
+                p.top-title
+                    |درگاه پرداخت زرین‌پال
+                div.header-title
+                    | گذرگاه تراکنش‌های مالی امن
+                p.title-describe
+                    |زرین‌پال اولین ارايه دهنده درگاه پرداخت واسط در ایران است، در واقع یک راهکار ساده، جامع و کار‌آمد برای قراردادن امکان پرداخت در بستر اینترنت و موبایل است. با استفاده از زرین‌پال می توانید چندین درگاه پرداخت را به سادگی به وبسایت خود اضافه کنید، سریع‌تر و آسان‌تر امکانات پرداخت را به کسب و کار خود اضافه کنید و با خیالی آسوده درآمد خود را مدیریت کنید.
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['loginToGateWay']}
+                    i.icon-arrow-left
+
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.pg-background
+
+
+
+    <!--Social payment-->
+    div.section-social-payment
+        div.row.no-margin
+            div.col-lg-7.col-md-7.col-sm-12.col-xs-12
+                div.social-payment-background.xs-social-payment-background
+
+            div.col-lg-5.col-md-5.col-sm-12.col-xs-12
+                p.top-title
+                    | #{seed.lang[lang]['zarinLink']}
+                div.header-title
+                    | #{seed.lang[lang]['paymentInSocialNetworks']}
+                p.title-describe
+                    | #{seed.lang[lang]['paymentInSocialNetworksDescribe']}
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['makeZarinLink']}
+                    i.icon-arrow-left
+
+
+
+
+
+
+
+    <!--Personal link and zaringate-->
+    div
+        div.row.no-margin
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+                p.top-title
+                    | #{seed.lang[lang]['zarinGate']}
+                div.header-title
+                    | #{seed.lang[lang]['onlinePayGateway']}
+                p.title-describe
+                    | #{seed.lang[lang]['onlinePayGatewayDescribe']}
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['requestZarinGate']}
+                    i.icon-arrow-left
+
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.p-r-50.right-border
+                p.top-title
+                    | #{seed.lang[lang]['personalLinkTitle']}
+                div.header-title
+                    | #{seed.lang[lang]['yourPaymentSocialPrestige']}
+                p.title-describe
+                    | #{seed.lang[lang]['personalLinkDescription']}
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['makePersonalLink']}
+                    i.icon-arrow-left
+
+
+    <!--ZarinCard-->
+    div.row.section-zarincard
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.gradiant-background
+                p.top-title
+                    | #{seed.lang[lang]['zarinCard']}
+                div.header-title
+                    | #{seed.lang[lang]['goldestBankCard']}
+                p.title-describe
+                    | #{seed.lang[lang]['goldestBankCardDescribe']}
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['receiveZarinCard']}
+                    i.icon-arrow-left
+
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.zarincard-background
+
+
+
+
+    include partials/footer
