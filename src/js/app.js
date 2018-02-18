@@ -17,13 +17,13 @@
     //Close mobile menu
     let btnCloseMobileMenu = document.getElementById("btnCloseMobileMenu");
     btnCloseMobileMenu.addEventListener("click", function () {
-        console.log('closeed');
-        mobileMenu.classList.remove("fadeInDown");
-        mobileMenu.classList.remove("disp-block");
-        mobileMenuBlur.classList.remove("fadeInDown");
-        mobileMenuBlur.classList.remove("disp-block");
-        mobileMenu.classList.add("fadeOutUp");
+        closeMobileMenu(mobileMenu);
     });
+
+    mobileMenuBlur.addEventListener("click", function () {
+        closeMobileMenu(mobileMenu);
+    });
+
 
     //Go down
     let btnGoDown = document.getElementById("btnGoDown");
@@ -31,6 +31,15 @@
         btnGoDown.addEventListener("click", function () {
             scrollToContent();
         });
+    }
+
+
+    function closeMobileMenu(mobileMenu) {
+        mobileMenu.classList.remove("fadeInDown");
+        mobileMenu.classList.remove("disp-block");
+        mobileMenuBlur.classList.remove("fadeInDown");
+        mobileMenuBlur.classList.remove("disp-block");
+        mobileMenu.classList.add("fadeOutUp");
     }
 
     /**
@@ -46,7 +55,5 @@
                 clearInterval(timerID);
         }, 16);
     }
-
-
 
 })();
