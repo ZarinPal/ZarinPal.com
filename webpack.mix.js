@@ -14,8 +14,8 @@ mix.pug = require('laravel-mix-pug');
 
 mix.setPublicPath('public/assets')
     .setResourceRoot('../')
-    .js('src/js/app.js', 'public/assets/')
-    .sass('src/scss/app.scss', 'public/assets/')
+    .js('src/js/app.js', 'public/assets/js')
+    .sass('src/scss/app.scss', 'public/assets/css')
     .pug('src/pug/*.pug', 'public', {
         seeds: 'src',
         locals: {

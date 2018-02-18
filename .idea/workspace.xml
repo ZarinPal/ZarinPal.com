@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbcac9a-a72b-4881-bb3b-f8a033bc1873" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/images/products/zarincard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pug/products.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/scss/pages/_products.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lang/fa.json" afterPath="$PROJECT_DIR$/src/lang/fa.json" />
-      <change beforePath="$PROJECT_DIR$/src/pug/application.pug" afterPath="$PROJECT_DIR$/src/pug/application.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
-      <change beforePath="$PROJECT_DIR$/src/pug/partials/header.pug" afterPath="$PROJECT_DIR$/src/pug/partials/header.pug" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" afterPath="$PROJECT_DIR$/src/scss/app.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_page.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_page.scss" />
+      <change beforePath="$PROJECT_DIR$/src/pug/partials/layout.pug" afterPath="$PROJECT_DIR$/src/pug/partials/layout.pug" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/pages/_products.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -48,12 +41,22 @@
         <entry file="file://$PROJECT_DIR$/src/pug/products.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
-              <caret line="98" column="27" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+              <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
               <folding>
                 <element signature="n#div#1;n#block#1;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#block#1;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#block#1;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pug/partials/layout.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/pug/contact.pug" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/pug/prices.pug" />
-        <option value="$PROJECT_DIR$/src/pug/partials/layout.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_index.scss" />
         <option value="$PROJECT_DIR$/src/pug/partials/header.pug" />
         <option value="$PROJECT_DIR$/src/pug/index.pug" />
@@ -181,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/pug/application.pug" />
         <option value="$PROJECT_DIR$/src/pug/products.pug" />
         <option value="$PROJECT_DIR$/src/scss/pages/_products.scss" />
+        <option value="$PROJECT_DIR$/src/pug/partials/layout.pug" />
       </list>
     </option>
   </component>
@@ -268,7 +271,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="appli&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/application.pug&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;appl&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/application.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;la&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/layout.pug&#10;price&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/prices.pug&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/js/app.js&#10;_media&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;app.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/js/app.js&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.s&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;بش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;COMM&#9;FILE&#9;file:///home/amin/phpstorm-projects/new.zarinpal.com/src/scss/pages/_common.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss" />
+    <property name="SearchEverywhereHistoryKey" value="la&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/layout.pug&#10;appli&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/application.pug&#10;_page&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_page.scss&#10;app&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;appl&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/application.pug&#10;fa.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;price&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/prices.pug&#10;head&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;app.&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/js/app.js&#10;_media&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;app.js&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/js/app.js&#10;_com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;fa&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;app.s&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/app.scss&#10;_med&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;بش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;COMM&#9;FILE&#9;file:///home/amin/phpstorm-projects/new.zarinpal.com/src/scss/pages/_common.scss&#10;_index&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;_medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;_he&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/customers.pug&#10;_cus&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;_cu&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_customer.scss&#10;inde&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;بخخفث&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;fa.j&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/lang/fa.json&#10;_in&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_index.scss&#10;_fo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_footer.scss&#10;foote&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;اثش&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/header.pug&#10;foo&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;footer&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/partials/footer.pug&#10;_hea&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/partials/_header.scss&#10;com&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_common.scss&#10;medi&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/responsive/_media.scss&#10;_fon&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss&#10;vari&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_variables.scss&#10;ind&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/pug/index.pug&#10;font&#9;FILE&#9;file:///Users/amin/Documents/workspace/new.zarinpal.com/src/scss/pages/_fonts.scss" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -343,7 +346,7 @@
       <workItem from="1518509181136" duration="3665000" />
       <workItem from="1518850688026" duration="9240000" />
       <workItem from="1518903515606" duration="179000" />
-      <workItem from="1518943727989" duration="8279000" />
+      <workItem from="1518943727989" duration="8473000" />
     </task>
     <task id="LOCAL-00001" summary="About us page.">
       <created>1518009968453</created>
@@ -356,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109875000" />
+    <option name="totallyTimeSpent" value="110069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -613,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/partials/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/partials/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
@@ -722,7 +717,7 @@
     <entry file="file://$PROJECT_DIR$/src/pug/products.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
-          <caret line="98" column="27" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+          <caret line="98" column="27" lean-forward="false" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
           <folding>
             <element signature="n#div#1;n#block#1;n#!!top" expanded="false" />
             <element signature="n#div#2;n#block#1;n#!!top" expanded="false" />
@@ -735,6 +730,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/partials/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
