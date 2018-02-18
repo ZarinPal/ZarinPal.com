@@ -7,8 +7,6 @@
       &:before {
         content: '';
         z-index: -4;
-        height: 783px;
-        width: 725px;
         bottom: 0;
         background: url("../../images/index/gradiant-top.svg") top left no-repeat;
         position: absolute;
@@ -65,11 +63,8 @@
       content: '';
       background: url("../../images/index/blue-bg.svg") top left no-repeat;
       z-index: -1;
-      width: 916px;
-      height: 607px;
       position: absolute;
-      right: calc(57% - 10rem);
-      background-size: 916px 607px;
+      background-size: 100% 100%;
     }
   }
 
@@ -202,15 +197,17 @@
 @media (max-width: 575px) {
   .blue-bg {
     &:before {
-      width: 396px !important;
-      height: 557px !important;
-      top: -470px;
-      left: -100px;
+      width: 276px;
+      height: 632px;
+      top: -318px;
+      left: 0;
     }
   }
 
   .gradient-background {
     &:before {
+      height: 783px;
+      width: 100%;
       top: 10px !important;
     }
   }
@@ -260,14 +257,20 @@
 @media (min-width: 576px)  and (max-width: 767px){
   .blue-bg {
     &:before {
-      width: 396px !important;
-      height: 557px !important;
-      top: -470px;
-      left: -100px;
+      width: 276px;
+      height: 632px;
+      top: -318px;
+      left: 0;
     }
   }
 
   .gradient-background {
+    &:before {
+      height: 783px;
+      width: 725px;
+      top: 5px;
+      right: -200px;
+    }
 
     .tag {
       display: inline-block;
@@ -320,8 +323,19 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .blue-bg {
     &:before {
-      top: -120px;
-      left: -380px;
+      width: 533px;
+      height: 470px;
+      top: -132px;
+      left: 0;
+    }
+  }
+
+  .gradient-background {
+    &:before {
+      height: 783px;
+      width: 725px;
+      top: 5px;
+      right: -200px;
     }
   }
 
@@ -344,8 +358,19 @@
 @media (min-width: 992px) and (max-width: 1199px){
   .blue-bg {
     &:before {
+      width: 740px;
+      height: 570px;
       top: -140px;
-      left: -270px;
+      left: 0;
+    }
+  }
+
+  .gradient-background {
+    &:before {
+      height: 783px;
+      width: 725px;
+      top: 5px;
+      right: -200px;
     }
   }
 
@@ -360,13 +385,17 @@
 @media (min-width: 1200px) {
   .blue-bg {
     &:before {
+      width: 916px;
+      height: 607px;
       top: -130px;
-      left: -130px;
+      left: 0;
     }
   }
 
   .gradient-background {
     &:before {
+      height: 783px;
+      width: 725px;
       top: 5px;
       right: -200px;
     }

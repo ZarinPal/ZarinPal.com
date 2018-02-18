@@ -1,11 +1,27 @@
-doctype html
 block variables
 
-html(lang="fa")
+if(typeof(lang) == "undefined")
+	lang = "fa";
+
+doctype html
+html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	head
-		link(rel="stylesheet", href="/assets/css/app.css")
-		meta(name="viewport", content="width=device-width, initial-scale=4")
-		meta(charset="utf-8")
+
+	block title
+	if(lang == "fa")
+		title
+			=pageTitle
+			|  | زرین‌پال، کیف‌پول الکترونیک
+
+
+	link(rel="stylesheet", href="/assets/app.css")
+	meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+	meta(name="viewport", content="width=device-width, initial-scale=4")
+	meta(charset="utf-8")
+	meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
+	link(rel="stylesheet", href="/assets/css/app.css")
+	meta(name="viewport", content="width=device-width, initial-scale=4")
+	meta(charset="utf-8")
 
 	body
 		div.content

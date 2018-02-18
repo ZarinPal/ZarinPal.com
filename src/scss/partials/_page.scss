@@ -77,7 +77,7 @@
 /* extra small */
 @media (max-width: 575px) {
   .image-section {
-    @include image-section-position(664px, 190px, -374px, 0);
+    @include image-section-position(284px, 90px, 0, 0);
 
     .personal-link-image {
       width: 100% !important;
@@ -99,7 +99,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px)  and (max-width: 767px){
   .image-section {
-    @include image-section-position(664px, 150px, -314px, 0);
+    @include image-section-position(284px, 90px, 0, 0);
   }
 
   .description-section {
@@ -115,7 +115,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .image-section {
-    @include image-section-position(1047px, 350px, -370px, 0);
+    @include image-section-position(697px, 225px, 0, 0);
   }
 
   .description-section {
@@ -132,7 +132,7 @@
 @media (min-width: 992px) and (max-width: 1199px){
 
   .image-section {
-    @include image-section-position(1167px, 350px, -300px, 0);
+    @include image-section-position(800px, 220px, 0, 0);
   }
 
   .description-section {
