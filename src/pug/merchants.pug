@@ -1,0 +1,41 @@
+extends partials/layout
+
+block variables
+    -var pageTitle = 'اپلیکیشن موبایل'
+
+block content
+
+    include partials/header
+
+    div.row.page-head.application-page
+        <!--blue and gold background-->
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.image-section
+
+    div.row.section-pg
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.gradiant-background
+                p.top-title
+                    |درگاه پرداخت زرین‌پال
+                div.header-title
+                    | گذرگاه تراکنش‌های مالی امن
+                p.title-describe
+                    |زرین‌پال اولین ارايه دهنده درگاه پرداخت واسط در ایران است، در واقع یک راهکار ساده، جامع و کار‌آمد برای قراردادن امکان پرداخت در بستر اینترنت و موبایل است. با استفاده از زرین‌پال می توانید چندین درگاه پرداخت را به سادگی به وبسایت خود اضافه کنید، سریع‌تر و آسان‌تر امکانات پرداخت را به کسب و کار خود اضافه کنید و با خیالی آسوده درآمد خود را مدیریت کنید.
+
+                div.horizontal-line
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['loginToGateWay']}
+                    i.icon-arrow-left
+
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.pg-background
+
+
+
+
+
+
+
+
+    include partials/footer
