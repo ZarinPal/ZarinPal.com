@@ -6,12 +6,12 @@
     //Open mobile menu
     let btnMobileMenu = document.getElementById("btnToggleMobileMenu");
     btnMobileMenu.addEventListener("click", function () {
-        mobileMenu.classList.remove("fadeOutUp");
+        mobileMenu.classList.remove("fadeOut");
         mobileMenu.classList.remove("hidden");
         mobileMenu.classList.add("disp-block");
         mobileMenu.classList.add("fadeInDown");
         mobileMenuBlur.classList.add("disp-block");
-        mobileMenuBlur.classList.add("fadeInDown");
+        mobileMenuBlur.classList.add("fadeIn");
     });
 
     //Close mobile menu
@@ -39,7 +39,7 @@
         mobileMenu.classList.remove("disp-block");
         mobileMenuBlur.classList.remove("fadeInDown");
         mobileMenuBlur.classList.remove("disp-block");
-        mobileMenu.classList.add("fadeOutUp");
+        mobileMenu.classList.add("fadeOut");
     }
 
     /**
@@ -57,3 +57,48 @@
     }
 
 })();
+
+
+
+import Vue from "vue";
+import VueRouter from "vue-router";
+import MerchantList from '../js/merchants/components/MerchantList.vue';
+import Main from '../js/merchants/components/Main.vue';
+import app from '../js/merchants/components/App.vue';
+
+Vue.use(VueRouter);
+import axios from 'axios';
+window.axios = axios;
+
+const router = new VueRouter({
+    base: __dirname,
+    routes: [
+        {
+            path: '/cat/:cat/page/:page',
+            name: 'MerchantList',
+            component: MerchantList
+        },
+        {
+            path: '/main',
+            name: 'Main',
+            component: Main
+        },
+        {
+            path: '/',
+            redirect: {
+                name: 'Main'
+            }
+        }
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        return { x: 0, y: 0 }
+    }
+});
+
+new Vue({
+    el: '#app',
+    router,
+    components: {
+        app
+    }
+});
