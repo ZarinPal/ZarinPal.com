@@ -13,12 +13,11 @@ block content
             div.row
                 div.col-md-6.col-xs-12
                     div.img
-                        img.img(src='images/what-zarin.png')
+                        img.img(src='assets/images/what-zarin.png')
                 div.col-md-6.col-xs-12.first-md
-                    span.top-title   کارمزد
-                    h3.header-title  شروع یک بازی بُرد بُرد
-                    div.title-describe
-                        |   ما در زرین‌پال به بازی بُرد بُرد اعتقاد داریم، کاربران جدید زرین‌پال پس از عضویت می‌توانند پایداری سرویس‌های متنوع زرین‌پال را بیازمایند و در ماه اول به صورت کاملا رایگان و بدون کسر کارمزد تسویه حساب کنند. در ادامه لیست تعرفه‌های زرین‌پال در هنگام تسویه حساب با رویه‌ی زیر دنبال خواهد شد تا ما و شما همراه هم در تجارت الکترونیک به صورت موازی رشد کنیم.
+                    span.top-title   #{seed.lang[lang]['pricesPage']['wages']}
+                    h3.header-title  #{seed.lang[lang]['pricesPage']['wagesNote']}
+                    div.title-describe  #{seed.lang[lang]['pricesPage']['wagesDes']}
 
         div.page-section.gray-section#prices
             div.row
@@ -26,36 +25,36 @@ block content
                     div.table
                         div.table-head
                             div.table-row.row.iransans-bold
-                                div.table-col.col-md-6.ta-right نوع تسویه حساب
-                                div.table-col.col-md-2.xs-hidden.ta-center کارمزد 1٪
-                                div.table-col.col-md-2.xs-hidden.ta-center کارمزد 0.5٪
-                                div.table-col.col-md-2.xs-hidden.ta-center کارمزد رایگان\
-                                div.table-col.col-md-2.xs-visible.ta-center کارمزد
+                                div.table-col.col-md-6.ta-right #{seed.lang[lang]['pricesPage']['tableHeaderType']}
+                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage1']}
+                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage2']}
+                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage3']}
+                                div.table-col.col-md-2.xs-visible.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWageXs']}
                         div.table-body.iransans-medium
                             div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  تسویه حساب در ماه اول
+                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow1']}
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-xs-3.xs-visible.ta-center   رایگان
+                                div.table-col.col-xs-3.xs-visible.ta-center   #{seed.lang[lang]['pricesPage']['free']}
                             div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  تسویه حساب به زرین کارت
+                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow2']}
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  T
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-xs-3.xs-visible.ta-center   0.5%
                             div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  تسویه حساب به حساب بانکی
+                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow3']}
                                 div.table-col.col-md-2.xs-hidden.ta-center  T
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-xs-3.xs-visible.ta-center   1%
                             div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  تسویه حساب در سه شنبه های طلایی
+                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow4']}
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  -
                                 div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-xs-3.xs-visible.ta-center   رایگان
+                                div.table-col.col-xs-3.xs-visible.ta-center   #{seed.lang[lang]['pricesPage']['free']}
 
         div.page-section#descibe-before
             div.row

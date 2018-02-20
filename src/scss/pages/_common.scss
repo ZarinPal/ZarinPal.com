@@ -119,20 +119,3 @@ li {
 .p-r-50 {
   padding-right: 50px;
 }
-
-.xs-visible {
-  display: block;
-}
-
-.xs-hidden {
-  display: none;
-}
-
-@media only screen and (min-width: 64em) {
-  .xs-visible {
-    display: none;
-  }
-  .xs-hidden {
-    display: block;
-  }
-}
