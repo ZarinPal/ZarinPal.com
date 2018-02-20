@@ -1,6 +1,6 @@
 .page-section {
   margin: 70px 0;
-  padding: 40px 90px;
+  padding: 40px 25px;
 
   img.img {
     width: 100%;
@@ -19,5 +19,23 @@
   .section-content {
     color: #303030;
     font-size: 16px;
+  }
+}
+
+.gray-section {
+  background-color: #f2f3f5;
+  border-radius: 10px;
+}
+
+.bordered-section {
+  border: 1px solid #c3c6cd;
+  border-radius: 10px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .page-section {
+    margin: 70px 0;
+    padding: 40px 90px;
   }
 }

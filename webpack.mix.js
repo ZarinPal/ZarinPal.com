@@ -28,13 +28,13 @@ mix.setPublicPath('public/assets')
     //         lang: 'en'
     //     }
     // })
-    .sourceMaps()
-    .browserSync(({
+    .sourceMaps();
+mix.browserSync(({
         proxy: false,
         port:'8000',
         server: {baseDir: './public'} // this is the only difference
     }));
-    mix.browserSync('http://new.zarinpal.test');
+// mix.browserSync('http://new.zarinpal.test');
 
 // Full API
 // mix.js(src, output);
