@@ -10,8 +10,11 @@
     "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "flexboxgrid-sass": "^8.0.5",
-    "laravel-mix": "^2.0.0"
+    "laravel-mix": "^2.0.0",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
