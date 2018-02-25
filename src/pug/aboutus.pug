@@ -8,26 +8,24 @@ block content
 
     div.aboutus-page
         div.pictured-page-title
-            span.text   درباره ما
+            span.text   #{seed.lang[lang]['aboutUs']}
 
 
         div.page-section#what-is-zarinpal
             div.row
                 div.col-md-6.col-xs-12
                     div.img
-                        img.img(src='images/what-zarin.png')
+                        img.img(src='assets/images/what-zarin.png')
                 div.col-md-6.col-xs-12.first-md
-                    span.note   زرین پال چیست؟
-                    h3  پرداخت یاری به وسعت ایران
-                    div.section-content
-                        |   زمانی که پرداخت آنلاین در ایران پدیده‌ای نوپا محسوب می‌شد و داشتن درگاه پرداخت اینترنتی برای شروع یک کسب‌و‌کار آنلاین با دشواری همراه بود، استارت‌آپی به نام زرین‌پال برای ایجاد یک فضای ایمن و قابل اعتماد میان فروشندگان اینترنتی و خریداران، با ارائه‌ی درگاه پرداخت اینترنتی در کمترین زمان و ساده‌ترین حالت ممکن شروع به فعالیت کرد.<br>
-                        | از فروردین ۱۳۸۹ تا به امروز اتفاقات تلخ و شیرین، تغییرات بزرگ و کوچک، بالا و پایین‌های فراوان و ناملایمتی‌ها و مهربانی‌های بسیار رخ داده است تا زرین‌پال به عنوان اولین پرداخت‌یار ایران پرچمدار دانش بنیان حوزه‌ی فینتک و مورد اعتماد فعالان وب فارسی و تجارت الکترونیک باشد.
+                    span.note   #{seed.lang[lang]['whatIsZarinpalNote']}
+                    h3  #{seed.lang[lang]['whatIsZarinpal']}
+                    div.section-content #{seed.lang[lang]['whatIsZarinpalDes']}
 
         div.page-section#why-zarin
             div.row
                 div.col-xs-12
-                    span.note   چرا زرین‌پال؟
-                    h3  مجموعه‌ای از خدمات پرداخت و فناوری مالی
+                    span.note   #{seed.lang[lang]['whyZarinpla']}
+                    h3  #{seed.lang[lang]['whyZarinplaNote']}
                     div.section-content
                         | زرین‌پال با حضور در کنار ۴۰,۰۰۰+ کسب‌و‌کار و استارتاپ فعال در وب ایران به عنوان درگاه پرداخت، یعنی شریان اصلی زنده ماندن یک کسب‌و‌کار آنلاین، همواره تلاش می‌کند مجموعه‌ای از بهترین و نوآورانه‌ترین خدمات پرداخت را در اختیار فعالین تجارت الکترونیک قرار دهد. <br>
                         | اگر بخواهیم دیدگاه زرین‌پال را در یک جمله بیان کنیم، ساده‌سازی فرآیند پرداخت الکترونیک اصلِ مطلب را اَدا خواهد کرد که هدف ساده‌تر کردن مراحل پرداخت و افزایش حداکثری پرداخت‌های موفق در زمان تصمیم‌گیری برای پرداخت است.
@@ -35,10 +33,9 @@ block content
         div.page-section.ta-center#team
             div.row
                 div.col-xs-12
-                    span.note   تیم زرین‌پال
-                    h3  یک دست صدا ندارد
-                    div.section-content
-                        | قطعا تلاش تک به تک اعضای تیم جوان و خلاق زرین‌پال هست که از موفقیت‌های زرین‌پال را رقم می‌زند. پیشرفت و رشد تیم زرین‌پال مساوی است با پیشرفت و رشد زرین‌پال. ما در کنار هم بزرگ می‌شویم.
+                    span.note   #{seed.lang[lang]['zarinPalTeam']}
+                    h3  #{seed.lang[lang]['zarinPalTeamNote']}
+                    div.section-content #{seed.lang[lang]['zarinPalTeamDes']}
 
 
     include partials/footer

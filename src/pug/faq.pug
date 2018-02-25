@@ -1,0 +1,29 @@
+extends partials/layout
+
+include partials/page_title
+
+block content
+    include partials/header
+
+    +pageTitle(seed.lang[lang]['faq'])
+
+    div.faq-page
+        div.page-section.gray-section
+            div#faq
+                div.row.faq-item.animated.fadeInDown
+                    div.col-xs-12
+                        span.icon.icon-plus
+                        h4  #{seed.lang[lang]['faqPage']['question1']}
+                        hr
+                        p   #{seed.lang[lang]['faqPage']['question1Des']}
+
+
+                div.row.faq-item.show.animated.fadeInDown(onclick='faqCollapsing();')
+                    div.col-xs-12
+                        span.icon.icon-close
+                        h4  #{seed.lang[lang]['faqPage']['question1']}
+                        hr
+                        p   #{seed.lang[lang]['faqPage']['question1Des']}
+
+
+    include partials/footer
