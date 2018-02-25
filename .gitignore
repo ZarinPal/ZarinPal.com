@@ -110,3 +110,5 @@ jspm_packages
 /public/
 /app/
 !/app/.gitignore
+
+.idea/workspace.xml

@@ -15,6 +15,23 @@
   .right-border {
     border-right: none !important;
   }
+
+  .xs-visible {
+    display: block;
+  }
+
+  .xs-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  .xs-visible {
+    display: none;
+  }
+  .xs-hidden {
+    display: block;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
