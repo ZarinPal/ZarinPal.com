@@ -28,8 +28,10 @@ mix.setPublicPath('public/assets')
     //         lang: 'en'
     //     }
     // })
+    .version()
     .sourceMaps();
-mix.browserSync(({
+
+    mix.browserSync(({
         proxy: false,
         port:'8000',
         server: {baseDir: './public'} // this is the only difference

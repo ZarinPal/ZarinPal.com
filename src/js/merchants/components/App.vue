@@ -1,7 +1,7 @@
 <template lang="pug">
 	section.merchants
 		.wrap
-			.row.row-merch
+			.row.row-merch.no-margin
 				svg(width="0" height="0")
 					defs
 						g(id="educational")
@@ -30,7 +30,7 @@
 export default {
     name:"app",
 	created() {
-        console.log('vue is ready');
+        // console.log('vue is ready');
 	}
 }
 </script>
