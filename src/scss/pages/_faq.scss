@@ -23,7 +23,6 @@
         font-size: 29px;
         vertical-align: middle;
         margin-left: 15px;
-        margin-right: -7px;
       }
 
       h4 {
@@ -60,6 +59,16 @@
       hr, p {
         display: block;
       }
+    }
+  }
+}
+
+
+// extra small
+@media (max-width: 575px) {
+  .faq-item {
+    .icon-plus {
+      margin-left: 0!important;
     }
   }
 }

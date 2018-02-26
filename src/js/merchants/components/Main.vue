@@ -1,20 +1,11 @@
 <template lang="pug">
-span
-	.loading(v-if="loading")
-		i.loadbar
-
-	.container
-		h6.section-merchant.major--title_light.ta-center-firm دسته‌بندی پذیرندگان
-		hr.fancy
-
-	.column__mobile-16.column__tablet-8.column__desktop-4.merchant-cell(v-for="(cat, index) in catList")
-		.merchant
-			figure.car-figure(v-if="show" transition="expand" v-bind:style="{ 'border-color': colors[index] }")
-
-				.base
-					svg.svg--icon(width="24" height="24" viewBox="0 0 30 33")
+	div.row.merchants
+		div.col-lg-3.col-md-3.col-sm-6.col-xs-12(v-for="(cat, index) in catList")
+			figure.cat-figure(v-if="show" transition="expand" v-bind:style="{ 'border-color': colors[index] }")
+				div.head
+					svg.cat-icon(width="30" height="30" viewBox="0 0 30 33")
 						use(v-bind:xlink:href="'#' + cat.category.slug" v-bind:fill="colors[index]")
-					span {{ cat.category.title }}
+					div.cat-name {{ cat.category.title }}
 
 				ul(v-for="item in cat.subCats")
 					li(v-bind:id="item.slug")
@@ -55,72 +46,8 @@ export default {
 	route: {
 		data ({ to }) {
 		    this.loading = true;
-			// this.$set('loading', true);
 			this.fetchData();
 		}
 	}
 }
 </script>
-
-<!--<style lang="sass">-->
-	<!--/*@import '../../../sass/plugins/functions';*/-->
-	<!--/*@import '../../../sass/plugins/variables';*/-->
-	<!--/*@import '../../../sass/plugins/mixins';*/-->
-	<!--/*@import '../../../sass/plugins/typography';*/-->
-
-	<!--.merchants{-->
-		<!--.merchant {-->
-			<!--display: block;-->
-			<!--padding: 2rem;-->
-			<!--@extend %letter-spacing;-->
-			<!--.base {-->
-				<!--display: block;-->
-				<!--text-align: center;-->
-				<!--margin-bottom: 1em;-->
-				<!--border-bottom: 1px solid rgba(black, 0.1);-->
-				<!--.svg&#45;&#45;icon {-->
-					<!--display: block;-->
-					<!--margin: 0 auto 0.25em;-->
-					<!--height: 3rem;-->
-					<!--width: 2rem;-->
-				<!--}-->
-				<!--span{-->
-					<!--font-size: 16px;-->
-					<!--font-weight: 300;-->
-					<!--color: lighten(palette(dark, accent), 15);-->
-				<!--}-->
-			<!--}-->
-		<!--}-->
-	<!--}-->
-	<!--.car-figure{-->
-		<!--position: relative;-->
-		<!--padding: 1rem;-->
-		<!--// min-height: 25rem;-->
-		<!--text-align: right;-->
-		<!--background: rgba(white, .8);-->
-		<!--border: 1px solid #FF85C2;-->
-		<!--box-shadow: 0 4px 6px rgba(black, 0.1);-->
-		<!--// box-shadow: 0 26px 40px -30px rgba(#10A0AD, 0.3);-->
-		<!--border-radius: 3px;-->
-		<!--will-change: transform;-->
-		<!--user-select: none;-->
-		<!--&:hover{-->
-			<!--border-color: darken(#FF85C2, 20);-->
-			<!--background: #FFFFFF;-->
-			<!--box-shadow: 0 20px 32px rgba(black, 0.1);-->
-			<!--transform: translateY(-3px);-->
-		<!--}-->
-		<!--ul {-->
-			<!--margin: 0 1em 0 0;-->
-			<!--font-weight: 200;-->
-			<!--font-size: .85em;-->
-			<!--a {-->
-				<!--color: palette(dark, gray);-->
-				<!--&:hover, &:active {-->
-					<!--color: palette(dark, base);-->
-					<!--// outline: 1px dotted;-->
-				<!--}-->
-			<!--}-->
-		<!--}-->
-	<!--}-->
-<!--</style>-->

@@ -7,25 +7,24 @@
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="32.5"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
     </filter>
-    <path id="group-6-e" d="M90.6143345,42 L5,42 C2.23857625,42 -5.50001544e-16,39.7614237 -8.8817842e-16,37 L-8.8817842e-16,5 C-1.2263553e-15,2.23857625 2.23857625,5.07265313e-16 5,0 L90.6143345,0 C90.6143345,2.76142375 92.8529107,5 95.6143345,5 C98.3757582,5 100.614334,2.76142375 100.614334,0 L290,0 C292.761424,-5.07265313e-16 295,2.23857625 295,5 L295,37 C295,39.7614237 292.761424,42 290,42 L100.614334,42 C100.614334,39.2385763 98.3757582,37 95.6143345,37 C92.8529107,37 90.6143345,39.2385763 90.6143345,42 Z"/>
+    <rect id="group-6-e" width="295" height="42" rx="5"/>
     <filter id="group-6-d" width="107.1%" height="150%" x="-3.6%" y="-17.9%" filterUnits="objectBoundingBox">
       <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
     </filter>
-    <path id="group-6-f" d="M90.9473684,42 L5,42 C2.23857625,42 3.38176876e-16,39.7614237 0,37 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 L90.9473684,0 C90.9473684,2.76142375 93.2095086,5 96,5 L96,37 C93.2095086,37 90.9473684,39.2385763 90.9473684,42 Z"/>
-    <circle id="group-6-g" cx="35" cy="35" r="35"/>
-    <filter id="group-6-h" width="147.1%" height="147.1%" x="-23.6%" y="-19.3%" filterUnits="objectBoundingBox">
+    <circle id="group-6-f" cx="35" cy="35" r="35"/>
+    <filter id="group-6-g" width="147.1%" height="147.1%" x="-23.6%" y="-19.3%" filterUnits="objectBoundingBox">
       <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
     </filter>
-    <linearGradient id="group-6-i" x1="50%" x2="50%" y1="0%" y2="100%">
+    <linearGradient id="group-6-h" x1="50%" x2="50%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#FF3379"/>
       <stop offset="100%" stop-color="#FF1744"/>
     </linearGradient>
-    <rect id="group-6-l" width="120" height="28" x="127" y="155" rx="14"/>
-    <filter id="group-6-k" width="117.5%" height="175%" x="-8.8%" y="-26.8%" filterUnits="objectBoundingBox">
+    <rect id="group-6-k" width="120" height="28" x="127" y="155" rx="14"/>
+    <filter id="group-6-j" width="117.5%" height="175%" x="-8.8%" y="-26.8%" filterUnits="objectBoundingBox">
       <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0"/>
@@ -39,28 +38,24 @@
       <g transform="translate(20 326)">
         <use fill="#000" filter="url(#group-6-d)" xlink:href="#group-6-e"/>
         <use fill="#2ECC71" xlink:href="#group-6-e"/>
-        <use fill="#FFF" xlink:href="#group-6-f"/>
-        <path stroke="#2ECC71" d="M90.4699987,41.5 C90.7102143,38.8590004 92.834777,36.7576596 95.5,36.5220016 L95.5,5.47799845 C92.834777,5.24234039 90.7102143,3.14099965 90.4699987,0.5 L5,0.5 C2.51471863,0.5 0.5,2.51471863 0.5,5 L0.5,37 C0.5,39.4852814 2.51471863,41.5 5,41.5 L90.4699987,41.5 Z"/>
-        <path stroke="#FFF" stroke-linecap="square" stroke-width="2" d="M96 9L96 13M96 19L96 23.4285714M96 29L96 33.4285714"/>
         <text fill="#FFF" font-family="IRANSans" font-size="16">
-          <tspan x="125" y="24">پرداخت ۱۰۰ هزار تومان</tspan>
-        </text>
-        <text fill="#626262" font-family="IRANSans" font-size="14">
-          <tspan x="15" y="24">کد تخفیف؟</tspan>
+          <tspan x="77" y="24">پرداخت ۱۰۰ هزار تومان</tspan>
         </text>
       </g>
       <text fill="#303030" font-family="IRANSans" font-size="14">
-        <tspan x="20" y="239">با استفاده از کارت‌های شتاب خود از هر بانکی، می‌توانید </tspan>
-        <tspan x="24.946" y="277.876">مبلغ مورد نظر را با امنیت و سرعت بیشتر پرداخت کنید.</tspan>
+        <tspan x="15" y="244">با استفاده از کارت‌های شتاب خود از هر بانکی، می‌توانید </tspan>
+      </text>
+      <text fill="#303030" font-family="IRANSans" font-size="14">
+        <tspan x="15" y="273">مبلغ مورد نظر را با امنیت و سرعت بیشتر پرداخت کنید.</tspan>
       </text>
       <path fill="#F2F3F5" d="M10,25.9996873 L325,25.9996873 C330.522847,25.9996873 335,30.4768398 335,35.9996873 L335,199.000748 L0,199.000748 L1.77635684e-15,35.9996873 C1.10000309e-15,30.4768398 4.4771525,25.9996873 10,25.9996873 Z"/>
       <g transform="translate(134)">
-        <mask id="group-6-j" fill="#fff">
-          <use xlink:href="#group-6-g"/>
+        <mask id="group-6-i" fill="#fff">
+          <use xlink:href="#group-6-f"/>
         </mask>
-        <use fill="#000" filter="url(#group-6-h)" xlink:href="#group-6-g"/>
-        <use fill="#FFF" xlink:href="#group-6-g"/>
-        <rect width="60" height="21" x="5" y="49" fill="url(#group-6-i)" mask="url(#group-6-j)" rx="10.5"/>
+        <use fill="#000" filter="url(#group-6-g)" xlink:href="#group-6-f"/>
+        <use fill="#FFF" xlink:href="#group-6-f"/>
+        <rect width="60" height="21" x="5" y="49" fill="url(#group-6-h)" mask="url(#group-6-i)" rx="10.5"/>
       </g>
       <text fill="#FFF" font-family="IRANSans-Medium, IRANSans" font-size="14" font-weight="400">
         <tspan x="163" y="64">%</tspan>
@@ -72,19 +67,22 @@
         <tspan x="142" y="103">ردریسلر</tspan>
       </text>
       <text fill="#424242" font-family="IRANSans" font-size="12">
-        <tspan x="67" y="131">افزایش اعتبار کاربر mohrechi</tspan> <tspan x="121.099" y="131">@</tspan> <tspan x="132.713" y="131">live</tspan> <tspan x="152.111" y="131">.</tspan> <tspan x="155.513" y="131">com</tspan>
+        <tspan x="67" y="131">mohrechi</tspan> <tspan x="121.099" y="131">@</tspan> <tspan x="132.713" y="131">live</tspan> <tspan x="152.111" y="131">.</tspan> <tspan x="155.513" y="131">com</tspan>
+      </text>
+      <text fill="#424242" font-family="IRANSans" font-size="12">
+        <tspan x="186" y="131">افزایش اعتبار کاربر </tspan>
       </text>
       <rect width="91" height="24" x="234" y="36" fill="#FFF" rx="12"/>
       <text fill="#424242" font-family="IRANSans" font-size="13">
-        <tspan x="242" y="50">مهدی مهره‌چی </tspan>
+        <tspan x="242" y="50">ناصر یوسف‌پور</tspan>
       </text>
       <rect width="70" height="24" x="10" y="36" fill="#FFF" rx="12"/>
       <text fill="#424242" font-family="IRANSans" font-size="13">
         <tspan x="20" y="52">۴۰۶۴۱۷۷۰</tspan>
       </text>
       <rect width="334" height="1" x="1" y="198" fill="#E5E7E9"/>
-      <use fill="#000" filter="url(#group-6-k)" xlink:href="#group-6-l"/>
-      <use fill="#FFF" xlink:href="#group-6-l"/>
+      <use fill="#000" filter="url(#group-6-j)" xlink:href="#group-6-k"/>
+      <use fill="#FFF" xlink:href="#group-6-k"/>
       <text fill="#424242" font-family="IRANSans" font-size="13">
         <tspan x="136" y="171">پرداخت با کارت</tspan>
       </text>

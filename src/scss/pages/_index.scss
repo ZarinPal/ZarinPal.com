@@ -234,17 +234,6 @@
     }
   }
 
-  .top-title,
-  .header-title,
-  .read-more,
-  .new-zarinpal-description{
-    padding-right: 25px !important;
-  }
-
-  .title-describe {
-    padding: 25px;
-  }
-
   .left-border {
     border-left: none !important;
   }
@@ -267,7 +256,7 @@
   .gradient-background {
     &:before {
       height: 783px;
-      width: 725px;
+      width: 100%;
       top: 5px;
       right: -200px;
     }

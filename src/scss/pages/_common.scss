@@ -33,7 +33,7 @@ li {
 }
 
 .no-margin {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .hidden {
@@ -118,4 +118,19 @@ li {
 
 .p-r-50 {
   padding-right: 50px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 575px) {
+  .top-title,
+  .header-title,
+  .title-describe,
+  .read-more,
+  .new-zarinpal-description{
+    padding: 0 10px !important;
+  }
 }
