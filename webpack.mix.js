@@ -28,7 +28,6 @@ mix.setPublicPath('public/assets')
     //         lang: 'en'
     //     }
     // })
-    .version()
     .sourceMaps();
 
     mix.browserSync(({
