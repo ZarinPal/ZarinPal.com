@@ -5,22 +5,22 @@
     margin-bottom: -60px;
   }
 
-  .zarinpal-application {
-
-  }
-
   .zarinpal-application-image {
-    background: url("../../images/app/zarinpal-application.svg") no-repeat;
-    width: 392px;
-    height: 295px;
+    background: url("../../images/app/zarinpal-application.png") no-repeat;
     margin: 80px auto 30px auto;
+    background-size: contain;
   }
 
   .zarinak-application-image {
-    background: url("../../images/app/zarinak-application.svg") no-repeat;
-    width: 457px;
-    height: 388px;
-    margin: 0 auto;
+    background: url("../../images/app/zarinak-application.png") no-repeat;
+    margin: 73px auto 0 auto;
+    background-size: contain;
+  }
+
+  .zarinpal-application-image,
+  .zarinak-application-image {
+    width: 392px;
+    height: 295px;
   }
 
   .buttons {
@@ -57,15 +57,32 @@
 
 // extra small
 @media (max-width: 575px) {
-  .zarinpal-application-image,
-  .zarinak-application-image {
-    background-size: 100% !important;
+  .application-page {
+    .zarinpal-application-image,
+    .zarinak-application-image {
+      width: 375px !important;
+      height: 278px !important;
+    }
+
+    .p-r-50 {
+      padding-right: 20px !important;
+    }
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px)  and (max-width: 767px){
+  .application-page {
+    .zarinpal-application-image,
+    .zarinak-application-image {
+      width: 375px !important;
+      height: 278px !important;
+    }
 
+    .p-r-50 {
+      padding-right: 20px !important;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -76,11 +93,9 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px){
 
-
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
 
 }

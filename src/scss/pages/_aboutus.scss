@@ -1,5 +1,9 @@
 .aboutus-page {
-  margin: 90px 0;
+  .top-page-image {
+    background: url("../../images/mostafa-amiri.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+  }
 
   .pictured-page-title {
     width: 100%;
@@ -20,5 +24,58 @@
 
   #why-zarin {
     background-color: #f2f3f5;
+  }
+}
+
+
+// extra small
+@media (max-width: 575px) {
+  .top-page-image {
+    width: 100%;
+    height: 234px;
+    margin-bottom: 50px !important;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  and (max-width: 767px){
+  .aboutus-page {
+    .top-page-image {
+      width: 100%;
+      height: 234px;
+      margin-bottom: 50px !important;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)  and (max-width: 991px) {
+  .aboutus-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+      margin-bottom: 70px !important;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px){
+  .aboutus-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+      margin-top: 130px !important;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .aboutus-page {
+    .top-page-image {
+      width: 557px;
+      height: 404px;
+    }
   }
 }
