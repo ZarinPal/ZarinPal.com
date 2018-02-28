@@ -1,4 +1,6 @@
 extends partials/layout
+block page-variables
+    - var pageTitle = seed.lang[lang]['mainPage']
 
 block content
     include partials/header
