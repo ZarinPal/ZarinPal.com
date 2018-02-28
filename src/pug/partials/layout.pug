@@ -10,16 +10,14 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	block title
 	if(lang == "fa")
 		title
-			=pageTitle
+			=pagename
 			|  | زرین‌پال، پرداخت‌یار‌ زرین
 
 
 	link(rel="stylesheet", href="/assets/app.css")
 	meta(name="viewport" content="width=device-width, initial-scale=1")
-	meta(name="viewport", content="width=device-width, initial-scale=4")
 	meta(charset="utf-8")
 	meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
-	meta(name="viewport", content="width=device-width, initial-scale=4")
 	meta(charset="utf-8")
 
 	link(rel="publisher" href="https://plus.google.com/+Zarinpal")
@@ -38,7 +36,7 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	link(rel="stylesheet", href="/assets/css/app.css")
 
 	if pageBlackHeader
-		link(rel="stylesheet", href="/assets/css/pages_header.css")
+	block assets
 
 	//meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
 	//meta(name="apple-mobile-web-app-capable" content="yes")
