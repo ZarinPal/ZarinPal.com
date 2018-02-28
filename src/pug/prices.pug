@@ -10,14 +10,11 @@ block content
     include partials/header
 
     div.prices-page
-
-
-        div.page-section#wages
+        div#wages
             div.row
-                div.col-md-6.col-xs-12
-                    div.img
-                        img.img(src='assets/images/what-zarin.png')
-                div.col-md-6.col-xs-12.first-md
+                div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+                    div.top-page-image
+                div.col-lg-6.col-md-6.col-sm-12.col-xs-12.first-md
                     span.top-title   #{seed.lang[lang]['pricesPage']['wages']}
                     h3.header-title  #{seed.lang[lang]['pricesPage']['wagesNote']}
                     div.title-describe  #{seed.lang[lang]['pricesPage']['wagesDes']}

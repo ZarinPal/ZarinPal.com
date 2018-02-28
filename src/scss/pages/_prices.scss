@@ -1,13 +1,18 @@
 .prices-page {
   margin: 90px 0;
 
+  .top-page-image {
+    background: url("../../images/mostafa-amiri.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+  }
+
   .table {
     margin: 0 auto;
     text-align: right;
     width: 100%;
 
     .table-body {
-
       .table-row {
         margin: 10px 0;
         background: #FFFFFF;
@@ -21,13 +26,6 @@
       .table-row {
         background: transparent;
       }
-    }
-  }
-
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) {
-    .table {
-      width: 80%;
     }
   }
 
@@ -67,5 +65,58 @@
       }
     }
   }
+}
 
+// extra small
+@media (max-width: 575px) {
+  .prices-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px)  and (max-width: 767px){
+  .prices-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px)  and (max-width: 991px){
+  .prices-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+    }
+
+    .table {
+      width: 80%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px){
+  .prices-page {
+    .top-page-image {
+      width: 330px;
+      height: 234px;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .prices-page {
+    .top-page-image {
+      width: 557px;
+      height: 404px;
+    }
+  }
 }
