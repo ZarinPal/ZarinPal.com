@@ -1,4 +1,4 @@
-block variables
+block page-variables
 
 if(typeof(lang) == "undefined")
 	lang = "fa";
@@ -37,6 +37,9 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	meta(http-equiv='X-UA-Compatible' content='IE=edge')
 	link(rel="stylesheet", href="/assets/css/app.css")
 
+	if pageBlackHeader
+		link(rel="stylesheet", href="/assets/css/pages_header.css")
+
 	//meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
 	//meta(name="apple-mobile-web-app-capable" content="yes")
 	//link(rel="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
@@ -45,7 +48,6 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	//link(rel="manifest", href="/manifest.json")
 	//link(rel="mask-icon", href="/safari-pinned-tab.svg")
 	//meta(name="theme-color", content="#ffffff")
-
 
 	body
 		div.content

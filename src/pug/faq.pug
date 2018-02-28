@@ -1,5 +1,9 @@
 extends partials/layout
 
+block page-variables
+    - var pageTitle = seed.lang[lang]['faq']
+    - var pageBlackHeader = true
+
 include partials/page_title
 
 block content

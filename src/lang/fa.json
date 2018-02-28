@@ -1,4 +1,7 @@
 {
+  "____Index____": "",
+  "mainPage": "صفحه‌اصلی",
+
   "____Footer____": "",
   "english": "English",
   "farsi": "فارسی",
@@ -130,6 +133,7 @@
   "receiveZarinCard": "دریافت زرین‌کارت",
 
   "___Merchants___": "",
+  "merchantPageTitle": "پذیرندگان",
   "growUp": "بزرگ شویم",
   "joinToMoreThanFortyThousandsMerchants": "به جمع ۴۰,۰۰۰+ پذیرنده زرین‌پال بپیوندید",
   "joinToMoreThanFortyThousandsMerchantsDescribe": "قدم در دنیای تجارت الکترونیک گذاشتن مستلزم درست و محکم قدم برداشتن است. یکی از قدم‌های اصلی، استفاده از بستر مناسب برای فرآیند پرداخت در کسب‌وکارهای آنلاین می‌باشد که زرین‌پال قطعا جای پای محکمی است.",
