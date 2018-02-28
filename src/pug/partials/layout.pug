@@ -10,7 +10,7 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	block title
 	if(lang == "fa")
 		title
-			=pagename
+			=pageTitle
 			|  | زرین‌پال، پرداخت‌یار‌ زرین
 
 
@@ -36,7 +36,7 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 	link(rel="stylesheet", href="/assets/css/app.css")
 
 	if pageBlackHeader
-	block assets
+		link(rel="stylesheet", href="/assets/css/pages_header.css")
 
 	//meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
 	//meta(name="apple-mobile-web-app-capable" content="yes")
