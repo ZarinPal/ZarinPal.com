@@ -1,14 +1,15 @@
 .faq-page {
   margin-top: 180px;
 
-  #faq {
+  .faq {
+    padding-right: 0;
     .faq-item {
       background: #fff;
-      padding: 5px;
+      padding: 15px;
       border-radius: 10px;
       box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.03);
       color: #424242;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       cursor: pointer;
       -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -16,59 +17,25 @@
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
       user-select: none;
-      /* Non-prefixed version, currently
-                                       supported by Chrome and Opera */
 
       .icon {
         font-size: 29px;
         vertical-align: middle;
-        margin-left: 15px;
+        margin-left: 5px;
+        float: right;
       }
 
-      h4 {
-        display: inline;
-        font-size: 18px;
-        font-weight: normal;
-        margin: 15px 0;
+      .line {
+        height: 1px;
+        width: 100%;
+        background-color: #DFE1E4;
+        margin: 10px 0;
       }
 
-      @media (min-width: 576px) {
-        h4 {
-          display: inline-block;
-        }
-      }
-
-      hr {
-        border: 1px solid #DFE1E4;
-        margin: 0 25px;
+      .answer {
         display: none;
+        padding: 10px;
       }
-
-      p {
-        margin: 30px 25px;
-        font-size: 18px;
-        display: none;
-      }
-    }
-
-    .faq-item:last-child {
-      margin-bottom: 0;
-    }
-
-    .faq-item.show {
-      hr, p {
-        display: block;
-      }
-    }
-  }
-}
-
-
-// extra small
-@media (max-width: 575px) {
-  .faq-item {
-    .icon-plus {
-      margin-left: 0!important;
     }
   }
 }
