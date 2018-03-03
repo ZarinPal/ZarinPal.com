@@ -14,23 +14,18 @@ block content
     div.faq-page
         div.page-section.gray-section
             ul.faq
-                li.faq-item.question
-                    span.animated.fadeIn.icon.icon-plus
-                    span.text  روند ثبت‌نام و فعال‌سازی حساب کاربری در سایت زرین‌پال چگونه است؟
+                mixin item(questionId, answerId)
+                    li.faq-item.question
+                        span.animated.fadeIn.icon.icon-plus
+                        span.text #{seed.lang[lang]['faqPage'][questionId]}
+                            div.answer
+                                div.line
+                                p #{seed.lang[lang]['faqPage'][answerId]}
 
-                        div.answer
-                            div.line
-                            p پس از فعال‌سازی حساب کاربری و رسیدن به سطح نقره‌ای در منو سمت راست گزینه‌ی درگاه‌های پرداخت برای شما قابل‌ مشاهده است روی آن کلیک کرده و سپس روی گزینه درخواست درگاه پرداخت کلیک نمایید. در این قسمت فرم را تکمیل کرده و ارسال نمایید. حداکثر طی ۶ ساعت به درخواست شما رسیدگی شده و کد درگاه پرداخت (مرچنت کد) برای شما ارسال می‌گردد که پس از آن می‌توانید در آزمایشگاه زرین‌پال افزونه مورد نظر خود را دریافت نمایید و یا با استفاده از نمونه کدهای موجود در آزمایشگاه زرین‌پال درگاه خود را توسعه دهید.
-
-                li.faq-item.question
-                    span.animated.fadeIn.icon.icon-plus
-                    span.text  روند ثبت‌نام و فعال‌سازی حساب کاربری در سایت زرین‌پال چگونه است؟
-
-                        div.answer
-                            div.line
-                            p  پس از فعال‌سازی حساب کاربری و رسیدن به سطح نقره‌ای در منو سمت راست گزینه‌ی درگاه‌های پرداخت برای شما قابل‌ مشاهده است روی آن کلیک کرده و سپس روی گزینه درخواست درگاه پرداخت کلیک نمایید. در این قسمت فرم را تکمیل کرده و ارسال نمایید. حداکثر طی ۶ ساعت به درخواست شما رسیدگی شده و کد درگاه پرداخت (مرچنت کد) برای شما ارسال می‌گردد که پس از آن می‌توانید در آزمایشگاه زرین‌پال افزونه مورد نظر خود را دریافت نمایید و یا با استفاده از نمونه کدهای موجود در آزمایشگاه زرین‌پال درگاه خود را توسعه دهید.
-
+                +item('question1', 'answer1')
+                +item('question2', 'answer2')
+                +item('question3', 'answer3')
+                +item('question4', 'answer4')
+                +item('question5', 'answer5')
+                +item('question6', 'answer6')
     include partials/footer
-
-    script
-        |require('../js/pages/faq.js');
