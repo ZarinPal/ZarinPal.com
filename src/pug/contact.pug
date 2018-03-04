@@ -8,19 +8,20 @@ include partials/page_title
 block content
     script
         | function initMap() {
-        |    var uluru = {lat: 35.727317, lng: 51.416435};
+        |    var location = {lat: 35.7285049, lng: 51.4034937};
         |    var map = new google.maps.Map(document.getElementById('map'), {
-        |        zoom: 17,
-        | center: uluru
+        |       zoom: 17,
+        |       center: location,
         | });
         | var marker = new google.maps.Marker({
-        |    position: uluru,
+        |    position: location,
         |    animation: google.maps.Animation.BOUNCE,
         |    title: "zarinpal.com",
-        |    map: map
+        |    map: map,
+        |    optimized: false,
+        |    icon: './assets/images/map-marker.png',
         | });
         | }
-    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGeACnKtvESiULBrraQxYQqZx6g1Jo1Ug&callback=initMap")
 
     include partials/header
 
@@ -35,44 +36,56 @@ block content
             span.icon.icon-comment
             |   #{seed.lang[lang]['pageTitle']}
 
-        div.contact-container
-            div.row
-                div.col-xs-12.col-md-5
-                    div.contact-info
-                        div.row
-                            div.col-xs-12.address
-                                p   #{seed.lang[lang]['address']['address']}
-                            div.col-xs-6.phone
-                                p   #{seed.lang[lang]['address']['phone']}
-                            div.col-xs-6.fax
-                                p   #{seed.lang[lang]['address']['fax']}
-                            div.col-xs-6.post-code
-                                p   #{seed.lang[lang]['address']['zipCode']}
-                            div.col-xs-12
-                                p   #{seed.lang[lang]['address']['workHours']}
-
-                div.col-xs-12.col-md-7
-                    div.contact-form.form-container
-                        form
+        div#app
+            div.contact-container
+                div.row
+                    div.col-xs-12.col-md-5
+                        div.contact-info
                             div.row
-                                div.col-xs-12.col-md-4
-                                    label
-                                        span    #{seed.lang[lang]['formName']}
-                                        input.form-input(type="text")
-                                div.col-xs-12.col-md-4
-                                    label
-                                        span    #{seed.lang[lang]['formEmail']}
-                                        input.form-input(type="email")
-                                div.col-xs-12.col-md-4
-                                    label
-                                        span    #{seed.lang[lang]['formPhone']}
-                                        input.form-input(type="text")
-                            div.row
+                                div.col-xs-12.address
+                                    p #{seed.lang[lang]['address']['address']}
+                                div.col-xs-6.phone
+                                    p #{seed.lang[lang]['address']['phone']}
+                                div.col-xs-6.fax
+                                    p #{seed.lang[lang]['address']['fax']}
+                                div.col-xs-6.post-code
+                                    p #{seed.lang[lang]['address']['zipCode']}
                                 div.col-xs-12
-                                    label
-                                        span    #{seed.lang[lang]['formMessage']}
-                                        textarea.form-input(rows=3)
-                            div.ta-left
-                                button.btn.btn-gold  #{seed.lang[lang]['formSubmit']}
+                                    p #{seed.lang[lang]['address']['workHours']}
+
+                    div.col-xs-12.col-md-7
+                        div.contact-form.form-container
+                            form(onsubmit="event.preventDefault();")
+                                div.row
+                                    div.col-xs-12.col-md-4
+                                        label
+                                            span #{seed.lang[lang]['formName']}
+                                            input.form-input(type="text" name="name" v-model="name")
+                                    div.col-xs-12.col-md-4
+                                        label
+                                            span #{seed.lang[lang]['formEmail']}
+                                            input.form-input(type="email" name="email" v-model="email")
+                                    div.col-xs-12.col-md-4
+                                        label
+                                            span #{seed.lang[lang]['formPhone']}
+                                            input.form-input(type="text" name="phone" v-model="phone")
+                                div.row
+                                    div.col-xs-12
+                                        label
+                                            span #{seed.lang[lang]['title']}
+                                            input.form-input(name="title" v-model="title")
+                                div.row
+                                    div.col-xs-12
+                                        label
+                                            span #{seed.lang[lang]['formMessage']}
+                                            textarea.form-input(rows=3 name="content" v-model="content")
+
+                                    div(class="g-recaptcha" data-sitekey="6Lcrtc4SAAAAAKekvip0yI9Dp2DKXyVtliBXnqHS")
+
+                                div.ta-left
+                                    button.btn.btn-gold(@click="sendGuest") #{seed.lang[lang]['formSubmit']}
 
     include partials/footer
+    script(src="/assets/js/contact/app.js")
+    script(src='https://www.google.com/recaptcha/api.js?hl=fa-IR')
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGeACnKtvESiULBrraQxYQqZx6g1Jo1Ug&callback=initMap&language=fa")

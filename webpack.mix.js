@@ -1,21 +1,11 @@
 let mix = require('laravel-mix');
 mix.pug = require('laravel-mix-pug');
 
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for your application, as well as bundling up your JS files.
- |
- */
-
 mix.setPublicPath('public/assets')
     .setResourceRoot('../')
     .js('src/js/app.js', 'public/assets/js')
     .js('src/js/merchants/app.js', 'public/assets/js/merchants')
+    .js('src/js/contact/app.js', 'public/assets/js/contact')
     .js('src/js/pages/faq.js', 'public/assets/js/pages')
     .sass('src/scss/app.scss', 'public/assets/css')
     .sass('src/scss/pages/pages_header.scss', 'public/assets/css')
@@ -31,7 +21,19 @@ mix.setPublicPath('public/assets')
     //         lang: 'en'
     //     }
     // })
+    .copy('src/images/map-marker.png', 'public/assets/images')
     .sourceMaps();
+
+/*
+ |--------------------------------------------------------------------------
+ | Mix Asset Management
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel application. By default, we are compiling the Sass
+ | file for your application, as well as bundling up your JS files.
+ |
+ */
 
     mix.browserSync(({
         proxy: false,
