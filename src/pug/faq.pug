@@ -13,21 +13,20 @@ block content
 
     div.faq-page
         div.page-section.gray-section
-            div#faq
-                div.row.faq-item.animated.fadeInDown
-                    div.col-xs-12
-                        span.icon.icon-plus
-                        h4  #{seed.lang[lang]['faqPage']['question1']}
-                        hr
-                        p   #{seed.lang[lang]['faqPage']['question1Des']}
+            ul.faq
+                mixin item(questionId, answerId)
+                    li.faq-item.question
+                        span.animated.fadeIn.icon.icon-plus
+                        span.text #{seed.lang[lang]['faqPage'][questionId]}
+                            div.answer
+                                div.line
+                                p #{seed.lang[lang]['faqPage'][answerId]}
 
-
-                div.row.faq-item.show.animated.fadeInDown(onclick='faqCollapsing();')
-                    div.col-xs-12
-                        span.icon.icon-close
-                        h4  #{seed.lang[lang]['faqPage']['question1']}
-                        hr
-                        p   #{seed.lang[lang]['faqPage']['question1Des']}
-
-
+                +item('question1', 'answer1')
+                +item('question2', 'answer2')
+                +item('question3', 'answer3')
+                +item('question4', 'answer4')
+                +item('question5', 'answer5')
+                +item('question6', 'answer6')
     include partials/footer
+    script(src="/assets/js/pages/faq.js")

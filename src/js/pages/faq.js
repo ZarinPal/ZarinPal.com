@@ -1,23 +1,23 @@
-/**
- * FAQ collapsing.
- *
- * @type {HTMLCollectionOf<Element>}
- */
-let faqs = document.getElementsByClassName("faq-item");
+let $ = require('jquery');
+let action = 'click';
+let speed = 100;
 
-let event = function () {
-    let icon = this.querySelector("span.icon");
-    if (this.classList.contains('show')) {
-        icon.classList.add('icon-plus');
-        icon.classList.remove('icon-close');
-        this.classList.remove('show');
-    } else {
-        this.classList.add('show');
-        icon.classList.remove('icon-plus');
-        icon.classList.add('icon-close');
-    }
-};
+$(document).ready( function() {
+    // 	question handler
+    $('.faq-item.question').on(action, function() {
 
-Array.from(faqs).forEach(function (element) {
-    element.addEventListener('click', event);
+        let icon = $(this).find('.icon');
+        if (icon.hasClass('icon-plus')) {
+            icon.addClass('icon-dash');
+            icon.removeClass('icon-plus');
+        } else {
+            icon.removeClass('icon-dash');
+            icon.addClass('icon-plus');
+        }
+
+        // get next element
+        $(this).find('.answer')
+            .slideToggle(speed)
+            .siblings('.faq-item.answer').slideUp(speed);
+    });
 });

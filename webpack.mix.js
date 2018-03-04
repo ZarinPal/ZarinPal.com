@@ -16,6 +16,7 @@ mix.setPublicPath('public/assets')
     .setResourceRoot('../')
     .js('src/js/app.js', 'public/assets/js')
     .js('src/js/merchants/app.js', 'public/assets/js/merchants')
+    .js('src/js/pages/faq.js', 'public/assets/js/pages')
     .sass('src/scss/app.scss', 'public/assets/css')
     .sass('src/scss/pages/pages_header.scss', 'public/assets/css')
     .pug('src/pug/*.pug', 'public', {
