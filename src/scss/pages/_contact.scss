@@ -1,6 +1,6 @@
 .contact-page {
   margin-top: 180px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
   h2 {
     font-size: 24px;
@@ -46,6 +46,10 @@
 
     .form-container {
       margin-bottom: 25px;
+
+      .g-recaptcha {
+        margin: 10px;
+      }
 
       .btn-default {
         float: left;
