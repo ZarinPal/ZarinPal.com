@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="722px" height="729px" viewBox="0 0 722 729" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="54.3442016%" y1="43.1441211%" x2="116.021146%" y2="133.03531%" id="linearGradient-1">
-            <stop stop-color="#FFC300" stop-opacity="0" offset="0%"></stop>
-            <stop stop-color="#FFC400" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-718.000000, -195.000000)" opacity="0.299999982">
-        <path d="M718,195 L1643,195 L1643,651.439092 C1643,696.619217 1612.70614,736.187529 1569.0909,747.975432 L718,978 L718,195 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(1180.500000, 586.500000) scale(-1, 1) translate(-1180.500000, -586.500000) "></path>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="722" height="729" viewBox="0 0 722 729">
+  <defs>
+    <linearGradient id="yellow-a" x1="54.344%" x2="116.021%" y1="43.144%" y2="133.035%">
+      <stop offset="0%" stop-color="#FFC300" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFC400"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#yellow-a)" fill-rule="evenodd" d="M718,195 L1561,195 L1643,195 L1643,674.407365 C1643,706.033452 1621.7943,733.731271 1591.26363,741.982802 L1359.86949,804.521759 L718,978 L718,195 Z" opacity=".3" transform="matrix(-1 0 0 1 1643 -195)"/>
 </svg>

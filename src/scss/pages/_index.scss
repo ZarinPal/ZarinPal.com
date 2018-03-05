@@ -1,9 +1,11 @@
 //New version
 .section-new-version {
   .right-box {
-    margin-top: 110px;
+    margin-top: 130px;
 
     .gradient-background {
+      margin-right: 30px;
+
       &:before {
         content: '';
         z-index: -4;
@@ -20,6 +22,7 @@
         background-color: #F2F3F5;
         border-radius: 14px;
         padding: 4px 10px;
+        margin-bottom: 20px;
 
         .label {
           background-color: #ffffff;
@@ -79,19 +82,21 @@
 
 //Pg
 .section-pg {
-  margin: 60px 0;
+  margin: 90px 0;
+
   .pg-background {
     background: url("../../images/index/pg.svg") no-repeat;
-    width: 335px;
-    height: 388px;
+    width: 463px;
+    height: 486px;
     background-size: 100% 100%;
     margin: 0 auto;
+    font-family: IRANSans !important;
   }
 }
 
 //Social payment
 .section-social-payment {
-  margin: 50px 0 70px 0;
+  margin: 60px 0 70px 0;
 
   .gray-bg {
     &:before {
@@ -106,10 +111,10 @@
   }
 
   .social-payment-background {
-    background: url("../../images/index/social-image.png") no-repeat;
-    width: 455px;
-    height: 379px;
-    background-size: 455px 379px;
+    background: url("../../images/index/social-image.svg") no-repeat;
+    width: 557px;
+    height: 480px;
+    background-size: 100% 100%;
     margin: 0 auto;
   }
 }
@@ -181,12 +186,6 @@
 
   .read-more-standards {
     padding: 30px;
-
-    .icon-arrow-left {
-      display: inline-block;
-      font-size: 20px;
-      cursor: pointer;
-    }
   }
 }
 
@@ -240,6 +239,8 @@
 
   .pg-background {
     margin-top: 80px !important;
+    width: 360px !important;
+    height: 321px !important;
   }
 }
 
@@ -374,8 +375,8 @@
 @media (min-width: 1200px) {
   .blue-bg {
     &:before {
-      width: 766px;
-      height: 597px;
+      width:  835px;
+      height: 513px;
       top: -23px;
       left: 0;
     }
@@ -383,8 +384,8 @@
 
   .gradient-background {
     &:before {
+      width: 718px;
       height: 783px;
-      width: 725px;
       top: 5px;
       right: -200px;
     }

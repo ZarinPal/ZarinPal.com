@@ -104,12 +104,26 @@ li {
 .title-describe {
   margin-top: 10px;
   max-width: 500px;
+  border-bottom: 1px solid #DFE1E4;
+  padding-bottom: 20px;
+  line-height: 35px;
 }
 
 .read-more {
   display: inline-block;
-  margin-top: 20px;
   color: #28457B !important;
+  font-family: IRANSansMedium;
+
+  .icon-left {
+    width: 12px;
+    height: 12px;
+    background: url("../../images/icon/arrow-left.svg");
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
 }
 
 .left-border {
