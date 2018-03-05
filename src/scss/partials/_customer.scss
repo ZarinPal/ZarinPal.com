@@ -1,3 +1,7 @@
+.customer-top-line {
+  margin-top: 110px;
+}
+
 .customers {
   .title {
     font-size: 20px;
@@ -9,8 +13,6 @@
     .logo {
       padding: 0;
       margin: 20px 10px;
-      width: 91px;
-      height: 29px;
       background-repeat: no-repeat;
       background-size: 100% 100%;
       display: inline-block;
@@ -20,23 +22,31 @@
       background-image: url($logoPath);
     }
 
-    .logo-1 {
-      @include customer-logo("../../images/customer-1.png")
+    .logo-cinema-ticket {
+      width: 199px;
+      height: 60px;
+      @include customer-logo("../../images/customer/cinematicket_dark.svg")
     }
-    .logo-2 {
-      @include customer-logo("../../images/customer-1.png")
+    .logo-shahrzad {
+      width: 119px;
+      height: 82px;
+      @include customer-logo("../../images/customer/shahrzad.svg")
     }
-    .logo-3 {
-      @include customer-logo("../../images/customer-1.png")
-    }
-    .logo-4 {
-      @include customer-logo("../../images/customer-1.png")
+    //.logo-sibapp {
+    //  width: 54px;
+    //  height: 61px;
+    //  @include customer-logo("../../images/customer/sibapp.svg")
+    //}
+    .logo-tagmond {
+      width: 294px;
+      height: 36px;
+      @include customer-logo("../../images/customer/tagmond.svg")
     }
     .logo-5 {
-      @include customer-logo("../../images/customer-1.png")
+      @include customer-logo("../../images/customer/tagmond.svg")
     }
     .logo-6 {
-      @include customer-logo("../../images/customer-1.png")
+      @include customer-logo("../../images/customer/tagmond.svg")
     }
   }
 }
