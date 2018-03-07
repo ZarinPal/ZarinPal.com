@@ -40,17 +40,24 @@ block header
                         li #{seed.lang[lang]['prices']}
                     a(href="/merchants.html")
                         li #{seed.lang[lang]['receptionists']}
-                    a(href="#")
-                        li #{seed.lang[lang]['lab']}
-                    a(href="#")
-                        li #{seed.lang[lang]['more']}
-                    a(href="#")
-                        li #{seed.lang[lang]['loginToAccount']}
+                    a(href="/application.html")
+                        li #{seed.lang[lang]['application']}
+                    div.horizontal-line
+
+
+                    a(href="/faq.html")
+                        li #{seed.lang[lang]['faq']}
+                    a(href="/products.html")
+                        li #{seed.lang[lang]['products']}
+                    a(href="/contact.html")
+                        li #{seed.lang[lang]['contactUs']}
+
+
             div.bottom
-                a(href="#")
-                    span
-                    | #{seed.lang[lang]['loginToAccount']}
-                    i.icon-arrow-left
+                a.read-more(href="https://my.zarinpal.com/auth/login")
+                    span #{seed.lang[lang]['loginToAccount']}
+                    i.icon-left
+
 
     script
         | function showMoreMenu() {
