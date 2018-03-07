@@ -5,11 +5,14 @@
 .customers {
   .title {
     font-size: 20px;
-    margin: 20px 0;
+    margin-bottom: -20px;
+    margin-top: 60px;
   }
 
   .images {
     text-align: center;
+    margin-bottom: 30px;
+
     .logo {
       padding: 0;
       margin: 20px 10px;
@@ -37,11 +40,15 @@
       height: 25px;
       @include customer-logo("../../images/customer/tagmond.svg")
     }
-    .logo-5 {
-      @include customer-logo("../../images/customer/tagmond.svg")
+    .logo-2nate {
+      width: 100px;
+      height: 35px;
+      @include customer-logo("../../images/customer/2nate.svg")
     }
-    .logo-6 {
-      @include customer-logo("../../images/customer/tagmond.svg")
+    .logo-hiholiday {
+      width: 144px;
+      height: 30px;
+      @include customer-logo("../../images/customer/hiholiday.svg")
     }
   }
 }
