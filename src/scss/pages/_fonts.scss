@@ -125,3 +125,9 @@ span[class^="icon-"], span[class*=" icon-"] {
     content: $icon-zp-cloud;
   }
 }
+
+.icon-check {
+  &:before {
+    content: $icon-zp-cloud;
+  }
+}

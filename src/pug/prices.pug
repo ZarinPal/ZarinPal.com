@@ -25,36 +25,44 @@ block content
                     div.table
                         div.table-head
                             div.table-row.row.iransans-bold
-                                div.table-col.col-md-6.ta-right #{seed.lang[lang]['pricesPage']['tableHeaderType']}
-                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage1']}
-                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage2']}
-                                div.table-col.col-md-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage3']}
+                                div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-9.ta-right #{seed.lang[lang]['pricesPage']['tableHeaderType']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage1']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage2']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage3']}
+
                                 div.table-col.col-md-2.xs-visible.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWageXs']}
                         div.table-body.iransans-medium
-                            div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow1']}
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-xs-3.xs-visible.ta-center   #{seed.lang[lang]['pricesPage']['free']}
-                            div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow2']}
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-xs-3.xs-visible.ta-center   0.5%
-                            div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow3']}
-                                div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-xs-3.xs-visible.ta-center   1%
-                            div.table-row.row
-                                div.table-col.col-md-6.col-xs-9.ta-right  #{seed.lang[lang]['pricesPage']['tableRow4']}
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  -
-                                div.table-col.col-md-2.xs-hidden.ta-center  T
-                                div.table-col.col-xs-3.xs-visible.ta-center   #{seed.lang[lang]['pricesPage']['free']}
+                            mixin priceItem(text, freePercent, halfPercent, fullPercent)
+                                div.table-row.row
+                                    div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-9.ta-right    !{text}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{fullPercent}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{halfPercent}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{freePercent}
+
+                            +priceItem(
+                                seed.lang[lang]['pricesPage']['tableRow1'],
+                                '<span class="icon-check text-green"></span>',
+                                '__',
+                                '__'
+                            )
+                            +priceItem(
+                                seed.lang[lang]['pricesPage']['tableRow2'],
+                                '__',
+                                '<span class="icon-check text-green"></span>',
+                                '__'
+                            )
+                            +priceItem(
+                                seed.lang[lang]['pricesPage']['tableRow3'],
+                                '__',
+                                '__',
+                                '<span class="icon-check text-green"></span>'
+                            )
+                            +priceItem(
+                                seed.lang[lang]['pricesPage']['tableRow1'],
+                                '<span class="icon-check text-green"></span>',
+                                '__',
+                                '__'
+                            )
 
         div.page-section#descibe-before
             div.row
@@ -76,12 +84,10 @@ block content
                     a.btn.btn-normal(href="#") کاربر سطح نقره‌ای؟
                     a.btn.btn-normal(href="#") کاربر سطح طلایی؟
 
-
         div.page-section.bordered-section#register
             div.row.ta-center
                 div.col-md-12
                     span.iransans-bold  قدم اول کسب‌وکار آنلاین‌تان را محکم بردارید
                     a.btn.btn-gold  ثبت نام کنید
-
 
     include partials/footer

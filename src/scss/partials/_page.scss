@@ -129,7 +129,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .image-section {
-    @include image-section-position(1167px, 350px, 0, 0);
+    @include image-section-position(1077px, 280px, 0, 0);
   }
 
   .description-section {
