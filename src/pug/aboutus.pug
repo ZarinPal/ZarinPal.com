@@ -8,34 +8,34 @@ include partials/page_title
 block content
     include partials/header
 
-    div.aboutus-page
-        div.pictured-page-title
-            span.text   #{seed.lang[lang]['aboutUs']}
+        div.aboutus-page
+            div.pictured-page-title
+                span.text   #{seed.lang[lang]['aboutUs']}
 
-        div.page-section#what-is-zarinpal
-            div.row
-                div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-                    div.top-page-image
-                div.col-lg-6.col-md-6.col-sm-12.col-xs-12.first-md
-                    span.note   #{seed.lang[lang]['whatIsZarinpalNote']}
-                    h3  #{seed.lang[lang]['whatIsZarinpal']}
-                    div.section-content #{seed.lang[lang]['whatIsZarinpalDes']}
+            div.page-section#what-is-zarinpal
+                div.row
+                    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+                        //div.top-page-image
+                        img.bg.top-page-image(src="./assets/images/mostafa-amiri.png")
 
-        div.page-section#why-zarin
-            div.row
-                div.col-xs-12
-                    span.note   #{seed.lang[lang]['whyZarinpla']}
-                    h3  #{seed.lang[lang]['whyZarinplaNote']}
-                    div.section-content
-                        | زرین‌پال با حضور در کنار ۴۰,۰۰۰+ کسب‌و‌کار و استارتاپ فعال در وب ایران به عنوان درگاه پرداخت، یعنی شریان اصلی زنده ماندن یک کسب‌و‌کار آنلاین، همواره تلاش می‌کند مجموعه‌ای از بهترین و نوآورانه‌ترین خدمات پرداخت را در اختیار فعالین تجارت الکترونیک قرار دهد. <br>
-                        | اگر بخواهیم دیدگاه زرین‌پال را در یک جمله بیان کنیم، ساده‌سازی فرآیند پرداخت الکترونیک اصلِ مطلب را اَدا خواهد کرد که هدف ساده‌تر کردن مراحل پرداخت و افزایش حداکثری پرداخت‌های موفق در زمان تصمیم‌گیری برای پرداخت است.
+                    div.col-lg-6.col-md-6.col-sm-12.col-xs-12.first-md
+                        span.note   #{seed.lang[lang]['whatIsZarinpalNote']}
+                        h3  #{seed.lang[lang]['whatIsZarinpal']}
+                        div.section-content #{seed.lang[lang]['whatIsZarinpalDes']}
 
-        div.page-section.ta-center#team
-            div.row
-                div.col-xs-12
-                    span.note   #{seed.lang[lang]['zarinPalTeam']}
-                    h3  #{seed.lang[lang]['zarinPalTeamNote']}
-                    div.section-content #{seed.lang[lang]['zarinPalTeamDes']}
+            div.page-section#why-zarin
+                div.row
+                    div.col-xs-12
+                        span.note #{seed.lang[lang]['whyZarinpla']}
+                        h3  #{seed.lang[lang]['whyZarinplaNote']}
+                        div.section-content
+                            | #{seed.lang[lang]['whyZarinplaDes']}
 
+            //div.page-section.ta-center#team
+            //    div.row
+            //        div.col-xs-12
+            //            span.note #{seed.lang[lang]['zarinPalTeam']}
+            //            h3  #{seed.lang[lang]['zarinPalTeamNote']}
+            //            div.section-content #{seed.lang[lang]['zarinPalTeamDes']}
 
     include partials/footer

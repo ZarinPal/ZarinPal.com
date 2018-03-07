@@ -133,12 +133,17 @@
 
     .middle {
       background-color: #fff;
+      padding: 0 30px;
 
       ul {
-        padding-right: 30px;
+        padding-right: 0;
 
         li {
           padding: 5px 0;
+        }
+
+        .horizontal-line {
+          margin: 10px 0;
         }
       }
     }

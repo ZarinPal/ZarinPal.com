@@ -1,7 +1,6 @@
 extends partials/layout
 block page-variables
     - var pageTitle = seed.lang[lang]['prices']
-    - var pageBlackHeader = true
 
 include partials/page_title
 
@@ -9,15 +8,18 @@ block content
 
     include partials/header
 
-    div.prices-page
+    div.page-head.prices-page
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.description-section
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.image-section
+
         div#wages
             div.row
                 div.col-lg-6.col-md-6.col-sm-12.col-xs-12
                     div.top-page-image
                 div.col-lg-6.col-md-6.col-sm-12.col-xs-12.first-md
-                    span.top-title   #{seed.lang[lang]['pricesPage']['wages']}
-                    h3.header-title  #{seed.lang[lang]['pricesPage']['wagesNote']}
-                    div.title-describe  #{seed.lang[lang]['pricesPage']['wagesDes']}
+                    span.top-title #{seed.lang[lang]['pricesPage']['wages']}
+                    h3.header-title #{seed.lang[lang]['pricesPage']['wagesNote']}
+                    div.title-describe #{seed.lang[lang]['pricesPage']['wagesDes']}
 
         div.page-section.gray-section#prices
             div.row
@@ -67,27 +69,22 @@ block content
         div.page-section#descibe-before
             div.row
                 div.col-xs-12
-                    h3.header-title  شرح ماوقع
+                    h3.header-title #{seed.lang[lang]['pricesPage']['describeBefore']}
                     div.section-content.line-height
-                        | مبالغ تمام تراکنش‌های صورت گرفته از طریق درگاه پرداخت شما وارد کیف‌پول شما در زرین‌پال می‌شود.<br>
-                        | هر زمان که نیاز به تسویه‌ حساب باشد، درخواست تسویه حساب می‌تواند به حساب بانکی شما صورت گیرد یا به زرین‌کارت شما که طبق جدول بالا هنگام تسویه حساب مقدار کارمزد مشخص شده از کل مبلغ تسویه شده کسر می‌گردد.<br>
-                        | اگر کاربر سطح نقره‌ای باشید زمان انتقال وجه بین ۱ تا ۴ روز کاری می‌باشد و اگر کاربر سطح طلایی باشید، انتقال وجه بین ۱ تا ۴۸ ساعت کاری صورت می‌گیرد که همواره سعی ما برای تسویه حساب کمترین زمان ممکن است.<br>
-                        | البته ناگفته نماند که زمان انتقال وجه برای کاربران دارای زرین‌کارت هنگام تسویه حساب و مبلغ ۴۰۰ هزار تومان در هر روز یک بار آنی و مابقی تراکنش‌ها از یک دقیقه تا ۱۲ ساعت است.<br>
-                        | در صورت تسویه حساب به زرین‌کارت اگر از قابلیت سه‌شنبه‌های طلایی استفاده کنید کاملا رایگان و بدون کارمزد انتقال وجه صورت می‌گیرد و زمان تسویه حساب در حالت سه‌شنبه‌های طلایی سه‌شنبه پیش رو خواهد بود. لازم به ذکر است که سه‌شنبه‌های طلایی از دوشنبه ساعت ۱۲ ظهر تا سه‌شنبه شب غیرفعال می‌شود.
-                        |
+                        | #{seed.lang[lang]['pricesPage']['describeBeforeDescription']}
 
         div.page-section.gray-section#links
             div.row.ta-center
                 div.col-md-12
-                    a.btn.btn-normal(href="#") زرین کارت چیست؟
-                    a.btn.btn-normal(href="#") سه‌شنبه‌های طلایی چیست؟
-                    a.btn.btn-normal(href="#") کاربر سطح نقره‌ای؟
-                    a.btn.btn-normal(href="#") کاربر سطح طلایی؟
+                    a.btn.btn-normal(href="#") #{seed.lang[lang]['pricesPage']['whatIsZarinCard']}
+                    a.btn.btn-normal(href="#") #{seed.lang[lang]['pricesPage']['whatIsGoldenTuesday']}
+                    a.btn.btn-normal(href="#") #{seed.lang[lang]['pricesPage']['silverUser']}
+                    a.btn.btn-normal(href="#") #{seed.lang[lang]['pricesPage']['goldUser']}
 
         div.page-section.bordered-section#register
             div.row.ta-center
                 div.col-md-12
-                    span.iransans-bold  قدم اول کسب‌وکار آنلاین‌تان را محکم بردارید
-                    a.btn.btn-gold  ثبت نام کنید
+                    span.iransans-bold #{seed.lang[lang]['pricesPage']['takeStrongYourFirstStep']}
+                    a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['pricesPage']['getRegister']}
 
     include partials/footer
