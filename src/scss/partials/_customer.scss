@@ -23,23 +23,18 @@
     }
 
     .logo-cinema-ticket {
-      width: 199px;
-      height: 60px;
+      width: 110px;
+      height: 25px;
       @include customer-logo("../../images/customer/cinematicket_dark.svg")
     }
     .logo-shahrzad {
-      width: 119px;
-      height: 82px;
+      width: 86px;
+      height: 50px;
       @include customer-logo("../../images/customer/shahrzad.svg")
     }
-    //.logo-sibapp {
-    //  width: 54px;
-    //  height: 61px;
-    //  @include customer-logo("../../images/customer/sibapp.svg")
-    //}
     .logo-tagmond {
-      width: 294px;
-      height: 36px;
+      width: 173px;
+      height: 25px;
       @include customer-logo("../../images/customer/tagmond.svg")
     }
     .logo-5 {

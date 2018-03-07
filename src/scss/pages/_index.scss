@@ -85,11 +85,6 @@
   margin: 90px 0;
 
   .pg-background {
-    background: url("../../images/index/pg.svg") no-repeat;
-    width: 463px;
-    height: 486px;
-    background-size: 100% 100%;
-    margin: 0 auto;
     font-family: IRANSans !important;
   }
 }
@@ -108,14 +103,6 @@
       left: 0;
       top: 960px;
     }
-  }
-
-  .social-payment-background {
-    background: url("../../images/index/social-image.svg") no-repeat;
-    width: 557px;
-    height: 480px;
-    background-size: 100% 100%;
-    margin: 0 auto;
   }
 }
 
@@ -221,12 +208,6 @@
     text-align: center !important;
   }
 
-  .xs-social-payment-background {
-    width: 100% !important;
-    height: 330px !important;
-    background-size: 100% 330px !important;
-  }
-
   .gray-bg {
     &:before {
       width: 100%;
@@ -239,8 +220,6 @@
 
   .pg-background {
     margin-top: 80px !important;
-    width: 360px !important;
-    height: 321px !important;
   }
 }
 
@@ -425,5 +404,13 @@
     &:before {
       width: 985px;
     }
+  }
+
+  .pg-background {
+    width: 463px;
+  }
+
+  .social-payment-background {
+    width: 557px;
   }
 }
