@@ -23,6 +23,14 @@
   .xs-hidden {
     display: none;
   }
+
+  .p-r-50 {
+    padding-right: 20px !important;
+  }
+
+  .bg {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 575px) {
@@ -31,6 +39,14 @@
   }
   .xs-hidden {
     display: block;
+  }
+
+  .p-r-50 {
+    padding-right: 20px !important;
+  }
+
+  .bg {
+    width: 100%;
   }
 }
 
@@ -55,6 +71,14 @@
   .right-border {
     border-right: none !important;
   }
+
+  .p-r-50 {
+    padding-right: 20px !important;
+  }
+
+  .bg {
+    width: 100%;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -77,6 +101,10 @@
 
   .right-border {
     border-right: none !important;
+  }
+
+  .bg {
+    width: 100%;
   }
 }
 

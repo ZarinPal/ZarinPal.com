@@ -1,7 +1,7 @@
 extends partials/layout
 
 block page-variables
-    - var pageTitle = seed.lang[lang]['products']
+     - var pageTitle = seed.lang[lang]['products']
 
 block content
 
@@ -23,21 +23,18 @@ block content
                 p.title-describe
                     | #{seed.lang[lang]['securePaymentGatewayDescription']}
 
-                div.horizontal-line
                 a.read-more(href="#")
                     span #{seed.lang[lang]['loginToGateWay']}
-                    i.icon-arrow-left
+                    i.icon-left
 
-
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.pg-background
-
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.ta-center
+            img.bg.pg-background(src="./assets/images/pg.svg")
 
     <!--Social payment-->
     div.section-social-payment
         div.row.no-margin
             div.col-lg-7.col-md-7.col-sm-12.col-xs-12
-                div.social-payment-background.xs-social-payment-background
+                img.bg.social-payment-background(src="./assets/images/social-image.svg")
 
             div.col-lg-5.col-md-5.col-sm-12.col-xs-12
                 p.top-title
@@ -47,10 +44,10 @@ block content
                 p.title-describe
                     | #{seed.lang[lang]['paymentInSocialNetworksDescribe']}
 
-                div.horizontal-line
                 a.read-more(href="#")
                     span #{seed.lang[lang]['makeZarinLink']}
-                    i.icon-arrow-left
+                    i.icon-left
+
 
     <!--Personal link and zaringate-->
     div
@@ -63,10 +60,9 @@ block content
                 p.title-describe
                     | #{seed.lang[lang]['onlinePayGatewayDescribe']}
 
-                div.horizontal-line
                 a.read-more(href="#")
                     span #{seed.lang[lang]['requestZarinGate']}
-                    i.icon-arrow-left
+                    i.icon-left
 
             div.col-lg-6.col-md-6.col-sm-12.col-xs-12.p-r-50
                 p.top-title
@@ -76,10 +72,10 @@ block content
                 p.title-describe
                     | #{seed.lang[lang]['personalLinkDescription']}
 
-                div.horizontal-line
                 a.read-more(href="#")
                     span #{seed.lang[lang]['makePersonalLink']}
-                    i.icon-arrow-left
+                    i.icon-left
+
 
     <!--ZarinCard-->
     div.row.section-zarincard
@@ -92,13 +88,11 @@ block content
                 p.title-describe
                     | #{seed.lang[lang]['goldestBankCardDescribe']}
 
-                div.horizontal-line
                 a.read-more(href="#")
                     span #{seed.lang[lang]['receiveZarinCard']}
-                    i.icon-arrow-left
-
+                    i.icon-left
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.zarincard-background
+            img.bg.zarincard-background(src="./assets/images/zarincard.svg")
 
     include partials/footer

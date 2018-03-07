@@ -32,7 +32,7 @@ block content
     <!--Pg-->
     div.row.section-pg#sectionPg
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.pg-background
+            img.bg.pg-background(src="./assets/images/pg.svg")
 
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
             div.gradiant-background
@@ -64,8 +64,25 @@ block content
                     i.icon-left
 
             div.col-lg-7.col-md-7.col-sm-12.col-xs-12.gray-bg
-                div.social-payment-background.xs-social-payment-background
+                img.bg.social-payment-background(src="./assets/images/social-image.svg")
 
+    <!--ZarinCard-->
+    div.row.section-zarincard
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.zarincard-background
+
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+            div.gradiant-background
+                p.top-title
+                    | #{seed.lang[lang]['zarinCard']}
+                div.header-title
+                    | #{seed.lang[lang]['goldestBankCard']}
+                p.title-describe
+                    | #{seed.lang[lang]['goldestBankCardDescribe']}
+
+                a.read-more(href="#")
+                    span #{seed.lang[lang]['receiveZarinCard']}
+                    i.icon-arrow-left
 
     <!--Read more-->
     div.section-read-more
