@@ -22,6 +22,7 @@ mix.setPublicPath('public/assets')
     //     }
     // })
     .copy('src/images/map-marker.png', 'public/assets/images')
+    .copy('src/images/app', 'public/assets/images')
     .sourceMaps();
 
 /*
