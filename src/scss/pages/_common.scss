@@ -146,6 +146,11 @@ li {
   color: #2ECC71;
 }
 
+svg *{
+  text-anchor: end;
+  letter-spacing: 0 !important;
+}
+
 @media only screen and (max-width: 575px) {
   .top-title,
   .header-title,
