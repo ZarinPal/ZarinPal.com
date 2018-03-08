@@ -23,6 +23,7 @@ mix.setPublicPath('public/assets')
     // })
     .copy('src/images/map-marker.png', 'public/assets/images')
     .copy('src/images/app', 'public/assets/images')
+    .copy('src/images/icon/favicon-32x32.ico', 'public/assets/images')
     .sourceMaps();
 
 /*
