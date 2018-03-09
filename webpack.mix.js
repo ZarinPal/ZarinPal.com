@@ -1,6 +1,11 @@
 let mix = require('laravel-mix');
 mix.pug = require('laravel-mix-pug');
 
+let baseUrl = '/';
+if ('production' === process.env.NODE_ENV) {
+    baseUrl = 'https://cdn.zarinpal.com/homepage/v2/';
+}
+
 mix.setPublicPath('public/assets')
     .setResourceRoot('../')
     .js('src/js/app.js', 'public/assets/js')
@@ -12,7 +17,8 @@ mix.setPublicPath('public/assets')
     .pug('src/pug/*.pug', 'public', {
         seeds: 'src',
         locals: {
-            lang: 'fa'
+            lang: 'fa',
+            config: { baseUrl: baseUrl }
         }
     })
     // .pug('src/pug/*.pug', 'public', {
