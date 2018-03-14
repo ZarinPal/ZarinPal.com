@@ -2,8 +2,10 @@ let mix = require('laravel-mix');
 mix.pug = require('laravel-mix-pug');
 
 let baseUrl = '/';
+let assetsHash = '';
 if ('production' === process.env.NODE_ENV) {
-    baseUrl = 'https://cdn.zarinpal.com/homepage/v2/';
+    baseUrl = '//cdn.zarinpal.com/home/v2/';
+    assetsHash = '?' + process.env.GIT_SHA;
 }
 
 mix.setPublicPath('public/assets')
@@ -18,7 +20,7 @@ mix.setPublicPath('public/assets')
         seeds: 'src',
         locals: {
             lang: 'fa',
-            config: { baseUrl: baseUrl }
+            config: { baseUrl: baseUrl, assetsHash: assetsHash }
         }
     })
     // .pug('src/pug/*.pug', 'public', {
