@@ -19,6 +19,12 @@
     }
   }
 
+  .more-menu {
+    &:after {
+      border-top: 4px solid #303030 !important;
+    }
+  }
+
   .icon-menu {
     color: #303030 !important;
   }
