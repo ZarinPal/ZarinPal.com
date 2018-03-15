@@ -1,0 +1,66 @@
+extends partials/layout
+block page-variables
+    - var pageTitle = seed.lang[lang]['privacyPolicy']
+    - var pageBlackHeader = true
+
+include partials/page_title
+
+block content
+    include partials/header
+    +pageTitle(seed.lang[lang]['privacyPolicy'])
+
+    div.page-section.policy-page
+        div.row
+            div.col-xs-12
+                h3.header-title #{seed.lang[lang]['overview']}
+                div.section-content.line-height
+                    | #{seed.lang[lang]['overviewDescribe1']}
+                    br
+                    | #{seed.lang[lang]['overviewDescribe2']}
+                    | #{seed.lang[lang]['overviewDescribe3']}
+                    | #{seed.lang[lang]['overviewDescribe4']}
+                    | #{seed.lang[lang]['overviewDescribe5']}
+
+        div.horizontal-line
+
+        div.col-xs-12
+            h3.header-title #{seed.lang[lang]['noticeOfChangingInformation']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['noticeOfChangingInformationDescribe1']}
+                br
+                | #{seed.lang[lang]['noticeOfChangingInformationDescribe2']}
+
+        div.horizontal-line
+
+        div.col-xs-12
+            h3.header-title #{seed.lang[lang]['noticeForChildren']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['noticeForChildrenDescribe']}
+
+        div.horizontal-line
+
+        div.col-xs-12
+            h3.header-title #{seed.lang[lang]['theInformationWeCollectFromYou']}
+            span.title #{seed.lang[lang]['neededInformation']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['neededInformationDescribe1']}
+                br
+                | #{seed.lang[lang]['neededInformationDescribe2']}
+                br
+                | #{seed.lang[lang]['neededInformationDescribe3']}
+
+            span.title #{seed.lang[lang]['transactionInformation']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['transactionInformationDescribe1']}
+                br
+                | #{seed.lang[lang]['transactionInformationDescribe2']}
+
+            span.title #{seed.lang[lang]['yourInformationFromThirdParty']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['yourInformationFromThirdPartyDescribe']}
+
+            span.title #{seed.lang[lang]['extraConfirm']}
+            div.section-content.line-height
+                | #{seed.lang[lang]['extraConfirmDescribe']}
+
+    include partials/footer
