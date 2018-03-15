@@ -32,15 +32,15 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 
 	meta(name="robots" content="index follow")
 	meta(http-equiv='X-UA-Compatible' content='IE=edge')
-	link(rel="stylesheet", href="/assets/css/app.css")
+	link(rel="stylesheet", href=config.baseUrl + 'assets/css/app.css' + config.assetsHash)
 
 	if pageBlackHeader
-		link(rel="stylesheet", href="/assets/css/pages_header.css")
+		link(rel="stylesheet", href=config.baseUrl + 'assets/css/pages_header.css' + config.assetsHash)
 
 	//meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
 	//meta(name="apple-mobile-web-app-capable" content="yes")
 	//link(rel="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
-	link(rel="icon", type="image/png", href="./assets/images/favicon-32x32.ico", sizes="32x32")
+	link(rel="icon", type="image/png", href=config.baseUrl + 'assets/images/favicon-32x32.ico', sizes="32x32")
 	//link(rel="manifest", href="/manifest.json")
 	//link(rel="mask-icon", href="/safari-pinned-tab.svg")
 	//meta(name="theme-color", content="#ffffff")
@@ -49,4 +49,4 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 		div.content
 			block content
 
-		script(src="/assets/js/app.js")
+		script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
