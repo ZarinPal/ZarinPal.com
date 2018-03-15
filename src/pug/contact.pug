@@ -7,21 +7,21 @@ include partials/page_title
 
 block content
     script
-        | function initMap() {
-        |    var location = {lat: 35.7285049, lng: 51.4034937};
-        |    var map = new google.maps.Map(document.getElementById('map'), {
-        |       zoom: 17,
-        |       center: location,
-        | });
-        | var marker = new google.maps.Marker({
-        |    position: location,
-        |    animation: google.maps.Animation.BOUNCE,
-        |    title: "zarinpal.com",
-        |    map: map,
-        |    optimized: false,
-        |    icon: './assets/images/map-marker.png',
-        | });
-        | }
+         function initMap() {
+            var location = {lat: 35.7285049, lng: 51.4034937};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                   zoom: 17,
+                   center: location,
+             });
+             var marker = new google.maps.Marker({
+                position: location,
+                animation: google.maps.Animation.BOUNCE,
+                title: "zarinpal.com",
+                map: map,
+                optimized: false,
+                icon: config.baseUrl + 'assets/images/map-marker.png'
+             });
+         }
 
     include partials/header
 
