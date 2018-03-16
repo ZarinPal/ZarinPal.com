@@ -6,12 +6,12 @@ block page-variables
 include partials/page_title
 
 block content
-    script
+    script.
          function initMap() {
             var location = {lat: 35.7285049, lng: 51.4034937};
             var map = new google.maps.Map(document.getElementById('map'), {
                    zoom: 17,
-                   center: location,
+                   center: location
              });
              var marker = new google.maps.Marker({
                 position: location,
@@ -19,7 +19,7 @@ block content
                 title: "zarinpal.com",
                 map: map,
                 optimized: false,
-                icon: config.baseUrl + 'assets/images/map-marker.png'
+                icon: 'assets/images/map-marker.png'
              });
          }
 

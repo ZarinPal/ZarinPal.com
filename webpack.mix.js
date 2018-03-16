@@ -20,7 +20,10 @@ mix.setPublicPath('public/assets')
         seeds: 'src',
         locals: {
             lang: 'fa',
-            config: { baseUrl: baseUrl, assetsHash: assetsHash }
+            config: {
+                baseUrl: baseUrl,
+                assetsHash: assetsHash
+            }
         }
     })
     // .pug('src/pug/*.pug', 'public', {
@@ -29,8 +32,8 @@ mix.setPublicPath('public/assets')
     //         lang: 'en'
     //     }
     // })
-    .copy('src/images/map-marker.png', 'public/assets/images')
     .copy('src/images/app', 'public/assets/images')
+    .copy('src/images/pages', 'public/assets/images')
     .copy('src/images/icon/favicon-32x32.ico', 'public/assets/images')
     .sourceMaps();
 
