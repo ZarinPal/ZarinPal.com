@@ -32,7 +32,7 @@ new Vue({
                 priority: '0'
             })
                 .then(function (response) {
-                    window.location.replace("/guestTicket/reply/" + vm.email + "/139612270127");
+                    window.location.replace("/guestTicket/reply/" + btoa(vm.email) + "/139612270127");
                 })
                 .catch(function (error) {
                     vm.errors = error.response.data.validation_errors;
