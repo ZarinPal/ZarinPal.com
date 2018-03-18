@@ -11,10 +11,17 @@ new Vue({
             email: null,
             name: null,
             phone: null,
+
+
+            /**
+             * Validation errors
+             */
+            errors: {}
         }
     },
     methods: {
         sendGuest() {
+            let vm = this;
             axios.post('https://www.zarinpal.com/rest/v3/ticket/guest.json', {
                 title: this.title,
                 content: this.content,
@@ -25,9 +32,10 @@ new Vue({
                 priority: '0'
             })
                 .then(function (response) {
-                    console.log(response);
+                    window.location.replace("/guestTicket/reply/" + vm.email + "/139612270127");
                 })
                 .catch(function (error) {
+                    vm.errors = error.response.data.validation_errors;
                     console.log(error);
                 });
         }
