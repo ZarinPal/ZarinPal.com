@@ -34,7 +34,7 @@ mix.setPublicPath('public/assets')
     // })
     .copy('src/images/app', 'public/assets/images')
     .copy('src/images/pages', 'public/assets/images')
-    .copy('src/images/favicon', 'public')
+    .copy('src/images/favicon', 'public/icons')
     .sourceMaps();
 
 /*
