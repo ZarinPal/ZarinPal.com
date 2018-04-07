@@ -80,6 +80,17 @@ li {
   min-height: 100%;
 }
 
+.disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.text-danger {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
 .title{
   font-size: $titleFontSize;
   font-family: IRANSansBold;
