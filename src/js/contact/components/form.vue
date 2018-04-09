@@ -97,8 +97,10 @@ export default {
                     priority: '0'
                 })
                     .then(function (response) {
+                        let publicId = response.data.data.public_id;
                         vm.requesting = false;
-                        window.location.replace("/guestTicket/reply/" + btoa(vm.email) + "/139612270127");
+
+                        window.location.replace("/panel/ticket/guest/" + btoa(vm.email) + "/" + btoa(publicId));
                     })
                     .catch(function (error) {
                         vm.requesting = false;
