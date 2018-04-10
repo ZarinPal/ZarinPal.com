@@ -93,7 +93,7 @@ export default {
                     email: this.email,
                     name: this.name,
                     phone: this.phone,
-                    ticket_department_id: '1',
+                    ticket_department_id: '3',
                     priority: '0'
                 })
                     .then(function (response) {
