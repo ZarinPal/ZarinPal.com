@@ -93,12 +93,14 @@ export default {
                     email: this.email,
                     name: this.name,
                     phone: this.phone,
-                    ticket_department_id: '1',
+                    ticket_department_id: '3',
                     priority: '0'
                 })
                     .then(function (response) {
+                        let publicId = response.data.data.public_id;
                         vm.requesting = false;
-                        window.location.replace("/guestTicket/reply/" + btoa(vm.email) + "/139612270127");
+
+                        window.location.replace("/panel/ticket/guest/" + btoa(vm.email) + "/" + btoa(publicId));
                     })
                     .catch(function (error) {
                         vm.requesting = false;
