@@ -1,52 +1,52 @@
 block page-variables
 
 if(typeof(lang) == "undefined")
-	lang = "fa";
+    lang = "fa";
 
 doctype html
 html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
-	head
+    head
 
-	block title
-	if(lang == "fa")
-		title
-			=pageTitle
-			|  | زرین‌پال، پرداخت‌یار‌ زرین
+    block title
+    if(lang == "fa")
+        title
+            =pageTitle
+            |  | زرین‌پال، پرداخت‌یار‌ زرین
 
 
-	meta(name="viewport" content="width=device-width, initial-scale=1")
-	meta(charset="utf-8")
-	meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
-	meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(charset="utf-8")
+    meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
+    meta(charset="utf-8")
 
-	link(rel="publisher" href="https://plus.google.com/+Zarinpal")
-	meta(name="keywords" content="کیف پول,درگاه مستقیم,پرداخت موبایلی,درگاه پرداخت درون برنامه ای,درگاه پرداخت بانکی,درگاه موبایلی,کیف پول آنلاین,ussd اختصاصی,زرین‌پال,درگاه واسط,درگاه پرداخت, پرداخت‌یار, پرداخت یار")
-	meta(name='description' content="زرین‌پال ارائه دهنده درگاه پرداخت,کیف‌پول,کیف پول آنلاین,درگاه ussd,پرداخت درون برنامه ای,درگاه مستقیم,پرداخت موبایلی,درگاه اختصاصی,درگاه واسط,درگاه پرداخت بانکی می باشد.")
+    link(rel="publisher" href="https://plus.google.com/+Zarinpal")
+    meta(name="keywords" content="کیف پول,درگاه مستقیم,پرداخت موبایلی,درگاه پرداخت درون برنامه ای,درگاه پرداخت بانکی,درگاه موبایلی,کیف پول آنلاین,ussd اختصاصی,زرین‌پال,درگاه واسط,درگاه پرداخت, پرداخت‌یار, پرداخت یار")
+    meta(name='description' content="زرین‌پال ارائه دهنده درگاه پرداخت,کیف‌پول,کیف پول آنلاین,درگاه ussd,پرداخت درون برنامه ای,درگاه مستقیم,پرداخت موبایلی,درگاه اختصاصی,درگاه واسط,درگاه پرداخت بانکی می باشد.")
 
-	meta(property='og:locale' content='fa_IR')
-	meta(property='og:type' content='website')
-	meta(property='og:url' content='https://www.zarinpal.com')
-	meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
-	meta(property='og:description' content="زرین‌پال ارائه دهنده درگاه پرداخت,کیف‌پول,کیف پول آنلاین,درگاه ussd,پرداخت درون برنامه ای,درگاه مستقیم,پرداخت موبایلی,درگاه اختصاصی,درگاه واسط,درگاه پرداخت بانکی می باشد.")
+    meta(property='og:locale' content='fa_IR')
+    meta(property='og:type' content='website')
+    meta(property='og:url' content='https://www.zarinpal.com')
+    meta(property='og:title' content='درگاه  پرداخت اینترنتی آسان پرداخت زرین‌پال')
+    meta(property='og:description' content="زرین‌پال ارائه دهنده درگاه پرداخت,کیف‌پول,کیف پول آنلاین,درگاه ussd,پرداخت درون برنامه ای,درگاه مستقیم,پرداخت موبایلی,درگاه اختصاصی,درگاه واسط,درگاه پرداخت بانکی می باشد.")
 
-	meta(name="robots" content="index follow")
-	meta(http-equiv='X-UA-Compatible' content='IE=edge')
-	link(rel="stylesheet", href=config.baseUrl + 'assets/css/app.css' + config.assetsHash)
+    meta(name="robots" content="index follow")
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    link(rel="stylesheet", href=config.baseUrl + 'assets/css/app.css' + config.assetsHash)
 
-	if pageBlackHeader
-		link(rel="stylesheet", href=config.baseUrl + 'assets/css/pages_header.css' + config.assetsHash)
+    if pageBlackHeader
+        link(rel="stylesheet", href=config.baseUrl + 'assets/css/pages_header.css' + config.assetsHash)
 
-	link(rel='apple-touch-icon', sizes='180x180', href='/icons/apple-touch-icon.png')
-	link(rel='icon', type='image/png', sizes='32x32', href='/icons/favicon-32x32.png')
-	link(rel='icon', type='image/png', sizes='16x16', href='/icons/favicon-16x16.png')
-	link(rel='manifest', href='/icons/site.webmanifest')
-	link(rel='mask-icon', href='/icons/safari-pinned-tab.svg', color='#5bbad5')
-	link(rel='shortcut icon', href='/icons/favicon.ico')
-	meta(name='msapplication-TileColor', content='#da532c')
-	meta(name='theme-color', content='#ffffff')
+    link(rel='apple-touch-icon', sizes='180x180', href='/icons/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='/icons/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='/icons/favicon-16x16.png')
+    link(rel='manifest', href='/icons/site.webmanifest')
+    link(rel='mask-icon', href='/icons/safari-pinned-tab.svg', color='#5bbad5')
+    link(rel='shortcut icon', href='/icons/favicon.ico')
+    meta(name='msapplication-TileColor', content='#da532c')
+    meta(name='theme-color', content='#ffffff')
 
-	body
-		div.content
-			block content
+    body
+        div.content
+            block content
 
-		script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
+        script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
