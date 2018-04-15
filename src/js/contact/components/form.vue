@@ -38,7 +38,7 @@
 				div {{getError('content')}}
 					div.text-danger {{validationErrors.content}}
 
-			div(class="g-recaptcha" data-sitekey="6Lcrtc4SAAAAAKekvip0yI9Dp2DKXyVtliBXnqHS")
+			div.g-recaptcha#contact-g-recaptcha(:data-sitekey="siteKey")
 
 		div.ta-left
 			button.btn.btn-gold(@click="sendGuest" :click="{'disable': requesting}")
@@ -56,6 +56,8 @@ export default {
             email: null,
             name: null,
             phone: null,
+            siteKey: '6Lcrtc4SAAAAAKekvip0yI9Dp2DKXyVtliBXnqHS',
+            g_recaptcha: '',
 
 			/**
 			 * common
@@ -79,8 +81,23 @@ export default {
     },
     computed: {
     },
+	mounted(){
+        let tag = document.createElement("script");
+        tag.src = "https://www.google.com/recaptcha/api.js?onload=onloadgrecaptcha&hl=fa-IR";
+        let gReCaptchaElement = document.getElementById('contact-g-recaptcha');
+        let sitekey = this.siteKey;
+        window.onloadgrecaptcha = function(){
+            this.rcapt_id = grecaptcha.render(gReCaptchaElement , { sitekey });
+        };
+        document.getElementsByTagName("head")[0].appendChild(tag);
+    },
     methods: {
         sendGuest() {
+            this.g_recaptcha = window.grecaptcha.getResponse(this.rcapt_id);
+            if (this.g_recaptcha.length === 0) {
+                return
+            }
+
             if (!this.requesting) {
                 let vm = this;
                 vm.requesting = true;
@@ -94,7 +111,8 @@ export default {
                     name: this.name,
                     phone: this.phone,
                     ticket_department_id: '3',
-                    priority: '0'
+                    priority: '0',
+                    g_recaptcha: this.g_recaptcha
                 })
                     .then(function (response) {
                         let publicId = response.data.data.public_id;
