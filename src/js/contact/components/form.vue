@@ -56,7 +56,7 @@ export default {
             email: null,
             name: null,
             phone: null,
-            siteKey: '6Lcrtc4SAAAAAKekvip0yI9Dp2DKXyVtliBXnqHS',
+            siteKey: '6LcDpDcUAAAAAMiXOz1gA3By9oEJ4-PYqct1Ihn5',
             g_recaptcha: '',
 
 			/**
