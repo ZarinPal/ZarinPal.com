@@ -36,28 +36,62 @@
   .social-networks {
     .icon-link {
       background-color: #f2f3f5;
-      padding: 16px 8px 2px 11px;
       border-radius: 50%;
       margin: 10px;
     }
 
+    .twitter-bg{
+      padding: 16px 8px 0px 11px;
+    }
+    .instagram-bg{
+      padding: 16px 8px 0px 13px;
+    }
+    .telegram-bg{
+      padding: 16px 8px 0px 11px;
+    }
+
     .icon {
-      width: 26px;
-      height: 22px;
-      background-size: 100% 100%;
       display: inline-block;
+    }
+    .icon:hover{
+      opacity: 0.7;
     }
 
     .telegram {
       background: url("../../images/social/telegram.svg") no-repeat;
+      width: 24px;
+      height: 21px;
+      background-size: 100% 100%;
+      position: relative;
+      top: -1px;
+      bottom: 0px;
+      right: 3px;
+      left: 0px;
     }
 
     .instagram {
       background: url("../../images/social/instagram.svg") no-repeat;
+      width: 22px;
+      height: 22px;
+      background-size: 100% 100%;
+      position: relative;
+      top: -1px;
+      bottom: 0px;
+      right: 2px;
+      left: 7px;
+
     }
 
     .twitter {
       background: url("../../images/social/twitter.svg") no-repeat;
+      width: 25px;
+      height: 20px;
+      background-size: 100% 100%;
+      position: relative; 
+      top: -1px;
+      bottom: 0px;
+      right: 1px;
+      left: 7px;
     }
   }
 
