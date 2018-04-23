@@ -7,7 +7,7 @@ block content
 
     include partials/header
 
-    div.row.page-head.application-page
+    div.row.page-head.application-page.center-xs
         div.col-xs-12.ta-center.application-title
             p.header-title #{seed.lang[lang]['applications']}
 
@@ -18,10 +18,10 @@ block content
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12.application-col
             img.bg.zarinpal-application-image(src=config.baseUrl + 'assets/images/zarinpal-application.png')
 
-            div.p-r-50
-                p.top-title.xs-ta-center
+            div.p-r-50.ta-right
+                p.top-title.xs-ta-right
                     |#{seed.lang[lang]['myZarinpalApplication']}
-                div.header-title.xs-ta-center
+                div.header-title.xs-ta-right
                     | #{seed.lang[lang]['myZarinpalApplicationTitleُ']}
                 p.title-describe
                     | #{seed.lang[lang]['myZarinpalApplicationDescriptionُ']}
@@ -30,7 +30,7 @@ block content
                     a.btn.btn-gold(href="https://new.sibapp.com/applications/zarinpal") #{seed.lang[lang]['iosVersion']}
                     a.btn.btn-gold(href="https://cafebazaar.ir/app/com.zarinpal.ewallets/?l=fa") #{seed.lang[lang]['androidVersion']}
 
-                div.properties
+                div.properties.ta-right
                     div.header-title
                         |#{seed.lang[lang]['properties']}
                     ul
@@ -39,31 +39,31 @@ block content
                         li #{seed.lang[lang]['connectWithSupportAndSubmitTicket']}
                         li #{seed.lang[lang]['turnoverNotifications']}
 
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.zarinak-col
-            img.bg.zarinak-application-image(src=config.baseUrl + 'assets/images/zarinak-application.png')
+        //- div.col-lg-6.col-md-6.col-sm-12.col-xs-12.zarinak-col
+        //-     img.bg.zarinak-application-image(src=config.baseUrl + 'assets/images/zarinak-application.png')
 
-            div.p-r-50.right-border
-                p.top-title.xs-ta-center
-                    |#{seed.lang[lang]['zarinakApplication']}
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['zarinakApplicationTitle']}
-                p.title-describe
-                    | #{seed.lang[lang]['zarinakApplicationDescription']}
+        //-     div.p-r-50.right-border
+        //-         p.top-title.xs-ta-center
+        //-             |#{seed.lang[lang]['zarinakApplication']}
+        //-         div.header-title.xs-ta-center
+        //-             | #{seed.lang[lang]['zarinakApplicationTitle']}
+        //-         p.title-describe
+        //-             | #{seed.lang[lang]['zarinakApplicationDescription']}
 
-                div.row.buttons
-                    a.btn.btn-gold(href="#") #{seed.lang[lang]['downloadForAndroid']}
+        //-         div.row.buttons
+        //-             a.btn.btn-gold(href="#") #{seed.lang[lang]['downloadForAndroid']}
 
 
-                div.properties
-                    div.header-title
-                        | #{seed.lang[lang]['properties']}
-                    ul
-                        li #{seed.lang[lang]['moneyTransfer']}
-                        li #{seed.lang[lang]['insurance']}
-                        li #{seed.lang[lang]['buyInternet']}
-                        li #{seed.lang[lang]['BankAccountsBalance']}
-                        li #{seed.lang[lang]['requestMoney']}
-                        li #{seed.lang[lang]['buyAndPayBills']}
+        //-         div.properties
+        //-             div.header-title
+        //-                 | #{seed.lang[lang]['properties']}
+        //-             ul
+        //-                 li #{seed.lang[lang]['moneyTransfer']}
+        //-                 li #{seed.lang[lang]['insurance']}
+        //-                 li #{seed.lang[lang]['buyInternet']}
+        //-                 li #{seed.lang[lang]['BankAccountsBalance']}
+        //-                 li #{seed.lang[lang]['requestMoney']}
+        //-                 li #{seed.lang[lang]['buyAndPayBills']}
 
 
     include partials/footer
