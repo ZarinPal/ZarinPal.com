@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="145px" height="600px" viewBox="0 0 145 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 8</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="100%" x2="-2.22044605e-14%" y2="2.83276945e-14%" id="linearGradient-1">
-            <stop stop-color="#FFEC7B" offset="0%"></stop>
-            <stop stop-color="#FFD757" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-879.000000, -2209.000000)">
-        <rect id="Rectangle-8" fill="url(#linearGradient-1)" transform="translate(1270.000000, 2468.500000) scale(-1, -1) rotate(74.000000) translate(-1270.000000, -2468.500000) " x="953" y="2128" width="634" height="681" rx="100"></rect>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="604" viewBox="0 0 147 604">
+  <defs>
+    <linearGradient id="gold-bg-a" x1="100%" x2="0%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFEC7B"/>
+      <stop offset="100%" stop-color="#FFD757"/>
+    </linearGradient>
+  </defs>
+  <rect width="634" height="681" x="77" y="-55" fill="url(#gold-bg-a)" fill-rule="evenodd" rx="100" transform="rotate(-106 383.08 274.13)"/>
 </svg>

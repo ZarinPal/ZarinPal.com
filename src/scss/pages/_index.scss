@@ -4,13 +4,14 @@
     margin-top: 130px;
 
     .gradient-background {
-      margin-right: 30px;
+      
 
       &:before {
         content: '';
         z-index: -4;
         bottom: 0;
         background: url("../../images/index/gradiant-top.svg") top left no-repeat;
+        margin-right: 80px;
         position: absolute;
         right: 0;
         background-size: 100% 100%;
@@ -67,7 +68,8 @@
       background: url("../../images/index/blue-bg.svg") top left no-repeat;
       z-index: -1;
       position: absolute;
-      background-size: 100% 100%;
+      /* background-size: 100% 100%; */
+      margin-left: 150px;
     }
   }
 
