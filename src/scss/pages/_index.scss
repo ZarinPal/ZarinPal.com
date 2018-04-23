@@ -137,33 +137,34 @@
     }
 
     .image-icon {
-      width: 20px;
-      height: 20px;
+      width: 60px;
+      height: 60px;
       display: inline-block;
-      background-size: 20px 20px !important;
       margin: 0 20px -10px 10px;
       position: relative;
       top: 27px;
       background-color: #EDF0F4 !important;
-      padding: 14px;
       border-radius: 17px;
-      background-position: 14px !important;
     }
 
     .image-verified-account {
-      background: url("../../images/icon/verified-account.png") no-repeat;
+      background: url("../../images/icon/verified.svg") no-repeat;
+      background-position: 13px !important;
     }
 
     .image-split {
-      background: url("../../images/icon/split.png") no-repeat;
+      background: url("../../images/icon/split.svg") no-repeat;
+      background-position: 11px !important;
     }
 
     .image-support {
-      background: url("../../images/icon/support.png") no-repeat;
+      background: url("../../images/icon/support.svg") no-repeat;
+      background-position: 13px !important;
     }
 
     .image-security {
-      background: url("../../images/icon/security.png") no-repeat;
+      background: url("../../images/icon/security.svg") no-repeat;
+      background-position: 16px !important;
     }
 
     .description {
