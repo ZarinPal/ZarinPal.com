@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="722" height="729" viewBox="0 0 722 729">
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="668" viewBox="0 0 656 668">
   <defs>
-    <linearGradient id="yellow-a" x1="54.344%" x2="116.021%" y1="43.144%" y2="133.035%">
-      <stop offset="0%" stop-color="#FFC300" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#FFC400"/>
+    <linearGradient id="gradient-top-a" x1="57.515%" x2="107.908%" y1="51.481%" y2="96.767%">
+      <stop offset="0%" stop-color="#FFD600" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFD600"/>
     </linearGradient>
   </defs>
-  <path fill="url(#yellow-a)" fill-rule="evenodd" d="M718,195 L1561,195 L1643,195 L1643,674.407365 C1643,706.033452 1621.7943,733.731271 1591.26363,741.982802 L1359.86949,804.521759 L718,978 L718,195 Z" opacity=".3" transform="matrix(-1 0 0 1 1643 -195)"/>
+  <path fill="url(#gradient-top-a)" fill-rule="evenodd" d="M832,195 L1486.35027,195 L1550,195 L1550,678.251361 C1550,708.038915 1531.14895,734.563738 1503.01787,744.358681 L832,978 L832,195 Z" opacity=".3" transform="matrix(-1 0 0 1 1550 -289)"/>
 </svg>
