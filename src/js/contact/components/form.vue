@@ -118,7 +118,7 @@ export default {
                         let publicId = response.data.data.public_id;
                         vm.requesting = false;
 
-                        window.location.replace("https://my.zarinpal.com/panel/ticket/guest/" + btoa(vm.email) + "/" + btoa(publicId));
+                        window.location.replace("https://my.zarinpal.com/panel/ticket/guest/" + btoa(vm.phone) + "/" + btoa(publicId));
                     })
                     .catch(function (error) {
                         vm.requesting = false;
