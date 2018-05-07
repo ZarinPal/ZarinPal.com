@@ -44,9 +44,8 @@ export default {
 
 	methods: {
 		fetchData(cat, pageNum) {
-
 		    let vm = this;
-            axios.get(`https://www.zarinpal.com/rest/v3/merchantStatistics/webServicesList/${cat}.json?page=${pageNum}`)
+            axios.get(`https://www.zarinpal.com/rest/v3/merchantStatistics/category/${cat}.json?page=${pageNum}`)
                 .then(function (response) {
                     vm.catInfo = response.data.catInfo;
                     vm.merchantItems = response.data.list;

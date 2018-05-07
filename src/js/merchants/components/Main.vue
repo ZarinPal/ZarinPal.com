@@ -27,7 +27,7 @@ export default {
 	methods: {
 		fetchData() {
 		    let vm = this;
-            axios.get('https://www.zarinpal.com/rest/v3/merchantStatistics/webServicesCat.json')
+            axios.get('https://www.zarinpal.com/rest/v3/merchantStatistics/category.json')
                 .then(function (response) {
                     vm.catList = response.data;
                     vm.loading = false;
