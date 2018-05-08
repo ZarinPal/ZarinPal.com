@@ -1,11 +1,14 @@
 block variables
     -var visibleMobileMenu = false
-
 block header
     div.row.header
         div.col-lg-2.col-md-2.col-sm-2.col-xs-6
             a(href="/")
-                div.new-logo
+                if whiteLogo
+                    div.new-logo.new-logo-white
+                else
+                    div.new-logo.new-logo-black
+
         div.col-lg-10.col-md-10.col-sm-10.col-xs-6.ta-left
             i.hand.icon-menu.hidden-lg.hidden-xl.hidden-md#btnToggleMobileMenu
             ul.links.hidden-xs.hidden-sm
@@ -26,9 +29,8 @@ block header
                                 li #{seed.lang[lang]['products']}
                             a(href="/contact.html")
                                 li #{seed.lang[lang]['contactUs']}
-
+                span.vertical-line
                 a.btn-login-to-account.pull-left(href="https://my.zarinpal.com/auth/login")
-                    span.icon-person
                     li #{seed.lang[lang]['loginToAccount']}
 
         //Mobile menu

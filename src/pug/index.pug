@@ -1,34 +1,39 @@
 extends partials/layout
 block page-variables
     - var pageTitle = seed.lang[lang]['mainPage']
+    - var whiteLogo = true
 
 block content
-    include partials/header
+    div.index-header
+        div.custom-index-header
+            include partials/header
 
-    <!--New Zarinpal-->
-    div.row.section-new-version
-        div.blue-bg
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
-            div.gradient-background
-                span.tag.iransans-medium
-                    span.label #{seed.lang[lang]['new']}
-                    |#{seed.lang[lang]['designSectionOfZarinPalWasLaunched']}
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['zarinPalNewVersion']}
-                    | #{seed.lang[lang]['itsHere']}
-                p.new-zarinpal-description.line-height
-                    | #{seed.lang[lang]['newZarinpalDescription']}
+        <!--New Zarinpal-->
+        div.row.section-new-version
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
+                div.gradient-background.white
+                    span.tag.iransans-medium
+                        span.tag-label-background
+                            span.label #{seed.lang[lang]['new']}
+                        span
+                            span.label-text #{seed.lang[lang]['designSectionOfZarinPalWasLaunched']}
+                    div.header-title.xs-ta-center.white
+                        | #{seed.lang[lang]['zarinPalNewVersion']}
+                        | #{seed.lang[lang]['itsHere']}
+                    p.new-zarinpal-description.line-height
+                        | #{seed.lang[lang]['newZarinpalDescription']}
 
-                div.links
-                    a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
-                    a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
+                    div.links
+                        a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
+                        a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
 
-                div.btn-go-bottom-section
-                    i.icon-arrow-down.pointer#btnGoDown
+            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
+                div.wave
+                    include images/request-money
+                    //div.request-money
 
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
-            div.request-money
-
+        div.col-xs-12.btn-go-bottom-section.ta-center
+            i.icon-arrow-down.pointer#btnGoDown
     <!--Pg-->
     div.row.section-pg#sectionPg
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12
