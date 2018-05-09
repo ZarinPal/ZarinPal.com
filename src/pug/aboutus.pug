@@ -1,41 +1,58 @@
 extends partials/layout
 block page-variables
     - var pageTitle = seed.lang[lang]['aboutUs']
-    - var pageBlackHeader = true
-
-include partials/page_title
 
 block content
     include partials/header
 
-        div.aboutus-page
-            div.pictured-page-title
-                span.text   #{seed.lang[lang]['aboutUs']}
+    div.about_us
+        div.row.section-one
+            div.col-lg-8.col-md-8.col-sm-12.col-xs-12
+                p.top-title #{seed.lang[lang]['Firstclassteam']}
+                div.header-title #{seed.lang[lang]['onehandhasnosound']}
+                p.title-describe #{seed.lang[lang]['ZarrinPalstaffperformance']}
+            div.col-lg-4.col-md-4.col-sm-12.col-xs-12
+                div.piczarin
 
-            div.page-section#what-is-zarinpal
-                div.row
-                    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-                        //div.top-page-image
-                        img.bg.top-page-image(src=config.baseUrl + 'assets/images/mostafa-amiri.png')
+        div.row.section-two
+            div.col-xs
+                div.row.user-info
+                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                        div.personal
+                            div.avatar.before
+                            p.name #{seed.lang[lang]['name']}
+                            p.role #{seed.lang[lang]['role']}
 
-                    div.col-lg-6.col-md-6.col-sm-12.col-xs-12.first-md
-                        span.note   #{seed.lang[lang]['whatIsZarinpalNote']}
-                        h3  #{seed.lang[lang]['whatIsZarinpal']}
-                        div.section-content #{seed.lang[lang]['whatIsZarinpalDes']}
+                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                        div.personal
+                            div.avatar
+                            p.name #{seed.lang[lang]['name']}
+                            p.role #{seed.lang[lang]['role']}
 
-            div.page-section#why-zarin
-                div.row
-                    div.col-xs-12
-                        span.note #{seed.lang[lang]['whyZarinpla']}
-                        h3  #{seed.lang[lang]['whyZarinplaNote']}
-                        div.section-content
-                            | #{seed.lang[lang]['whyZarinplaDes']}
+                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                        div.personal
+                            p.avatar
+                            p.name #{seed.lang[lang]['name']}
+                            p.role #{seed.lang[lang]['role']}
 
-            //div.page-section.ta-center#team
-            //    div.row
-            //        div.col-xs-12
-            //            span.note #{seed.lang[lang]['zarinPalTeam']}
-            //            h3  #{seed.lang[lang]['zarinPalTeamNote']}
-            //            div.section-content #{seed.lang[lang]['zarinPalTeamDes']}
+                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                        div.personal
+                            p.avatar.after
+                            p.name #{seed.lang[lang]['name']}
+                            p.role #{seed.lang[lang]['role']}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     include partials/footer

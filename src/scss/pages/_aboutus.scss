@@ -1,35 +1,97 @@
-.aboutus-page {
-  .top-page-image {
-    margin: 0 auto;
-  }
-
-  .pictured-page-title {
-    width: 100%;
-    height: 220px;
-    color: #FFFFFF;
-    text-align: center;
-    background-size: cover;
-    border-radius: 10px;
-    background: url("../../images/aboutus-header.png") center;
-    margin-bottom: 70px;
-
-    span.text {
-      font-size: 28px;
-      line-height: 7.7;
-      font-weight: bolder;
+.about_us {
+  .section-one{
+    .piczarin{
+      background: url("../../images/about_us/zarinpic.svg") no-repeat center;
+      width: 330px;
+      height: 340px;
+      background-size: cover;
+      position: relative;
+      margin: auto;
     }
+
+   .title-describe{
+     border-bottom: none !important;
+   }
   }
 
-  #why-zarin {
-    background-color: #f2f3f5;
+  .section-two{
+    .avatar{
+      background: url("../../images/about_us/childs/aminNazari.jpg") no-repeat center;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-size: cover;
+      position: relative;
+      margin: auto;
+      &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -100%;
+        width: 100%;
+        height: 1px;
+        background: #BFC6D2;
+        z-index: -1;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -100%;
+        width: 100%;
+        height: 1px;
+        background: #BFC6D2;
+        z-index: -1;
+      }
+    }
+    .personal{
+      .after{
+        &:before {
+          display: none;
+        }
+      }
+      .before{
+        &:after {
+          display: none;
+        }
+      }
+
+      .name{
+        margin:30px auto 18px auto;
+        padding: 8px;
+        text-align: center;
+        width: 114px;
+        height: 40px;
+        font-size: 20px;
+        color: #303030;
+        letter-spacing: -1.56px;
+        line-height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 6px 0 rgba(48,56,71,0.15);
+        border-radius: 100px;
+
+      }
+      .avatar{
+
+
+      }
+      .role{
+        font-size: 20px;
+        color: #303030;
+        line-height: 40px;
+        text-align: center;
+      }
+    }
+
   }
+
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .aboutus-page {
-    .top-page-image {
-      width: 557px;
-    }
-  }
-}
+
+
+
+
+
+
+
+
