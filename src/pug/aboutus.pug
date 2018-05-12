@@ -12,47 +12,19 @@ block content
                 div.header-title #{seed.lang[lang]['onehandhasnosound']}
                 p.title-describe #{seed.lang[lang]['ZarrinPalstaffperformance']}
             div.col-lg-4.col-md-4.col-sm-12.col-xs-12
-                div.piczarin
+                div.zarin-logo
 
         div.row.section-two
             div.col-xs
                 div.row.user-info
-                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
-                        div.personal
-                            div.avatar.before
-                            p.name #{seed.lang[lang]['name']}
-                            p.role #{seed.lang[lang]['role']}
-
-                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
-                        div.personal
-                            div.avatar
-                            p.name #{seed.lang[lang]['name']}
-                            p.role #{seed.lang[lang]['role']}
-
-                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
-                        div.personal
-                            p.avatar
-                            p.name #{seed.lang[lang]['name']}
-                            p.role #{seed.lang[lang]['role']}
-
-                    div.col-lg-3.col-md-3.col-sm-12.col-xs-12
-                        div.personal
-                            p.avatar.after
-                            p.name #{seed.lang[lang]['name']}
-                            p.role #{seed.lang[lang]['role']}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    each child, index in seed.resource.aboutus.team
+                        div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                            div.personal.ta-center
+                                a.avatar-img(class={"background-line":index%4!==0, "first-img":index%4===0,"last-img":index%4===1})
+                                    img.avatar(src=config.baseUrl +  child.avatar)
+                                div.first-img
+                                p.name= child.name
+                                p.role= child.role
 
     include partials/footer
+    script(src=config.baseUrl + 'assets/js/merchants/app.js' + config.assetsHash)

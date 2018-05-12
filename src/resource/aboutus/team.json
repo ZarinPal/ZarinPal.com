@@ -1,0 +1,63 @@
+{
+  "1":{
+    "name": "امین نظری",
+    "role": "Backend Developer",
+    "avatar": "assets/images/about_us/childs/aminNazari.jpg"
+  },
+  "2":{
+    "name": "هومن نقی ای",
+    "role": "Chief Technology Officer",
+    "avatar": "assets/images/about_us/childs/hoomannaghei.jpg"
+
+  },
+  "3":{
+    "name": "محمد عباسی فرد",
+    "role": "Content Manager",
+    "avatar": "assets/images/about_us/childs/mohamadabbasifard.jpg"
+  },
+  "4":{
+    "name": "مرجان حسینی",
+    "role": "Graphic Designer",
+    "avatar": "assets/images/about_us/childs/marjanhoseyni.jpg"
+  },
+  "5":{
+    "name": "مهدی مهره چی",
+    "role": "Head Of Designe",
+    "avatar": "assets/images/about_us/childs/mehdimohrechi.jpg"
+  },
+  "6":{
+    "name": "سیده آزاده میرنظامی",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/childs/azadehmirnezami.jpg"
+  },
+  "7":{
+    "name": "مسعود امینی",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/childs/masoodamini.jpg"
+  },
+  "8":{
+    "name": "علیرضا ترازانی",
+    "role": "Senior Mobile Developer ",
+    "avatar": "assets/images/about_us/childs/alirezatarazani.jpg"
+  },
+  "9":{
+    "name": "یگانه بهشتی",
+    "role": "accountet ",
+    "avatar": "assets/images/about_us/childs/yeganehbeheshti.jpg"
+  },
+  "10":{
+    "name": "علی امیری",
+    "role": "Co-Founder ",
+    "avatar": "assets/images/about_us/childs/aliamiri.jpg"
+  },
+  "11":{
+    "name": "نیما نورافشان",
+    "role": "Support Managernimanorafshan.jpg",
+    "avatar": "assets/images/about_us/childs/nimanorafshan.jpg"
+  },
+  "12":{
+    "name": "فرشید روحی",
+    "role": "Mobile Developer",
+    "avatar": "assets/images/about_us/childs/farshidrohi.jpg"
+  }
+}
