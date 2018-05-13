@@ -1,6 +1,7 @@
 extends partials/layout
 block page-variables
     - var pageTitle = seed.lang[lang]['aboutUs']
+    - var whiteLogo = true
 
 block content
     div.about_us
@@ -29,6 +30,8 @@ block content
 
         <!--zarinlogo&description-->
         div.row.section-two
+            div.col-xs-12
+                p.yellow-oval
             div.col-lg-8.col-md-8.col-sm-12.col-xs-12
                 p.top-title #{seed.lang[lang]['Firstclassteam']}
                 div.header-title #{seed.lang[lang]['onehandhasnosound']}
@@ -41,9 +44,9 @@ block content
             div.col-xs
                 div.row.user-info
                     each child, index in seed.resource.aboutus.team
-                        div.col-lg-3.col-md-3.col-sm-12.col-xs-12
+                        div.col-lg-3.col-md-3.col-sm-4.col-xs-6
                             div.personal.ta-center
-                                a.avatar-img(class={"background-line":index%4!==0, "first-img":index%4===0,"last-img":index%4===1})
+                                a.avatar-img(class={"background-line":index%4!==0,"background-linetablet":index%3!==0, "background-linetabletsm":index%2!==0,"first-img":index%4===0,"last-img":index%4===1})
                                     img.avatar(src=config.baseUrl +  child.avatar)
                                 p.name= child.name
                                 p.role= child.role

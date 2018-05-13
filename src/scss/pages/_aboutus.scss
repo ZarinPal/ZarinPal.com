@@ -1,11 +1,24 @@
 .about_us {
+  .blue-header{
+
+    .btn-go-bottom-section{
+      margin-top: 0px !important;
+    }
+  }
   .section-one{
+
       .title-describe {
         border-bottom: none !important;
       }
   }
 
   .section-two {
+    .yellow-oval{
+      background: url("../../images/about_us/Oval.svg") no-repeat center;
+      width: auto;
+      height: 80px;
+      margin: auto;
+    }
     .zarin-logo {
       background: url("../../images/about_us/zarinpic.svg") no-repeat center;
       width: 330px;
@@ -14,23 +27,148 @@
       position: relative;
       margin: auto;
     }
+
     .title-describe {
       border-bottom: none !important;
     }
   }
 
   .section-tree {
+    max-width: 85%;
+    margin: auto;
     .personal {
-      margin-top: 61px;
-      .first-img{
-        &:before {
-          content: '';
-          border-left: 2px solid #BFC6D2;
-          height: 90px;
-          position: absolute;
+      margin-top: 35px;
+      .avatar-img {
+        .avatar {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          box-shadow: 0 4px 12px 0 rgba(48,56,71,0.15);
         }
       }
 
+      .name {
+        margin: 12px auto 18px auto;
+        padding: 0px 8px 0px 8px;
+        text-align: center;
+        width: max-content;
+        height: auto;
+        font-size: 16px;
+        font-family: IRANSansBold;
+        color: #303030;
+        line-height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
+        border-radius: 100px;
+      }
+
+      .role{
+        font-size:14px;
+      }
+    }
+  }
+}
+/* Media
+   ----------------------------- */
+
+@media(max-width: 326px){
+  .section-tree {
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 150px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* extra small */
+@media(min-width: 326px)  and  (max-width: 575px) {
+  .section-tree {
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 230px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px)  and (max-width: 767px){
+  .section-tree {
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 310px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-tree {
+    .personal {
+      .background-linetablet {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 290px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+  .section-tree {
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 300px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .section-tree {
+    .personal {
       .background-line {
         &:before {
           margin: 45px auto;
@@ -42,38 +180,7 @@
           z-index: -1;
         }
       }
-
-      .avatar-img {
-        .avatar {
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
-        }
-      }
-
-      .name {
-        margin: 30px auto 18px auto;
-        padding: 0px 8px 0px 8px;
-        text-align: center;
-        width: max-content;
-        height: auto;
-        font-size: 20px;
-        color: #303030;
-        letter-spacing: -1.56px;
-        line-height: 40px;
-        background: #FFFFFF;
-        box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
-        border-radius: 100px;
-      }
     }
   }
 }
-
-
-
-
-
-
-
-
 

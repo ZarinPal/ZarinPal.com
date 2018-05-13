@@ -33,7 +33,7 @@ mix.setPublicPath('public/assets')
     //     }
     // })
     .copy('src/images/app', 'public/assets/images')
-    .copy('src/images/about_us', 'public/assets/images/about_us')
+    .copy('src/images/about_us', 'public/assets/images')
     .copy('src/images/pages', 'public/assets/images')
     .copy('src/images/favicon', 'public/icons')
     .sourceMaps();
