@@ -1,0 +1,107 @@
+.blue-header {
+  background-image: linear-gradient(135deg, #21254E 0%, #2B4A83 100%);
+  -webkit-box-shadow: 0 20px 40px 0 rgba(36, 46, 91, 0.26);
+  box-shadow: 0 20px 40px 0 rgba(36, 46, 91, 0.26);
+  border-radius: 20px;
+  margin-top: -30px;
+
+  .custom-blue-header {
+    ul {
+      li:hover {
+        border-bottom: 2px solid #fff;
+        transition: 400ms;
+      }
+    }
+  }
+
+  .section-new-version {
+    .links {
+      margin: 40px 0;
+
+      a {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .wave {
+    width: 846px;
+    height: 509px;
+    background: url("../../images/index/wave.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .icon-arrow-down {
+    display: inline-block;
+    font-size: 33px;
+    background-color: #FFFFFF;
+    box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 100px;
+    color: #21254E;
+    position: relative;
+    bottom: -22px;
+    cursor: pointer;
+  }
+}
+
+/* Media
+   ----------------------------- */
+
+/* extra small */
+@media (max-width: 575px) {
+  .blue-header {
+    padding: 30px 10px;
+  }
+
+  .btn-go-bottom-section {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 576px)  and (max-width: 767px){
+  .blue-header {
+    padding: 30px 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .blue-header {
+    padding: 30px 10px;
+  }
+
+  .btn-go-bottom-section {
+    text-align: center !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+  .blue-header {
+    margin-left: -5%;
+    margin-right: -5%;
+    padding: 40px 100px 0 100px;
+
+    .wave {
+      margin-top: 30px;
+      bottom: -20px;
+      right: -337px;
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .blue-header {
+    margin-left: -5%;
+    margin-right: -5%;
+    padding: 40px 100px 0 100px;
+
+    .wave {
+      margin-top: 30px;
+      bottom: -20px;
+      right: -211px;
+    }
+  }
+}
