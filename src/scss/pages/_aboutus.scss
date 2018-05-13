@@ -1,5 +1,11 @@
 .about_us {
-  .section-one {
+  .section-one{
+      .title-describe {
+        border-bottom: none !important;
+      }
+  }
+
+  .section-two {
     .zarin-logo {
       background: url("../../images/about_us/zarinpic.svg") no-repeat center;
       width: 330px;
@@ -8,16 +14,23 @@
       position: relative;
       margin: auto;
     }
-
     .title-describe {
       border-bottom: none !important;
     }
   }
 
-  .section-two {
+  .section-tree {
     .personal {
       margin-top: 61px;
-      
+      .first-img{
+        &:before {
+          content: '';
+          border-left: 2px solid #BFC6D2;
+          height: 90px;
+          position: absolute;
+        }
+      }
+
       .background-line {
         &:before {
           margin: 45px auto;

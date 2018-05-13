@@ -3,18 +3,41 @@ block page-variables
     - var pageTitle = seed.lang[lang]['aboutUs']
 
 block content
-    include partials/header
-
     div.about_us
-        div.row.section-one
+        div.blue-header
+            div.custom-blue-header
+                include partials/header
+            <!--whatiszarinpal-->
+            div.row.section-one
+                div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center
+                    div.gradient-background.white
+                        span.tag.iransans-medium
+                            span
+                                span.top-title.white #{seed.lang[lang]['whatIsZarinpalNote']}
+                        div.header-title.xs-ta-center.white.header-title
+                            | #{seed.lang[lang]['whatIsZarinpal']}
+                            | #{seed.lang[lang]['itsHere']}
+                        p.title-describe.line-height.auto-margin.ta-justify
+                            | #{seed.lang[lang]['whatIsZarinpalDes']}
+
+                        div.links
+                            a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
+                            a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
+                            a.btn.btn-normal(href="#") #{seed.lang[lang]['Jobopportunity']}
+            div.col-xs-12.btn-go-bottom-section.ta-center
+                i.icon-arrow-down.pointer#btnGoDown
+
+        <!--zarinlogo&description-->
+        div.row.section-two
             div.col-lg-8.col-md-8.col-sm-12.col-xs-12
                 p.top-title #{seed.lang[lang]['Firstclassteam']}
                 div.header-title #{seed.lang[lang]['onehandhasnosound']}
                 p.title-describe #{seed.lang[lang]['ZarrinPalstaffperformance']}
+
             div.col-lg-4.col-md-4.col-sm-12.col-xs-12
                 div.zarin-logo
-
-        div.row.section-two
+        <!--childrenzarinpal-->
+        div.row.section-tree
             div.col-xs
                 div.row.user-info
                     each child, index in seed.resource.aboutus.team
@@ -22,7 +45,6 @@ block content
                             div.personal.ta-center
                                 a.avatar-img(class={"background-line":index%4!==0, "first-img":index%4===0,"last-img":index%4===1})
                                     img.avatar(src=config.baseUrl +  child.avatar)
-                                div.first-img
                                 p.name= child.name
                                 p.role= child.role
 
