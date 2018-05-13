@@ -17,7 +17,7 @@
 
   .section-new-version {
     .right-box {
-      margin-top: 130px;
+      margin-top: 60px;
 
       .gradient-background {
         margin-right: 30px;
@@ -63,7 +63,7 @@
           margin: 40px 0;
 
           a {
-            margin: 0 10px;
+            margin:10px;
           }
         }
       }
@@ -87,6 +87,10 @@
       background-size: cover;
       position: relative;
     }
+  }
+
+  .btn-go-bottom-section {
+    margin-top: -90px;
   }
 
   .icon-arrow-down {
@@ -209,6 +213,8 @@
     padding: 30px 10px;
 
     .right-box {
+      margin-top: 20px !important;
+
       .gradient-background {
         margin-right: 0!important;
       }
@@ -222,7 +228,9 @@
   }
 
   .btn-go-bottom-section {
-    text-align: center !important;
+    .icon-arrow-down {
+      bottom: -52px !important;
+    }
   }
 
   .gray-bg {
@@ -243,6 +251,12 @@
 @media (min-width: 576px)  and (max-width: 767px){
   .index-header {
     padding: 30px 10px;
+
+    .btn-go-bottom-section {
+      .icon-arrow-down {
+        bottom: -52px !important;
+      }
+    }
   }
 
   .pg-background {
@@ -254,10 +268,12 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .index-header {
     padding: 30px 10px;
-  }
 
-  .btn-go-bottom-section {
-    text-align: center !important;
+    .btn-go-bottom-section {
+      .icon-arrow-down {
+        bottom: -52px !important;
+      }
+    }
   }
 
   .pg-background {
@@ -285,7 +301,7 @@
     }
     .wave {
       margin-top: 30px;
-      bottom: -20px;
+      bottom: 70px;
       right: -337px;
     }
   }
@@ -306,7 +322,7 @@
 
     .wave {
       margin-top: 30px;
-      bottom: -20px;
+      bottom: 70px;
       right: -211px;
     }
   }

@@ -4,9 +4,9 @@ let speed = 100;
 
 $(document).ready( function() {
     // 	question handler
-    $('.faq-item.question').on(action, function() {
+    $('.faq-item.question span.icon').on(action, function() {
 
-        let icon = $(this).find('.icon');
+        let icon = $(this);
         if (icon.hasClass('icon-plus')) {
             icon.addClass('icon-dash');
             icon.removeClass('icon-plus');
@@ -16,7 +16,7 @@ $(document).ready( function() {
         }
 
         // get next element
-        $(this).find('.answer')
+        $(this).parent().find('.answer')
             .slideToggle(speed)
             .siblings('.faq-item.answer').slideUp(speed);
     });
