@@ -4,7 +4,7 @@ let speed = 100;
 
 $(document).ready( function() {
     // 	question handler
-    $('.faq-item.question').on(action, function() {
+    $('.faq-item.question span.icon').on(action, function() {
 
         let icon = $(this).find('.icon');
         if (icon.hasClass('icon-plus')) {
