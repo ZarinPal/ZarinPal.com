@@ -1,12 +1,11 @@
 .about_us {
   .blue-header{
-
     .btn-go-bottom-section{
       margin-top: 0px !important;
     }
   }
-  .section-one{
 
+  .section-one{
       .title-describe {
         border-bottom: none !important;
       }
@@ -27,7 +26,6 @@
       position: relative;
       margin: auto;
     }
-
     .title-describe {
       border-bottom: none !important;
     }
@@ -46,7 +44,6 @@
           box-shadow: 0 4px 12px 0 rgba(48,56,71,0.15);
         }
       }
-
       .name {
         margin: 12px auto 18px auto;
         padding: 0px 8px 0px 8px;
@@ -61,18 +58,42 @@
         box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
         border-radius: 100px;
       }
-
       .role{
         font-size:14px;
       }
     }
   }
 }
-/* Media
-   ----------------------------- */
 
+
+/* Media----------------------------- */
 @media(max-width: 326px){
+  .section-one{
+    .links{
+      .btn-gold{
+        margin: 1em auto;
+      }
+      .btn-normal{
+        margin: 1em auto;
+      }
+    }
+  }
   .section-tree {
+    .vlleft-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 3em;
+    }
+    .vlright-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 3em;
+    }
     .personal {
       .background-linetabletsm {
         &:before {
@@ -91,7 +112,32 @@
 
 /* extra small */
 @media(min-width: 326px)  and  (max-width: 575px) {
+  .section-one{
+    .links{
+      .btn-gold{
+        margin: 1em auto;
+      }
+      .btn-normal{
+        margin: 1em;
+      }
+    }
+  }
   .section-tree {
+    .vlleft-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 5em;
+    }
+    .vlright-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 5em;
+    }
     .personal {
       .background-linetabletsm {
         &:before {
@@ -107,8 +153,25 @@
     }
   }
 }
+
+/*  media (desktops, 576px and 767px) */
 @media (min-width: 576px)  and (max-width: 767px){
   .section-tree {
+    .vlleft-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 8em;
+    }
+    .vlright-xs{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 8em;
+    }
     .personal {
       .background-linetabletsm {
         &:before {
@@ -125,10 +188,25 @@
 }
 }
 
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .section-tree {
+    .vlleft-sm{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 6em;
+    }
+    .vlright-sm{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 6em;
+
+
+    }
     .personal {
       .background-linetablet {
         &:before {
@@ -143,12 +221,26 @@
       }
     }
   }
-
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px){
   .section-tree {
+    .vlleft-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 8%;
+    }
+    .vlright-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 8%;
+    }
     .personal {
       .background-line {
         &:before {
@@ -166,8 +258,23 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .section-tree {
+    .vlleft-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+    .vlright-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
     .personal {
       .background-line {
         &:before {
@@ -183,4 +290,73 @@
     }
   }
 }
+
+/* media for border in top-position img(large desktops, 1600px and 1900px)*/
+@media (min-width: 1600px) and (max-width: 1900px) {
+  .section-tree {
+    .vlleft-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+    .vlright-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 350px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* media for border in top-position img(large desktops, 1900px and up)*/
+@media (min-width: 1900px){
+  .section-tree {
+    .vlleft-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+    .vlright-lg{
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 350px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
 
