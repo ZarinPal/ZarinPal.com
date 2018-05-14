@@ -38,7 +38,7 @@
 				div {{getError('content')}}
 					div.text-danger {{validationErrors.content}}
 
-			div.g-recaptcha#contact-g-recaptcha(:data-sitekey="siteKey")
+			div.g-recaptcha#contact-g-recaptcha(:data-sitekey="siteKey" data-size="invisible")
 
 		div.ta-left
 			button.btn.btn-gold(@click="sendGuest" :click="{'disable': requesting}")
