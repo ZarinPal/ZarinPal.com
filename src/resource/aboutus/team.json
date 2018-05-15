@@ -1,0 +1,135 @@
+[
+  {
+    "name": "مصطفی امیری",
+    "role": "Co-Founder",
+    "avatar": "assets/images/about_us/childs/mostafaamiri.jpg"
+  },
+  {
+    "name": "علی امیری",
+    "role": "Co-Founder",
+    "avatar": "assets/images/about_us/childs/aliamiri.jpg"
+  },
+  {
+    "name": "مهدی محمدی",
+    "role": "Admin System",
+    "avatar": "assets/images/about_us/childs/mehdimohamadi.jpg"
+
+  },
+  {
+    "name": "یگانه بهشتی",
+    "role": "accountet ",
+    "avatar": "assets/images/about_us/childs/yeganehbeheshti.jpg"
+  },
+  {
+    "name": "محمدعلی حکیم ایمانی",
+    "role": "Legal Officer",
+    "avatar": "assets/images/about_us/childs/mehdihakimimani.jpg"
+  },
+  {
+    "name": "هومن نقی ای",
+    "role": "Chief Technology Officer",
+    "avatar": "assets/images/about_us/childs/hoomannaghei.jpg"
+
+  },
+  {
+    "name": "وحید داوری",
+    "role": "Backend Developer‌",
+    "avatar": "assets/images/about_us/childs/vahiddavari.jpg"
+  },
+  {
+    "name": "مسعود امینی",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/childs/masoodamini.jpg"
+  },
+  {
+    "name": "امین نظری",
+    "role": "Backend Developer",
+    "avatar": "assets/images/about_us/childs/aminNazari.jpg"
+  },
+  {
+    "name": "سیده آزاده میرنظامی",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/childs/azadehmirnezami.jpg"
+  },
+  {
+    "name": "ایمان طرازانی",
+    "role": "Senior Mobile Developer ",
+    "avatar": "assets/images/about_us/childs/alirezatarazani.jpg"
+  },
+  {
+    "name": "فرشید روحی",
+    "role": "Mobile Developer",
+    "avatar": "assets/images/about_us/childs/farshidrohi.jpg"
+  },
+  {
+    "name": "مهدی مهره چی",
+    "role": "Head Of Design",
+    "avatar": "assets/images/about_us/childs/mehdimohrechi.jpg"
+  },
+  {
+    "name": "مرجان حسینی",
+    "role": "Graphic Designer",
+    "avatar": "assets/images/about_us/childs/marjanhoseyni.jpg"
+  },
+  {
+    "name": "نیما نورافشان",
+    "role": "Support Manager",
+    "avatar": "assets/images/about_us/childs/nimanorafshan.jpg"
+  }
+,
+  {
+    "name": "علیرضا یوسفی",
+    "role": "technical support",
+    "avatar": "assets/images/about_us/childs/alirezayusefi.jpg"
+  },
+  {
+    "name": "عسل سجادی",
+    "role": "technical support",
+    "avatar": "assets/images/about_us/childs/asalsajadi.jpg"
+  },
+  {
+    "name": "آرزو اشراقی",
+    "role": "Technical Support‌",
+    "avatar": "assets/images/about_us/childs/arezoeshraghi.jpg"
+  },
+  {
+    "name": "مائده نیکخواه",
+    "role": "Technical Support‌",
+    "avatar": "assets/images/about_us/childs/maedenikkho.jpg"
+  },
+  {
+    "name": "مهدی خیاطیان",
+    "role": "Technical Support‌",
+    "avatar": "assets/images/about_us/childs/khayatiyan.jpg"
+  },
+  {
+    "name": "میلاد لطفی",
+    "role": "Technical Support‌",
+    "avatar": "assets/images/about_us/childs/miladlotfi.png"
+  },
+  {
+    "name": "ایمان علیزاده",
+    "role": "Sales Expert‌",
+    "avatar": "assets/images/about_us/childs/imanalizadeh.jpg"
+  },
+  {
+    "name": "سجاد کرمی",
+    "role": "Sales Expert‌",
+    "avatar": "assets/images/about_us/childs/sajadkarami.jpg"
+  },
+  {
+    "name": "مهدی غیورمداح",
+    "role": "Marketing‌",
+    "avatar": "assets/images/about_us/childs/mehdighayur.jpg"
+  },
+  {
+    "name": "محمد عباسی‌فرد",
+    "role": "Digital marketing‌",
+    "avatar": "assets/images/about_us/childs/mohamadabbasifard.jpg"
+  },
+  {
+    "name": "توحید قنبرپور",
+    "role": "Business intelligence‌",
+    "avatar": "assets/images/about_us/childs/tohidghanbarpour.jpg"
+  }
+]

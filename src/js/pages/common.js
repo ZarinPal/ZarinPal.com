@@ -46,7 +46,7 @@ function scrollToContent() {
     let timerID = setInterval(function () {
         window.scrollBy(0, 30);
 
-        let sliderHeight = document.getElementById('sectionPg').offsetTop - 30;
+        let sliderHeight = document.getElementById('firstSection').offsetTop - 30;
 
         if (window.pageYOffset >= sliderHeight || (sliderHeight + window.scrollY) >= document.body.offsetHeight)
             clearInterval(timerID);

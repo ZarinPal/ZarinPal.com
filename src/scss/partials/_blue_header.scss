@@ -14,15 +14,14 @@
     }
   }
 
-  .section-new-version {
-    .links {
-      margin: 40px 0;
+  .links {
+    margin: 40px 0;
 
-      a {
-        margin: 0 10px;
-      }
+    .btn {
+      margin: 0 10px;
     }
   }
+
 
   .wave {
     width: 846px;
@@ -30,6 +29,10 @@
     background: url("../../images/index/wave.png") no-repeat center;
     background-size: cover;
     position: relative;
+  }
+
+  .btn-go-bottom-section {
+    margin-top: -90px;
   }
 
   .icon-arrow-down {
@@ -57,11 +60,23 @@
   .btn-go-bottom-section {
     text-align: center !important;
   }
+
+  .btn-go-bottom-section {
+    .icon-arrow-down {
+      bottom: -52px !important;
+    }
+  }
 }
 
 @media (min-width: 576px)  and (max-width: 767px){
   .blue-header {
     padding: 30px 10px;
+
+    .btn-go-bottom-section {
+      .icon-arrow-down {
+        bottom: -52px !important;
+      }
+    }
   }
 }
 
@@ -69,10 +84,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .blue-header {
     padding: 30px 10px;
-  }
 
-  .btn-go-bottom-section {
-    text-align: center !important;
+    .btn-go-bottom-section {
+      text-align: center !important;
+
+      .icon-arrow-down {
+        bottom: -52px !important;
+      }
+    }
   }
 }
 
@@ -100,7 +119,7 @@
 
     .wave {
       margin-top: 30px;
-      bottom: -20px;
+      bottom: 70px;
       right: -211px;
     }
   }

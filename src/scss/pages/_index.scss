@@ -1,20 +1,5 @@
 //New version
-.index-header {
-  background-image: linear-gradient(135deg, #21254E 0%, #2B4A83 100%);
-  -webkit-box-shadow: 0 20px 40px 0 rgba(36, 46, 91, 0.26);
-  box-shadow: 0 20px 40px 0 rgba(36, 46, 91, 0.26);
-  border-radius: 20px;
-  margin-top: -30px;
-
-  .custom-index-header {
-    ul {
-      li:hover {
-        border-bottom: 2px solid #fff;
-        transition: 400ms;
-      }
-    }
-  }
-
+.blue-header {
   .section-new-version {
     .right-box {
       margin-top: 60px;
@@ -79,30 +64,6 @@
       top: 10px;
       left: -80px;
     }
-
-    .wave {
-      width: 846px;
-      height: 509px;
-      background: url("../../images/index/wave.png") no-repeat center;
-      background-size: cover;
-      position: relative;
-    }
-  }
-
-  .btn-go-bottom-section {
-    margin-top: -90px;
-  }
-
-  .icon-arrow-down {
-    display: inline-block;
-    font-size: 33px;
-    background-color: #FFFFFF;
-    box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.10);
-    border-radius: 100px;
-    color: #21254E;
-    position: relative;
-    bottom: -22px;
-    cursor: pointer;
   }
 }
 
@@ -209,9 +170,7 @@
 
 /* extra small */
 @media (max-width: 575px) {
-  .index-header {
-    padding: 30px 10px;
-
+  .blue-header {
     .right-box {
       margin-top: 20px !important;
 
@@ -249,16 +208,6 @@
 }
 
 @media (min-width: 576px)  and (max-width: 767px){
-  .index-header {
-    padding: 30px 10px;
-
-    .btn-go-bottom-section {
-      .icon-arrow-down {
-        bottom: -52px !important;
-      }
-    }
-  }
-
   .pg-background {
     margin-top: 100px !important;
   }
@@ -266,16 +215,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-  .index-header {
-    padding: 30px 10px;
-
-    .btn-go-bottom-section {
-      .icon-arrow-down {
-        bottom: -52px !important;
-      }
-    }
-  }
-
   .pg-background {
     margin-top: 100px !important;
   }
@@ -289,20 +228,11 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px){
-  .index-header {
-    margin-left: -5%;
-    margin-right: -5%;
-    padding: 40px 100px 0 100px;
-
+  .blue-header {
     .section-new-version {
       .request-money {
         left: -180px !important;
       }
-    }
-    .wave {
-      margin-top: 30px;
-      bottom: 70px;
-      right: -337px;
     }
   }
 
@@ -315,18 +245,6 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .index-header {
-    margin-left: -5%;
-    margin-right: -5%;
-    padding: 40px 100px 0 100px;
-
-    .wave {
-      margin-top: 30px;
-      bottom: 70px;
-      right: -211px;
-    }
-  }
-
   .gray-bg {
     &:before {
       width: 985px;

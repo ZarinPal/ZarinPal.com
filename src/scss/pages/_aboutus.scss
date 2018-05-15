@@ -1,35 +1,382 @@
-.aboutus-page {
-  .top-page-image {
-    margin: 0 auto;
-  }
-
-  .pictured-page-title {
-    width: 100%;
-    height: 220px;
-    color: #FFFFFF;
-    text-align: center;
-    background-size: cover;
-    border-radius: 10px;
-    background: url("../../images/aboutus-header.png") center;
-    margin-bottom: 70px;
-
-    span.text {
-      font-size: 28px;
-      line-height: 7.7;
-      font-weight: bolder;
+.about_us {
+  .blue-header {
+    .btn-go-bottom-section {
+      margin-top: 0 !important;
     }
   }
 
-  #why-zarin {
-    background-color: #f2f3f5;
+  .section-one {
+    .title-describe {
+      border-bottom: none !important;
+    }
+  }
+
+  .section-two {
+    .yellow-oval {
+      background: url("../../images/about_us/Oval.svg") no-repeat center;
+      width: auto;
+      height: 80px;
+      margin: auto;
+      box-shadow: inset -18px 60px 36px -53px #cdcedbe8;
+    }
+
+    .zarin-logo {
+      background: url("../../images/about_us/zarinpic.svg") no-repeat center;
+      width: 330px;
+      height: 340px;
+      background-size: cover;
+      position: relative;
+      margin: auto;
+    }
+
+    .title-describe {
+      border-bottom: none !important;
+    }
+  }
+  
+  .section-tree {
+    max-width: 85%;
+    margin: auto;
+
+    .personal {
+      margin-top: 35px;
+
+      .avatar-img {
+        .avatar {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          box-shadow: 0 4px 12px 0 rgba(48, 56, 71, 0.15);
+        }
+      }
+
+      .name {
+        font-family: IRANSansBold;
+        margin: 12px auto 18px auto;
+        padding: 0 8px 0 8px;
+        text-align: center;
+        width: max-content;
+        height: auto;
+        font-size: 16px;
+        color: #303030;
+        line-height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
+        border-radius: 100px;
+      }
+
+      .role {
+        font-size: 14px;
+      }
+    }
   }
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .aboutus-page {
-    .top-page-image {
-      width: 557px;
+/* Media----------------------------- */
+@media(max-width: 326px) {
+  .section-one {
+    .links {
+      .btn-gold {
+        margin: 1em auto;
+      }
+
+      .btn-normal {
+        margin: 1em auto;
+      }
+    }
+  }
+  .section-tree {
+    .vl-left-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 3em;
+    }
+
+    .vl-right-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 3em;
+    }
+
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 150px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* extra small */
+@media(min-width: 326px) and (max-width: 575px) {
+  .section-one {
+    .links {
+      .btn-gold {
+        margin: 1em auto;
+      }
+
+      .btn-normal {
+        margin: 1em;
+      }
+    }
+  }
+  .section-tree {
+    .vl-left-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 5em;
+    }
+
+    .vl-right-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 5em;
+    }
+
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 230px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/*  media (desktops, 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .section-tree {
+    .vl-left-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 8em;
+    }
+
+    .vl-right-xs {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 8em;
+    }
+
+    .personal {
+      .background-linetabletsm {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 310px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-tree {
+    .vl-left-sm {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 6em;
+    }
+
+    .vl-right-sm {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 6em;
+    }
+
+    .personal {
+      .background-linetablet {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 290px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-tree {
+    .vl-left-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 8%;
+    }
+
+    .vl-right-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 8%;
+    }
+
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 300px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .section-tree {
+    .vl-left-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+
+    .vl-right-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
+
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 350px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* media for border in top-position img(large desktops, 1600px and 1900px)*/
+@media (min-width: 1600px) and (max-width: 1900px) {
+  .section-tree {
+    .vl-left-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+
+    .vl-right-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
+
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 350px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+/* media for border in top-position img(large desktops, 1900px and up)*/
+@media (min-width: 1900px) {
+  .section-tree {
+    .vl-left-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-left: 80px;
+      margin-right: 7em;
+    }
+
+    .vl-right-lg {
+      height: 35px;
+      position: absolute;
+      background: #bfc6d3;
+      width: 1px;
+      margin-right: 7em;
+    }
+
+    .personal {
+      .background-line {
+        &:before {
+          margin: 45px auto;
+          content: '';
+          position: absolute;
+          width: 350px;
+          height: 1px;
+          background: #BFC6D2;
+          z-index: -1;
+        }
+      }
     }
   }
 }
