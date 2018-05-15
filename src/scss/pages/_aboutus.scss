@@ -122,6 +122,9 @@
 
 /* extra small */
 @media(min-width: 326px) and (max-width: 575px) {
+  .blue-header{
+    padding: 0px;
+  }
   .section-one {
     .links {
       .btn-gold {
