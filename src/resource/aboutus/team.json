@@ -52,7 +52,7 @@
     "avatar": "assets/images/about_us/childs/azadehmirnezami.jpg"
   },
   {
-    "name": "علیرضا ترازانی",
+    "name": "ایمان طرازانی",
     "role": "Senior Mobile Developer ",
     "avatar": "assets/images/about_us/childs/alirezatarazani.jpg"
   },
@@ -63,7 +63,7 @@
   },
   {
     "name": "مهدی مهره چی",
-    "role": "Head Of Designe",
+    "role": "Head Of Design",
     "avatar": "assets/images/about_us/childs/mehdimohrechi.jpg"
   },
   {
@@ -89,22 +89,22 @@
   },
   {
     "name": "آرزو اشراقی",
-    "role": "technical support‌",
+    "role": "Technical Support‌",
     "avatar": "assets/images/about_us/childs/arezoeshraghi.jpg"
   },
   {
     "name": "مائده نیکخواه",
-    "role": "technical support‌",
+    "role": "Technical Support‌",
     "avatar": "assets/images/about_us/childs/maedenikkho.jpg"
   },
   {
     "name": "مهدی خیاطیان",
-    "role": "technical support‌",
+    "role": "Technical Support‌",
     "avatar": "assets/images/about_us/childs/khayatiyan.jpg"
   },
   {
-    "name": "میلاد لطغی",
-    "role": "technical support‌",
+    "name": "میلاد لطفی",
+    "role": "Technical Support‌",
     "avatar": "assets/images/about_us/childs/miladlotfi.jpg"
   },
   {
@@ -128,7 +128,7 @@
     "avatar": "assets/images/about_us/childs/mohamadabbasifard.jpg"
   },
   {
-    "name": "توحید قمبرپور",
+    "name": "توحید قنبرپور",
     "role": "Business intelligence‌",
     "avatar": "assets/images/about_us/childs/tohidghanbarpour.jpg"
   }

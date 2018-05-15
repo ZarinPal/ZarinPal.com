@@ -1,23 +1,24 @@
 .about_us {
-  .blue-header{
-    .btn-go-bottom-section{
-      margin-top: 0px !important;
+  .blue-header {
+    .btn-go-bottom-section {
+      margin-top: 0 !important;
     }
   }
 
-  .section-one{
-      .title-describe {
-        border-bottom: none !important;
-      }
+  .section-one {
+    .title-describe {
+      border-bottom: none !important;
+    }
   }
 
   .section-two {
-    .yellow-oval{
+    .yellow-oval {
       background: url("../../images/about_us/Oval.svg") no-repeat center;
       width: auto;
       height: 80px;
       margin: auto;
     }
+
     .zarin-logo {
       background: url("../../images/about_us/zarinpic.svg") no-repeat center;
       width: 330px;
@@ -26,6 +27,7 @@
       position: relative;
       margin: auto;
     }
+
     .title-describe {
       border-bottom: none !important;
     }
@@ -34,52 +36,56 @@
   .section-tree {
     max-width: 85%;
     margin: auto;
+
     .personal {
       margin-top: 35px;
+
       .avatar-img {
         .avatar {
           width: 100px;
           height: 100px;
           border-radius: 50%;
-          box-shadow: 0 4px 12px 0 rgba(48,56,71,0.15);
+          box-shadow: 0 4px 12px 0 rgba(48, 56, 71, 0.15);
         }
       }
+
       .name {
+        font-family: IRANSansBold;
         margin: 12px auto 18px auto;
-        padding: 0px 8px 0px 8px;
+        padding: 0 8px 0 8px;
         text-align: center;
         width: max-content;
         height: auto;
         font-size: 16px;
-        font-family: IRANSansBold;
         color: #303030;
         line-height: 40px;
         background: #FFFFFF;
         box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
         border-radius: 100px;
       }
-      .role{
-        font-size:14px;
+
+      .role {
+        font-size: 14px;
       }
     }
   }
 }
 
-
 /* Media----------------------------- */
-@media(max-width: 326px){
-  .section-one{
-    .links{
-      .btn-gold{
+@media(max-width: 326px) {
+  .section-one {
+    .links {
+      .btn-gold {
         margin: 1em auto;
       }
-      .btn-normal{
+
+      .btn-normal {
         margin: 1em auto;
       }
     }
   }
   .section-tree {
-    .vlleft-xs{
+    .vl-left-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -87,13 +93,15 @@
       margin-left: 80px;
       margin-right: 3em;
     }
-    .vlright-xs{
+
+    .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 3em;
     }
+
     .personal {
       .background-linetabletsm {
         &:before {
@@ -111,19 +119,20 @@
 }
 
 /* extra small */
-@media(min-width: 326px)  and  (max-width: 575px) {
-  .section-one{
-    .links{
-      .btn-gold{
+@media(min-width: 326px) and (max-width: 575px) {
+  .section-one {
+    .links {
+      .btn-gold {
         margin: 1em auto;
       }
-      .btn-normal{
+
+      .btn-normal {
         margin: 1em;
       }
     }
   }
   .section-tree {
-    .vlleft-xs{
+    .vl-left-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -131,13 +140,15 @@
       margin-left: 80px;
       margin-right: 5em;
     }
-    .vlright-xs{
+
+    .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 5em;
     }
+
     .personal {
       .background-linetabletsm {
         &:before {
@@ -155,9 +166,9 @@
 }
 
 /*  media (desktops, 576px and 767px) */
-@media (min-width: 576px)  and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px) {
   .section-tree {
-    .vlleft-xs{
+    .vl-left-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -165,13 +176,15 @@
       margin-left: 80px;
       margin-right: 8em;
     }
-    .vlright-xs{
+
+    .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 8em;
     }
+
     .personal {
       .background-linetabletsm {
         &:before {
@@ -185,28 +198,28 @@
         }
       }
     }
-}
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .section-tree {
-    .vlleft-sm{
+    .vl-left-sm {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 6em;
     }
-    .vlright-sm{
+
+    .vl-right-sm {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 6em;
-
-
     }
+
     .personal {
       .background-linetablet {
         &:before {
@@ -224,9 +237,9 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px) {
   .section-tree {
-    .vlleft-lg{
+    .vl-left-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -234,13 +247,15 @@
       margin-left: 80px;
       margin-right: 8%;
     }
-    .vlright-lg{
+
+    .vl-right-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 8%;
     }
+
     .personal {
       .background-line {
         &:before {
@@ -260,7 +275,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1600px) {
   .section-tree {
-    .vlleft-lg{
+    .vl-left-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -268,13 +283,15 @@
       margin-left: 80px;
       margin-right: 7em;
     }
-    .vlright-lg{
+
+    .vl-right-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 7em;
     }
+
     .personal {
       .background-line {
         &:before {
@@ -294,7 +311,7 @@
 /* media for border in top-position img(large desktops, 1600px and 1900px)*/
 @media (min-width: 1600px) and (max-width: 1900px) {
   .section-tree {
-    .vlleft-lg{
+    .vl-left-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -302,13 +319,15 @@
       margin-left: 80px;
       margin-right: 7em;
     }
-    .vlright-lg{
+
+    .vl-right-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 7em;
     }
+
     .personal {
       .background-line {
         &:before {
@@ -326,9 +345,9 @@
 }
 
 /* media for border in top-position img(large desktops, 1900px and up)*/
-@media (min-width: 1900px){
+@media (min-width: 1900px) {
   .section-tree {
-    .vlleft-lg{
+    .vl-left-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
@@ -336,13 +355,15 @@
       margin-left: 80px;
       margin-right: 7em;
     }
-    .vlright-lg{
+
+    .vl-right-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
       margin-right: 7em;
     }
+
     .personal {
       .background-line {
         &:before {
@@ -358,5 +379,3 @@
     }
   }
 }
-
-

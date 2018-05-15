@@ -23,15 +23,15 @@ block content
 
                         div.links
                             a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
-                            a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
-                            a.btn.btn-normal(href="#") #{seed.lang[lang]['Jobopportunity']}
+                            //a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
+                            a.btn.btn-normal(href="https://jobinja.ir/companies/zarinpal/jobs") #{seed.lang[lang]['Jobopportunity']}
             div.col-xs-12.btn-go-bottom-section.ta-center
                 i.icon-arrow-down.pointer#btnGoDown
 
-        <!--zarinlogo&description-->
-        div.row.section-two
+        <!--Zarin logo and description-->
+        div.row.section-two#firstSection
             div.col-xs-12
-                p.yellow-oval
+                div.yellow-oval
             div.col-lg-8.col-md-8.col-sm-12.col-xs-12
                 p.top-title #{seed.lang[lang]['Firstclassteam']}
                 div.header-title #{seed.lang[lang]['onehandhasnosound']}
@@ -45,12 +45,12 @@ block content
                 div.row.user-info
                     each child, index in seed.resource.aboutus.team
                         div.col-lg-3.col-md-3.col-sm-4.col-xs-6
-                            div.vl-left(class={"vlleft-lg": ((index+1) % 4 === 1 && (index+1) % 8 === 1 && 0!==index),
-                                "vlleft-sm": ((index+1) % 3 === 1 && (index+1) % 6 === 1 && 0!==index),
-                                "vlleft-xs": ((index+1) % 2 === 1 && (index+1) % 4 === 1 && 0!==index)})
-                            div.vl-right(class={"vlright-lg": ((index+1) % 4 === 0 && (index+1) % 8 === 0),
-                                "vlright-sm": ((index+1) % 3 === 0 && (index+1) % 6 === 0),
-                                "vlright-xs": ((index+1) % 2 === 0 && (index+1) % 4 === 0)})
+                            div.vl-left(class={"vl-left-lg": ((index+1) % 4 === 1 && (index+1) % 8 === 1 && 0!==index),
+                                "vl-left-sm": ((index+1) % 3 === 1 && (index+1) % 6 === 1 && 0!==index),
+                                "vl-left-xs": ((index+1) % 2 === 1 && (index+1) % 4 === 1 && 0!==index)})
+                            div.vl-right(class={"vl-right-lg": ((index+1) % 4 === 0 && (index+1) % 8 === 0),
+                                "vl-right-sm": ((index+1) % 3 === 0 && (index+1) % 6 === 0),
+                                "vl-right-xs": ((index+1) % 2 === 0 && (index+1) % 4 === 0)})
                             div.personal.ta-center
                                 a.avatar-img(class={"background-line":(index+1)%4!==0&&seed.resource.aboutus.team.length-1!==index,                                         "background-linetablet":(index+1)%3!==0&&seed.resource.aboutus.team.length-1!==index,                                                       "background-linetabletsm":(index+1)%2!==0&&seed.resource.aboutus.team.length-1!==index,"first-img":(index+1)                                   %4===0,"last-img":(index+1)%4===1})
                                     img.avatar(src=config.baseUrl +  child.avatar)
@@ -58,4 +58,3 @@ block content
                                 p.role= child.role
 
     include partials/footer
-    script(src=config.baseUrl + 'assets/js/merchants/app.js' + config.assetsHash)
