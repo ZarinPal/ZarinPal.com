@@ -3,6 +3,7 @@
   .section-new-version {
     .right-box {
       margin-top: 60px;
+      z-index: 1;
 
       .gradient-background {
         margin-right: 30px;
@@ -45,6 +46,8 @@
         }
 
         .links {
+          margin: 40px 0;
+
           a {
             margin:10px;
           }
