@@ -1,23 +1,22 @@
 [
   {
     "name": "مصطفی امیری",
-    "role": "Co-Founder",
+    "role": "Co-Founder & CEO",
     "avatar": "assets/images/about_us/childs/mostafaamiri.jpg"
   },
   {
     "name": "علی امیری",
-    "role": "Co-Founder",
+    "role": "Co-Founder & CFOO",
     "avatar": "assets/images/about_us/childs/aliamiri.jpg"
   },
   {
     "name": "مهدی محمدی",
-    "role": "System Admin ",
+    "role": "System Admin",
     "avatar": "assets/images/about_us/childs/mehdimohamadi.jpg"
-
   },
   {
     "name": "یگانه بهشتی",
-    "role": "Accountant ",
+    "role": "Accountant",
     "avatar": "assets/images/about_us/childs/yeganehbeheshti.jpg"
   },
   {
@@ -33,7 +32,7 @@
   },
   {
     "name": "وحید داوری",
-    "role": "Backend Developer‌",
+    "role": "Backend Developer",
     "avatar": "assets/images/about_us/childs/vahiddavari.jpg"
   },
   {
@@ -53,7 +52,7 @@
   },
   {
     "name": "ایمان طرازانی",
-    "role": "Senior Mobile Developer ",
+    "role": "Senior Mobile Developer",
     "avatar": "assets/images/about_us/childs/alirezatarazani.jpg"
   },
   {
@@ -73,38 +72,38 @@
   },
   {
     "name": "نیما نورافشان",
-    "role": "Support Manager",
+    "role": "Customer Care Manager",
     "avatar": "assets/images/about_us/childs/nimanorafshan.jpg"
   }
 ,
   {
     "name": "علیرضا یوسفی",
-    "role": "Technical support",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/alirezayusefi.jpg"
   },
   {
     "name": "عسل سجادی",
-    "role": "Technical support",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/asalsajadi.jpg"
   },
   {
     "name": "آرزو اشراقی",
-    "role": "Technical Support‌",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/arezoeshraghi.jpg"
   },
   {
     "name": "مائده نیکخو",
-    "role": "Technical Support‌",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/maedenikkho.jpg"
   },
   {
     "name": "مهدی خیاطیان",
-    "role": "Technical Support‌",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/khayatiyan.jpg"
   },
   {
     "name": "میلاد لطفی",
-    "role": "Technical Support‌",
+    "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/childs/miladlotfi.png"
   },
   {
@@ -114,22 +113,22 @@
   },
   {
     "name": "سجاد کرمی",
-    "role": "Sales Expert‌",
+    "role": "Sales Expert",
     "avatar": "assets/images/about_us/childs/sajadkarami.jpg"
   },
   {
     "name": "مهدی غیورمداح",
-    "role": "Sales Expert‌‌",
+    "role": "Sales Expert‌",
     "avatar": "assets/images/about_us/childs/mehdighayur.jpg"
   },
   {
     "name": "محمد عباسی‌فرد",
-    "role": "Content Specialist‌",
+    "role": "Content Specialist",
     "avatar": "assets/images/about_us/childs/mohamadabbasifard.jpg"
   },
   {
     "name": "توحید قنبرپور",
-    "role": "Business intelligence‌",
+    "role": "Business Intelligence Expert",
     "avatar": "assets/images/about_us/childs/tohidghanbarpour.jpg"
   }
 ]
