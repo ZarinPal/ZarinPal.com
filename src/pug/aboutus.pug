@@ -57,5 +57,31 @@ block content
                                     img.avatar(src=config.baseUrl +  child.avatar)
                                 p.name= child.name
                                 p.role= child.role
+        div.row.section-for
+            #jobinjaEmbedded--1526715726336
+                script(type='text/javascript').
+                  window.jobinjaEmbedded.q.push({
+                    "slug": "zarinpal",
+                    "containerId": "jobinjaEmbedded--1526715726336",
+                    "baseUrl": "https://jobinja.ir",
+                    "cta": true,
+                    "header": true,
+                    "count": "5",
+                    "ctaClass": "c-btn--primary",
+                    "headerAlignmentClass": "u-textRight",
+                    "branding": true
+                  });
+                  (function() {
+                    var jje = document.createElement('script');
+                    jje.type = 'text/javascript';
+                    jje.async = true;
+                    jje.src = "https://jobinja.ir/iframe-assets/client.js";
+                    jje.onload = function() {
+                      window.jobinjaEmbedded.init()
+                    };
+                    var s = document.getElementById('jobinjaEmbedded--1526715726336');
+                    s.appendChild(jje);
+                  })();
 
     include partials/footer
+
