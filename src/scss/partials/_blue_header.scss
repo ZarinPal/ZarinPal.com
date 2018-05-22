@@ -7,6 +7,9 @@
 
   .custom-blue-header {
     ul {
+      .more-menu{
+        border-bottom: none !important;
+      }
       li:hover {
         border-bottom: 2px solid #fff;
         transition: 400ms;
