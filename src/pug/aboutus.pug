@@ -23,7 +23,7 @@ block content
                             | #{seed.lang[lang]['whatIsZarinpalDes']}
 
                         div.links
-                            a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
+                            a.btn.btn-gold(href="#twoSection") #{seed.lang[lang]['team']}
                             //a.btn.btn-normal(href="#") #{seed.lang[lang]['introductionToZarinpal']}
                             a.btn.btn-normal(href="https://jobinja.ir/companies/zarinpal/jobs") #{seed.lang[lang]['Jobopportunity']}
             div.col-xs-12.btn-go-bottom-section.ta-center
@@ -41,7 +41,7 @@ block content
             div.col-lg-4.col-md-4.col-sm-12.col-xs-12
                 div.zarin-logo
         <!--childrenzarinpal-->
-        div.row.section-tree
+        div.row.section-tree#twoSection
             div.col-xs
                 div.row.user-info
                     each child, index in seed.resource.aboutus.team

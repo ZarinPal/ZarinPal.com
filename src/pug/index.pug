@@ -1,138 +1,136 @@
 extends partials/layout
 block page-variables
-    - var pageTitle = seed.lang[lang]['mainPage']
-    - var whiteLogo = true
+  - var pageTitle = seed.lang[lang]['mainPage']
+  - var whiteLogo = true
 
 block content
-    div.blue-header
-        div.custom-blue-header
-            include partials/header
+  div.blue-header
+    div.custom-blue-header
+      include partials/header
 
-        <!--New Zarinpal-->
-        div.row.section-new-version
-            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
-                div.gradient-background.white.center-content-xs
-                    span.tag.iransans-medium
-                        span.tag-label-background
-                            span.label #{seed.lang[lang]['new']}
-                        span
-                            span.label-text #{seed.lang[lang]['designSectionOfZarinPalWasLaunched']}
-                    div.header-title.xs-ta-center.white
-                        | #{seed.lang[lang]['zarinPalNewVersion']}
-                        | #{seed.lang[lang]['itsHere']}
-                    p.new-zarinpal-description.line-height.ta-justify.center-content-xs
-                        | #{seed.lang[lang]['newZarinpalDescription']}
+    <!--New Zarinpal-->
+    div.row.section-new-version
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12.right-box
+        div.gradient-background.white.center-content-xs
+          span.tag.iransans-medium
+            span.tag-label-background
+              a(href="https://kb.zarinpal.com/")
+                span.label #{seed.lang[lang]['new']}
+            span
+              a(href="https://kb.zarinpal.com/")
+                span.label-text.white #{seed.lang[lang]['designSectionOfZarinPalWasLaunched']}
+          div.header-title.xs-ta-center.white
+            | #{seed.lang[lang]['zarinPalNewVersion']}
+            | #{seed.lang[lang]['itsHere']}
+          p.new-zarinpal-description.line-height.ta-justify.center-content-xs
+            | #{seed.lang[lang]['newZarinpalDescription']}
 
-                    div.links.xs-ta-center
-                        a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
-            div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
-                div.wave
-                    include images/request-money
+          div.links.xs-ta-center
+            a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['createAccount']}
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12.hidden-xs.hidden-sm.hidden-md
+        div.wave
+          include images/request-money
 
-        div.col-xs-12.btn-go-bottom-section.ta-center
-            i.icon-arrow-down.pointer#btnGoDown
-    <!--Pg-->
-    div.row.section-pg#firstSection
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            include images/pg
+    div.col-xs-12.btn-go-bottom-section.ta-center
+      i.icon-arrow-down.pointer#btnGoDown
+  <!--Pg-->
+  div.row.section-pg#firstSection
+    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+      include images/pg
 
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.gradiant-background
-                p.top-title.xs-ta-center
-                    | #{seed.lang[lang]['zarinPalPaymentGateway']}
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['securePaymentGateway']}
-                p.title-describe
-                    | #{seed.lang[lang]['securePaymentGatewayDescription']}
+    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+      div.gradiant-background
+        p.top-title.xs-ta-center
+          | #{seed.lang[lang]['zarinPalPaymentGateway']}
+        div.header-title.xs-ta-center
+          | #{seed.lang[lang]['securePaymentGateway']}
+        p.title-describe
+          | #{seed.lang[lang]['securePaymentGatewayDescription']}
 
-                a.read-more(href="#")
-                    span #{seed.lang[lang]['loginToGateWay']}
-                    i.icon-left
+        a.read-more(href="https://my.zarinpal.com/auth/register")
+          span #{seed.lang[lang]['loginToGateWay']}
+          i.icon-left
 
 
-    <!--Social payment-->
-    div.section-social-payment
-        div.row.no-margin
-            div.col-lg-5.col-md-5.col-sm-12.col-xs-12.bg-oblique
-                p.top-title.xs-ta-center
-                    | #{seed.lang[lang]['zarinLink']}
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['paymentInSocialNetworks']}
-                p.title-describe
-                    | #{seed.lang[lang]['paymentInSocialNetworksDescribe']}
+  <!--Social payment-->
+  div.section-social-payment
+    div.row.no-margin
+      div.col-lg-5.col-md-5.col-sm-12.col-xs-12.bg-oblique
+        p.top-title.xs-ta-center
+          | #{seed.lang[lang]['zarinLink']}
+        div.header-title.xs-ta-center
+          | #{seed.lang[lang]['paymentInSocialNetworks']}
+        p.title-describe
+          | #{seed.lang[lang]['paymentInSocialNetworksDescribe']}
 
-                a.read-more(href="#")
-                    span #{seed.lang[lang]['makeZarinLink']}
-                    i.icon-left
+        a.read-more(href="https://kb.zarinpal.com/easypay/")
+          span #{seed.lang[lang]['makeZarinLink']}
+          i.icon-left
 
-            div.col-lg-7.col-md-7.col-sm-12.col-xs-12.gray-bg.ta-center
-                include images/sosial-image
+      div.col-lg-7.col-md-7.col-sm-12.col-xs-12.gray-bg.ta-center
+        include images/sosial-image
 
-    <!--ZarinCard-->
-    div.row.section-zarincard
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            include images/zarincard
+  <!--ZarinCard-->
+  div.row.section-zarincard
+    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+      include images/zarincard
 
-        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
-            div.gradiant-background
-                p.top-title.xs-ta-center
-                    | #{seed.lang[lang]['zarinCard']}
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['goldestBankCard']}
-                p.title-describe
-                    | #{seed.lang[lang]['goldestBankCardDescribe']}
+    div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+      div.gradiant-background
+        p.top-title.xs-ta-center
+          | #{seed.lang[lang]['zarinCard']}
+        div.header-title.xs-ta-center
+          | #{seed.lang[lang]['goldestBankCard']}
+        p.title-describe
+          | #{seed.lang[lang]['goldestBankCardDescribe']}
 
-                a.read-more(href="#")
-                    span #{seed.lang[lang]['receiveZarinCard']}
-                    i.icon-left
+        a.read-more(href="https://kb.zarinpal.com/home/#زرین‌کارت")
+          span #{seed.lang[lang]['receiveZarinCard']}
+          i.icon-left
 
-    <!--Read more-->
-    div.section-read-more
-        div.row.no-margin
+  <!--Read more-->
+  div.section-read-more
+    div.row.no-margin
 
-            <!--Payment standards-->
-            div.col-lg-4.col-md-4.read-more-standards
-                div.header-title.xs-ta-center
-                    | #{seed.lang[lang]['paymentStandards']}
-                p.title-describe.line-height
-                    | #{seed.lang[lang]['paymentStandardsDescription']}
+      <!--Payment standards-->
+      div.col-lg-4.col-md-4.read-more-standards
+        div.header-title.xs-ta-center
+          | #{seed.lang[lang]['paymentStandards']}
+        p.title-describe.line-height
+          | !{seed.lang[lang]['paymentStandardsDescription']}
 
-                a.read-more(href="#")
-                    span #{seed.lang[lang]['readMore']}
-                    i.icon-left
+      div.col-lg-8.col-md-8.options.gold-bg
+        div.row
+          div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
+            div
+              span.image-icon.image-verified-account
+              span.title #{seed.lang[lang]['paymentWarranty']}
 
-            div.col-lg-8.col-md-8.options.gold-bg
-                div.row
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
-                        div
-                            span.image-icon.image-verified-account
-                            span.title #{seed.lang[lang]['paymentWarranty']}
+            p.description.line-height
+              | #{seed.lang[lang]['paymentWarrantyDescription']}
 
-                        p.description.line-height
-                            | #{seed.lang[lang]['paymentWarrantyDescription']}
+          div.col-lg-6.col-md-6.col-sm-6.col-xs-12
+            div
+              span.image-icon.image-split
+              span.title #{seed.lang[lang]['smartRouting']}
+            p.description.line-height
+              | #{seed.lang[lang]['smartRoutingDescription']}
 
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12
-                        div
-                            span.image-icon.image-split
-                            span.title #{seed.lang[lang]['smartRouting']}
-                        p.description.line-height
-                            | #{seed.lang[lang]['smartRoutingDescription']}
+          div.horizontal-line.hidden-xs
 
-                    div.horizontal-line.hidden-xs
+          div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
+            div
+              span.image-icon.image-support
+              span.title #{seed.lang[lang]['support']}
+            p.description.line-height
+              | #{seed.lang[lang]['supportDescription']}
 
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12.left-border
-                        div
-                            span.image-icon.image-support
-                            span.title #{seed.lang[lang]['support']}
-                        p.description.line-height
-                            | #{seed.lang[lang]['supportDescription']}
+          div.col-lg-6.col-md-6.col-sm-6.col-xs-12
+            div
+              span.image-icon.image-security
+              span.title #{seed.lang[lang]['security']}
+            p.description.line-height
+              | #{seed.lang[lang]['securityDescription']}
 
-                    div.col-lg-6.col-md-6.col-sm-6.col-xs-12
-                        div
-                            span.image-icon.image-security
-                            span.title #{seed.lang[lang]['security']}
-                        p.description.line-height
-                            | #{seed.lang[lang]['securityDescription']}
-
-    include partials/customers
-    include partials/footer
+  include partials/customers
+  include partials/footer
