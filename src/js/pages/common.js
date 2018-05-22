@@ -22,14 +22,6 @@ mobileMenuBlur.addEventListener('click', function() {
   closeMobileMenu(mobileMenu);
 });
 
-//Go down
-let btnGoDown = document.getElementById('btnGoDown');
-if (btnGoDown) {
-  btnGoDown.addEventListener('click', function() {
-    scrollToContent();
-  });
-}
-
 function closeMobileMenu(mobileMenu) {
   mobileMenu.classList.remove('fadeInDown');
   mobileMenu.classList.remove('disp-block');
@@ -41,16 +33,16 @@ function closeMobileMenu(mobileMenu) {
 /**
  * Scroll page down to content
  */
-function scrollToContent() {
+window.scrollToSection = function (elementId) {
   let timerID = setInterval(function() {
     window.scrollBy(0, 30);
 
-    let sliderHeight = document.getElementById('firstSection').offsetTop - 30;
+    let sliderHeight = document.getElementById(elementId).offsetTop - 30;
 
     if (window.pageYOffset >= sliderHeight || (sliderHeight + window.scrollY) >=
         document.body.offsetHeight)
       clearInterval(timerID);
-  }, 16);
+  }, 30);
 }
 
 /**
