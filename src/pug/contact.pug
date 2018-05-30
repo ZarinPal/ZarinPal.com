@@ -4,6 +4,8 @@ block page-variables
     - var pageBlackHeader = true
 
 include partials/page_title
+block head
+    script(src="https://www.google.com/recaptcha/api.js?hl=fa-IR" async defer)
 
 block content
     script.
