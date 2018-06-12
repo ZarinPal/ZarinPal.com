@@ -2,104 +2,118 @@
   {
     "name": "مصطفی امیری",
     "role": "Co-Founder & CEO",
-    "avatar": "assets/images/about_us/childs/mostafaamiri.jpg"
+    "avatar": "assets/images/about_us/team/mostafaamiri.jpg"
   },
   {
     "name": "علی امیری",
     "role": "Co-Founder & CFOO",
-    "avatar": "assets/images/about_us/childs/aliamiri.jpg"
+    "avatar": "assets/images/about_us/team/aliamiri.jpg"
   },
   {
     "name": "مهدی محمدی",
     "role": "System Admin",
-    "avatar": "assets/images/about_us/childs/mehdimohamadi.jpg"
+    "avatar": "assets/images/about_us/team/mehdimohamadi.jpg"
   },
   {
     "name": "یگانه بهشتی",
     "role": "Financial Expert",
-    "avatar": "assets/images/about_us/childs/yeganehbeheshti.jpg"
+    "avatar": "assets/images/about_us/team/yeganehbeheshti.jpg"
   },
   {
     "name": "محمدعلی حکیم ایمانی",
     "role": "Legal Officer",
-    "avatar": "assets/images/about_us/childs/mehdihakimimani.jpg"
+    "avatar": "assets/images/about_us/team/mehdihakimimani.jpg"
   },
   {
     "name": "هومن نقی ای",
     "role": "Chief Technology Officer",
-    "avatar": "assets/images/about_us/childs/hoomannaghei.jpg"
+    "avatar": "assets/images/about_us/team/hoomannaghei.jpg"
 
   },
   {
     "name": "وحید داوری",
     "role": "Backend Developer",
-    "avatar": "assets/images/about_us/childs/vahiddavari.jpg"
+    "avatar": "assets/images/about_us/team/vahiddavari.jpg"
   },
   {
     "name": "مسعود امینی",
     "role": "Frontend Developer",
-    "avatar": "assets/images/about_us/childs/masoodamini.jpg"
+    "avatar": "assets/images/about_us/team/masoodamini.jpg"
   },
   {
     "name": "امین نظری",
     "role": "Backend Developer",
-    "avatar": "assets/images/about_us/childs/aminNazari.jpg"
+    "avatar": "assets/images/about_us/team/aminnazari.jpg"
   },
   {
     "name": "سیده آزاده میرنظامی",
     "role": "Frontend Developer",
-    "avatar": "assets/images/about_us/childs/azadehmirnezami.jpg"
+    "avatar": "assets/images/about_us/team/azadehmirnezami.jpg"
   },
   {
     "name": "ایمان طرازانی",
     "role": "Senior Mobile Developer",
-    "avatar": "assets/images/about_us/childs/alirezatarazani.jpg"
+    "avatar": "assets/images/about_us/team/alirezatarazani.jpg"
   },
   {
     "name": "فرشید روحی",
     "role": "Mobile Developer",
-    "avatar": "assets/images/about_us/childs/farshidrohi.jpg"
+    "avatar": "assets/images/about_us/team/farshidrohi.jpg"
   },
   {
     "name": "مهدی مهره چی",
     "role": "UI Designer",
-    "avatar": "assets/images/about_us/childs/mehdimohrechi.jpg"
+    "avatar": "assets/images/about_us/team/mehdimohrechi.jpg"
   },
   {
     "name": "مرجان حسینی",
     "role": "Graphic Designer",
-    "avatar": "assets/images/about_us/childs/marjanhoseyni.jpg"
+    "avatar": "assets/images/about_us/team/marjanhoseyni.jpg"
   },
   {
     "name": "نیما نورافشان",
     "role": "Customer Care Manager",
-    "avatar": "assets/images/about_us/childs/nimanorafshan.jpg"
-  }
-,
+    "avatar": "assets/images/about_us/team/nimanorafshan.jpg"
+  },
   {
     "name": "علیرضا یوسفی",
-    "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/childs/alirezayusefi.jpg"
+    "role": "Technical Support Expert",
+    "avatar": "assets/images/about_us/team/alirezayusefi.jpg"
+  },
+  {
+    "name": "عباس بصیری نیا",
+    "role": "Technical Support Expert",
+    "avatar": "assets/images/about_us/team/user.svg"
   },
   {
     "name": "عسل سجادی",
     "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/childs/asalsajadi.jpg"
+    "avatar": "assets/images/about_us/team/asalsajadi.jpg"
   },
   {
     "name": "آرزو اشراقی",
     "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/childs/arezoeshraghi.jpg"
+    "avatar": "assets/images/about_us/team/arezoeshraghi.jpg"
   },
   {
     "name": "مائده نیکخو",
     "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/childs/maedenikkho.jpg"
+    "avatar": "assets/images/about_us/team/maedenikkho.jpg"
+  },
+  {
+    "name": "صدف سجادی",
+    "role": "Customer Care Expert",
+    "avatar": "assets/images/about_us/team/user.svg"
+  },
+  {
+    "name": "محمد توکلی",
+    "role": "Customer Care Expert",
+    "avatar": "assets/images/about_us/team/user.svg"
   },
   {
     "name": "مهدی خیاطیان",
     "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/childs/khayatiyan.jpg"
+    "avatar": "assets/images/about_us/team/khayatiyan.jpg"
   },
   {
     "name": "میلاد لطفی",
@@ -108,18 +122,18 @@
   },
   {
     "name": "ایمان علیزاده",
-    "role": "Sales Expert‌",
-    "avatar": "assets/images/about_us/childs/imanalizadeh.jpg"
+    "role": "Sales Expert",
+    "avatar": "assets/images/about_us/team/imanalizadeh.jpg"
   },
   {
     "name": "سجاد کرمی",
     "role": "Sales Expert",
-    "avatar": "assets/images/about_us/childs/user.svg"
+    "avatar": "assets/images/about_us/team/user.svg"
   },
   {
     "name": "مهدی غیورمداح",
-    "role": "Product Manager‌",
-    "avatar": "assets/images/about_us/childs/mehdighayur.jpg"
+    "role": "Product Manager",
+    "avatar": "assets/images/about_us/team/mehdighayur.jpg"
   },
   {
     "name": "محمد عباسی‌فرد",
@@ -129,6 +143,6 @@
   {
     "name": "توحید قنبرپور",
     "role": "Business Intelligence Expert",
-    "avatar": "assets/images/about_us/childs/tohidghanbarpour.jpg"
+    "avatar": "assets/images/about_us/team/tohidghanbarpour.jpg"
   }
 ]

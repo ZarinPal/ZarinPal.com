@@ -58,6 +58,7 @@ export default {
             phone: null,
             siteKey: '6Lcrtc4SAAAAAKekvip0yI9Dp2DKXyVtliBXnqHS',
             g_recaptcha: '',
+            rcapt_id: 0,
 
 			/**
 			 * common
@@ -82,14 +83,9 @@ export default {
     computed: {
     },
 	mounted(){
-        let tag = document.createElement("script");
-        tag.src = "https://www.google.com/recaptcha/api.js?onload=onloadgrecaptcha&hl=fa-IR";
-        let gReCaptchaElement = document.getElementById('contact-g-recaptcha');
-        let sitekey = this.siteKey;
-        window.onloadgrecaptcha = function(){
-            this.rcapt_id = grecaptcha.render(gReCaptchaElement , { sitekey });
-        };
-        document.getElementsByTagName("head")[0].appendChild(tag);
+      window.onloadgrecaptcha = function(){
+        this.rcapt_id = grecaptcha.render(gReCaptchaElement , { sitekey: sitekey });
+      };
     },
     methods: {
         sendGuest() {
@@ -117,12 +113,12 @@ export default {
                     .then(function (response) {
                         let publicId = response.data.data.public_id;
                         vm.requesting = false;
-
                         window.location.replace("https://my.zarinpal.com/panel/ticket/guest/" + btoa(vm.phone) + "/" + btoa(publicId));
                     })
                     .catch(function (error) {
-                        vm.requesting = false;
-                        vm.errors = error.response.data.validation_errors;
+                      vm.requesting = false;
+                      vm.errors = error.response.data.validation_errors;
+                      grecaptcha.reset();
                     });
 			}
         },

@@ -14,23 +14,23 @@ block header
             ul.links.hidden-xs.hidden-sm
                 a(href="/prices.html")
                     li #{seed.lang[lang]['prices']}
-                a(href="/merchants.html")
-                    li #{seed.lang[lang]['receptionists']}
                 a(href="/application.html")
                     li #{seed.lang[lang]['application']}
                 a(href="/lab")
                     li #{seed.lang[lang]['lab']}
+                a(href="/contact.html")
+                    li #{seed.lang[lang]['contactUs']}
                 a.white(href="#")
-                    li.more-menu#btnShowMoreMenu(onclick="showMoreMenu()") #{seed.lang[lang]['more']}
+                    li.more-menu#btnShowMoreMenu #{seed.lang[lang]['more']}
                         ul.animated#moreMenu
                             a(href="/faq.html")
                                 li #{seed.lang[lang]['faq']}
                             a(href="/products.html")
                                 li #{seed.lang[lang]['products']}
-                            a(href="/contact.html")
-                                li #{seed.lang[lang]['contactUs']}
+                            a(href="/merchants.html")
+                                li #{seed.lang[lang]['receptionists']}
                 span.vertical-line
-                a.pull-left(href="https://my.zarinpal.com/auth/login")
+                a.pull-left(href="https://my.zarinpal.com/")
                     li #{seed.lang[lang]['loginToAccount']}
 
         //Mobile menu
@@ -61,10 +61,3 @@ block header
                 a.read-more(href="https://my.zarinpal.com/auth/login")
                     span #{seed.lang[lang]['loginToAccount']}
                     i.icon-left
-
-
-    script
-        | function showMoreMenu() {
-        |     document.getElementById("moreMenu").classList.toggle("show");
-        | }
-
