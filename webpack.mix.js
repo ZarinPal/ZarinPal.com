@@ -1,42 +1,56 @@
 let mix = require('laravel-mix');
 mix.pug = require('laravel-mix-pug');
+const glob = require('glob');
 
 let baseUrl = '/';
 let assetsHash = '';
 if ('production' === process.env.NODE_ENV) {
-    baseUrl = '//cdn.zarinpal.com/home/v2/';
-    assetsHash = '?' + process.env.GIT_SHA;
+  baseUrl = '//cdn.zarinpal.com/home/v2/';
+  assetsHash = '?' + process.env.GIT_SHA;
 }
 
-mix.setPublicPath('public/assets')
-    .setResourceRoot('../')
-    .js('src/js/app.js', 'public/assets/js')
-    .js('src/js/merchants/app.js', 'public/assets/js/merchants')
-    .js('src/js/contact/app.js', 'public/assets/js/contact')
-    .js('src/js/pages/faq.js', 'public/assets/js/pages')
-    .sass('src/scss/app.scss', 'public/assets/css')
-    .sass('src/scss/pages/pages_header.scss', 'public/assets/css')
-    .pug('src/pug/*.pug', 'public', {
-        seeds: 'src',
-        locals: {
-            lang: 'fa',
-            config: {
-                baseUrl: baseUrl,
-                assetsHash: assetsHash
-            }
-        }
-    })
-    // .pug('src/pug/*.pug', 'public', {
-    //     seeds: 'public',
-    //     locals: {
-    //         lang: 'en'
-    //     }
-    // })
-    .copy('src/images/app', 'public/assets/images')
-    .copy('src/images/about_us', 'public/assets/images/about_us')
-    .copy('src/images/pages', 'public/assets/images')
-    .copy('src/images/favicon', 'public/icons')
-    .sourceMaps();
+function withMatrial(config) {
+
+  config.includePaths = ['node_modules/', 'node_modules/@material/*'].map(
+    (d) => path.join(__dirname, d)).
+    map((g) => glob.sync(g)).
+    reduce((a, c) => a.concat(c), []);
+  return config;
+
+}
+
+mix.setPublicPath('public/assets').
+  setResourceRoot('../').
+  js('src/js/app.js', 'public/assets/js').
+  js('src/js/merchants/app.js', 'public/assets/js/merchants').
+  js('src/js/contact/app.js', 'public/assets/js/contact').
+  js('src/js/pages/faq.js', 'public/assets/js/pages').
+  sass('src/scss/app.scss', 'public/assets/css').
+  sass('src/scss/pages/pages_header.scss', 'public/assets/css').
+  js('src/js/campaign/bizhero.js', 'public/assets/js/campaign').
+  sass('src/scss/campaign/bizhero.scss', 'public/assets/css/',withMatrial({})).
+  pug('src/pug/**/*.pug', 'public', {
+    exludePath: 'src/pug/partials/',
+    seeds: 'src',
+    locals: {
+      lang: 'fa',
+      config: {
+        baseUrl: baseUrl,
+        assetsHash: assetsHash,
+      },
+    },
+  })
+  // .pug('src/pug/*.pug', 'public', {
+  //     seeds: 'public',
+  //     locals: {
+  //         lang: 'en'
+  //     }
+  // })
+  .copy('src/images/app', 'public/assets/images').
+  copy('src/images/about_us', 'public/assets/images/about_us').
+  copy('src/images/pages', 'public/assets/images').
+  copy('src/images/favicon', 'public/icons').
+  sourceMaps();
 
 /*
  |--------------------------------------------------------------------------
@@ -49,11 +63,11 @@ mix.setPublicPath('public/assets')
  |
  */
 
-    mix.browserSync(({
-        proxy: false,
-        port:'8000',
-        server: {baseDir: './public'} // this is the only difference
-    }));
+mix.browserSync(({
+  proxy: false,
+  port: '8000',
+  server: {baseDir: './public'}, // this is the only difference
+}));
 // mix.browserSync('http://new.zarinpal.test');
 
 // Full API

@@ -35,6 +35,8 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
 
     if pageBlackHeader
         link(rel="stylesheet", href=config.baseUrl + 'assets/css/pages_header.css' + config.assetsHash)
+    if isCampaign
+        link(rel="stylesheet", href=config.baseUrl + 'assets/css/bizhero.css' + config.assetsHash)
 
     link(rel='apple-touch-icon', sizes='180x180', href='/icons/apple-touch-icon.png')
     link(rel='icon', type='image/png', sizes='32x32', href='/icons/favicon-32x32.png')
@@ -47,8 +49,12 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
     block head
 
     body
-        div.content
-            block content
+        if fullWidth
+            div.full-width
+                block content
+        else
+            div.content
+                block content
 
         script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
         script.
