@@ -26,12 +26,19 @@ block content
           i.icon-arrow-down.pointer(onclick="scrollToSection('two')")
     section#two
       div.row
-        div.col-lg-4.col-lg-offset-1.col-md-4.col-md-offset-1.col-sm-12.col-xs-12
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12
           h3.title-content #{seed.lang[lang]['bizhero']['titleContent']}
-          p.title-describee !{seed.lang[lang]['bizhero']['describe']}
-        div.col-lg-5.col-lg-offset-1.col-md-5.col-md-offset-1.col-sm-12.col-xs-12
+          hr.light-line
+          div.col-lg-6.col-lg-offset-3.col-md-6.col-md-offset-3.col-sm-12.col-xs-12
+            p.title-describee !{seed.lang[lang]['bizhero']['describe']}
+
+
+    section#tree
+      div.row
+        div.col-lg-6.col-lg-offset-3.col-md-6.col-md-offset-3.col-sm-12.col-xs-12
           div.form-info
             h3.title-content #{seed.lang[lang]['bizhero']['customerInfo']}
+            hr.light-line
             div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-name
               input.mdc-text-field__input#name-text-field
               label.mdc-floating-label(for="name-text-field") #{seed.lang[lang]['bizhero']['formName']}
@@ -65,14 +72,32 @@ block content
                 textarea.mdc-text-field__input#text-field-textarea-dense
                 label.mdc-floating-label(for="text-field-textarea-dense") #{seed.lang[lang]['bizhero']['moreInfo']}
             button.btn.btn-gold.submit #{seed.lang[lang]['bizhero']['send']}
+
+
+      div.row.cta
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          h1.cta-title #{seed.lang[lang]['bizhero']['platForm']}
+          div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center.btn-register
+            a.btn.btn-gold.register(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['pricesPage']['getRegister']}
+
+    section#for
       div.row
-        div.col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.col-sm-12.col-xs-12
-          div.call-to-action
-            span.cta-title #{seed.lang[lang]['pricesPage']['takeStrongYourFirstStep']}
-            a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['pricesPage']['getRegister']}
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          h3.title-content-footer #{seed.lang[lang]['bizhero']['titleContentFooter']}
+          hr.light-line
+          div.col-lg-6.col-lg-offset-3.col-md-6.col-md-offset-3.col-sm-12.col-xs-12
+            p.title-describee-footer !{seed.lang[lang]['bizhero']['describeFooter']}
+      div.row.info-footer
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12
+          div.email-pic
+          div.email-link
+            a.email-txt.ta-center.pointer( href="mailto:info@zarinpal.com" ) #{seed.lang[lang]['bizhero']['emailAddress']}
+        div.col-lg-6.col-md-6.col-sm-12.col-xs-12.l
+          div.mobile-pic
+          div.mobile-txt.ta-center #{seed.lang[lang]['bizhero']['numberCell']}
 
 
-  include ../partials/footer
+
   script(src=config.baseUrl + 'assets/js/campaign/bizhero.js' + config.assetsHash)
 
 
