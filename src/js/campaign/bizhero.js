@@ -12,14 +12,19 @@ let textFieldName = new MDCTextField(
 let textFieldLastName = new MDCTextField(
     document.querySelector(`#text-field-lastname`)
   );
-let textFieldMoreInfo = new MDCTextField(
-    document.querySelector(`#text-field-moreinfo`)
+let textFieldEmail = new MDCTextField(
+    document.querySelector(`#text-field-email`)
   );
-
+let textFieldAddress= new MDCTextField(
+    document.querySelector(`#text-field-address`)
+  );
+let textFieldMoreinfo= new MDCTextField(
+    document.querySelector(`#text-field-moreinfo`)
+  )
 
 
 let typed = new Typed("#content-champion", {
-  strings: ["قهرمان کسب و کار بودن حمایت می خواهد","قهرمان کسب و کار بودن آموزش میخواهد","قهرمان کسب و کار بودن دیده شدن می خواهد."],
+  strings: [" حمایت می خواهد."," آموزش می خواهد."," دیده شدن می خواهد."],
   typeSpeed: 50,
   loop: true,
   showCursor:false
