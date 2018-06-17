@@ -1,61 +1,78 @@
 extends ../partials/layout
 block page-variables
   - var fullWidth = true
+  - var pageTitle = seed.lang[lang]['bizhero']['titleChampion']
   - var isCampaign = true
 
 block content
   div.bizhero
-    div.row
-      div.logo-img
-    div.row.section-one
-      h1.title-champion #{seed.lang[lang]['bizhero']['titleChampion']}
-       p.content-champion#content-champion
-      div.social-networks
-        a.icon-link.instagram-bg.wow.fadeIn(href="https://www.instagram.com/zarinpal" data-wow-duration="8s")
-          div.icon.instagram
-        a.icon-link.telegram-bg.wow.fadeIn(href="https://t.me/zarinpal" data-wow-duration="3s")
-          div.icon.telegram.wow.zoomeIn
-        a.icon-link.twitter-bg.wow.fadeIn(href="https://twitter.com/zarinpal" data-wow-duration="8s")
-          div.icon.twitter
-    div.col-xs-12.btn-go-bottom-section.ta-center
-      i.icon-arrow-down.pointer(onclick="scrollToSection('twoSection')")
-
-    div.row.section-two
-      div.col-lg-1.col-md-1
-      div.col-lg-5.col-md-5.col-sm-12.col-xs-12.describe
-        h3.title-content #{seed.lang[lang]['bizhero']['titleContent']}
-        p !{seed.lang[lang]['bizhero']['describe']}
-      div.col-lg-1.col-md-1
-      div.col-lg-5.col-md-5.col-sm-12.col-xs-12
-        div.row
-          div
+    section#one
+      div.row.logo-bizhero
+        div.col-xs-12
+          a.logo-img( href="https://www.zarinpal.com" )
+        div.col-lg-9.col-lg-offset-2.col-md-9.col-md-offset-2.col-sm-12.col-xs-12.row-one
+          h1.title-champion.ta-center #{seed.lang[lang]['bizhero']['titleChampion']}
+            p.content-champion #{seed.lang[lang]['bizhero']['hero']}
+              span.content-champion#content-champion
+        div.col-lg-1.col-md-1.col-sm-12.col-xs-12.row-two
+          div.social-networks
+            a.icon-link.instagram-bg.wow.fadeIn(href="https://www.instagram.com/zarinpal" data-wow-duration="4s")
+              div.icon.instagram
+            a.icon-link.telegram-bg.wow.fadeIn(href="https://t.me/zarinpal" data-wow-duration="4s")
+              div.icon.telegram.wow.zoomeIn
+            a.icon-link.twitter-bg.wow.fadeIn(href="https://twitter.com/zarinpal" data-wow-duration="4s")
+              div.icon.twitter
+        div.col-xs-12.btn-go-bottom.ta-center
+          i.icon-arrow-down.pointer(onclick="scrollToSection('two')")
+    section#two
+      div.row
+        div.col-lg-4.col-lg-offset-1.col-md-4.col-md-offset-1.col-sm-12.col-xs-12
+          h3.title-content #{seed.lang[lang]['bizhero']['titleContent']}
+          p.title-describee !{seed.lang[lang]['bizhero']['describe']}
+        div.col-lg-5.col-lg-offset-1.col-md-5.col-md-offset-1.col-sm-12.col-xs-12
+          div.form-info
             h3.title-content #{seed.lang[lang]['bizhero']['customerInfo']}
-            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.demo-text-field-custom-colors.input-outline#text-field-name
+            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-name
               input.mdc-text-field__input#name-text-field
               label.mdc-floating-label(for="name-text-field") #{seed.lang[lang]['bizhero']['formName']}
               div.mdc-notched-outline
                 svg
                   path.mdc-notched-outline__path
               div.mdc-notched-outline__idle
-            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.input-outline#text-field-lastname
-              input.mdc-text-field__input#lastname-text-field( type="text")
-              label.mdc-floating-label(for="lastname-text-field") #{seed.lang[lang]['bizhero']['formLastName']}
+            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-lastname
+              input.mdc-text-field__input#last-text-field( type="text")
+              label.mdc-floating-label(for="last-text-field") #{seed.lang[lang]['bizhero']['Lastname']}
               div.mdc-notched-outline
                 svg
                   path.mdc-notched-outline__path
               div.mdc-notched-outline__idle
-            div.row
-              div.mdc-text-field.text-field.mdc-text-field--dense.mdc-text-field--textarea.mdc-text-field--upgraded.input-text-area#text-field-moreinfo
+            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-email
+              input.mdc-text-field__input#address-text-field
+              label.mdc-floating-label(for="address-text-field") #{seed.lang[lang]['bizhero']['address']}
+              div.mdc-notched-outline
+                svg
+                  path.mdc-notched-outline__path
+              div.mdc-notched-outline__idle
+            div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-address
+              input.mdc-text-field__input#email-text-field( type="text")
+              label.mdc-floating-label(for="email-text-field") #{seed.lang[lang]['bizhero']['email']}
+              div.mdc-notched-outline
+                svg
+                  path.mdc-notched-outline__path
+              div.mdc-notched-outline__idle
+            div.row.input-text-area
+              div.mdc-text-field.text-field.mdc-text-field--dense.mdc-text-field--textarea.mdc-text-field--upgraded.text-field-custom-colors.input-text-area#text-field-moreinfo
                 textarea.mdc-text-field__input#text-field-textarea-dense
                 label.mdc-floating-label(for="text-field-textarea-dense") #{seed.lang[lang]['bizhero']['moreInfo']}
-              button.btn.btn-gold #{seed.lang[lang]['bizhero']['send']}
-    div.row.section-tree
-      div.col-xs-12.ta-center
-        span #{seed.lang[lang]['bizhero']['copyRight']}
+            button.btn.btn-gold.submit #{seed.lang[lang]['bizhero']['send']}
+      div.row
+        div.col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.col-sm-12.col-xs-12
+          div.call-to-action
+            span.cta-title #{seed.lang[lang]['pricesPage']['takeStrongYourFirstStep']}
+            a.btn.btn-gold(href="https://my.zarinpal.com/auth/register") #{seed.lang[lang]['pricesPage']['getRegister']}
 
 
-
-
-
-
+  include ../partials/footer
   script(src=config.baseUrl + 'assets/js/campaign/bizhero.js' + config.assetsHash)
+
+

@@ -1,4 +1,29 @@
-@import "~flexboxgrid-sass";
+@import "~flexboxgrid-sass/flexboxgrid";
+$name: xs;
+
+@for $i from 1 through 12 {
+  .col-#{$name}-offset-#{$i} {
+    @include flexboxgrid-sass-col-common;
+    margin-right: 100% / 12 * $i;
+    margin-left: 0;
+  }
+}
+
+@each $breakpoint in $breakpoints {
+  $name: nth($breakpoint, 1);
+  $size: nth($breakpoint, 2);
+  @media only screen and (min-width: $size) {
+    @for $i from 1 through $grid-columns {
+      .col-#{$name}-offset-#{$i} {
+        @include flexboxgrid-sass-col-common;
+        margin-right: 100% / $grid-columns * $i;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+
 @import "responsive/media";
 
 //Common

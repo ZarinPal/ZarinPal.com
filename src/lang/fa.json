@@ -93,8 +93,11 @@
   },
   "bizhero": {
     "recordPersonalData": "ثبت مشخصات فردی",
-    "formName": "نام",
-    "formLastName": "نام خانوادگی",
+    "formName": "نام ",
+    "hero": "قهرمان کسب و کار بودن ",
+    "Lastname": " نام خانوادگی",
+    "email": " ایمیل",
+    "address": "آدرس وب سایت یا شبکه های اجتماعی",
     "moreInfo": "توضیحات",
     "titleContent": "سلام",
     "titleChampion": "قهرمان کسب و کار خودت باش!",

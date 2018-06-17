@@ -7,167 +7,232 @@
   src: url('../../fonts/woff2/Lalezar.woff2') format('woff2'); /* FF39+,Chrome36+, Opera24+*/
 }
 
-.bizhero{
+.bizhero {
   font-family: IRANSans;
-  margin-top: -10px;
-  .section-two{
-    height: 90Vh;
-  }
-  .section-tree{
-    height: 5Vh;
-    .copyright{
-      padding-bottom: 26px;
+  #one {
+    .logo-bizhero {
+      background-color: #ffee00;
+      height: 98Vh;
+      margin-top: -10px;
+
+      .row-two{
+        margin: auto;
+      }
+      .title-champion{
+        font-family: Lalezar !important;
+        color: #2B4A83;
+        margin: auto;
+        font-size: 4em;
+        margin-top: 2.5em;
+      }
+      .content-champion{
+        font-size: 1.5rem;
+        font-family: iransans;
+      }
+      .logo-img {
+        background: url("../../images/ZarinPal-Logo.svg") no-repeat center;
+        width: 150px;
+        height: 50px;
+        background-size: contain;
+        right: 16px;
+        position: absolute;
+        padding-bottom: 60px;
+      }
+      .btn-go-bottom{
+        margin-top: auto;
+        .icon-arrow-down{
+          display: inline-block;
+          font-size: 33px;
+          background-color: #FFFFFF;
+          -webkit-box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.1);
+          border-radius: 100px;
+          color: #21254E;
+          position: relative;
+          bottom: -22px;
+          cursor: pointer;
+          z-index: 1000;
+        }
+      }
+    }
+    .social-networks {
+      margin-top: auto;
+      margin-bottom: auto;
+      float: left;
+      .icon-link {
+        background-color: #2B4A83;
+        border-radius: 50%;
+        margin: 10px;
+        display: block;
+        &:hover {
+          background-color: #fff;
+        }
+      }
+      .twitter-bg {
+        padding: 16px 8px 0px 11px;
+      }
+      .instagram-bg {
+        padding: 16px 8px 0px 13px;
+      }
+      .telegram-bg {
+        padding: 16px 8px 0px 11px;
+      }
+      .icon {
+        display: inline-block;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+      .telegram {
+        background-repeat: no-repeat;
+        background-color: #fff;
+        -webkit-mask: url("../../images/social/telegram.svg") no-repeat 50% 50%;
+        mask: url("../../images/social/telegram.svg") no-repeat 50% 50%;
+        width: 24px;
+        height: 21px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 3px;
+        left: 0px;
+        &:hover {
+          background-color: #2B4A83;
+        }
+      }
+      .instagram {
+        background-repeat: no-repeat;
+        background-color: #fff;
+        -webkit-mask: url("../../images/social/instagram.svg") no-repeat 50% 50%;
+        mask: url("../../images/social/instagram.svg") no-repeat 50% 50%;
+        width: 22px;
+        height: 22px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 2px;
+        left: 7px;
+        &:hover {
+          background-color: #2B4A83;
+        }
+
+      }
+      .twitter {
+        background-repeat: no-repeat;
+        background-color: #fff;
+        -webkit-mask: url("../../images/social/twitter.svg") no-repeat 50% 50%;
+        mask: url("../../images/social/twitter.svg") no-repeat 50% 50%;
+        width: 25px;
+        height: 20px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 1px;
+        left: 7px;
+        &:hover {
+          background-color: #2B4A83;
+        }
+      }
+      .l {
+        background-color: red;
+      }
     }
   }
-  .logo-img{
-    background: url("../../images/ZarinPal-Logo.svg") no-repeat center;
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    background-size: contain;
-    top: 16px;
-    right: 16px;
-  }
-  .social-networks{
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  .zoomeIn{
-    animation-name: zoomIn;
-  }
-  input:focus{
-    -webkit-box-shadow: unset;
-    box-shadow: unset;
-  }
-  .describe{
-    p{
+  #two{
+    height: auto;
+    margin-top: 40px;
+    .l{
+      background-color: red;
+      height: 500px;
+    }
+    .m{
+      background-color: #303030;
+      height: 500px;
+
+    }
+    .call-to-action{
+      margin:70px auto 70px auto;
+      border: 1px solid #c3c6cd;
+      padding: 40px 25px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .cta-title{
+      padding-left: 50px;
+      font-size: 20px;
+    }
+    .title-content{
+      font-family: Lalezar !important;
+      font-size: 32px;
+      margin-right: 22px;
+      border-radius: 10px;
+    }
+    .title-describee{
       color: #757575;
       line-height: 2.5em;
       font-size: 15px;
     }
-  }
-  .input-outline{
-    width: 50%;
-  }
-  .input-text-area{
-    width: 100%;
-  }
-  .section-one {
-    background-color: #ffee00;
-    height: 95Vh;
-  }
-
-  .describe{
-    p{
-      padding-left: 40px;
-    }
-
-  }
-  .title-content{
-    font-family: Lalezar !important;
-    font-size: 32px;
-  }
-  .title-champion{
-    font-family: Lalezar !important;
-    color: #2B4A83;
-    margin: auto;
-    font-size: 3em;
-  }
-  .content-champion{
-    font-size: 25px;
-  }
-  .form-info{
-    margin-right: 5px;
-  }
-  .form-title{
-    text-align: center;
-  }
-  .social-networks {
-
-    .icon-link {
-      background-color: #2B4A83;
-      border-radius: 50%;
-      margin: 10px;
-      display: block;
-      &:hover{
-        background-color: #fff;
+    .form-info{
+      margin-right: 5px;
+      input{
+        &:focus{
+          -webkit-box-shadow: unset;
+          box-shadow: unset;
+        }
       }
-
-    }
-
-    .twitter-bg{
-      padding: 16px 8px 0px 11px;
-    }
-    .instagram-bg{
-      padding: 16px 8px 0px 13px;
-    }
-    .telegram-bg{
-      padding: 16px 8px 0px 11px;
-    }
-
-    .icon {
-      display: inline-block;
-    }
-    .icon:hover{
-      opacity: 0.7;
-    }
-
-    .telegram {
-      background-repeat: no-repeat;
-      background-color: #fff;
-      -webkit-mask:  url("../../images/social/telegram.svg") no-repeat 50% 50%;
-      mask: url("../../images/social/telegram.svg") no-repeat 50% 50%;
-      width: 24px;
-      height: 21px;
-      background-size: 100% 100%;
-      position: relative;
-      top: -1px;
-      bottom: 0px;
-      right: 3px;
-      left: 0px;
-      &:hover{
-        background-color: #2B4A83;
+      .input-outline{
+        width: 50%;
       }
-    }
-
-    .instagram {
-      background-repeat: no-repeat;
-      background-color: #fff;
-      -webkit-mask:  url("../../images/social/instagram.svg") no-repeat 50% 50%;
-      mask: url("../../images/social/instagram.svg") no-repeat 50% 50%;
-      width: 22px;
-      height: 22px;
-      background-size: 100% 100%;
-      position: relative;
-      top: -1px;
-      bottom: 0px;
-      right: 2px;
-      left: 7px;
-      &:hover{
-        background-color: #2B4A83;
+      .input-text-area{
+        width: 100%;
       }
-
-    }
-
-    .twitter {
-      background-repeat: no-repeat;
-      background-color: #fff;
-      -webkit-mask:  url("../../images/social/twitter.svg") no-repeat 50% 50%;
-      mask: url("../../images/social/twitter.svg") no-repeat 50% 50%;
-      width: 25px;
-      height: 20px;
-      background-size: 100% 100%;
-      position: relative;
-      top: -1px;
-      bottom: 0px;
-      right: 1px;
-      left: 7px;
-      &:hover{
-        background-color: #2B4A83;
+      .mdc-floating-label{
+        font-family: IRANSans;
+      }
+      .input-text-area{
+        margin-right: 2px;
+      }
+      .submit{
+        margin-top: 10px;
       }
     }
   }
-  .mdc-floating-label{
-    font-family: IRANSans;
+  #tree{
+    margin-bottom: 3em;
   }
 }
+
+.text-field-custom-colors:not(.mdc-text-field--invalid) {
+
+  @include mdc-text-field-focused-outline-color( #fde051);
+  @include mdc-text-field-textarea-stroke-color(#c3c6cd);
+
+  &.mdc-text-field--focused {
+    @include mdc-text-field-label-color( #000);
+    @include mdc-text-field-textarea-stroke-color(#fde051);
+
+  }
+}
+
+
+
+@media (max-width: 1042px) {
+  #one {
+    .logo-bizhero {
+      height: 136Vh !important;
+      .social-networks {
+        float: none;
+        text-align: center !important;
+        .icon-link {
+          display: unset;
+        }
+      }
+    }
+  }
+}
+
+
+
+
