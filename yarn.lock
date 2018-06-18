@@ -47,6 +47,16 @@
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.36.0.tgz#a81b587981dc6e09f51e26da8a7447f89358ccd5"
 
+"@material/snackbar@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/snackbar/-/snackbar-0.36.0.tgz#25742f17e3e9ef798bfebd013ee7e1c4ebf59717"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/rtl" "^0.36.0"
+    "@material/theme" "^0.35.0"
+    "@material/typography" "^0.35.0"
+
 "@material/textfield@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@material/textfield/-/textfield-0.36.0.tgz#8dc70e4023944f43e08b00cb7e1f797e6a90b1d6"
