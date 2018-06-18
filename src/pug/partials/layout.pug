@@ -55,8 +55,8 @@ html(lang=(lang == "fa" ? 'fa-IR' : 'en') dir=(lang == "fa" ? 'rtl' : 'ltr'))
         else
             div.content
                 block content
-
-        script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
+        if !isCampaign
+            script(src=config.baseUrl + 'assets/js/app.js' + config.assetsHash)
         script.
             window.vasleSettings = {
                 app_id: "gM57jHU1"

@@ -40,15 +40,15 @@ block content
             h3.title-content #{seed.lang[lang]['bizhero']['customerInfo']}
             hr.light-line
             div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-name
-              input.mdc-text-field__input#name-text-field
-              label.mdc-floating-label(for="name-text-field") #{seed.lang[lang]['bizhero']['formName']}
+              input.mdc-text-field__input#firstname-text-field
+              label.mdc-floating-label(for="firstname-text-field") #{seed.lang[lang]['bizhero']['formName']}
               div.mdc-notched-outline
                 svg
                   path.mdc-notched-outline__path
               div.mdc-notched-outline__idle
             div.mdc-text-field.text-field.mdc-text-field--outlined.mdc-text-field--dense.mdc-text-field--upgraded.text-field-custom-colors.input-outline#text-field-lastname
-              input.mdc-text-field__input#last-text-field( type="text")
-              label.mdc-floating-label(for="last-text-field") #{seed.lang[lang]['bizhero']['Lastname']}
+              input.mdc-text-field__input#lastname-text-field( type="text")
+              label.mdc-floating-label(for="lastname-text-field") #{seed.lang[lang]['bizhero']['Lastname']}
               div.mdc-notched-outline
                 svg
                   path.mdc-notched-outline__path
@@ -71,7 +71,7 @@ block content
               div.mdc-text-field.text-field.mdc-text-field--dense.mdc-text-field--textarea.mdc-text-field--upgraded.text-field-custom-colors.input-text-area#text-field-moreinfo
                 textarea.mdc-text-field__input#text-field-textarea-dense
                 label.mdc-floating-label(for="text-field-textarea-dense") #{seed.lang[lang]['bizhero']['moreInfo']}
-            button.btn.btn-gold.submit #{seed.lang[lang]['bizhero']['send']}
+            button.btn.btn-gold.submit#submit-survey #{seed.lang[lang]['bizhero']['send']}
 
 
       div.row.cta
@@ -95,6 +95,10 @@ block content
         div.col-lg-6.col-md-6.col-sm-12.col-xs-12.l
           div.mobile-pic
           div.mobile-txt.ta-center #{seed.lang[lang]['bizhero']['numberCell']}
+  div.mdc-snackbar( aria-live="assertive" aria-atomic="true" aria-hidden="true")
+    div.mdc-snackbar__text
+    div.mdc-snackbar__action-wrapper
+      button.mdc-snackbar__action-button(type="button" )
 
 
 
