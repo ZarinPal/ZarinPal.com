@@ -110,15 +110,16 @@
     "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/team/user.svg"
   },
-  {
-    "name": "مهدی خیاطیان",
-    "role": "Customer Care Expert",
-    "avatar": "assets/images/about_us/team/khayatiyan.jpg"
-  },
+
   {
     "name": "میلاد لطفی",
     "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/team/miladlotfi.jpg"
+  },
+  {
+    "name": "مهدی خیاطیان",
+    "role": "Sales Expert",
+    "avatar": "assets/images/about_us/team/khayatiyan.jpg"
   },
   {
     "name": "ایمان علیزاده",
