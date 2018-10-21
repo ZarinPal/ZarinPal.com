@@ -56,14 +56,15 @@
     }
 
     .request-money {
-      width: 335px;
-      height: 395px;
-      background: url("../../images/index/request-money.svg") no-repeat center;
+      width: 499px;
+      height: 524px;
+      background-size: 100% !important;
+      background: url("../../images/index/request-money.png") no-repeat center;
       margin: 0 auto 0 auto;
       position: relative;
       display: inherit;
       top: 10px;
-      left: -80px;
+      left: -120px;
     }
   }
 }
@@ -250,6 +251,8 @@
     .section-new-version {
       .request-money {
         left: -180px !important;
+        top: -5px;
+        width: 390px !important;
       }
     }
   }

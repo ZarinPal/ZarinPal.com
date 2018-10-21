@@ -27,8 +27,6 @@ mix.setPublicPath('public/assets').
   js('src/js/pages/faq.js', 'public/assets/js/pages').
   sass('src/scss/app.scss', 'public/assets/css').
   sass('src/scss/pages/pages_header.scss', 'public/assets/css').
-  js('src/js/campaign/bizhero.js', 'public/assets/js/campaign').
-  sass('src/scss/campaign/bizhero.scss', 'public/assets/css/',withMatrial({})).
   pug('src/pug/**/*.pug', 'public', {
     exludePath: 'src/pug/partials/',
     seeds: 'src',
