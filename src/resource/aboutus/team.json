@@ -66,11 +66,6 @@
     "avatar": "assets/images/about_us/team/mehdimohrechi.jpg"
   },
   {
-    "name": "مرجان حسینی",
-    "role": "Graphic Designer",
-    "avatar": "assets/images/about_us/team/marjanhoseyni.jpg"
-  },
-  {
     "name": "نیما نورافشان",
     "role": "Customer Care Manager",
     "avatar": "assets/images/about_us/team/nimanorafshan.jpg"
@@ -136,19 +131,10 @@
     "role": "Product Manager",
     "avatar": "assets/images/about_us/team/mehdighayur.jpg"
   },
-  {
-    "name": "مصطفی لامعی",
-    "role": "Marketing Manager",
-    "avatar": "assets/images/about_us/team/user.svg"
-  },
+
   {
     "name": "محمد عباسی‌فرد",
     "role": "PR Manager",
     "avatar": "assets/images/about_us/team/mohamadabbasifard.jpg"
-  },
-  {
-    "name": "توحید قنبرپور",
-    "role": "Business Intelligence Expert",
-    "avatar": "assets/images/about_us/team/tohidghanbarpour.jpg"
   }
 ]
