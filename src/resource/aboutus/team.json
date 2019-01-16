@@ -73,6 +73,32 @@
     "avatar": "assets/images/about_us/team/nimanorafshan.jpg"
   },
   {
+    "name": "مهدی خیاطیان",
+    "role": "Sales Manager",
+    "avatar": "assets/images/about_us/team/khayatiyan.jpg"
+  },
+  {
+    "name": "ایمان علیزاده",
+    "role": "Sales Expert",
+    "avatar": "assets/images/about_us/team/imanalizadeh.jpg"
+  },
+  {
+    "name": "سجاد کرمی",
+    "role": "Sales Expert",
+    "avatar": "assets/images/about_us/team/user.svg"
+  },
+  {
+    "name": "مهدی غیورمداح",
+    "role": "Process Improvement Manager",
+    "avatar": "assets/images/about_us/team/mehdighayur.jpg"
+  },
+
+  {
+    "name": "محمد عباسی‌فرد",
+    "role": "PR Manager",
+    "avatar": "assets/images/about_us/team/mohamadabbasifard.jpg"
+  },
+  {
     "name": "علیرضا یوسفی",
     "role": "Technical Support Expert",
     "avatar": "assets/images/about_us/team/alirezayusefi.jpg"
@@ -112,31 +138,5 @@
     "name": "میلاد لطفی",
     "role": "Customer Care Expert",
     "avatar": "assets/images/about_us/team/miladlotfi.jpg"
-  },
-  {
-    "name": "مهدی خیاطیان",
-    "role": "Sales Manager",
-    "avatar": "assets/images/about_us/team/khayatiyan.jpg"
-  },
-  {
-    "name": "ایمان علیزاده",
-    "role": "Sales Expert",
-    "avatar": "assets/images/about_us/team/imanalizadeh.jpg"
-  },
-  {
-    "name": "سجاد کرمی",
-    "role": "Sales Expert",
-    "avatar": "assets/images/about_us/team/user.svg"
-  },
-  {
-    "name": "مهدی غیورمداح",
-    "role": "Process Improvement Manager",
-    "avatar": "assets/images/about_us/team/mehdighayur.jpg"
-  },
-
-  {
-    "name": "محمد عباسی‌فرد",
-    "role": "PR Manager",
-    "avatar": "assets/images/about_us/team/mohamadabbasifard.jpg"
   }
 ]
