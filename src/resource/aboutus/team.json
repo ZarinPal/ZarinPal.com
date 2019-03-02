@@ -28,17 +28,20 @@
     "name": "هومن نقی ای",
     "role": "Chief Technology Officer",
     "avatar": "assets/images/about_us/team/hoomannaghei.jpg"
-
   },
-
   {
     "name": "سیده آزاده میرنظامی",
     "role": "Frontend Developer",
     "avatar": "assets/images/about_us/team/azadehmirnezami.jpg"
   },
   {
-    "name": "مسعود امینی",
+    "name": "امیر رحیم زاده",
     "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/team/amir_rahimzade.jpg"
+  },
+  {
+    "name": "مسعود امینی",
+    "role": "Backend Developer",
     "avatar": "assets/images/about_us/team/masoodamini.jpg"
   },
   {
