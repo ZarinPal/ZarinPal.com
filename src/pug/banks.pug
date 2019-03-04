@@ -1,0 +1,24 @@
+extends partials/layout
+block page-variables
+  - var pageTitle = seed.lang[lang]['getIbanNumber']
+  - var pageBlackHeader = true
+
+include partials/page_title
+
+block content
+  include partials/header
+
+  +pageTitle(seed.lang[lang]['getIbanNumber'])
+
+  div.banks-page
+    div.row.page-head.application-page.center-xs
+      div.col-xs-12.ta-center.application-title
+
+    div.row.banks-icon
+      each bank, index in seed.resource.banks
+        div.col-lg-2.col-md-2.col-sm-3.col-xs-6.ta-center.m-b-10
+          a(href=bank.link target="_blank")
+            img.banks-logo(src=config.baseUrl + bank.logo)
+            div #{bank.name}
+
+  include partials/footer
