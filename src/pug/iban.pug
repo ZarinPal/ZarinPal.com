@@ -19,7 +19,7 @@ block content
     div.row.iban-icon
       each bank, index in seed.resource.banks
         div.col-lg-2.col-md-2.col-sm-3.col-xs-4.ta-center.m-b-10
-          a(href=bank.link target="_blank")
+          a(href=bank.link target="_blank" rel="nofollow")
             img.iban-logo(src=config.baseUrl + bank.logo)
             div.iban-text #{bank.name}
 
