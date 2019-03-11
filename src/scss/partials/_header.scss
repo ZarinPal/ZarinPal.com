@@ -11,6 +11,7 @@
   text-align: center;
   color: #375d94;
   font-size: 30px;
+  cursor: pointer;
 
 }
 @media (min-width: 1200px){
@@ -18,17 +19,9 @@
     margin-left: -5%;
     margin-right: -5%;
     padding: 3px 100px 0 100px;
-
   }
 }
-@media (max-width: 1199px) and (min-width: 992px){
-  .landing-title{
-    margin-left: -5%;
-    margin-right: -5%;
-    padding: 3px 100px 0 100px;
 
-  }
-}
 .blue-header{
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
@@ -196,27 +189,3 @@
   }
 }
 
-
-// extra small
-@media (max-width: 575px) {
-
-}
-
-@media (min-width: 576px)  and (max-width: 767px){
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px){
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
