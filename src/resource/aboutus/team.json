@@ -30,14 +30,9 @@
     "avatar": "assets/images/about_us/team/hoomannaghei.jpg"
   },
   {
-    "name": "سیده آزاده میرنظامی",
-    "role": "Frontend Developer",
-    "avatar": "assets/images/about_us/team/azadehmirnezami.jpg"
-  },
-  {
-    "name": "امیر رحیم زاده",
-    "role": "Frontend Developer",
-    "avatar": "assets/images/about_us/team/amir_rahimzade.jpg"
+    "name": "وحید داوری",
+    "role": "Senior Backend Developer",
+    "avatar": "assets/images/about_us/team/vahiddavari.jpg"
   },
   {
     "name": "مسعود امینی",
@@ -50,11 +45,15 @@
     "avatar": "assets/images/about_us/team/aminnazari.jpg"
   },
   {
-    "name": "وحید داوری",
-    "role": "Backend Developer",
-    "avatar": "assets/images/about_us/team/vahiddavari.jpg"
+    "name": "سیده آزاده میرنظامی",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/team/azadehmirnezami.jpg"
   },
-
+  {
+    "name": "امیر رحیم زاده",
+    "role": "Frontend Developer",
+    "avatar": "assets/images/about_us/team/amir_rahimzade.jpg"
+  },
   {
     "name": "ایمان طرازانی",
     "role": "Senior Mobile Developer",
