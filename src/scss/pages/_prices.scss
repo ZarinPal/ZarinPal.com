@@ -1,5 +1,10 @@
 .prices-page {
   margin: 90px 0;
+  #register{
+    a{
+      margin-right: 20px;
+    }
+  }
 
   .top-page-image {
     width: 352px;
@@ -69,10 +74,6 @@
   }
 }
 
-// extra small
-@media (max-width: 575px) {
-
-}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px)  and (max-width: 767px){
@@ -88,12 +89,3 @@
   }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px){
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
