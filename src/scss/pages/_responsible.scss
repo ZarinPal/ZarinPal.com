@@ -1,0 +1,444 @@
+
+.responsible-page{
+  .file-box{
+    max-width: 158px;
+    height: 138px;
+    background: #F4F4F4;
+    border-radius: 23px;
+  }
+  .file-box-title{
+    font-size: 14px;
+    text-align: center;
+    color: #2B4A83;
+    font-family: IRANSansMedium !important;
+  }
+  .box-content{
+    border: 1px solid #E5E6E7;
+    border-radius: 19px;
+    margin-left: 18px;
+    padding: 2px 19px;
+    min-height: 131px;
+    .header-title{
+      font-size: 20px !important;
+      color: #14286D !important;
+      text-align: right;
+      font-family: iransansMedium !important;
+    }
+  }
+  .section-tree{
+    .email{
+      font-size: 16px;
+      color: #14286D;
+      font-family: iransansMedium !important;
+      margin-right: 33px;
+      &:before{
+        content: '';
+        background: url("../../images/arrow-bottom.svg") no-repeat;
+        width: 19px;
+        height: 22px;
+        position: absolute;
+        margin-right: -29px;
+        margin-top: 0;
+      }
+    }
+    .telegram-icon{
+      font-size: 16px;
+      color: #14286D;
+      font-family: iransansMedium !important;
+      margin-right: 33px;
+      &:before{
+        content: '';
+        background: url("../../images/telegram-icon.svg") no-repeat;
+        width: 19px;
+        height: 22px;
+        position: absolute;
+        margin-right: -23px;
+        margin-top: 5px;
+      }
+    }
+    .arrow-left{
+      font-size: 16px;
+      color: #14286D;
+      font-family: iransansLight !important;
+      margin-right: 33px;
+      &:before{
+        content: '';
+        background: url("../../images/arrow-left.svg") no-repeat;
+        width: 19px;
+        height: 22px;
+        position: absolute;
+        margin-right: -28px;
+        margin-top: 8px;
+      }
+    }
+  }
+  .section-five{
+    .social-networks {
+      text-align: left;
+      .icon-link {
+        border-radius: 50%;
+        margin: 10px;
+      }
+
+      .twitter-bg{
+        padding: 16px 8px 0px 11px;
+      }
+      .instagram-bg{
+        padding: 16px 8px 0px 13px;
+      }
+      .telegram-bg{
+        padding: 16px 8px 0px 11px;
+      }
+
+      .icon {
+        display: inline-block;
+      }
+      .icon:hover{
+        opacity: 0.7;
+      }
+
+      .telegram {
+        background: url("../../images/telegram.svg") no-repeat;
+        width: 24px;
+        height: 21px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 3px;
+        left: 0px;
+      }
+
+      .instagram {
+        background: url("../../images/instagram.svg") no-repeat;
+        width: 25px;
+        height: 20px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 2px;
+        left: 7px;
+
+      }
+
+      .twitter {
+        background: url("../../images/twitter.svg") no-repeat;
+        width: 25px;
+        height: 20px;
+        background-size: 100% 100%;
+        position: relative;
+        top: -1px;
+        bottom: 0px;
+        right: 1px;
+        left: 7px;
+      }
+    }
+
+    .logo-footer{
+      background: url("../../images/logo-footer.svg") no-repeat;
+      height: 38px;
+      width: 221px;
+      margin-top: 9px;
+    }
+    .footer-content{
+      font-size: 16px;
+      color: #14286D;
+      font-family: IRANSansMedium !important;
+    }
+    .footer-phoneNumber{
+      font-size: 18px;
+      color: #14286D;
+      font-family: IRANSansMedium !important;
+    }
+  }
+  .section-four{
+    padding-bottom: 32px;
+    margin-top: 50px;
+    .digiyato-img{
+      background: url("../../images/Digiato.svg") no-repeat;
+      height: 97px;
+      width: 126px;
+    }
+    .rahpardakht-img {
+      background: url("../../images/rahpardakht.svg") no-repeat;
+      height: 50px;
+      width: 142px;
+    }
+    .peyvast-img {
+      background: url("../../images/peyvast.svg") no-repeat;
+      height: 38px;
+      width: 221px;
+    }
+    .header-title {
+      font-size: 32px;
+      color: #14286D;
+      font-family: IRANSansBold !important;
+
+    }
+  }
+  .section-two{
+    margin-top: 100px !important;
+    .header-title {
+      font-size: 32px;
+      color: #14286D;
+    }
+    .title-describe {
+      margin:auto;
+      max-width: 751px;
+      padding-bottom: 20px;
+      line-height: 35px;
+      font-size: 16px;
+      color: #050B22;
+      font-family: IRANSansLight !important;
+      border-bottom: none !important;
+    }
+    .wage-describe{
+      margin:auto;
+      max-width: 415px;
+      padding-bottom: 20px;
+      line-height: 35px;
+      font-size: 16px;
+      color: #050B22;
+      font-family: IRANSansLight !important;
+      border-bottom: none !important;
+    }
+    .describe{
+      text-align: right;
+      padding-bottom: 20px;
+      line-height: 35px;
+      font-size: 16px;
+      color: #050B22;
+      font-family: IRANSansLight !important;
+      border-bottom: none !important;
+    }
+  }
+  .title-describe {
+    border-bottom: none !important;
+  }
+  .divider {
+    border-top: 1px solid #E5E6E7;
+    border-radius: 0;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    position: relative;
+    top: 22px;
+    margin-bottom: 24px;
+  }
+  .icon-arrow-down{
+    background: unset !important;
+    box-shadow: unset !important;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 100px;
+    color: #14286D;
+    position: relative;
+    bottom: -6px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .new-logo-white {
+    background: url("../../images/logo-white.svg") no-repeat;
+    height: 97px;
+    width: 126px;
+    margin: 44px auto 18px auto;
+  }
+  .responsible-img {
+    background: url("../../images/responsible.svg") no-repeat;
+    height: 103px;
+    width: 121px;
+    margin: 20px auto;
+  }
+  .header-title{
+    margin-top: 10px;
+  }
+  .new-logo {
+    height: 35px;
+    width: 156px;
+    margin: 44px auto 120px auto;
+  }
+  .title-describe {
+    margin-top: 16px !important;
+    max-width: 500px;
+    padding-bottom: 87px;
+    line-height: 37px;
+  }
+  .top-title{
+    margin-bottom: 5px;
+    font-size: 32px;
+    color: #14286D !important;
+    background: #fff;
+    padding: 0 11px;
+    border-radius: 10px;
+  }
+  .btn{
+    font-size: 14px !important;
+    color: #14286D !important;
+    margin: unset !important;
+  }
+  .links{
+    border-radius: 21px;
+    position: relative;
+    top: 41px;;
+    background: #FFE422 !important;
+    box-shadow: unset !important;
+    color: #584B00 !important;
+    width: max-content;
+    margin: auto;
+  }
+
+
+
+$from: 1;
+$to: 100;
+
+/**------------------
+margin
+-------------------- */
+
+@for $i from $from through $to {
+  .m-#{$i} {
+    margin: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-left
+-------------------- */
+
+@for $i from $from through $to {
+  .m-l-#{$i} {
+    margin-left: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-right
+-------------------- */
+@for $i from $from through $to {
+  .m-r-#{$i} {
+    margin-right: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-top
+-------------------- */
+@for $i from $from through $to {
+  .m-t-#{$i} {
+    margin-top: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-bottom
+-------------------- */
+@for $i from $from through $to {
+  .m-b-#{$i} {
+    margin-bottom: 0px + $i !important;
+  }
+}
+
+}
+
+
+
+
+
+
+@media(max-width: 575px) {
+  .responsible-page{
+    .logo-footer{
+      background-position: right !important;
+      margin-bottom: 23px;
+    }
+    .social-networks,.footer-phoneNumber{
+      text-align: right !important;
+    }
+    .section-tree,.section-four,.section-five{
+      padding: 0 30px;
+    }
+    .box-content {
+      margin-left: 35px !important;
+      margin-right: 35px;
+    }
+  }
+}
+@media(min-width: 575px) and (max-width: 767px) {
+  .responsible-page{
+    .logo-footer{
+      background-position: right !important;
+      margin-bottom: 23px;
+    }
+    .social-networks,.footer-phoneNumber{
+      text-align: right !important;
+    }
+    .section-tree,.section-four,.section-five{
+      padding: 0 30px;
+    }
+    .box-content {
+      margin-left: 35px !important;
+      margin-right: 35px;
+    }
+  }
+}
+
+
+@media(min-width: 767px) and (max-width: 992px) {
+  .responsible-page{
+    .section-tree,.section-four{
+      padding: 0 30px;
+      .email{
+        margin-top: -9px;
+      }
+    }
+    .box-content {
+      margin-left: 35px !important;
+      margin-right: 35px;
+    }
+    .digiyato-img{
+      background: url("../../images/Digiato.svg") no-repeat;
+      height: 97px;
+      width: 126px;
+      margin: -27px auto;
+    }
+  }
+}
+@media(min-width: 992px) and (max-width: 1200px) {
+  .responsible-page{
+    .links{
+      top: 20px!important;
+    }
+    .section-tree{
+      .email{
+        margin-top: -9px;
+      }
+    }
+    .digiyato-img{
+      background: url("../../images/Digiato.svg") no-repeat;
+      height: 97px;
+      width: 126px;
+      margin: -27px auto;
+    }
+  }
+}
+@media(min-width: 1200px){
+  .responsible-page{
+    .links{
+      top: 20px!important;
+    }
+    .section-tree{
+      .email{
+        margin-top: -9px;
+      }
+    }
+    .digiyato-img{
+      background: url("../../images/Digiato.svg") no-repeat;
+      height: 97px;
+      width: 126px;
+      margin: -27px auto;
+    }
+  }
+}

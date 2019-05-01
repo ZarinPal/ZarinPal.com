@@ -1,0 +1,113 @@
+extends partials/layout
+block page-variables
+  - var pageTitle = seed.lang[lang]['aboutUs']
+  - var whiteLogo = true
+
+block content
+  div.responsible-page
+    div.blue-header
+      div.custom-blue-header
+      <!--whatiszarinpal-->
+
+      div.row.section-one
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          a(href="/")
+            li.new-logo.new-logo-white
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center
+          div.gradient-background.white
+            span.tag.iransans-medium
+              span
+                span.top-title.white #{seed.lang[lang]['responsible']}
+            div.header-title.xs-ta-center.white.header-title
+              | #{seed.lang[lang]['financialPartner']}
+              | #{seed.lang[lang]['itsHere']}
+            p.title-describe.line-height.auto-margin.ta-justify
+              | #{seed.lang[lang]['descriptionLanding']}
+
+            div.links
+              a.btn#btnGoDown(onclick="scrollToSection('treeSection')" ) #{seed.lang[lang]['moreRead']}
+              i.icon-arrow-down.pointer#btnGoDown(onclick="scrollToSection('firstSection')")
+
+    <!--Zarin logo and description-->
+    div.row.section-two#firstSection
+      div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center.m-b-40
+        div.header-title #{seed.lang[lang]['theLastCrisis']}
+        p.title-describe #{seed.lang[lang]['crisisDescribe']}
+      div.col-lg-4.col-md-4.col-sm-6.col-xs-10.ta-center.divider
+      div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center.m-t-80
+        div.header-title #{seed.lang[lang]['zarinpalResponse']}
+        a(href="/")
+          li.responsible-img
+      div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center
+        div.header-title #{seed.lang[lang]['wage']}
+          p.wage-describe #{seed.lang[lang]['wageDescribe']}
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12.ta-center.m-t-30
+        div.box-content
+          div.header-title #{seed.lang[lang]['confirmation']}
+          p.describe #{seed.lang[lang]['confirmationDescription']}
+      div.col-lg-6.col-md-6.col-sm-12.col-xs-12.ta-center.m-t-30
+        div.box-content
+          div.header-title #{seed.lang[lang]['noticesToCustomer']}
+          p.describe #{seed.lang[lang]['noticesToCustomerDescription']}
+    div.row.section-tree
+      div.col-lg-6.col-md-8.col-sm-8.col-xs-12.m-t-30
+        div.row
+          div.col-lg-12.col-md-12.col-sm-12.col-xs-12.m-t-30
+            p.email #{seed.lang[lang]['receivedEmail']}
+        div.row
+          div.col-lg-4.col-md-4.col-sm-4.col-xs-4
+             div.file-box
+             p.file-box-title #{seed.lang[lang]['receive']}
+          div.col-lg-4.col-md-4.col-sm-4.col-xs-4
+            div.file-box
+            p.file-box-title #{seed.lang[lang]['receive']}
+          div.col-lg-4.col-md-4.col-sm-4.col-xs-4
+            div.file-box
+            p.file-box-title #{seed.lang[lang]['receive']}
+      div.col-lg-6.col-md-4.col-sm-4.col-xs-12.m-t-30
+        p.telegram-icon  #{seed.lang[lang]['notify']}
+        p.arrow-left  #{seed.lang[lang]['sms']}
+        p.arrow-left  #{seed.lang[lang]['email']}
+      div.col-lg-5.col-md-5.col-sm-6.col-xs-10.ta-center.divider
+    div.row.section-four
+        div.col-lg-3.col-md-3.col-sm-12.col-xs-12.m-t-30.m-b-30
+          div.header-title #{seed.lang[lang]['media']}
+        div.col-lg-3.col-md-3.col-sm-4.col-xs-12.m-t-30
+          a(href="/")
+            li.rahpardakht-img
+        div.col-lg-3.col-md-3.col-sm-4.col-xs-12.m-t-30
+          a(href="/")
+            li.peyvast-img
+        div.col-lg-3.col-md-3.col-sm-4.col-xs-12.m-t-30
+          a(href="/")
+            li.digiyato-img
+        div.col-lg-12.col-md-12.col-sm-12.col-xs-12.ta-center.divider.m-t-30
+    div.row.section-five
+        div.col-lg-4.col-md-4.col-sm-4.col-xs-12.m-t-30
+          p.footer-phoneNumber #{seed.lang[lang]['telephon']}
+        div.col-lg-4.col-md-4.col-sm-4.col-xs-12.m-t-30
+          a(href="/")
+            li.logo-footer
+          //p.footer-content.ta-center #{seed.lang[lang]['footerContent']}
+        div.col-lg-4.col-md-4.col-sm-4.col-xs-12.m-t-30
+          div.social-networks
+            a.icon-link.instagram-bg(href="https://www.instagram.com/zarinpal")
+              div.icon.instagram
+            a.icon-link.telegram-bg(href="https://t.me/zarinpal")
+              div.icon.telegram
+            a.icon-link.twitter-bg(href="https://twitter.com/zarinpal")
+              div.icon.twitter
+
+
+
+  script.
+    window.scrollToSection = function (elementId) {
+      let timerID = setInterval(function() {
+        window.scrollBy(0, 30);
+        let sliderHeight = document.getElementById(elementId).offsetTop - 30;
+
+        if (window.pageYOffset >= sliderHeight || (sliderHeight + window.scrollY) >=
+          document.body.offsetHeight)
+        clearInterval(timerID);
+       }, 30);
+    }

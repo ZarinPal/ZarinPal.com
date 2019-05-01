@@ -27,19 +27,19 @@ block content
                     div.table
                         div.table-head
                             div.table-row.row.iransans-bold
-                                div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-9.ta-right #{seed.lang[lang]['pricesPage']['tableHeaderType']}
-                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage1']}
-                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage2']}
-                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage3']}
+                                div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-6.ta-right #{seed.lang[lang]['pricesPage']['tableHeaderType']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.xs-hidden.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage1']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage2']}
+                                div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWage3']}
 
                                 div.table-col.col-md-2.xs-visible.ta-center #{seed.lang[lang]['pricesPage']['tableHeaderWageXs']}
                         div.table-body.iransans-medium
                             mixin priceItem(text, freePercent, halfPercent, fullPercent)
                                 div.table-row.row
-                                    div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-9.ta-right    !{text}
-                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{fullPercent}
-                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{halfPercent}
-                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-1.ta-center  !{freePercent}
+                                    div.table-col.col-lg-6.col-md-6.col-sm-6.col-xs-6.ta-right    !{text}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.ta-center  !{fullPercent}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.ta-center  !{halfPercent}
+                                    div.table-col.col-lg-2.col-md-2.col-sm-2.col-xs-2.ta-center  !{freePercent}
 
                             +priceItem(
                                 seed.lang[lang]['pricesPage']['tableRow1'],
