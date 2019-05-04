@@ -52,7 +52,7 @@
         width: 19px;
         height: 22px;
         position: absolute;
-        margin-right: -23px;
+        margin-right: -32px;
         margin-top: 5px;
       }
     }
@@ -139,7 +139,6 @@
       background: url("../../images/logo-footer.svg") no-repeat;
       height: 38px;
       width: 221px;
-      margin-top: 9px;
     }
     .footer-content{
       font-size: 16px;
@@ -388,7 +387,7 @@ margin-bottom
 
 @media(min-width: 767px) and (max-width: 992px) {
   .responsible-page{
-    .section-tree,.section-four{
+    .section-tree,.section-four,.section-five{
       padding: 0 30px;
       .email{
         margin-top: -9px;
