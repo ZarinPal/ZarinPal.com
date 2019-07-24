@@ -52,7 +52,7 @@
   {
     "name": "امیر رحیم زاده",
     "role": "Frontend Developer",
-    "avatar": "assets/images/about_us/team/amir_rahimzade.jpg"
+    "avatar": "assets/images/about_us/team/amirrahimzade.jpg"
   },
   {
     "name": "ایمان طرازانی",
@@ -65,9 +65,19 @@
     "avatar": "assets/images/about_us/team/farshidrohi.jpg"
   },
   {
+    "name": "امیراحمد ادیبی",
+    "role": "Mobile Developer",
+    "avatar": "assets/images/about_us/team/amirahmadadibi.jpg"
+  },
+  {
     "name": "مهدی مهره چی",
     "role": "UI Designer",
     "avatar": "assets/images/about_us/team/mehdimohrechi.jpg"
+  },
+  {
+    "name": "پرنیان مقدم",
+    "role": "UI Designer",
+    "avatar": "assets/images/about_us/team/parnianmoghadam.jpg"
   },
   {
     "name": "نیما نورافشان",
