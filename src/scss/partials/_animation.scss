@@ -1,19 +1,20 @@
+/* Base Animation Settings */
 .animated {
-  -webkit-animation-duration: 200ms;
   animation-duration: 200ms;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  -webkit-animation-duration: 200ms;
+  -webkit-animation-fill-mode: both;
 }
 
+/* Fade In Down Animation */
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    transform: translateY(-100%);
   }
-
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0);
   }
 }
 
@@ -21,14 +22,14 @@
   animation-name: fadeInDown;
 }
 
+/* Fade Out Up Animation */
 @keyframes fadeOutUp {
   from {
     opacity: 1;
   }
-
   to {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    transform: translateY(-100%);
   }
 }
 
@@ -36,12 +37,11 @@
   animation-name: fadeOutUp;
 }
 
-
+/* Fade In Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -51,11 +51,11 @@
   animation-name: fadeIn;
 }
 
+/* Fade Out Animation */
 @keyframes fadeOut {
   from {
     opacity: 1;
   }
-
   to {
     opacity: 0;
   }

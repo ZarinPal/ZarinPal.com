@@ -1,38 +1,41 @@
+// Flexbox Grid Setup
 @import "~flexboxgrid-sass/flexboxgrid";
+
 $name: xs;
 
 @for $i from 1 through 12 {
   .col-#{$name}-offset-#{$i} {
     @include flexboxgrid-sass-col-common;
-    margin-right: 100% / 12 * $i;
     margin-left: 0;
+    margin-right: (100% / 12) * $i;
   }
 }
 
 @each $breakpoint in $breakpoints {
   $name: nth($breakpoint, 1);
   $size: nth($breakpoint, 2);
+
   @media only screen and (min-width: $size) {
     @for $i from 1 through $grid-columns {
       .col-#{$name}-offset-#{$i} {
         @include flexboxgrid-sass-col-common;
-        margin-right: 100% / $grid-columns * $i;
         margin-left: 0;
+        margin-right: (100% / $grid-columns) * $i;
       }
     }
   }
 }
 
-
+// Responsive Utilities
 @import "responsive/media";
 
-//Common
+// Common Styles
 @import "./pages/variables";
 @import "./pages/fonts";
 @import "./pages/common";
 @import "./partials/_forms";
 
-//Partials
+// Layout Partials
 @import "./partials/animation";
 @import "./partials/header";
 @import "./partials/blue_header";
@@ -40,9 +43,9 @@ $name: xs;
 @import "./partials/page_section";
 @import "./partials/customer";
 @import "./partials/footer";
-
-//Pages
 @import "./partials/page";
+
+// Page-Specific Styles
 @import "./pages/index";
 @import "./pages/contact";
 @import "./pages/responsible";

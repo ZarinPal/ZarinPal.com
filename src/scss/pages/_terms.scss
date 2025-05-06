@@ -1,15 +1,41 @@
 .terms-page {
   font-family: IRANSansLightPersian;
+  line-height: 1.6;
+  color: #2B2B2B;
+  padding: 20px;
 
   .horizontal-line {
     margin: 40px 0;
+    border-top: 1px solid #E0E0E0;
   }
 
   .section-content {
-    margin: 20px 0;
+    margin: 24px 0;
+    font-size: 16px;
   }
 
   .sub-condition {
-    margin: 10px 20px 20px 0;
+    margin: 12px 24px 24px 0;
+    padding-left: 16px;
+    position: relative;
+
+    &::before {
+      content: '\2022';
+      position: absolute;
+      left: 0;
+      color: #14286D;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #14286D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: IRANSansMedium;
+  }
+
+  p {
+    margin: 10px 0;
   }
 }
+ 

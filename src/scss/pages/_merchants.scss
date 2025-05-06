@@ -1,226 +1,227 @@
 .merchant-page-image {
   width: 352px;
   height: 349px;
-  background: url("../../images/merchants.png") no-repeat;
+  background: url("../../images/merchants.png") no-repeat center;
   background-size: contain;
   margin: 0 auto;
 }
 
 .merchants {
-  margin: 0!important;
-
-  .loading{
-    position: fixed;
-    overflow: hidden;
-    //bottom: exponent(3, 1.618) * 1px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: wait;
-    width: 6rem;
-    height: 6rem;
-    text-align: center;
-    background-color: rgba(white, .95);
-    // background-color: white;
-    box-shadow: 0 1px 12px rgba(black, 0.1),
-    0 2px 15px rgba(black, 0.1);
-    border-radius: 100%;
-    //@extend .center-of-center;
-    user-select: none;
-    z-index: 9;
-    .loadbar{
-      display: block;
-      margin: 1.25rem auto;
-      width: 3.5rem;
-      height: 3.5rem;
-      border: 1px solid;
-      // border-top-color: #29d;
-      // border-right-color: #29d;
-      // border-left-color: #FDC644;
-      border-radius: 100%;
-      animation: loader 0.64s linear infinite;
-      border-color: palette(blue, light);
-      border-left-color: palette(dark, base);
-    }
-  }
-
-  .cat-figure {
-    margin: 10px;
-    border: 1px solid #eee;
-    padding: 10px;
-
-    &:hover{
-      border-color: darken(#FF85C2, 20);
-      background: #FFFFFF;
-      box-shadow: 0 20px 32px rgba(black, 0.1);
-      transform: translateY(-3px);
-    }
-
-    .head {
-      text-align: center;
-      border-bottom: 1px solid #E5E5E5;
-      margin-bottom: 20px;
-
-      .cat-name {
-        color: #737373;
-        margin: 10px 0;
-      }
-    }
-
-    ul {
-      font-size: .85em;
-      li {
-        list-style-type: disc;
-
-        a {
-          color: #757575 !important;
-          &:hover, &:active {
-            color: #333;
-          }
-        }
-      }
-    }
-
-  }
-
-
-  //merchants
-  .merchants {
-    padding: 5.35rem / 2 0;
-    .merchant-cell {
-      .merch-figure {
-        padding: 1rem;
-        margin: 20px 20px;
-        height: 13em;
-        text-align: right;
-        background: hsla(0,0%,100%,.8);
-        border: 1px solid #ff85c2;
-        box-shadow: 0 4px 6px rgba(0,0,0,.1);
-        border-radius: 2px;
-        will-change: transform;
-        user-select: none;
-
-        &:hover{
-          border-color: darken(#FF85C2, 20);
-          background: #FFFFFF;
-          box-shadow: 0 20px 32px rgba(black, 0.1);
-          transform: translateY(-3px);
-        }
-      }
-    }
-    .merchant {
-      display: block;
-
-      .category {
-        text-align: right;
-        display: table;
-        width: 100%;
-        margin-bottom: 20px;
-        .svg--icon {
-          margin-right: 0;
-          margin-left: 10px;
-          width: 2rem;
-          height: 2rem;
-          float: right;
-        }
-        span {
-          overflow: hidden;
-          display: block;
-          font-size: 14px;
-          font-weight: 300;
-          color: #737373;
-          small {
-            display: block;
-            font-size: .75em;
-          }
-        }
-      }
-      p {
-        margin: 0 auto;
-        font-size: 0.85rem;
-      }
-      .decly {
-        margin-top: 1em;
-        font-size: 0.8rem;
-      }
-      .urly {
-        position: absolute;
-        left: 1rem;
-        bottom: 1rem;
-        font-size: .775em;
-        direction: ltr;
-        text-align: left;
-      }
-      .titly {
-        display: inline-block;
-        overflow: hidden;
-        font-size: 1rem;
-        font-weight: 300;
-        position: relative;
-        margin-bottom: 0;
-        top: -7px;
-      }
-      .picto {
-        float: right;
-        background: #FDCF41;
-        width: 2rem;
-        height: 2rem;
-        margin-left: 6px;
-        border-radius: 100%;
-      }
-      .dately {
-        margin-top: 6px;
-        color: #7D7D7D;
-      }
-    }
-
-  }
-
-  //pagination
-  .pagination {
-    margin: 70px auto 0 auto;
-
-    .page-link {
-      display: inline-block;
-      padding: 5px 5px 3px;
-      margin-left: 0.5em;
-      min-width: 2rem;
-      color: #888 !important;
-      text-align: center;
-      font-weight: 500;
-      background-color: #fff;
-      border: 1px solid #e5e5e5;
-      border-radius: 3px;
-      font-size: .9rem;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.085);
-      transition: .255s all ease-in-out;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      white-space: nowrap;
-
-      &.current {
-        color: white !important;
-        background-color: #348CD8;
-        border-color: #3f92da;
-      }
-
-      &:hover {
-        color: white !important;
-        background-color: #348CD8;
-        border-color: #3f92da;
-      }
-
-      &:active {
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.085), 0px 2px 6px rgba(0, 0, 0, 0.125) inset;
-      }
-
-      &:last-child {
-        border-left: 1px solid #e5e5e5;
-        border-radius: 4px;
-      }
-    }
-
-  }
-
+  margin: 0 !important;
 }
+
+.merchants .loading {
+  position: fixed;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: wait;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1), 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  user-select: none;
+  z-index: 9;
+}
+
+.merchants .loading .loadbar {
+  display: block;
+  margin: 1.25rem auto;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #add8e6;
+  border-left-color: #333;
+  border-radius: 50%;
+  animation: loader 0.64s linear infinite;
+}
+
+.merchants .cat-figure {
+  margin: 10px;
+  border: 1px solid #eee;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.merchants .cat-figure:hover {
+  border-color: #cc0066;
+  background: #fff;
+  box-shadow: 0 20px 32px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.merchants .cat-figure .head {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.merchants .cat-figure .head .cat-name {
+  color: #737373;
+  margin: 10px 0;
+}
+
+.merchants .cat-figure ul {
+  font-size: 0.85em;
+  padding-left: 20px;
+}
+
+.merchants .cat-figure ul li {
+  list-style: disc;
+}
+
+.merchants .cat-figure ul li a {
+  color: #757575 !important;
+  transition: color 0.3s ease;
+}
+
+.merchants .cat-figure ul li a:hover,
+.merchants .cat-figure ul li a:active {
+  color: #333;
+}
+
+.merchants .merchants {
+  padding: 2.675rem 0;
+}
+
+.merchants .merchants .merchant-cell .merch-figure {
+  padding: 1rem;
+  margin: 20px;
+  height: 13em;
+  text-align: right;
+  background: hsla(0, 0%, 100%, 0.8);
+  border: 1px solid #ff85c2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  will-change: transform;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.merchants .merchants .merchant-cell .merch-figure:hover {
+  border-color: #cc0066;
+  background: #fff;
+  box-shadow: 0 20px 32px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.merchants .merchants .merchant {
+  display: block;
+}
+
+.merchants .merchants .merchant .category {
+  text-align: right;
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.merchants .merchants .merchant .category .svg--icon {
+  margin-left: 10px;
+  width: 2rem;
+  height: 2rem;
+  float: right;
+}
+
+.merchants .merchants .merchant .category span {
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #737373;
+}
+
+.merchants .merchants .merchant .category span small {
+  display: block;
+  font-size: 0.75em;
+}
+
+.merchants .merchants .merchant p {
+  margin: 0 auto;
+  font-size: 0.85rem;
+}
+
+.merchants .merchants .merchant .decly {
+  margin-top: 1em;
+  font-size: 0.8rem;
+}
+
+.merchants .merchants .merchant .urly {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: 0.775em;
+  direction: ltr;
+  text-align: left;
+}
+
+.merchants .merchants .merchant .titly {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 0;
+  top: -7px;
+}
+
+.merchants .merchants .merchant .picto {
+  float: right;
+  background: #fdcf41;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+
+.merchants .merchants .merchant .dately {
+  margin-top: 6px;
+  color: #7d7d7d;
+}
+
+.merchants .pagination {
+  margin: 70px auto 0;
+  text-align: center;
+}
+
+.merchants .pagination .page-link {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 0.5em;
+  min-width: 2rem;
+  color: #888 !important;
+  text-align: center;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.085);
+  transition: all 0.25s ease-in-out;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.merchants .pagination .page-link.current,
+.merchants .pagination .page-link:hover {
+  color: #fff !important;
+  background-color: #348cd8;
+  border-color: #3f92da;
+}
+
+.merchants .pagination .page-link:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.085), 0 2px 6px rgba(0, 0, 0, 0.125) inset;
+}
+
+.merchants .pagination .page-link:last-child {
+  border-left: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 

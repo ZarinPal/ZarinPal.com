@@ -1,9 +1,12 @@
+/* Policy Page Styles */
 .policy-page {
+  /* Spacing for dividing line */
   .horizontal-line {
-    margin: 40px 0;
+    margin: 2.5rem 0; /* 40px */
   }
 
+  /* Content block spacing */
   .section-content {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem; /* 30px */
   }
 }

@@ -33,7 +33,7 @@
       border-bottom: none !important;
     }
   }
-  
+
   .section-tree {
     max-width: 85%;
     margin: auto;
@@ -41,28 +41,25 @@
     .personal {
       margin-top: 35px;
 
-      .avatar-img {
-        .avatar {
-          background: #fff;
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
-          box-shadow: 0 4px 12px 0 rgba(48, 56, 71, 0.15);
-        }
+      .avatar-img .avatar {
+        background: #fff;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 0 4px 12px rgba(48, 56, 71, 0.15);
       }
 
       .name {
         font-family: IRANSansBold;
-        margin: 12px auto 18px auto;
-        padding: 0 8px 0 8px;
+        margin: 12px auto 18px;
+        padding: 0 8px;
         text-align: center;
         width: max-content;
-        height: auto;
         font-size: 16px;
         color: #303030;
         line-height: 40px;
-        background: #FFFFFF;
-        box-shadow: 0 2px 6px 0 rgba(48, 56, 71, 0.15);
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(48, 56, 71, 0.15);
         border-radius: 100px;
       }
 
@@ -73,147 +70,116 @@
   }
 }
 
-/* Media----------------------------- */
-@media(max-width: 326px) {
-  .section-one {
-    .links {
-      .btn-gold {
-        margin: 1em auto;
-      }
-
-      .btn-normal {
-        margin: 1em auto;
-      }
-    }
+/* Media Queries */
+@media (max-width: 326px) {
+  .section-one .links .btn-gold,
+  .section-one .links .btn-normal {
+    margin: 1em auto;
   }
-  .section-tree {
-    .vl-left-xs {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 3em;
-    }
 
+  .section-tree {
+    .vl-left-xs,
     .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
+    }
+
+    .vl-left-xs {
+      margin-left: 80px;
       margin-right: 3em;
     }
 
-    .personal {
-      .background-linetabletsm {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 150px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
+    .vl-right-xs {
+      margin-right: 3em;
+    }
+
+    .personal .background-linetabletsm:before {
+      margin: 45px auto;
+      content: '';
+      position: absolute;
+      width: 150px;
+      height: 1px;
+      background: #bfc6d2;
+      z-index: -1;
     }
   }
 }
 
-/* extra small */
-@media(min-width: 326px) and (max-width: 575px) {
-  .section-one {
-    .links {
-      .btn-gold {
-        margin: 1em auto;
-      }
-
-      .btn-normal {
-        margin: 1em;
-      }
-    }
+@media (min-width: 326px) and (max-width: 575px) {
+  .section-one .links .btn-gold {
+    margin: 1em auto;
   }
-  .section-tree {
-    .vl-left-xs {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 5em;
-    }
 
+  .section-one .links .btn-normal {
+    margin: 1em;
+  }
+
+  .section-tree {
+    .vl-left-xs,
     .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
+    }
+
+    .vl-left-xs {
+      margin-left: 80px;
       margin-right: 5em;
     }
 
-    .personal {
-      .background-linetabletsm {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 230px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
+    .vl-right-xs {
+      margin-right: 5em;
+    }
+
+    .personal .background-linetabletsm:before {
+      margin: 45px auto;
+      content: '';
+      position: absolute;
+      width: 230px;
+      height: 1px;
+      background: #bfc6d2;
+      z-index: -1;
     }
   }
 }
 
-/*  media (desktops, 576px and 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
   .section-tree {
-    .vl-left-xs {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 8em;
-    }
-
+    .vl-left-xs,
     .vl-right-xs {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
+    }
+
+    .vl-left-xs {
+      margin-left: 80px;
       margin-right: 8em;
     }
 
-    .personal {
-      .background-linetabletsm {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 310px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
+    .vl-right-xs {
+      margin-right: 8em;
+    }
+
+    .personal .background-linetabletsm:before {
+      margin: 45px auto;
+      content: '';
+      position: absolute;
+      width: 310px;
+      height: 1px;
+      background: #bfc6d2;
+      z-index: -1;
     }
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .section-tree {
-    .vl-left-sm {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-right: 6em;
-    }
-
+    .vl-left-sm,
     .vl-right-sm {
       height: 35px;
       position: absolute;
@@ -222,162 +188,49 @@
       margin-right: 6em;
     }
 
-    .personal {
-      .background-linetablet {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 290px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
+    .personal .background-linetablet:before {
+      margin: 45px auto;
+      content: '';
+      position: absolute;
+      width: 290px;
+      height: 1px;
+      background: #bfc6d2;
+      z-index: -1;
     }
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px),
+       (min-width: 1200px) and (max-width: 1600px),
+       (min-width: 1600px) and (max-width: 1900px),
+       (min-width: 1900px) {
   .section-tree {
-    .vl-left-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 8%;
-    }
-
+    .vl-left-lg,
     .vl-right-lg {
       height: 35px;
       position: absolute;
       background: #bfc6d3;
       width: 1px;
-      margin-right: 8%;
     }
 
-    .personal {
-      .background-line {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 300px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
-    }
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1600px) {
-  .section-tree {
     .vl-left-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
       margin-left: 80px;
       margin-right: 7em;
     }
 
     .vl-right-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
       margin-right: 7em;
     }
 
-    .personal {
-      .background-line {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 350px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
+    .personal .background-line:before {
+      margin: 45px auto;
+      content: '';
+      position: absolute;
+      width: 350px;
+      height: 1px;
+      background: #bfc6d2;
+      z-index: -1;
     }
   }
 }
-
-/* media for border in top-position img(large desktops, 1600px and 1900px)*/
-@media (min-width: 1600px) and (max-width: 1900px) {
-  .section-tree {
-    .vl-left-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 7em;
-    }
-
-    .vl-right-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-right: 7em;
-    }
-
-    .personal {
-      .background-line {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 350px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
-    }
-  }
-}
-
-/* media for border in top-position img(large desktops, 1900px and up)*/
-@media (min-width: 1900px) {
-  .section-tree {
-    .vl-left-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-left: 80px;
-      margin-right: 7em;
-    }
-
-    .vl-right-lg {
-      height: 35px;
-      position: absolute;
-      background: #bfc6d3;
-      width: 1px;
-      margin-right: 7em;
-    }
-
-    .personal {
-      .background-line {
-        &:before {
-          margin: 45px auto;
-          content: '';
-          position: absolute;
-          width: 350px;
-          height: 1px;
-          background: #BFC6D2;
-          z-index: -1;
-        }
-      }
-    }
-  }
-}
+ 

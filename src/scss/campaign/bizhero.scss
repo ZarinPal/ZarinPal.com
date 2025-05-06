@@ -1,87 +1,94 @@
 @import "@material/textfield/mdc-text-field";
 @import "@material/snackbar/mdc-snackbar";
 @import "~animate.css";
+
 @font-face {
-  font-family: Lalezar;
+  font-family: 'Lalezar';
   font-style: normal;
   font-weight: 500;
-  src: url('../../fonts/woff2/Lalezar.woff2') format('woff2'); /* FF39+,Chrome36+, Opera24+*/
+  src: url('../../fonts/woff2/Lalezar.woff2') format('woff2');
 }
-.mdc-snackbar__text{
-  font-family: IRANSans;
+
+.mdc-snackbar__text,
+.mdc-snackbar__action-button {
+  font-family: 'IRANSans';
 }
-.mdc-snackbar__action-button{
-  font-family: IRANSans;
-}
+
 .bizhero {
-  font-family: IRANSans;
-  .light-line{
+  font-family: 'IRANSans';
+
+  .light-line {
     border-color: #2d4881 !important;
     max-width: 50px;
-    margin-bottom: 1.5rem;
+    margin: -1.5rem auto 1.5rem;
     border-width: 2px;
-    margin-top: -1.5rem;
   }
-  #two{
+
+  #two {
     background-color: #ffee00;
-    padding-bottom: 8rem ;
     padding: 3rem;
-    margin-right: -8px;
-    margin-left: -8px;
-  .title-content{
-    font-family: Lalezar !important;
-    color: #2c4982;
-    font-size: 32px;
-    border-radius: 10px;
-    text-align: center;
-  }
-    .title-describee{
-      font-family: IRANSans;
+    padding-bottom: 8rem;
+    margin: 0 -8px;
+
+    .title-content {
+      font-family: 'Lalezar' !important;
       color: #2c4982;
-      line-height: 2.5em;
+      font-size: 32px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .title-describee {
+      font-family: 'IRANSans';
+      color: #2c4982;
+      line-height: 2.5;
       font-size: 18px;
       margin: auto;
       padding-bottom: 2rem;
     }
   }
+
   #one {
     .logo-bizhero {
       background: url("../../images/back.jpg") no-repeat center;
       background-size: cover;
-      height: 101Vh;
+      height: 101vh;
       margin-top: -10px;
 
-      .row-two{
+      .row-two {
         margin: auto;
       }
-      .title-champion{
-        font-family: Lalezar !important;
+
+      .title-champion {
+        font-family: 'Lalezar' !important;
         color: #fff;
-        margin: auto;
         font-size: 4em;
-        margin-top: 2.5em;
+        margin: 2.5em auto 0;
       }
-      .content-champion{
+
+      .content-champion {
         font-size: 1.5rem;
-        font-family: iransans;
+        font-family: 'IRANSans';
       }
+
       .logo-img {
         background: url("../../images/ZarinPal-Logo.svg") no-repeat center;
+        background-size: contain;
         width: 150px;
         height: 50px;
-        background-size: contain;
-        right: 16px;
         position: absolute;
+        right: 16px;
         padding-bottom: 60px;
       }
-      .btn-go-bottom{
+
+      .btn-go-bottom {
         margin-top: auto;
-        .icon-arrow-down{
+
+        .icon-arrow-down {
           display: inline-block;
           font-size: 33px;
-          background-color: #FFFFFF;
-          -webkit-box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 -2px 9px 0 rgba(0, 0, 0, 0.1);
+          background: #fff;
+          box-shadow: 0 -2px 9px rgba(0, 0, 0, 0.1);
           border-radius: 100px;
           color: #21254E;
           position: relative;
@@ -91,244 +98,181 @@
         }
       }
     }
+
     .social-networks {
-      margin-top: auto;
-      margin-bottom: auto;
+      margin: auto 0;
       float: left;
+
       .icon-link {
         border: 1px solid #fff;
         border-radius: 50%;
         margin: 10px;
         display: block;
+
         &:hover {
           background-color: #ffee00;
-          border: 1px solid #ffee00;
-
+          border-color: #ffee00;
         }
       }
-      .twitter-bg {
-        padding: 16px 8px 0px 11px;
-      }
-      .instagram-bg {
-        padding: 16px 8px 0px 13px;
-      }
-      .telegram-bg {
-        padding: 16px 8px 0px 11px;
-      }
+
+      .twitter-bg { padding: 16px 8px 0 11px; }
+      .instagram-bg { padding: 16px 8px 0 13px; }
+      .telegram-bg { padding: 16px 8px 0 11px; }
+
       .icon {
         display: inline-block;
-        &:hover {
-          opacity: 0.7;
-        }
+        &:hover { opacity: 0.7; }
       }
-      .telegram {
-        background-repeat: no-repeat;
-        background-color: #fff;
-        -webkit-mask: url("../../images/social/telegram.svg") no-repeat 50% 50%;
-        mask: url("../../images/social/telegram.svg") no-repeat 50% 50%;
-        width: 24px;
-        height: 21px;
-        background-size: 100% 100%;
-        position: relative;
-        top: -1px;
-        bottom: 0px;
-        right: 3px;
-        left: 0px;
-        &:hover {
-          background-color: #2B4A83;
-        }
-      }
-      .instagram {
-        background-repeat: no-repeat;
-        background-color: #fff;
-        -webkit-mask: url("../../images/social/instagram.svg") no-repeat 50% 50%;
-        mask: url("../../images/social/instagram.svg") no-repeat 50% 50%;
-        width: 22px;
-        height: 22px;
-        background-size: 100% 100%;
-        position: relative;
-        top: -1px;
-        bottom: 0px;
-        right: 2px;
-        left: 7px;
-        &:hover {
-          background-color: #2B4A83;
-        }
 
-      }
-      .twitter {
-        background-repeat: no-repeat;
+      .telegram, .instagram, .twitter {
         background-color: #fff;
-        -webkit-mask: url("../../images/social/twitter.svg") no-repeat 50% 50%;
-        mask: url("../../images/social/twitter.svg") no-repeat 50% 50%;
-        width: 25px;
-        height: 20px;
+        background-repeat: no-repeat;
         background-size: 100% 100%;
+        width: 24px;
+        height: 22px;
         position: relative;
         top: -1px;
-        bottom: 0px;
-        right: 1px;
-        left: 7px;
-        &:hover {
-          background-color: #2B4A83;
-        }
+
+        &:hover { background-color: #2B4A83; }
       }
-      .l {
-        background-color: red;
+
+      .telegram {
+        -webkit-mask: url("../../images/social/telegram.svg") no-repeat center;
+        mask: url("../../images/social/telegram.svg") no-repeat center;
       }
+
+      .instagram {
+        -webkit-mask: url("../../images/social/instagram.svg") no-repeat center;
+        mask: url("../../images/social/instagram.svg") no-repeat center;
+      }
+
+      .twitter {
+        -webkit-mask: url("../../images/social/twitter.svg") no-repeat center;
+        mask: url("../../images/social/twitter.svg") no-repeat center;
+      }
+
+      .l { background-color: red; }
     }
   }
-  #tree{
-    height: auto;
+
+  #tree {
     margin-top: 40px;
 
-    .cta{
+    .cta {
       background-color: #2c4982;
-      margin-top:72px;
-
+      margin-top: 72px;
     }
-    .register{
+
+    .register {
       padding: 0.5rem 2rem;
       border-radius: 300px;
     }
-    .cta-title{
-      font-size: 20px;
-      font-family: Lalezar !important;
-      color: #fff;
+
+    .cta-title, .title-content {
+      font-family: 'Lalezar' !important;
       font-size: 2.5em;
       border-radius: 10px;
       text-align: center;
-    }
-    .btn-register{
-      padding-bottom: 50px;
-    }
-    .title-content{
-      font-family: Lalezar !important;
-      font-size: 32px;
-      margin-right: 22px;
-      border-radius: 10px;
-      text-align: center;
       color: #2c4982;
     }
-    .title-describee{
+
+    .btn-register { padding-bottom: 50px; }
+
+    .title-describee {
       color: #757575;
-      line-height: 2.5em;
+      line-height: 2.5;
       font-size: 15px;
     }
-    .form-info{
+
+    .form-info {
       margin-right: 5px;
-      input{
-        &:focus{
-          -webkit-box-shadow: unset;
-          box-shadow: unset;
-        }
+
+      input:focus {
+        box-shadow: unset;
+        -webkit-box-shadow: unset;
       }
-      .input-outline{
-        width: 50%;
-      }
-      .input-text-area{
-        width: 100%;
-      }
-      .mdc-floating-label{
-        font-family: IRANSans;
-      }
-      .input-text-area{
-        margin-right: 2px;
-      }
-      .submit{
-        margin-top: 10px;
-      }
+
+      .input-outline { width: 50%; }
+      .input-text-area { width: 100%; margin-right: 2px; }
+      .mdc-floating-label { font-family: 'IRANSans'; }
+      .submit { margin-top: 10px; }
     }
   }
-  #for{
-    margin-top: 66px;
-    margin-bottom: 70px;
-    .info-footer{
+
+  #for {
+    margin: 66px 0 70px;
+
+    .info-footer {
       width: 58%;
       margin: auto;
     }
-    .mobile-pic{
-      background: url("../../images/telephone.png") no-repeat center;
+
+    .mobile-pic, .email-pic {
       background-size: cover;
       height: 60px;
       width: 60px;
       margin: auto;
     }
-    .mobile-txt{
+
+    .mobile-pic { background: url("../../images/telephone.png") no-repeat center; }
+    .email-pic { background: url("../../images/email.png") no-repeat center; }
+
+    .mobile-txt, .email-txt {
       margin-top: 20px;
       font-size: 18px;
-      font-family: iransansmedium;
+      font-family: 'iransansmedium';
     }
-    .email-pic{
-      background: url("../../images/email.png") no-repeat center;
-      background-size: cover;
-      height: 60px;
-      width: 60px;
-      margin: auto;
-    }
-    .email-txt{
-      margin-top: 20px;
-      font-size: 18px;
-      font-family: iransansmedium;
-    }
-    .email-link{
+
+    .email-link {
       text-align: center;
       margin-top: 12px;
     }
-    .title-content-footer{
-      font-family: Lalezar !important;
+
+    .title-content-footer {
+      font-family: 'Lalezar' !important;
       font-size: 32px;
       margin-right: 22px;
       border-radius: 10px;
       text-align: center;
       color: #2c4982;
     }
-    .title-describee-footer{
+
+    .title-describee-footer {
       color: #757575;
-      line-height: 2.5em;
+      line-height: 2.5;
       font-size: 18px;
     }
   }
 }
 
 .text-field-custom-colors:not(.mdc-text-field--invalid) {
-
-  @include mdc-text-field-focused-outline-color( #fde051);
+  @include mdc-text-field-focused-outline-color(#fde051);
   @include mdc-text-field-textarea-stroke-color(#c3c6cd);
 
   &.mdc-text-field--focused {
-    @include mdc-text-field-label-color( #000);
+    @include mdc-text-field-label-color(#000);
     @include mdc-text-field-textarea-stroke-color(#fde051);
-
   }
 }
-
 
 @media (max-width: 1042px) {
   #one {
     .logo-bizhero {
-      height: 136Vh !important;
-      .content-champion{
-        height: 2em;
-      }
+      height: 136vh !important;
+
+      .content-champion { height: 2em; }
+
       .social-networks {
         float: none;
         text-align: center !important;
-        .icon-link {
-          display: unset;
-        }
+
+        .icon-link { display: unset; }
       }
     }
   }
-  #for{
-    .info-footer{
-      .l{
-        margin-top: 35px;
-      }
-    }
+
+  #for .info-footer .l {
+    margin-top: 35px;
   }
 }
-
-
-
-
+ 

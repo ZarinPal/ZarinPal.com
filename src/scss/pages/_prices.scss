@@ -1,15 +1,29 @@
 .prices-page {
   margin: 90px 0;
-  #register{
-    a{
+
+  #register {
+    a {
       margin-right: 20px;
+    }
+
+    span {
+      font-size: 28px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    @media (min-width: 998px) {
+      span {
+        margin-left: 15px;
+        margin-bottom: 0;
+      }
     }
   }
 
   .top-page-image {
     width: 352px;
     height: 349px;
-    background: url("../../images/prices.png") no-repeat;
+    background: url("../../images/prices.png") no-repeat center;
     background-size: contain;
     margin: 0 auto;
   }
@@ -19,19 +33,19 @@
     text-align: right;
     width: 100%;
 
-    .table-body {
-      .table-row {
-        margin: 10px 0;
-        background: #FFFFFF;
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.07);
-        border-radius: 5px;
-        padding: 15px 25px;
-      }
-    }
-
     .table-head {
       .table-row {
         background: transparent;
+      }
+    }
+
+    .table-body {
+      .table-row {
+        margin: 10px 0;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+        padding: 15px 25px;
       }
     }
   }
@@ -44,13 +58,15 @@
       margin: 10px 0;
       box-sizing: border-box;
     }
-    @media only screen and (min-width: 660px) {
+
+    @media (min-width: 660px) {
       a.btn {
         width: 35%;
         margin: 10px;
       }
     }
-    @media only screen and (min-width: 1190px) {
+
+    @media (min-width: 1190px) {
       a.btn {
         width: 20%;
         display: inline;
@@ -58,34 +74,12 @@
       }
     }
   }
-
-  #register {
-    span {
-      font-size: 28px;
-      display: inline-block;
-      margin-bottom: 15px;
-    }
-    @media only screen and (min-width: 998px) {
-      span {
-        margin-left: 15px;
-        margin-bottom: inherit;
-      }
-    }
-  }
 }
 
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px)  and (max-width: 767px){
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px)  and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   .prices-page {
     .table {
       width: 80%;
     }
   }
 }
-

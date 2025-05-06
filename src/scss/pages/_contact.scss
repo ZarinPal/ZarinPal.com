@@ -11,14 +11,14 @@
     padding-left: 25px;
 
     span.icon {
-      color: #ffffff;
-      background-image: linear-gradient(135deg, #2c3379 0%, #2b4a83 100%);
+      color: #fff;
+      background: linear-gradient(135deg, #2c3379 0%, #2b4a83 100%);
       border-radius: 50%;
       width: 39px;
       height: 39px;
-      display: inline-block;
-      text-align: center;
-      line-height: 1.5;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
       margin-left: 15px;
     }
   }
@@ -28,7 +28,7 @@
     height: 360px;
     margin-bottom: 70px;
     border-radius: 10px;
-    box-shadow: 0 3px 5px #ccc;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
 
   .contact-container {
@@ -55,6 +55,6 @@
         float: left;
       }
     }
-
   }
 }
+ 

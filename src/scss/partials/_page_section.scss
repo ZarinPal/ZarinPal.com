@@ -1,40 +1,55 @@
 .page-section {
   margin: 70px 0;
   padding: 40px 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
   img.img {
     width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
   }
 
   span.note {
-    color: #828282;
-    font-size: 18px;
+    display: block;
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 8px;
   }
 
   h3 {
-    font-size: 28px;
-    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 10px 0;
   }
 
   .section-content {
-    color: #303030;
-    font-size: 16px;
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 1.6;
   }
 }
 
 .gray-section {
-  background-color: #f2f3f5;
+  background-color: #f5f6f8;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .bordered-section {
-  border: 1px solid #c3c6cd;
+  border: 1px solid #d1d5db;
   border-radius: 10px;
+  padding: 20px;
 }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .page-section {
-    margin: 70px 0;
+    margin: 90px 0;
+    padding: 60px 40px;
   }
 }
+ 

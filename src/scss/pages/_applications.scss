@@ -1,74 +1,97 @@
 .application-page {
-
   .application-title {
-    margin-top: 50px;
-    margin-bottom: -60px;
+    margin: 50px 0 -60px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .zarinpal-application-image,
+  .zarinak-application-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
   }
 
   .zarinpal-application-image {
-    margin: 80px auto 30px auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
   }
 
   .zarinak-application-image {
-    margin: 73px auto 0 auto;
+    margin-top: 73px;
   }
 
   .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     margin: 40px 0;
 
     .btn {
-      margin-left: 20px;
+      margin: 0;
     }
   }
 
   .properties {
     ul {
-      padding-right: 0;
+      list-style: none;
+      padding: 0;
 
       li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        font-size: 16px;
+
         &::before {
-          content: "•";
+          content: "\2022";
           color: #FAD749;
-          display: inline-block;
-          height: 20px;
           font-size: 30px;
-          position: relative;
-          top: 5px;
-          margin-left: 15px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          line-height: 1;
         }
       }
     }
-
   }
-
 }
 
+/* Responsive Styles */
 
-
-// extra small
 @media (max-width: 575px) {
-
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px)  and (max-width: 767px){
-
+@media (min-width: 576px) and (max-width: 767px) {
+  .buttons {
+    justify-content: space-around;
+  }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px)  and (max-width: 991px){
-
+@media (min-width: 768px) and (max-width: 991px) {
+  .buttons {
+    justify-content: center;
+    gap: 15px;
+  }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px){
-
+@media (min-width: 992px) and (max-width: 1199px) {
+  .buttons {
+    gap: 25px;
+  }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .zarinpal-application-image,
-  .zarinak-application-image{
+  .zarinak-application-image {
     width: 429px;
   }
 }
+ 

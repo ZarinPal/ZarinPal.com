@@ -1,19 +1,26 @@
+/* Zarincard Section Styles */
 .section-zarincard {
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
 }
 
-/* extra small */
+/* Responsive Adjustments */
 @media (max-width: 575px) {
-
+  .section-zarincard {
+    margin-top: 60px;
+  }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px)  and (max-width: 767px){
-
+@media (min-width: 576px) and (max-width: 767px) {
+  .section-zarincard {
+    margin-top: 70px;
+  }
 }
 
 @media (min-width: 1200px) {
   .zarincard-background {
     width: 480px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }

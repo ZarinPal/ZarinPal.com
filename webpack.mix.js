@@ -1,105 +1,71 @@
-let mix = require('laravel-mix');
-mix.pug = require('laravel-mix-pug');
+const mix = require('laravel-mix');
+const path = require('path');
 const glob = require('glob');
+mix.pug = require('laravel-mix-pug');
 
-let baseUrl = '/';
-let assetsHash = '';
-if ('production' === process.env.NODE_ENV) {
-  baseUrl = '//cdn.zarinpal.com/home/v2/';
-  assetsHash = '?' + process.env.GIT_SHA;
-}
+const isProduction = process.env.NODE_ENV === 'production';
+const baseUrl = isProduction ? '//cdn.zarinpal.com/home/v2/' : '/';
+const assetsHash = isProduction ? `?${process.env.GIT_SHA}` : '';
 
-function withMatrial(config) {
-
-  config.includePaths = ['node_modules/', 'node_modules/@material/*'].map(
-    (d) => path.join(__dirname, d)).
-    map((g) => glob.sync(g)).
-    reduce((a, c) => a.concat(c), []);
+const withMaterial = (config) => {
+  config.includePaths = [
+    'node_modules/',
+    'node_modules/@material/*'
+  ].map((dir) => path.join(__dirname, dir))
+   .map((pattern) => glob.sync(pattern))
+   .flat();
   return config;
+};
 
-}
+mix.setPublicPath('public/assets')
+   .setResourceRoot('../')
 
-mix.setPublicPath('public/assets').
-  setResourceRoot('../').
-  js('src/js/app.js', 'public/assets/js').
-  js('src/js/merchants/app.js', 'public/assets/js/merchants').
-  js('src/js/contact/app.js', 'public/assets/js/contact').
-  js('src/js/pages/faq.js', 'public/assets/js/pages').
-  sass('src/scss/app.scss', 'public/assets/css').
-  sass('src/scss/pages/pages_header.scss', 'public/assets/css').
-  pug('src/pug/**/*.pug', 'public', {
-    exludePath: 'src/pug/partials/',
-    seeds: 'src',
-    locals: {
-      lang: 'fa',
-      config: {
-        baseUrl: baseUrl,
-        assetsHash: assetsHash,
-      },
-    },
-  })
-  // .pug('src/pug/*.pug', 'public', {
-  //     seeds: 'public',
-  //     locals: {
-  //         lang: 'en'
-  //     }
-  // })
-  .copy('src/images/app', 'public/assets/images').
-  copy('src/images/about_us', 'public/assets/images/about_us').
-  copy('src/images/pages', 'public/assets/images').
-  copy('src/images/banks', 'public/assets/images/banks').
-  copy('src/images/favicon', 'public/icons').
-  sourceMaps();
+   // JavaScript
+   .js('src/js/app.js', 'public/assets/js')
+   .js('src/js/merchants/app.js', 'public/assets/js/merchants')
+   .js('src/js/contact/app.js', 'public/assets/js/contact')
+   .js('src/js/pages/faq.js', 'public/assets/js/pages')
 
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for your application, as well as bundling up your JS files.
- |
- */
+   // Sass
+   .sass('src/scss/app.scss', 'public/assets/css')
+   .sass('src/scss/pages/pages_header.scss', 'public/assets/css')
 
-mix.browserSync(({
+   // Pug Templates
+   .pug('src/pug/**/*.pug', 'public', {
+     exludePath: 'src/pug/partials/',
+     seeds: 'src',
+     locals: {
+       lang: 'fa',
+       config: {
+         baseUrl,
+         assetsHash,
+       },
+     },
+   })
+
+   // Static Assets
+   .copy('src/images/app', 'public/assets/images')
+   .copy('src/images/about_us', 'public/assets/images/about_us')
+   .copy('src/images/pages', 'public/assets/images')
+   .copy('src/images/banks', 'public/assets/images/banks')
+   .copy('src/images/favicon', 'public/icons')
+
+   // Source Maps
+   .sourceMaps();
+
+mix.browserSync({
   proxy: false,
-  port: '8000',
-  server: {baseDir: './public'}, // this is the only difference
-}));
-// mix.browserSync('http://new.zarinpal.test');
+  port: 8000,
+  server: {
+    baseDir: './public',
+  },
+});
 
-// Full API
-// mix.js(src, output);
-// mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
-// mix.ts(src, output); <-- Requires tsconfig.json to exist in the same folder as webpack.mix.js
-// mix.extract(vendorLibs);
-// mix.sass(src, output);
-// mix.standaloneSass('src', output); <-- Faster, but isolated from Webpack.
-// mix.fastSass('src', output); <-- Alias for mix.standaloneSass().
-// mix.less(src, output);
-// mix.stylus(src, output);
-// mix.postCss(src, output, [require('postcss-some-plugin')()]);
-// mix.browserSync('my-site.dev');
-// mix.combine(files, destination);
-// mix.babel(files, destination); <-- Identical to mix.combine(), but also includes Babel compilation.
-// mix.copy(from, to);
-// mix.copyDirectory(fromDir, toDir);
-// mix.minify(file);
-// mix.sourceMaps(); // Enable sourcemaps
-// mix.version(); // Enable versioning.
-// mix.disableNotifications();
-// mix.setPublicPath('path/to/public');
-// mix.setResourceRoot('prefix/for/resource/locators');
-// mix.autoload({}); <-- Will be passed to Webpack's ProvidePlugin.
-// mix.webpackConfig({}); <-- Override webpack.config.js, without editing the file directly.
-// mix.babelConfig({}); <-- Merge extra Babel configuration (plugins, etc.) with Mix's default.
-// mix.then(function () {}) <-- Will be triggered each time Webpack finishes building.
-// mix.options({
-//   extractVueStyles: false, // Extract .vue component styling to file, rather than inline.
-//   globalVueStyles: file, // Variables file to be imported in every component.
-//   processCssUrls: true, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
-//   purifyCss: false, // Remove unused CSS selectors.
-//   uglify: {}, // Uglify-specific options. https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
-//   postCss: [] // Post-CSS options: https://github.com/postcss/postcss/blob/master/docs/plugins.md
+// Example alternative setup for English language (commented out)
+// mix.pug('src/pug/*.pug', 'public', {
+//   seeds: 'public',
+//   locals: {
+//     lang: 'en'
+//   }
 // });
+ 

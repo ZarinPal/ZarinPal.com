@@ -1,34 +1,48 @@
 .faq-page {
   margin-top: 180px;
-
-  .faq {
-    padding-right: 0;
-    .faq-item {
-      background: #fff;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.03);
-      color: #424242;
-      margin-bottom: 20px;
-      .icon {
-        font-size: 29px;
-        vertical-align: middle;
-        margin-left: 5px;
-        float: right;
-        cursor: pointer;
-      }
-
-      .line {
-        height: 1px;
-        width: 100%;
-        background-color: #DFE1E4;
-        margin: 10px 0;
-      }
-
-      .answer {
-        display: none;
-        padding: 10px;
-      }
-    }
-  }
+  padding: 0 15px;
 }
+
+.faq-page .faq {
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-page .faq .faq-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: #333333;
+  transition: box-shadow 0.3s ease;
+}
+
+.faq-page .faq .faq-item:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.faq-page .faq .faq-item .icon {
+  font-size: 28px;
+  vertical-align: middle;
+  margin-left: 10px;
+  float: right;
+  cursor: pointer;
+  color: #2c3379;
+}
+
+.faq-page .faq .faq-item .line {
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+  margin: 15px 0;
+}
+
+.faq-page .faq .faq-item .answer {
+  display: none;
+  padding: 10px 0;
+  color: #555555;
+  line-height: 1.6;
+}
+ 

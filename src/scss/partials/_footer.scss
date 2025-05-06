@@ -1,23 +1,24 @@
 .footer {
+  position: absolute;
   left: 0;
   right: 0;
-  position: absolute;
   padding-top: 80px;
 
-  &:before {
+  &::before {
     content: '';
-    z-index: -2;
-    width: 610px;
-    height: 491px;
-    background: url("../../images/footer-gradiant.svg") top left no-repeat;
-    background-size: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
+    z-index: -2;
+    width: 610px;
+    height: 491px;
+    background: url("../../images/footer-gradiant.svg") no-repeat top left;
+    background-size: cover;
   }
 
   ul {
-    padding-right: 0;
+    padding: 0;
+
     li {
       font-size: $footerTitleFontSize;
       color: $titleFontColor;
@@ -26,107 +27,91 @@
   }
 
   .footer-logo {
-    margin: 0 auto 40px auto;
+    margin: 0 auto 40px;
     width: 135px;
     height: 30px;
-    background: url("../../images/footer-logo.svg") no-repeat;
-    background-size: 135px 30px;
+    background: url("../../images/footer-logo.svg") no-repeat center;
+    background-size: contain;
   }
 
   .social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
     .icon-link {
       background-color: #f2f3f5;
       border-radius: 50%;
-      margin: 10px;
-    }
-
-    .twitter-bg{
-      padding: 16px 8px 0px 11px;
-    }
-    .instagram-bg{
-      padding: 16px 8px 0px 13px;
-    }
-    .telegram-bg{
-      padding: 16px 8px 0px 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
     }
 
     .icon {
       display: inline-block;
-    }
-    .icon:hover{
-      opacity: 0.7;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
 
     .telegram {
-      background: url("../../images/social/telegram.svg") no-repeat;
+      background-image: url("../../images/social/telegram.svg");
       width: 24px;
       height: 21px;
-      background-size: 100% 100%;
-      position: relative;
-      top: -1px;
-      bottom: 0px;
-      right: 3px;
-      left: 0px;
     }
 
     .instagram {
-      background: url("../../images/social/instagram.svg") no-repeat;
+      background-image: url("../../images/social/instagram.svg");
       width: 22px;
       height: 22px;
-      background-size: 100% 100%;
-      position: relative;
-      top: -1px;
-      bottom: 0px;
-      right: 2px;
-      left: 7px;
-
     }
- .aparat {
-      background: url("../../images/social/aparat.svg") no-repeat;
+
+    .aparat {
+      background-image: url("../../images/social/aparat.svg");
       width: 27px;
       height: 27px;
-      background-size: 100% 100%;
-      position: relative;
-      top: 2px;
-      bottom: 0px;
-      right: 2px;
-      left: 7px;
-
     }
 
     .twitter {
-      background: url("../../images/social/twitter.svg") no-repeat;
+      background-image: url("../../images/social/twitter.svg");
       width: 25px;
       height: 20px;
+    }
+
+    .telegram,
+    .instagram,
+    .aparat,
+    .twitter {
       background-size: 100% 100%;
-      position: relative; 
-      top: -1px;
-      bottom: 0px;
-      right: 1px;
-      left: 7px;
+      background-repeat: no-repeat;
+      position: relative;
     }
   }
 
   .bottom {
-    margin: 40px 0 20px 0;
+    margin: 40px 0 20px;
+    text-align: center;
 
-    a{
+    a {
       margin: 0 20px;
     }
 
     .copyright {
       span {
-        margin: 0 20px;
         font-size: $footerTitleFontSize;
+        margin: 0 20px;
       }
     }
   }
-
 }
-// extra small
+
 @media (max-width: 575px) {
   .footer {
-    &:before {
+    &::before {
       width: 358px !important;
       height: 285px !important;
     }
@@ -137,10 +122,9 @@
   }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) {
   .footer {
-    &:before {
+    &::before {
       width: 358px !important;
       height: 285px !important;
     }
@@ -151,10 +135,10 @@
   }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px)  and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .social-networks {
     margin-top: 30px !important;
     text-align: right !important;
   }
 }
+ 

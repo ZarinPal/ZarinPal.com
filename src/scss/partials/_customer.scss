@@ -5,8 +5,10 @@
 .customers {
   .title {
     font-size: 20px;
-    margin-bottom: -5px;
+    font-weight: 600;
+    text-align: center;
     margin-top: 30px;
+    margin-bottom: -5px;
   }
 
   .images {
@@ -14,46 +16,47 @@
     margin-bottom: 30px;
 
     .logo {
-      padding: 0;
+      display: inline-block;
       margin: 20px 35px;
+      padding: 0;
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      display: inline-block;
-    }
-
-    @mixin customer-logo($logoPath) {
-      background-image: url($logoPath);
     }
 
     .logo-cinema-ticket {
       width: 100px;
       height: 22px;
-      @include customer-logo("../../images/customer/cinematicket_dark.svg")
+      background-image: url("../../images/customer/cinematicket_dark.svg");
     }
+
     .logo-shahrzad {
       width: 69px;
       height: 40px;
-      @include customer-logo("../../images/customer/shahrzad.svg")
+      background-image: url("../../images/customer/shahrzad.svg");
     }
+
     .logo-tagmond {
       width: 138px;
       height: 20px;
-      @include customer-logo("../../images/customer/tagmond.svg")
+      background-image: url("../../images/customer/tagmond.svg");
     }
+
     .logo-2nate {
       width: 86px;
       height: 30px;
-      @include customer-logo("../../images/customer/2nate.svg")
+      background-image: url("../../images/customer/2nate.svg");
     }
+
     .logo-hiholiday {
       width: 120px;
       height: 25px;
-      @include customer-logo("../../images/customer/hiholiday.svg")
+      background-image: url("../../images/customer/hiholiday.svg");
     }
+
     .logo-p24 {
       width: 130px;
       height: 18px;
-      @include customer-logo("../../images/customer/p24.svg")
+      background-image: url("../../images/customer/p24.svg");
     }
   }
 }
